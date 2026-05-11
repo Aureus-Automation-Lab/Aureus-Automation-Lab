@@ -1,56 +1,77 @@
 <svg width="1400" height="560" viewBox="0 0 1400 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Collaboration flow board</title>
-  <desc id="desc">A visual collaboration flow from discovery to design, build, review, and handoff.</desc>
+  <title id="title">Collaboration control board</title>
+  <desc id="desc">A dark control-room collaboration flow from inputs to a first useful build slice and validated handoff.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="560" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0E1116"/>
-      <stop offset="1" stop-color="#151A22"/>
+      <stop stop-color="#080B10"/>
+      <stop offset="0.58" stop-color="#111820"/>
+      <stop offset="1" stop-color="#071D1A"/>
     </linearGradient>
-    <linearGradient id="line" x1="112" y1="304" x2="1270" y2="304" gradientUnits="userSpaceOnUse">
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#18212C" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#0A0D12" stop-opacity="0.98"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="222" y1="308" x2="1160" y2="232" gradientUnits="userSpaceOnUse">
       <stop stop-color="#63E6BE"/>
-      <stop offset="0.48" stop-color="#7CC7FF"/>
+      <stop offset="0.5" stop-color="#7CC7FF"/>
       <stop offset="1" stop-color="#F6C453"/>
     </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#63E6BE" flood-opacity="0.14"/>
+    </filter>
   </defs>
   <rect width="1400" height="560" rx="34" fill="url(#bg)"/>
-  <text x="74" y="88" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="40" font-weight="850">Collaboration Flow</text>
-  <text x="74" y="126" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">A useful engagement should move from ambiguity to an owned first version.</text>
-  <path d="M126 304C264 214 403 390 542 304C679 219 818 218 956 304C1087 385 1198 304 1278 228" stroke="url(#line)" stroke-width="6" stroke-linecap="round"/>
-  <g transform="translate(92 202)">
-    <rect width="214" height="188" rx="24" fill="#151A22" stroke="#63E6BE" stroke-opacity="0.44"/>
-    <text x="26" y="44" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="850">01 Discover</text>
-    <text x="26" y="78" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">process, owner, pain</text>
-    <rect x="26" y="112" width="150" height="22" rx="11" fill="#63E6BE" fill-opacity="0.16"/>
-    <rect x="26" y="146" width="114" height="22" rx="11" fill="#7CC7FF" fill-opacity="0.12"/>
+  <g opacity="0.17">
+    <path d="M0 112H1400M0 224H1400M0 336H1400M0 448H1400" stroke="#F7F8FA" stroke-opacity="0.14"/>
+    <path d="M175 0V560M350 0V560M525 0V560M700 0V560M875 0V560M1050 0V560M1225 0V560" stroke="#F7F8FA" stroke-opacity="0.08"/>
   </g>
-  <g transform="translate(354 202)">
-    <rect width="214" height="188" rx="24" fill="#151A22" stroke="#7CC7FF" stroke-opacity="0.44"/>
-    <text x="26" y="44" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="850">02 Design</text>
-    <text x="26" y="78" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">first useful slice</text>
-    <path d="M32 140H176" stroke="#7CC7FF" stroke-opacity="0.6" stroke-width="5" stroke-linecap="round"/>
-    <circle cx="64" cy="140" r="11" fill="#7CC7FF"/>
-    <circle cx="132" cy="140" r="11" fill="#F6C453"/>
+  <text x="74" y="88" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="42" font-weight="800">Collaboration Flow</text>
+  <text x="74" y="126" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Move from vague process pain to a useful first version with review built in.</text>
+  <path d="M260 316C402 238 486 222 630 272C774 322 862 320 1000 256C1092 214 1200 246 1280 286" stroke="url(#flow)" stroke-width="6" stroke-linecap="round" stroke-dasharray="16 18">
+    <animate attributeName="stroke-dashoffset" values="0;-180" dur="12s" repeatCount="indefinite"/>
+  </path>
+  <g transform="translate(84 190)">
+    <rect width="286" height="226" rx="26" fill="url(#panel)" stroke="#63E6BE" stroke-opacity="0.32"/>
+    <text x="28" y="46" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="800">01 Inputs</text>
+    <text x="28" y="78" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">process, tools, owner, pain</text>
+    <rect x="28" y="116" width="204" height="28" rx="14" fill="#63E6BE" fill-opacity="0.16"/>
+    <rect x="28" y="158" width="164" height="28" rx="14" fill="#7CC7FF" fill-opacity="0.14"/>
+    <rect x="28" y="200" width="128" height="8" rx="4" fill="#F6C453" fill-opacity="0.42"/>
   </g>
-  <g transform="translate(616 202)">
-    <rect width="214" height="188" rx="24" fill="#151A22" stroke="#F6C453" stroke-opacity="0.44"/>
-    <text x="26" y="44" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="850">03 Build</text>
-    <text x="26" y="78" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">working version</text>
-    <rect x="30" y="114" width="54" height="54" rx="14" fill="#63E6BE" fill-opacity="0.18"/>
-    <rect x="98" y="114" width="84" height="22" rx="11" fill="#7CC7FF" fill-opacity="0.16"/>
-    <rect x="98" y="148" width="66" height="20" rx="10" fill="#F6C453" fill-opacity="0.2"/>
+  <g transform="translate(430 166)" filter="url(#glow)">
+    <rect width="456" height="274" rx="30" fill="url(#panel)" stroke="#7CC7FF" stroke-opacity="0.34"/>
+    <text x="34" y="52" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27" font-weight="800">02 First useful slice</text>
+    <text x="34" y="84" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">small enough to validate, real enough to change the work</text>
+    <g transform="translate(34 126)">
+      <rect width="120" height="92" rx="20" fill="#63E6BE" fill-opacity="0.16" stroke="#63E6BE" stroke-opacity="0.44"/>
+      <text x="60" y="52" text-anchor="middle" fill="#B8F7D4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">map</text>
+      <rect x="154" width="120" height="92" rx="20" fill="#7CC7FF" fill-opacity="0.14" stroke="#7CC7FF" stroke-opacity="0.4"/>
+      <text x="214" y="52" text-anchor="middle" fill="#D9EEFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">build</text>
+      <rect x="308" width="96" height="92" rx="20" fill="#F6C453" fill-opacity="0.14" stroke="#F6C453" stroke-opacity="0.42"/>
+      <text x="356" y="52" text-anchor="middle" fill="#FFF0BF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">prove</text>
+    </g>
   </g>
-  <g transform="translate(878 202)">
-    <rect width="214" height="188" rx="24" fill="#151A22" stroke="#63E6BE" stroke-opacity="0.38"/>
-    <text x="26" y="44" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="850">04 Review</text>
-    <text x="26" y="78" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">tests, edges, risk</text>
-    <path d="M42 136L74 166L150 108" stroke="#63E6BE" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(946 190)">
+    <rect width="370" height="226" rx="26" fill="url(#panel)" stroke="#F6C453" stroke-opacity="0.32"/>
+    <text x="30" y="46" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="800">03 Review + handoff</text>
+    <text x="30" y="78" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">tests, edges, notes, next options</text>
+    <g transform="translate(30 118)">
+      <rect width="142" height="34" rx="17" fill="#63E6BE" fill-opacity="0.14" stroke="#63E6BE" stroke-opacity="0.46"/>
+      <text x="71" y="22" text-anchor="middle" fill="#B8F7D4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">validated</text>
+      <rect x="166" width="146" height="34" rx="17" fill="#7CC7FF" fill-opacity="0.13" stroke="#7CC7FF" stroke-opacity="0.42"/>
+      <text x="239" y="22" text-anchor="middle" fill="#D9EEFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">documented</text>
+      <rect y="52" width="132" height="34" rx="17" fill="#F6C453" fill-opacity="0.15" stroke="#F6C453" stroke-opacity="0.46"/>
+      <text x="66" y="74" text-anchor="middle" fill="#FFF0BF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">owned</text>
+    </g>
   </g>
-  <g transform="translate(1140 202)">
-    <rect width="214" height="188" rx="24" fill="#151A22" stroke="#F6C453" stroke-opacity="0.44"/>
-    <text x="26" y="44" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="850">05 Handoff</text>
-    <text x="26" y="78" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">usable without guessing</text>
-    <rect x="28" y="112" width="156" height="22" rx="11" fill="#F6C453" fill-opacity="0.2"/>
-    <rect x="28" y="146" width="124" height="22" rx="11" fill="#63E6BE" fill-opacity="0.16"/>
-  </g>
-  <text x="74" y="484" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17">The first version should be small enough to validate and clear enough for the owner to operate.</text>
+  <circle cx="260" cy="316" r="12" fill="#63E6BE">
+    <animate attributeName="r" values="8;14;8" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="658" cy="302" r="12" fill="#7CC7FF">
+    <animate attributeName="r" values="8;14;8" dur="4.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1280" cy="286" r="12" fill="#F6C453">
+    <animate attributeName="r" values="8;14;8" dur="5.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="74" y="500" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17">A good first version is small, owned, reviewed, and useful enough to change the real workflow.</text>
 </svg>

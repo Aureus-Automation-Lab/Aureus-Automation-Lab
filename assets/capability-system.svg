@@ -34,7 +34,7 @@
       </path>
       <circle cx="188" cy="126" r="10" fill="#7CC7FF"/>
       <path d="M206 126H228" stroke="#7CC7FF" stroke-width="5" stroke-linecap="round"/>
-      <text x="26" y="158" fill="#B8F7D4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="800">manual → mapped</text>
+      <text x="26" y="158" fill="#B8F7D4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="800">manual to mapped</text>
     </g>
     <g transform="translate(332 46)">
       <rect width="256" height="174" rx="22" fill="url(#panel)" stroke="#7CC7FF" stroke-opacity="0.28"/>

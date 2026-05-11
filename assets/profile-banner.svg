@@ -35,9 +35,10 @@
   <g transform="translate(74 74)">
     <rect width="706" height="354" rx="28" fill="url(#panel)" stroke="#F7F8FA" stroke-opacity="0.14"/>
     <text x="40" y="80" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="60" font-weight="800">Kimi Aoki</text>
-    <text x="42" y="126" fill="#AAB5C4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Automation systems · AI-assisted operations · Internal tools</text>
-    <text x="42" y="194" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="31" font-weight="800">From manual process to controlled workflow.</text>
-    <g transform="translate(42 246)">
+    <text x="42" y="126" fill="#AAB5C4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Automation systems - AI-assisted operations - Internal tools</text>
+    <text x="42" y="188" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="31" font-weight="800">From manual process</text>
+    <text x="42" y="228" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="31" font-weight="800">to controlled workflow.</text>
+    <g transform="translate(42 274)">
       <rect width="158" height="46" rx="23" fill="#63E6BE" fill-opacity="0.14" stroke="#63E6BE" stroke-opacity="0.7"/>
       <text x="79" y="29" text-anchor="middle" fill="#B8F7D4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">public-safe</text>
       <rect x="180" width="198" height="46" rx="23" fill="#7CC7FF" fill-opacity="0.13" stroke="#7CC7FF" stroke-opacity="0.58"/>
@@ -49,7 +50,7 @@
   <g transform="translate(830 82)">
     <rect width="488" height="362" rx="28" fill="#111820" fill-opacity="0.82" stroke="#F7F8FA" stroke-opacity="0.16"/>
     <text x="34" y="54" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800">operating map</text>
-    <text x="34" y="84" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">messy input → reviewed system → useful handoff</text>
+    <text x="34" y="84" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">messy input / reviewed system / useful handoff</text>
     <g transform="translate(34 126)">
       <rect width="102" height="60" rx="15" fill="#0B0E13" stroke="#FF6B6B" stroke-opacity="0.46"/>
       <text x="51" y="36" text-anchor="middle" fill="#FFD7D7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">manual</text>
