@@ -1,34 +1,56 @@
-<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Collaboration flow</title>
-  <desc id="desc">Discovery, design, build, review, and handoff collaboration stages.</desc>
-  <rect width="1200" height="360" rx="28" fill="#0F172A"/>
-  <text x="64" y="78" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">Collaboration Flow</text>
-  <text x="64" y="112" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Small enough to validate, complete enough to hand off.</text>
-  <g transform="translate(64 162)">
-    <rect width="184" height="112" rx="18" fill="#134E4A"/>
-    <text x="24" y="46" fill="#CCFBF1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800">Discover</text>
-    <text x="24" y="78" fill="#F0FDFA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">Map the process</text>
+<svg width="1400" height="560" viewBox="0 0 1400 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Collaboration flow board</title>
+  <desc id="desc">A visual collaboration flow from discovery to design, build, review, and handoff.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E1116"/>
+      <stop offset="1" stop-color="#151A22"/>
+    </linearGradient>
+    <linearGradient id="line" x1="112" y1="304" x2="1270" y2="304" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#63E6BE"/>
+      <stop offset="0.48" stop-color="#7CC7FF"/>
+      <stop offset="1" stop-color="#F6C453"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="560" rx="34" fill="url(#bg)"/>
+  <text x="74" y="88" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="40" font-weight="850">Collaboration Flow</text>
+  <text x="74" y="126" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">A useful engagement should move from ambiguity to an owned first version.</text>
+  <path d="M126 304C264 214 403 390 542 304C679 219 818 218 956 304C1087 385 1198 304 1278 228" stroke="url(#line)" stroke-width="6" stroke-linecap="round"/>
+  <g transform="translate(92 202)">
+    <rect width="214" height="188" rx="24" fill="#151A22" stroke="#63E6BE" stroke-opacity="0.44"/>
+    <text x="26" y="44" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="850">01 Discover</text>
+    <text x="26" y="78" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">process, owner, pain</text>
+    <rect x="26" y="112" width="150" height="22" rx="11" fill="#63E6BE" fill-opacity="0.16"/>
+    <rect x="26" y="146" width="114" height="22" rx="11" fill="#7CC7FF" fill-opacity="0.12"/>
   </g>
-  <path d="M262 218H332" stroke="#94A3B8" stroke-width="5" stroke-linecap="round"/>
-  <path d="M322 206L336 218L322 230" stroke="#94A3B8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-  <g transform="translate(350 162)">
-    <rect width="184" height="112" rx="18" fill="#1D4ED8"/>
-    <text x="24" y="46" fill="#DBEAFE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800">Design</text>
-    <text x="24" y="78" fill="#EFF6FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">Choose the slice</text>
+  <g transform="translate(354 202)">
+    <rect width="214" height="188" rx="24" fill="#151A22" stroke="#7CC7FF" stroke-opacity="0.44"/>
+    <text x="26" y="44" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="850">02 Design</text>
+    <text x="26" y="78" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">first useful slice</text>
+    <path d="M32 140H176" stroke="#7CC7FF" stroke-opacity="0.6" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="64" cy="140" r="11" fill="#7CC7FF"/>
+    <circle cx="132" cy="140" r="11" fill="#F6C453"/>
   </g>
-  <path d="M548 218H618" stroke="#94A3B8" stroke-width="5" stroke-linecap="round"/>
-  <path d="M608 206L622 218L608 230" stroke="#94A3B8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-  <g transform="translate(636 162)">
-    <rect width="184" height="112" rx="18" fill="#7C3AED"/>
-    <text x="24" y="46" fill="#EDE9FE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800">Build</text>
-    <text x="24" y="78" fill="#F5F3FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">Make it useful</text>
+  <g transform="translate(616 202)">
+    <rect width="214" height="188" rx="24" fill="#151A22" stroke="#F6C453" stroke-opacity="0.44"/>
+    <text x="26" y="44" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="850">03 Build</text>
+    <text x="26" y="78" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">working version</text>
+    <rect x="30" y="114" width="54" height="54" rx="14" fill="#63E6BE" fill-opacity="0.18"/>
+    <rect x="98" y="114" width="84" height="22" rx="11" fill="#7CC7FF" fill-opacity="0.16"/>
+    <rect x="98" y="148" width="66" height="20" rx="10" fill="#F6C453" fill-opacity="0.2"/>
   </g>
-  <path d="M834 218H904" stroke="#94A3B8" stroke-width="5" stroke-linecap="round"/>
-  <path d="M894 206L908 218L894 230" stroke="#94A3B8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-  <g transform="translate(922 162)">
-    <rect width="214" height="112" rx="18" fill="#B45309"/>
-    <text x="24" y="46" fill="#FEF3C7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800">Review + Handoff</text>
-    <text x="24" y="78" fill="#FFFBEB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">Validate and explain</text>
+  <g transform="translate(878 202)">
+    <rect width="214" height="188" rx="24" fill="#151A22" stroke="#63E6BE" stroke-opacity="0.38"/>
+    <text x="26" y="44" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="850">04 Review</text>
+    <text x="26" y="78" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">tests, edges, risk</text>
+    <path d="M42 136L74 166L150 108" stroke="#63E6BE" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
+  <g transform="translate(1140 202)">
+    <rect width="214" height="188" rx="24" fill="#151A22" stroke="#F6C453" stroke-opacity="0.44"/>
+    <text x="26" y="44" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="850">05 Handoff</text>
+    <text x="26" y="78" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">usable without guessing</text>
+    <rect x="28" y="112" width="156" height="22" rx="11" fill="#F6C453" fill-opacity="0.2"/>
+    <rect x="28" y="146" width="124" height="22" rx="11" fill="#63E6BE" fill-opacity="0.16"/>
+  </g>
+  <text x="74" y="484" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17">The first version should be small enough to validate and clear enough for the owner to operate.</text>
 </svg>
-
