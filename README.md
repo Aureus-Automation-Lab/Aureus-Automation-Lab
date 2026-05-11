@@ -1,20 +1,32 @@
 # Kimi Aoki
 
+![Kimi Aoki profile banner](assets/profile-banner.svg)
+
 I build practical automation, AI-assisted operations, and internal product systems for teams that have outgrown manual work.
 
-Most real work in this space touches private processes, documents, tools, and business data, so this GitHub profile is a public front door rather than a source-code dump. It explains what I can help build, how I think, and what kind of collaboration is a good fit.
+Most real work in this space touches private processes, documents, tools, and business data, so this GitHub profile is a public front door rather than a source-code dump.
 
-> From manual process to controlled workflow, from vague idea to useful product slice.
+> From manual process to controlled workflow. From vague idea to useful product slice.
+
+## Snapshot
+
+| Focus | What that means in practice |
+| --- | --- |
+| Automation | Intake, approvals, routing, reminders, reporting, handoffs |
+| AI operations | Assistants, review queues, knowledge flows, content systems |
+| Internal tools | Dashboards, admin panels, control surfaces, lightweight apps |
+| Product prototyping | SaaS-style interfaces, demos, landing pages, proof-of-concepts |
+| Delivery quality | Scope, QA, documentation, privacy boundaries, handoff |
 
 ## Why Teams Bring Me In
 
 - A process is important, but too much of it lives in inboxes, spreadsheets, chats, or memory.
 - An automation exists, but it is fragile, undocumented, or hard to trust.
-- AI could help, but the team needs review, boundaries, and clear ownership.
+- AI could help, but the team needs review, boundaries, and owner control.
 - A product or offer needs to be prototyped quickly without turning into a heavy software project.
 - A founder or operator needs someone who can understand the workflow, build the first version, and explain the handoff.
 
-## What I Help With
+## What I Can Build
 
 | Area | Examples |
 | --- | --- |
@@ -24,6 +36,8 @@ Most real work in this space touches private processes, documents, tools, and bu
 | Internal tools | Dashboards, admin panels, service consoles, workflow control surfaces |
 | Product and web prototypes | Landing pages, SaaS-style interfaces, demos, investor/client-ready previews |
 | Delivery systems | Scope, QA, documentation, release handoff, operational guardrails |
+
+Read the full capability map: [CAPABILITIES.md](CAPABILITIES.md)
 
 ## The Work Style
 
@@ -71,9 +85,11 @@ This is usually a good fit for:
 | Review | Test cases, edge cases, security/privacy checks, and improvement notes |
 | Handoff | Clear explanation, operating notes, and next-step options |
 
+More detail: [COLLABORATION.md](COLLABORATION.md)
+
 ## Public Boundary
 
-Real project work, client material, source exports, access details, and production context stay private. Public examples are intentionally limited so collaboration can start safely without exposing anyone's systems.
+Real project work, client material, source exports, access details, and production context stay private. This public profile is intentionally limited so collaboration can start safely without exposing anyone's systems.
 
 ## Starting Point
 
@@ -83,3 +99,9 @@ The easiest way to start a conversation is to share:
 2. the tools involved,
 3. what currently breaks or takes too much time,
 4. what a successful first version would prove.
+
+## Repo Contents
+
+- [CAPABILITIES.md](CAPABILITIES.md) - public-safe service and project map.
+- [COLLABORATION.md](COLLABORATION.md) - how a collaboration usually starts and moves.
+- [assets/profile-banner.svg](assets/profile-banner.svg) - static profile banner.
