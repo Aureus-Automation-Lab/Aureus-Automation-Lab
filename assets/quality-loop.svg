@@ -1,0 +1,24 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Quality loop</title>
+  <desc id="desc">The quality loop for useful, reviewable, testable, and handoff-ready systems.</desc>
+  <rect width="1200" height="360" rx="28" fill="#FFFFFF"/>
+  <rect x="34" y="34" width="1132" height="292" rx="24" fill="#F8FAFC" stroke="#CBD5E1"/>
+  <text x="72" y="88" fill="#111827" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">Quality Loop</text>
+  <text x="72" y="122" fill="#475569" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">A system is not finished just because it runs once.</text>
+  <circle cx="272" cy="220" r="74" fill="#0F766E"/>
+  <text x="224" y="214" fill="#F0FDFA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="800">Useful</text>
+  <text x="218" y="242" fill="#CCFBF1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">owner value</text>
+  <circle cx="492" cy="220" r="74" fill="#1D4ED8"/>
+  <text x="439" y="214" fill="#EFF6FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="800">Reviewable</text>
+  <text x="450" y="242" fill="#DBEAFE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">clear states</text>
+  <circle cx="712" cy="220" r="74" fill="#7C3AED"/>
+  <text x="662" y="214" fill="#F5F3FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="800">Testable</text>
+  <text x="664" y="242" fill="#EDE9FE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">real examples</text>
+  <circle cx="932" cy="220" r="74" fill="#B45309"/>
+  <text x="882" y="214" fill="#FFFBEB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="800">Handoff</text>
+  <text x="872" y="242" fill="#FEF3C7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">usable later</text>
+  <path d="M346 220H418" stroke="#94A3B8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M566 220H638" stroke="#94A3B8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M786 220H858" stroke="#94A3B8" stroke-width="5" stroke-linecap="round"/>
+</svg>
+

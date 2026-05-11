@@ -1,0 +1,50 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Capability system map</title>
+  <desc id="desc">A public-safe map of automation, AI operations, internal tools, product prototypes, and delivery quality.</desc>
+  <rect width="1200" height="520" rx="28" fill="#F8FAFC"/>
+  <rect x="34" y="34" width="1132" height="452" rx="24" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="74" y="92" fill="#111827" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">Capability System</text>
+  <text x="74" y="128" fill="#475569" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Public-safe view of the work: process clarity, useful build slices, review, and handoff.</text>
+  <g transform="translate(74 172)">
+    <rect width="208" height="208" rx="20" fill="#0F766E"/>
+    <text x="24" y="48" fill="#ECFDF5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800">Automation</text>
+    <text x="24" y="88" fill="#CCFBF1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Intake</text>
+    <text x="24" y="116" fill="#CCFBF1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Approvals</text>
+    <text x="24" y="144" fill="#CCFBF1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Routing</text>
+    <text x="24" y="172" fill="#CCFBF1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Reporting</text>
+  </g>
+  <g transform="translate(302 172)">
+    <rect width="208" height="208" rx="20" fill="#1D4ED8"/>
+    <text x="24" y="48" fill="#EFF6FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800">AI Ops</text>
+    <text x="24" y="88" fill="#DBEAFE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Review queues</text>
+    <text x="24" y="116" fill="#DBEAFE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Assistants</text>
+    <text x="24" y="144" fill="#DBEAFE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Knowledge flow</text>
+    <text x="24" y="172" fill="#DBEAFE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Owner control</text>
+  </g>
+  <g transform="translate(530 172)">
+    <rect width="208" height="208" rx="20" fill="#7C3AED"/>
+    <text x="24" y="48" fill="#F5F3FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800">Tools</text>
+    <text x="24" y="88" fill="#EDE9FE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Dashboards</text>
+    <text x="24" y="116" fill="#EDE9FE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Admin panels</text>
+    <text x="24" y="144" fill="#EDE9FE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Control surfaces</text>
+    <text x="24" y="172" fill="#EDE9FE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Handoffs</text>
+  </g>
+  <g transform="translate(758 172)">
+    <rect width="208" height="208" rx="20" fill="#B45309"/>
+    <text x="24" y="48" fill="#FFFBEB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800">Prototypes</text>
+    <text x="24" y="88" fill="#FEF3C7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Product slices</text>
+    <text x="24" y="116" fill="#FEF3C7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Landing pages</text>
+    <text x="24" y="144" fill="#FEF3C7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Demos</text>
+    <text x="24" y="172" fill="#FEF3C7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Feedback loops</text>
+  </g>
+  <g transform="translate(986 172)">
+    <rect width="108" height="208" rx="20" fill="#111827"/>
+    <text x="24" y="48" fill="#F9FAFB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="800">QA</text>
+    <text x="24" y="88" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">Scope</text>
+    <text x="24" y="116" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">Tests</text>
+    <text x="24" y="144" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">Docs</text>
+    <text x="24" y="172" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">Handoff</text>
+  </g>
+  <text x="74" y="440" fill="#475569" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17">The work is valuable when it becomes understandable, reviewable, and usable by the person who owns the process.</text>
+</svg>
+

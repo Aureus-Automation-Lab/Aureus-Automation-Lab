@@ -1,0 +1,34 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Collaboration flow</title>
+  <desc id="desc">Discovery, design, build, review, and handoff collaboration stages.</desc>
+  <rect width="1200" height="360" rx="28" fill="#0F172A"/>
+  <text x="64" y="78" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">Collaboration Flow</text>
+  <text x="64" y="112" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Small enough to validate, complete enough to hand off.</text>
+  <g transform="translate(64 162)">
+    <rect width="184" height="112" rx="18" fill="#134E4A"/>
+    <text x="24" y="46" fill="#CCFBF1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800">Discover</text>
+    <text x="24" y="78" fill="#F0FDFA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">Map the process</text>
+  </g>
+  <path d="M262 218H332" stroke="#94A3B8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M322 206L336 218L322 230" stroke="#94A3B8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(350 162)">
+    <rect width="184" height="112" rx="18" fill="#1D4ED8"/>
+    <text x="24" y="46" fill="#DBEAFE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800">Design</text>
+    <text x="24" y="78" fill="#EFF6FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">Choose the slice</text>
+  </g>
+  <path d="M548 218H618" stroke="#94A3B8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M608 206L622 218L608 230" stroke="#94A3B8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(636 162)">
+    <rect width="184" height="112" rx="18" fill="#7C3AED"/>
+    <text x="24" y="46" fill="#EDE9FE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800">Build</text>
+    <text x="24" y="78" fill="#F5F3FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">Make it useful</text>
+  </g>
+  <path d="M834 218H904" stroke="#94A3B8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M894 206L908 218L894 230" stroke="#94A3B8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(922 162)">
+    <rect width="214" height="112" rx="18" fill="#B45309"/>
+    <text x="24" y="46" fill="#FEF3C7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800">Review + Handoff</text>
+    <text x="24" y="78" fill="#FFFBEB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">Validate and explain</text>
+  </g>
+</svg>
+
