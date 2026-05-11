@@ -1,0 +1,19 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Kimi Aoki profile banner</title>
+  <desc id="desc">Automation, AI-assisted operations, internal tools, and product prototypes.</desc>
+  <rect width="1200" height="360" fill="#111827"/>
+  <path d="M0 258C150 204 294 224 432 258C574 293 720 340 862 286C1001 233 1114 100 1200 76V360H0V258Z" fill="#0F766E" opacity="0.75"/>
+  <path d="M0 286C188 238 347 261 522 298C687 333 843 342 1007 245C1086 198 1150 145 1200 123V360H0V286Z" fill="#F59E0B" opacity="0.82"/>
+  <rect x="64" y="58" width="1072" height="244" rx="28" fill="#111827" fill-opacity="0.72" stroke="#F9FAFB" stroke-opacity="0.14"/>
+  <text x="104" y="128" fill="#F9FAFB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="52" font-weight="800" letter-spacing="0">Kimi Aoki</text>
+  <text x="104" y="178" fill="#D1D5DB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="500" letter-spacing="0">Automation systems, AI-assisted operations, internal tools</text>
+  <text x="104" y="228" fill="#F9FAFB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="0">From manual process to controlled workflow.</text>
+  <g transform="translate(914 84)">
+    <rect x="0" y="0" width="168" height="168" rx="24" fill="#F9FAFB" fill-opacity="0.08" stroke="#F9FAFB" stroke-opacity="0.18"/>
+    <path d="M45 62H123" stroke="#F9FAFB" stroke-width="10" stroke-linecap="round"/>
+    <path d="M45 84H102" stroke="#F59E0B" stroke-width="10" stroke-linecap="round"/>
+    <path d="M45 106H84" stroke="#14B8A6" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="124" cy="106" r="13" fill="#F59E0B"/>
+    <circle cx="124" cy="62" r="13" fill="#14B8A6"/>
+  </g>
+</svg>
