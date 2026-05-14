@@ -29,6 +29,14 @@ Use this checklist before making the profile public or sending it for review.
 - [ ] Pin up to six public/review-safe repos or gists.
 - [ ] Add sanitized screenshots later if available.
 
+## Visual Quality
+
+- [ ] Banner matches role.
+- [ ] Diagrams render.
+- [ ] Mermaid diagrams are readable.
+- [ ] No visual asset contains outdated positioning.
+- [ ] Profile is scannable in under 60 seconds.
+
 ## Maintenance Notes
 
 - Keep the profile small, focused, and easy to review.

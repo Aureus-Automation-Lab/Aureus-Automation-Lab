@@ -1,5 +1,18 @@
 # Review Guide
 
+## Reviewer Journey
+
+```mermaid
+flowchart TD
+    A[README] --> B{Reviewer type}
+    B --> C[Recruiter path]
+    B --> D[Technical path]
+    B --> E[Client / partner path]
+    C --> F[Roles + stack]
+    D --> G[Architecture + case studies]
+    E --> H[Build menu + collaboration]
+```
+
 ## Fast Review
 
 If you only have 60 seconds:
@@ -44,6 +57,17 @@ The collaboration model is designed around first useful scope, safety boundary, 
 5. [COLLABORATION.md](COLLABORATION.md)
 6. [BUILD_MENU.md](BUILD_MENU.md)
 7. [PUBLIC_BOUNDARY.md](PUBLIC_BOUNDARY.md)
+
+## Reviewer Score Signals
+
+| Signal | Where to look |
+| --- | --- |
+| Role clarity | [README.md](README.md) |
+| Architecture thinking | [SOLUTION_ARCHITECTURE.md](SOLUTION_ARCHITECTURE.md) |
+| Public-safe examples | [CASE_STUDIES.md](CASE_STUDIES.md) |
+| Capability range | [CAPABILITIES.md](CAPABILITIES.md) |
+| Collaboration style | [COLLABORATION.md](COLLABORATION.md) |
+| Privacy discipline | [PUBLIC_BOUNDARY.md](PUBLIC_BOUNDARY.md) |
 
 ## What This Profile Is Not
 

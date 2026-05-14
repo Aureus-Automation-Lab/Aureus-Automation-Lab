@@ -4,7 +4,36 @@ These are public-safe case study directions. They show architecture thinking wit
 
 They are not claims of production deployment, accounting correctness, trading performance, enterprise compliance, revenue, or customer outcomes unless separately verified.
 
+## Case Study Review Map
+
+```mermaid
+flowchart LR
+    A[Problem] --> B[Architecture direction]
+    B --> C[System shape]
+    C --> D[AI role]
+    D --> E[Validation boundary]
+    E --> F[Public-safe proof]
+```
+
 ## FacturaAI / FineCon - Invoice And Document Automation
+
+| Area | Public-safe signal |
+| --- | --- |
+| Problem type | Document-heavy review and downstream handoff |
+| Architecture focus | Intake, structure, review states, validation, evidence |
+| AI role | Classification, extraction direction, exception notes |
+| Validation boundary | Owner review before downstream action |
+| What it demonstrates | Process mapping, approval separation, privacy-safe handoff |
+| Private boundary | Documents, credentials, access, workflow IDs, logs, production settings |
+
+```mermaid
+flowchart LR
+    A[Document intake] --> B[Extraction / structure]
+    B --> C[Review queue]
+    C --> D[Validation checklist]
+    D --> E[Downstream handoff direction]
+    E --> F[Evidence / audit notes]
+```
 
 ### Problem
 
@@ -15,8 +44,6 @@ Invoice and document workflows often involve scattered intake, repetitive review
 A validation-first document automation workstream: intake documents, extract or structure relevant fields, route uncertain cases to review, prepare reviewed data for downstream accounting-style handoff, and preserve evidence.
 
 ### System Shape
-
-Possible elements include:
 
 - inbox or drive intake,
 - document parsing direction,
@@ -53,6 +80,15 @@ Private documents, credentials, POHODA access, workflow IDs, webhook URLs, accou
 
 ## Aureus Automation Lab - Public Explanation And Product Surface
 
+| Area | Public-safe signal |
+| --- | --- |
+| Problem type | Private technical work needs a clear public explanation |
+| Architecture focus | Public-safe positioning, product surface, review path |
+| AI role | Drafting, iteration, QA prompts, content structure |
+| Validation boundary | Human-owned claims, privacy boundary, visual QA |
+| What it demonstrates | Translating systems into reviewable public surfaces |
+| Private boundary | Repo internals, analytics, private screenshots, credentials |
+
 ### Problem
 
 AI automation can be difficult to explain when the work is private, technical, or spread across workflows, tools, docs, and product surfaces.
@@ -62,8 +98,6 @@ AI automation can be difficult to explain when the work is private, technical, o
 A public-facing surface can explain capability, process, portfolio direction, and collaboration boundaries without exposing private systems.
 
 ### System Shape
-
-Possible elements include:
 
 - public-safe landing or product surface,
 - capability sections,
@@ -82,7 +116,7 @@ Claims need to stay tied to public-safe artifacts, visible product surfaces, or 
 
 ### Public-Safe Proof
 
-Public proof can include screenshots of sanitized pages, content structure, review notes, and design/QA evidence.
+Public proof can include sanitized page structure, content hierarchy, review notes, and design/QA evidence.
 
 ### What This Demonstrates
 
@@ -97,6 +131,15 @@ Private implementation, repo internals, analytics, private screenshots, business
 
 ## Aureus OS-Style Internal Operating System Patterns
 
+| Area | Public-safe signal |
+| --- | --- |
+| Problem type | AI-assisted work needs scope, review, evidence, and handoff |
+| Architecture focus | Task intake, role lenses, quality gates, approval boundaries |
+| AI role | Draft, classify, reason, summarize, propose next actions |
+| Validation boundary | Checklists, review notes, proof packs, blockers |
+| What it demonstrates | Control-system thinking around AI-assisted delivery |
+| Private boundary | Internal prompts, repos, workflow internals, logs |
+
 ### Problem
 
 AI-assisted work can become hard to trust when scope, validation, review, and handoff are not explicit. Teams need a way to move from idea to reviewed output without pretending every AI result is automatically correct.
@@ -106,8 +149,6 @@ AI-assisted work can become hard to trust when scope, validation, review, and ha
 An internal operating-system pattern can define task intake, role lenses, quality gates, approval boundaries, evidence, and handoff notes for scoped AI-assisted work.
 
 ### System Shape
-
-Possible elements include:
 
 - structured task intake,
 - role-based review lenses,
@@ -142,6 +183,24 @@ Internal prompts, private repositories, workflow internals, business context, cu
 
 ## n8n Workflow Factory / Workflow-As-Source
 
+| Area | Public-safe signal |
+| --- | --- |
+| Problem type | Workflow changes need review, validation, and import boundaries |
+| Architecture focus | Source control, validation gates, activation approval, handoff |
+| AI role | Documentation, risk review, test-case drafting |
+| Validation boundary | Validate before import or activation |
+| What it demonstrates | Workflow-as-system thinking and sensitive-value discipline |
+| Private boundary | Raw exports, webhook URLs, endpoints, IDs, runtime state |
+
+```mermaid
+flowchart LR
+    A[Workflow source] --> B[Review]
+    B --> C[Validation]
+    C --> D[Import boundary]
+    D --> E[Activation requires approval]
+    E --> F[Handoff notes]
+```
+
 ### Problem
 
 Automation can become fragile when workflows are edited manually, imported inconsistently, lack validation, or carry sensitive values inside exports.
@@ -151,8 +210,6 @@ Automation can become fragile when workflows are edited manually, imported incon
 A workflow-as-source pattern treats workflow JSON and supporting docs as reviewable artifacts with validation gates, import boundaries, and sensitive-value discipline.
 
 ### System Shape
-
-Possible elements include:
 
 - n8n-style orchestration,
 - source-controlled workflow files,
@@ -187,6 +244,15 @@ Raw private exports, credentials, webhook URLs, internal endpoints, workflow IDs
 
 ## Internal Tools / Product Surfaces
 
+| Area | Public-safe signal |
+| --- | --- |
+| Problem type | Teams need one clear place to operate work |
+| Architecture focus | State, actions, review queues, operating notes |
+| AI role | Drafts, summaries, suggestions, triage signals |
+| Validation boundary | Sensitive actions stay visible and reviewed |
+| What it demonstrates | Process-to-interface product thinking |
+| Private boundary | Screenshots, records, endpoints, auth/billing, private implementation |
+
 ### Problem
 
 Teams often need a usable surface for operating work: viewing queues, reviewing records, approving actions, exporting data, or explaining a product idea.
@@ -196,8 +262,6 @@ Teams often need a usable surface for operating work: viewing queues, reviewing 
 A focused internal tool or product slice can expose the right state, actions, and handoff notes without leaking private data.
 
 ### System Shape
-
-Possible elements include:
 
 - dashboard,
 - admin panel,

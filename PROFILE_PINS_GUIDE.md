@@ -11,6 +11,17 @@ GitHub profile pins are managed manually from the GitHub profile UI. Private rep
 5. Template or small service repo if polished.
 6. Case-study gist if no repo is public-safe.
 
+## Recommended Pin Order
+
+1. `KimiAoki/KimiAoki`.
+2. Best public-safe automation / workflow demo.
+3. Best product or web surface.
+4. Best template / small service repo.
+5. Best case-study gist.
+6. Best architecture demo or sanitized proof pack.
+
+If no public-safe implementation repo exists yet, create a sanitized demo repo instead of exposing private repos.
+
 ## Pinning Rules
 
 - Do not pin private repos expecting public reviewers to see them.

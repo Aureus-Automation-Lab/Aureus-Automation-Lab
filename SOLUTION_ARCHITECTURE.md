@@ -1,5 +1,40 @@
 # Solution Architecture
 
+## Architecture Snapshot
+
+```mermaid
+flowchart TD
+    B[Business Layer] --> D[Data Layer]
+    D --> W[Workflow Layer]
+    W --> AI[AI Layer]
+    AI --> R[Review / Approval Layer]
+    R --> V[Validation Layer]
+    V --> H[Handoff Layer]
+```
+
+## Layer Snapshot
+
+| Layer | Purpose | Output |
+| --- | --- | --- |
+| Business | Understand process, owner, and outcome | Process map |
+| Data | Define input, structure, sensitivity | Data boundary |
+| Workflow | Define states, routing, retries, exceptions | Workflow map |
+| AI | Define where AI assists | AI role brief |
+| Review | Define approval and human ownership | Review boundary |
+| Validation | Define proof and tests | Validation checklist |
+| Handoff | Make operation clear | Operating notes |
+
+## Decision Boundary Matrix
+
+| Boundary | Question | Output |
+| --- | --- | --- |
+| Automation | What can run without review? | Safe workflow action |
+| AI suggestion | What can AI draft or classify? | Structured suggestion |
+| Human approval | What needs owner decision? | Review state |
+| Stop condition | What blocks the workflow? | Error / exception state |
+| Evidence | What must be logged? | Proof note |
+| Fallback | What happens when uncertain? | Manual path |
+
 ## Solution Architecture Philosophy
 
 I start with the business process before choosing tools. The most important question is not "what can be automated?" but "what outcome needs to become clearer, faster, safer, or easier to operate?"

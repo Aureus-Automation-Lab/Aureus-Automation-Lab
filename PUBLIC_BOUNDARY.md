@@ -16,6 +16,19 @@ Public-safe documentation is not defensive. It is part of responsible solution a
 - validation philosophy,
 - screenshots without private data.
 
+## Public / Private Matrix
+
+| Category | Public-safe? | Notes |
+| --- | --- | --- |
+| Capability maps | Yes | Safe when generic |
+| Sanitized diagrams | Yes | No private data |
+| Case study directions | Yes | No unsupported claims |
+| Generic workflow shapes | Yes | No identifiers or credentials |
+| Raw workflow exports | No | May expose private logic |
+| Credentials / endpoints | No | Never public |
+| Private screenshots | No | Only sanitized alternatives |
+| Production settings | No | Not public |
+
 ## Not Public
 
 - credentials,

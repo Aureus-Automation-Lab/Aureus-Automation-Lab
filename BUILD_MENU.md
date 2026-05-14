@@ -4,6 +4,28 @@ These formats are designed for teams that want useful automation without losing 
 
 This is not a fixed product catalog. It is a public-safe menu of collaboration formats for turning manual or unclear work into controlled AI-assisted workflow systems, internal tools, and reviewable product slices.
 
+## Which Format Fits?
+
+| Situation | Best format |
+| --- | --- |
+| We do not know what to automate first | Automation Clarity Sprint |
+| AI can help but decisions need review | AI-Assisted Workflow Slice |
+| We need one place to operate work | Internal Tool / Operating Console Slice |
+| We process documents or records | Document And Data Flow |
+| We need to test an idea | Product Prototype |
+| Existing automation is fragile | Automation Cleanup And Handoff |
+| We need to understand architecture first | Technical Walkthrough / Architecture Review |
+
+```mermaid
+flowchart TD
+    A[Unclear process] --> B[Automation Clarity Sprint]
+    C[AI can assist] --> D[AI-Assisted Workflow Slice]
+    E[Need operating surface] --> F[Internal Tool Slice]
+    G[Document-heavy work] --> H[Document And Data Flow]
+    I[Idea needs proof] --> J[Product Prototype]
+    K[Existing system fragile] --> L[Cleanup And Handoff]
+```
+
 ## Engagement Models
 
 | Model | Best when | Typical outputs | Good result | Public-safe boundary |

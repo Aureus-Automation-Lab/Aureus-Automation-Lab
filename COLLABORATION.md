@@ -17,6 +17,17 @@ The first useful version matters because it creates evidence quickly. Instead of
 
 Good first slices often look like a structured intake flow, review queue, dashboard slice, document validation path, approval workflow, or AI-assisted draft process with owner review.
 
+## Collaboration Flow
+
+```mermaid
+flowchart LR
+    A[Discovery] --> B[Architecture]
+    B --> C[Build]
+    C --> D[Review]
+    D --> E[Handoff]
+    E --> F[Next iteration]
+```
+
 ## Collaboration Phases
 
 | Phase | Goal | Output | Quality check |
@@ -27,6 +38,17 @@ Good first slices often look like a structured intake flow, review queue, dashbo
 | Review | Check output quality, edge cases, privacy boundaries, and owner approval flow | QA notes, proof pack, risk notes, improvement list | Can the owner trust what happened and see what needs review? |
 | Handoff | Make the system operable without hidden context | Operating notes, runbook, known limits, next-step roadmap | Could another person run or review it later? |
 | Next iteration | Decide what to improve after evidence exists | Prioritized backlog, scope recommendation, optional next slice | Is the next step based on proof instead of guesswork? |
+
+## Output Pack
+
+| Phase | Main artifact | Why it matters |
+| --- | --- | --- |
+| Discovery | Process map | Shared understanding |
+| Architecture | Solution shape | Clear boundaries |
+| Build | First useful slice | Real evidence |
+| Review | QA / proof notes | Trust and correction |
+| Handoff | Operating notes | Usable later |
+| Next iteration | Backlog | Improvement based on proof |
 
 ## What Good Collaboration Prevents
 

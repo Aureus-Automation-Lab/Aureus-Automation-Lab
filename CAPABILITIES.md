@@ -4,6 +4,16 @@
 
 This is a public-safe overview of what I can design, build, validate, and hand off as an AI Automation Solution Architect. It describes capability areas and delivery outputs without exposing private systems, credentials, raw workflow exports, customer-like data, endpoints, or production context.
 
+## Capability Architecture Map
+
+```mermaid
+flowchart TD
+    A[Process architecture] --> B[AI workflow architecture]
+    B --> C[Integration architecture]
+    C --> D[Validation architecture]
+    D --> E[Handoff architecture]
+```
+
 ## Capability Groups
 
 | Group | What it proves |
@@ -13,6 +23,16 @@ This is a public-safe overview of what I can design, build, validate, and hand o
 | Integration architecture | I can connect tools through APIs, workflow states, and structured handoffs |
 | Validation architecture | I can define tests, review states, evidence, and exception handling |
 | Handoff architecture | I can make the system understandable after the builder leaves |
+
+## Capability Cards
+
+| Capability group | What it proves | Typical artifact |
+| --- | --- | --- |
+| Process architecture | I can identify ownership, decisions, handoffs, and failure points | Process map |
+| AI workflow architecture | I can define where AI assists and where humans remain responsible | AI role / review state |
+| Integration architecture | I can connect tools through APIs, workflow states, and structured handoffs | Integration map |
+| Validation architecture | I can define tests, evidence, and exception handling | Proof checklist |
+| Handoff architecture | I can make the system understandable later | Operating notes |
 
 ## Capability Map
 
