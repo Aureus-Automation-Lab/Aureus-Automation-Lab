@@ -1,26 +1,24 @@
 <svg width="1400" height="560" viewBox="0 0 1400 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Kimi Aoki operational profile banner</title>
-  <desc id="desc">A dark animated operational profile banner for automation systems, AI-assisted operations, and internal tools.</desc>
+  <title id="title">Robert Kolesar / KimiAoki AI Automation Solution Architect profile banner</title>
+  <desc id="desc">A dark system architecture banner showing business process to AI workflow architecture to validation and handoff.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="560" gradientUnits="userSpaceOnUse">
       <stop stop-color="#080B10"/>
       <stop offset="0.55" stop-color="#101720"/>
       <stop offset="1" stop-color="#06241F"/>
     </linearGradient>
-    <linearGradient id="rail" x1="134" y1="420" x2="1270" y2="102" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#63E6BE" stop-opacity="0.08"/>
-      <stop offset="0.45" stop-color="#63E6BE" stop-opacity="0.85"/>
-      <stop offset="0.72" stop-color="#7CC7FF" stop-opacity="0.92"/>
-      <stop offset="1" stop-color="#F6C453" stop-opacity="0.2"/>
+    <linearGradient id="rail" x1="96" y1="440" x2="1300" y2="88" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#63E6BE" stop-opacity="0.12"/>
+      <stop offset="0.45" stop-color="#63E6BE" stop-opacity="0.8"/>
+      <stop offset="0.72" stop-color="#7CC7FF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#F6C453" stop-opacity="0.32"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
       <stop stop-color="#1A2230" stop-opacity="0.96"/>
       <stop offset="1" stop-color="#0A0D12" stop-opacity="0.98"/>
     </linearGradient>
     <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="14" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.39 0 0 0 0 0.9 0 0 0 0 0.75 0 0 0 0.45 0"/>
-      <feBlend in="SourceGraphic"/>
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#63E6BE" flood-opacity="0.16"/>
     </filter>
   </defs>
   <rect width="1400" height="560" rx="34" fill="url(#bg)"/>
@@ -32,56 +30,63 @@
     <animate attributeName="stroke-dashoffset" values="0;-120" dur="12s" repeatCount="indefinite"/>
   </path>
   <path d="M90 492C258 418 404 430 578 350C746 273 888 290 1026 338C1168 388 1262 302 1334 226" stroke="#7CC7FF" stroke-opacity="0.18" stroke-width="2" stroke-linecap="round"/>
-  <g transform="translate(74 74)">
-    <rect width="706" height="354" rx="28" fill="url(#panel)" stroke="#F7F8FA" stroke-opacity="0.14"/>
-    <text x="40" y="80" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="60" font-weight="800">Kimi Aoki</text>
-    <text x="42" y="126" fill="#AAB5C4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Automation systems - AI-assisted operations - Internal tools</text>
-    <text x="42" y="188" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="31" font-weight="800">From manual process</text>
-    <text x="42" y="228" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="31" font-weight="800">to controlled workflow.</text>
-    <g transform="translate(42 274)">
+  <g transform="translate(72 72)">
+    <rect width="720" height="358" rx="28" fill="url(#panel)" stroke="#F7F8FA" stroke-opacity="0.14"/>
+    <text x="40" y="72" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="48" font-weight="800">Robert Kolesar</text>
+    <text x="42" y="112" fill="#AAB5C4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23" font-weight="700">/ KimiAoki</text>
+    <text x="42" y="156" fill="#B8F7D4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23" font-weight="800">AI Automation Solution Architect</text>
+    <text x="42" y="212" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27" font-weight="800">Business process to AI workflow</text>
+    <text x="42" y="248" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27" font-weight="800">architecture, validation, handoff.</text>
+    <g transform="translate(42 288)">
       <rect width="158" height="46" rx="23" fill="#63E6BE" fill-opacity="0.14" stroke="#63E6BE" stroke-opacity="0.7"/>
       <text x="79" y="29" text-anchor="middle" fill="#B8F7D4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">public-safe</text>
       <rect x="180" width="198" height="46" rx="23" fill="#7CC7FF" fill-opacity="0.13" stroke="#7CC7FF" stroke-opacity="0.58"/>
-      <text x="279" y="29" text-anchor="middle" fill="#D9EEFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">reviewable builds</text>
-      <rect x="400" width="174" height="46" rx="23" fill="#F6C453" fill-opacity="0.13" stroke="#F6C453" stroke-opacity="0.58"/>
-      <text x="487" y="29" text-anchor="middle" fill="#FFF0BF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">owner control</text>
+      <text x="279" y="29" text-anchor="middle" fill="#D9EEFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">reviewable</text>
+      <rect x="400" width="206" height="46" rx="23" fill="#F6C453" fill-opacity="0.13" stroke="#F6C453" stroke-opacity="0.58"/>
+      <text x="503" y="29" text-anchor="middle" fill="#FFF0BF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">owner-controlled</text>
     </g>
   </g>
-  <g transform="translate(830 82)">
-    <rect width="488" height="362" rx="28" fill="#111820" fill-opacity="0.82" stroke="#F7F8FA" stroke-opacity="0.16"/>
-    <text x="34" y="54" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800">operating map</text>
-    <text x="34" y="84" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">messy input / reviewed system / useful handoff</text>
-    <g transform="translate(28 126)">
-      <rect width="96" height="60" rx="15" fill="#0B0E13" stroke="#FF6B6B" stroke-opacity="0.46"/>
-      <text x="48" y="36" text-anchor="middle" fill="#FFD7D7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">manual</text>
-      <path d="M114 30H150" stroke="#7CC7FF" stroke-width="4" stroke-linecap="round"/>
-      <path d="M140 19L153 30L140 41" stroke="#7CC7FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-      <rect x="168" width="112" height="60" rx="15" fill="#0B0E13" stroke="#63E6BE" stroke-opacity="0.58"/>
-      <text x="224" y="36" text-anchor="middle" fill="#B8F7D4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">workflow</text>
-      <path d="M300 30H334" stroke="#7CC7FF" stroke-width="4" stroke-linecap="round"/>
-      <path d="M324 19L337 30L324 41" stroke="#7CC7FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-      <rect x="352" width="98" height="60" rx="15" fill="#0B0E13" stroke="#F6C453" stroke-opacity="0.6"/>
-      <text x="401" y="36" text-anchor="middle" fill="#FFF0BF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">handoff</text>
+  <g transform="translate(820 82)" filter="url(#glow)">
+    <rect width="504" height="362" rx="28" fill="#111820" fill-opacity="0.84" stroke="#F7F8FA" stroke-opacity="0.16"/>
+    <text x="34" y="54" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800">solution map</text>
+    <text x="34" y="84" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">manual work / architecture / validation / handoff</text>
+    <g transform="translate(24 126)">
+      <rect width="88" height="60" rx="15" fill="#0B0E13" stroke="#FF6B6B" stroke-opacity="0.46"/>
+      <text x="44" y="31" text-anchor="middle" fill="#FFD7D7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="800">manual</text>
+      <text x="44" y="47" text-anchor="middle" fill="#FFD7D7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="800">process</text>
+      <path d="M102 30H122" stroke="#7CC7FF" stroke-width="4" stroke-linecap="round"/>
+      <path d="M112 19L125 30L112 41" stroke="#7CC7FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="138" width="112" height="60" rx="15" fill="#0B0E13" stroke="#63E6BE" stroke-opacity="0.58"/>
+      <text x="194" y="31" text-anchor="middle" fill="#B8F7D4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="800">AI workflow</text>
+      <text x="194" y="47" text-anchor="middle" fill="#B8F7D4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="800">architecture</text>
+      <path d="M264 30H284" stroke="#7CC7FF" stroke-width="4" stroke-linecap="round"/>
+      <path d="M274 19L287 30L274 41" stroke="#7CC7FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="288" width="84" height="60" rx="15" fill="#0B0E13" stroke="#7CC7FF" stroke-opacity="0.55"/>
+      <text x="330" y="37" text-anchor="middle" fill="#D9EEFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="800">validation</text>
+      <path d="M386 30H396" stroke="#7CC7FF" stroke-width="4" stroke-linecap="round"/>
+      <path d="M386 19L399 30L386 41" stroke="#7CC7FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="408" width="72" height="60" rx="15" fill="#0B0E13" stroke="#F6C453" stroke-opacity="0.6"/>
+      <text x="444" y="37" text-anchor="middle" fill="#FFF0BF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="800">handoff</text>
     </g>
     <g transform="translate(42 230)">
-      <rect width="404" height="30" rx="15" fill="#0B0E13" stroke="#F7F8FA" stroke-opacity="0.12"/>
-      <rect width="286" height="30" rx="15" fill="#63E6BE" fill-opacity="0.38">
-        <animate attributeName="width" values="260;306;286" dur="6s" repeatCount="indefinite"/>
+      <rect width="420" height="30" rx="15" fill="#0B0E13" stroke="#F7F8FA" stroke-opacity="0.12"/>
+      <rect width="302" height="30" rx="15" fill="#63E6BE" fill-opacity="0.38">
+        <animate attributeName="width" values="276;326;302" dur="6s" repeatCount="indefinite"/>
       </rect>
-      <text x="20" y="20" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">scope clarity</text>
-      <rect y="50" width="404" height="30" rx="15" fill="#0B0E13" stroke="#F7F8FA" stroke-opacity="0.12"/>
-      <rect y="50" width="328" height="30" rx="15" fill="#7CC7FF" fill-opacity="0.34">
-        <animate attributeName="width" values="300;342;328" dur="7s" repeatCount="indefinite"/>
+      <text x="20" y="20" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">process clarity</text>
+      <rect y="50" width="420" height="30" rx="15" fill="#0B0E13" stroke="#F7F8FA" stroke-opacity="0.12"/>
+      <rect y="50" width="338" height="30" rx="15" fill="#7CC7FF" fill-opacity="0.34">
+        <animate attributeName="width" values="300;358;338" dur="7s" repeatCount="indefinite"/>
       </rect>
-      <text x="20" y="70" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">review path</text>
-      <rect y="100" width="404" height="30" rx="15" fill="#0B0E13" stroke="#F7F8FA" stroke-opacity="0.12"/>
-      <rect y="100" width="248" height="30" rx="15" fill="#F6C453" fill-opacity="0.35">
-        <animate attributeName="width" values="224;274;248" dur="8s" repeatCount="indefinite"/>
+      <text x="20" y="70" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">review boundary</text>
+      <rect y="100" width="420" height="30" rx="15" fill="#0B0E13" stroke="#F7F8FA" stroke-opacity="0.12"/>
+      <rect y="100" width="260" height="30" rx="15" fill="#F6C453" fill-opacity="0.35">
+        <animate attributeName="width" values="230;286;260" dur="8s" repeatCount="indefinite"/>
       </rect>
-      <text x="20" y="120" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">first useful slice</text>
+      <text x="20" y="120" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">evidence and handoff</text>
     </g>
   </g>
-  <circle cx="1156" cy="126" r="33" fill="#63E6BE" fill-opacity="0.12" stroke="#63E6BE" stroke-opacity="0.56" filter="url(#glow)">
+  <circle cx="1156" cy="126" r="33" fill="#63E6BE" fill-opacity="0.12" stroke="#63E6BE" stroke-opacity="0.56">
     <animate attributeName="r" values="28;36;28" dur="5s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0.55;1;0.55" dur="5s" repeatCount="indefinite"/>
   </circle>

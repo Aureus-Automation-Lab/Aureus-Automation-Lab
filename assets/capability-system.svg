@@ -1,6 +1,6 @@
 <svg width="1400" height="720" viewBox="0 0 1400 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Dark capability system board</title>
-  <desc id="desc">A dark premium capability board showing automation, AI operations, internal tools, prototypes, and delivery quality.</desc>
+  <title id="title">Robert Kolesar / KimiAoki capability system board</title>
+  <desc id="desc">A dark capability board showing business process, AI workflow, internal tool, validation, evidence, and handoff layers.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="720" gradientUnits="userSpaceOnUse">
       <stop stop-color="#080B10"/>
@@ -20,14 +20,15 @@
     <path d="M0 120H1400M0 240H1400M0 360H1400M0 480H1400M0 600H1400" stroke="#F7F8FA" stroke-opacity="0.14"/>
     <path d="M160 0V720M320 0V720M480 0V720M640 0V720M800 0V720M960 0V720M1120 0V720M1280 0V720" stroke="#F7F8FA" stroke-opacity="0.08"/>
   </g>
-  <text x="72" y="86" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="42" font-weight="800">Capability System</text>
-  <text x="72" y="126" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19">From scattered work to controlled build slices with review, evidence, and handoff.</text>
+  <text x="72" y="78" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="40" font-weight="800">Capability System</text>
+  <text x="72" y="112" fill="#B8F7D4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">Robert Kolesar / KimiAoki - AI Automation Solution Architect</text>
+  <text x="72" y="142" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Business process, AI workflow, internal tool, validation, evidence, and handoff.</text>
   <g transform="translate(72 172)" filter="url(#glow)">
     <rect width="1256" height="470" rx="30" fill="#101720" fill-opacity="0.84" stroke="#F7F8FA" stroke-opacity="0.14"/>
     <g transform="translate(42 46)">
       <rect width="256" height="174" rx="22" fill="url(#panel)" stroke="#63E6BE" stroke-opacity="0.28"/>
-      <text x="26" y="46" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="800">Automation</text>
-      <text x="26" y="82" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">intake, routing, approvals</text>
+      <text x="26" y="46" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800">Business Process</text>
+      <text x="26" y="82" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">owners, decisions, pain</text>
       <circle cx="42" cy="126" r="10" fill="#63E6BE"/>
       <path d="M60 126H166" stroke="#63E6BE" stroke-width="5" stroke-linecap="round" stroke-dasharray="90 20">
         <animate attributeName="stroke-dashoffset" values="0;-110" dur="7s" repeatCount="indefinite"/>
@@ -38,8 +39,8 @@
     </g>
     <g transform="translate(332 46)">
       <rect width="256" height="174" rx="22" fill="url(#panel)" stroke="#7CC7FF" stroke-opacity="0.28"/>
-      <text x="26" y="46" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="800">AI Ops</text>
-      <text x="26" y="82" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">assistants, queues, review</text>
+      <text x="26" y="46" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="800">AI Workflow</text>
+      <text x="26" y="82" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">assist, route, escalate</text>
       <rect x="26" y="108" width="204" height="18" rx="9" fill="#7CC7FF" fill-opacity="0.15"/>
       <rect x="26" y="108" width="144" height="18" rx="9" fill="#7CC7FF" fill-opacity="0.68">
         <animate attributeName="width" values="120;172;144" dur="6s" repeatCount="indefinite"/>
@@ -51,16 +52,16 @@
     </g>
     <g transform="translate(622 46)">
       <rect width="256" height="174" rx="22" fill="url(#panel)" stroke="#F6C453" stroke-opacity="0.28"/>
-      <text x="26" y="46" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="800">Internal Tools</text>
-      <text x="26" y="82" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">dashboards, panels, consoles</text>
+      <text x="26" y="46" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="800">Internal Tool</text>
+      <text x="26" y="82" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">queue, state, action</text>
       <rect x="26" y="108" width="88" height="54" rx="13" fill="#63E6BE" fill-opacity="0.15" stroke="#63E6BE" stroke-opacity="0.46"/>
       <rect x="132" y="108" width="98" height="23" rx="12" fill="#7CC7FF" fill-opacity="0.18"/>
       <rect x="132" y="140" width="76" height="22" rx="11" fill="#F6C453" fill-opacity="0.2"/>
     </g>
     <g transform="translate(912 46)">
       <rect width="256" height="174" rx="22" fill="url(#panel)" stroke="#B8F7D4" stroke-opacity="0.22"/>
-      <text x="26" y="46" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="800">Prototypes</text>
-      <text x="26" y="82" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">demos, product slices, offers</text>
+      <text x="26" y="46" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="800">Validation</text>
+      <text x="26" y="82" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">tests, review, exceptions</text>
       <path d="M36 138C76 96 112 174 154 130C184 99 208 112 226 88" stroke="#F6C453" stroke-width="5" stroke-linecap="round" stroke-dasharray="8 12">
         <animate attributeName="stroke-dashoffset" values="0;-80" dur="8s" repeatCount="indefinite"/>
       </path>
@@ -69,11 +70,11 @@
     </g>
     <g transform="translate(42 274)">
       <rect width="1126" height="132" rx="24" fill="#0B0E13" stroke="#F7F8FA" stroke-opacity="0.12"/>
-      <text x="28" y="42" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23" font-weight="800">Delivery layer</text>
-      <text x="28" y="74" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">Scope, quality checks, privacy boundary, operating notes, next-build roadmap.</text>
+      <text x="28" y="42" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23" font-weight="800">Evidence and handoff layer</text>
+      <text x="28" y="74" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">Proof notes, privacy boundary, operating notes, known limits, next-build roadmap.</text>
       <g transform="translate(716 34)">
         <rect width="124" height="34" rx="17" fill="#63E6BE" fill-opacity="0.15" stroke="#63E6BE" stroke-opacity="0.56"/>
-        <text x="62" y="22" text-anchor="middle" fill="#B8F7D4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">useful</text>
+        <text x="62" y="22" text-anchor="middle" fill="#B8F7D4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">evidence</text>
         <rect x="142" width="148" height="34" rx="17" fill="#7CC7FF" fill-opacity="0.15" stroke="#7CC7FF" stroke-opacity="0.56"/>
         <text x="216" y="22" text-anchor="middle" fill="#D9EEFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">reviewable</text>
         <rect y="52" width="124" height="34" rx="17" fill="#F6C453" fill-opacity="0.16" stroke="#F6C453" stroke-opacity="0.56"/>
