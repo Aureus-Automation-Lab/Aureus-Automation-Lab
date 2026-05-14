@@ -11,19 +11,31 @@ The aim is a controlled workflow system: clear inputs, clear decisions, clear re
 ## Architecture Flow
 
 ```text
-Business Problem
--> Process Discovery
--> Scope Definition
--> Data Boundary
--> Tool Boundary
--> Workflow Architecture
--> AI Layer
--> Review / Approval Layer
--> Validation Layer
--> Evidence / Logs
--> Handoff
--> Iteration Roadmap
+Business process
+-> process discovery
+-> scope definition
+-> data boundary
+-> tool boundary
+-> workflow architecture
+-> AI layer
+-> review / approval layer
+-> validation layer
+-> evidence / logs
+-> handoff
+-> iteration roadmap
 ```
+
+## Architecture Layers
+
+| Layer | Purpose | Key questions | Public-safe artifact |
+| --- | --- | --- | --- |
+| Business layer | Understand the real process, owner, and outcome | What happens today? Who owns the decision? What breaks? | Process map and first-scope brief |
+| Data layer | Define inputs, sensitivity, structure, and retention boundary | What data enters? What is private? What must be validated? | Sample schema and privacy notes |
+| Workflow layer | Shape routing, states, retries, exceptions, and handoffs | What happens next? What can fail? What needs a fallback? | Workflow state map |
+| AI layer | Define where AI assists without becoming uncontrolled authority | What may AI suggest? What confidence or review state is needed? | AI role brief and eval checklist |
+| Review/approval layer | Keep important decisions owned by humans | Who approves? What blocks downstream action? | Approval boundary and review queue shape |
+| Validation layer | Prove outputs are structured, reviewable, and safe enough to use | What tests exist? What evidence is captured? | Test examples and proof checklist |
+| Handoff layer | Make the system understandable after the build | Who operates it? What are known limits? What comes next? | Operating notes and next-step backlog |
 
 ## Design Questions
 
@@ -43,6 +55,17 @@ Business Problem
 - Who needs to operate the system after handoff?
 - What is the next iteration if the first slice works?
 
+## Decision Boundaries
+
+A serious workflow should make these boundaries explicit:
+
+- what the system may automate,
+- what AI may suggest,
+- what a human must approve,
+- what must be logged,
+- what must stop the workflow,
+- what requires a manual fallback.
+
 ## AI Layer Design
 
 AI should assist the workflow, not become an uncontrolled operator. Safer patterns include:
@@ -54,6 +77,18 @@ AI should assist the workflow, not become an uncontrolled operator. Safer patter
 - no blind trust in model output,
 - evaluation checklists,
 - escalation rules for low-confidence, sensitive, or incomplete cases.
+
+## Failure Modes I Design For
+
+- missing or incomplete input,
+- low-confidence AI output,
+- schema mismatch,
+- duplicate record,
+- unclear owner,
+- unsafe downstream action,
+- hidden dependency,
+- unreviewed live action,
+- private-data exposure risk.
 
 ## Validation-First Delivery
 
@@ -101,5 +136,5 @@ Private material stays private:
 - raw exports,
 - endpoints,
 - private logic,
-- client data,
+- client-like data,
 - production settings.

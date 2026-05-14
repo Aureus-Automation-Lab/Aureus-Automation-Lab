@@ -4,71 +4,92 @@
 
 ![KimiAoki profile banner](assets/profile-banner.svg)
 
-I design practical AI automation systems, internal tools, and product workflow slices for teams that need clearer operations, not louder technology. My work starts with the business process, then moves into solution architecture, workflow and AI layers, validation, documentation, and handoff.
+I design AI-assisted workflow systems, internal tools, and product slices that turn manual business processes into controlled, reviewable, and maintainable systems.
 
-I am strongest where a process is manual, unclear, fragile, or spread across tools. The goal is to turn that process into a controlled system with clear ownership, safe automation boundaries, review states, evidence, and operating notes that another person can actually use.
+My work starts with the business process, then moves through solution architecture, workflow and AI layers, validation, evidence, documentation, and handoff.
 
-This repository is a public-safe front door for recruiters, clients, partners, and technical reviewers. It is not a raw source-code dump, workflow export, private implementation archive, or proof of private production systems.
+This profile is a public-safe front door: it shows how I think and what I can build without exposing private systems, workflow exports, credentials, endpoints, or production context.
 
-> From manual process to controlled workflow.
->
-> From vague idea to useful product slice.
->
-> From AI output to validated business system.
+## Review Path
 
-## Public-Safe Portfolio Boundary
+| If you are... | Start here |
+| --- | --- |
+| Recruiter / hiring manager | Best-Fit Roles, Tools And Stack, Review Guide |
+| Technical reviewer | Solution Architecture, Case Studies, Capabilities |
+| Client / partner | What I Build, Build Menu, Collaboration |
 
-Most real AI automation work touches private business processes, internal documents, workflow logic, credentials, automation exports, customer-like data, or production settings. Those details should not be exposed in a public GitHub profile.
+## Core Signal
 
-This profile shows the way I think, design, build, validate, and hand off AI-assisted workflow systems without exposing private systems. Public artifacts here focus on capability maps, architecture language, sanitized case study directions, collaboration models, and review-safe documentation.
+I am strongest at:
+
+- turning unclear processes into structured workflow systems,
+- separating safe automation from human-reviewed decisions,
+- designing AI layers with validation instead of blind trust,
+- creating first useful product slices,
+- documenting handoff so the system can be operated later.
 
 ## What I Build
 
-| Area | Practical outputs |
+| Area | Practical output |
 | --- | --- |
-| AI automation systems | Classification assistants, review queues, confidence flags, approval flows, evidence capture, human-in-the-loop boundaries |
-| Internal tools | Dashboards, admin panels, workflow forms, status views, operating consoles, reporting and export surfaces |
-| Document and data workflows | Intake, extraction, structured records, validation checklists, exception handling, owner review |
-| Workflow orchestration | n8n-style routing, webhooks, approvals, retries, status flows, handoff states, no-secret workflow discipline |
-| Product prototypes | First useful product slices, SaaS-style demos, landing pages, dashboard concepts, feedback-ready interfaces |
-| Delivery systems | Process maps, acceptance criteria, proof packs, QA notes, privacy boundaries, operating handoff, next-step roadmap |
+| Process architecture | Maps current work, ownership, decisions, risks, and first useful scope |
+| AI-assisted workflows | Defines where AI assists, where humans review, and how uncertainty is handled |
+| Workflow orchestration | Shapes triggers, routing, approvals, retries, exceptions, and handoff states |
+| Internal tools | Creates dashboards, review queues, admin panels, status views, and operating consoles |
+| Document and data flows | Structures intake, extraction, validation, exception handling, and reviewed handoff |
+| Product slices | Turns ideas into small, reviewable app or demo surfaces with clear next steps |
+| Delivery systems | Produces acceptance criteria, proof notes, QA checks, operating docs, and roadmap |
 
 ![Capability system map](assets/capability-system.svg)
 
+## Proof Without Exposure
+
+Most serious automation work cannot be shown as raw code because it may contain private process logic, workflow exports, credentials, endpoints, documents, or business data. Instead, this profile shows:
+
+- architecture patterns,
+- public-safe case study directions,
+- capability maps,
+- validation philosophy,
+- collaboration and handoff model,
+- controlled review boundaries.
+
 ## Solution Architecture Lens
 
-Before building, I want the system to answer practical questions:
+Before building, I want the system to answer:
 
-- What process is too manual, fragile, slow, or unclear?
-- Who owns the decision?
-- What data enters the system?
-- What can be automated safely?
-- What must remain human-reviewed?
-- What proof shows the system worked?
-- How will another person operate it after handoff?
+- What business process is unclear, slow, fragile, or too manual?
+- Who owns the decision and final result?
+- What data enters the system, and what must stay private?
+- Where can automation help safely?
+- Where should AI suggest rather than decide?
+- What requires human review or approval?
+- What evidence proves the workflow behaved as expected?
+- How can another person operate or review it after handoff?
 
 ## Architecture Pattern
 
 ```text
-Business problem
-  -> process map
-  -> first useful scope
+Business process
+  -> solution architecture
   -> data and tool boundary
-  -> workflow / AI / internal-tool architecture
-  -> prototype or build slice
+  -> workflow / AI / internal-tool layer
   -> validation and review states
-  -> evidence / logs / handoff notes
-  -> next iteration roadmap
+  -> evidence and handoff notes
+  -> next iteration
 ```
+
+## What I Do Not Claim
+
+This profile does not claim customer outcomes, production deployments, accounting correctness, trading performance, enterprise compliance, or revenue unless separately verified. Finance, POHODA, trading, and live automation topics are presented only as bounded workstreams or public-safe architecture directions.
 
 ## Best-Fit Roles
 
+- AI Automation Solution Architect
 - AI Automation Engineer
 - AI Product Engineer
 - Solution Architect, AI Automation
-- n8n Workflow Engineer
-- Internal Tools Engineer
 - Workflow Automation Specialist
+- Internal Tools Engineer
 - Product Operations Engineer
 - Solutions Engineer, AI Automation
 - Agentic Workflow Engineer
@@ -78,21 +99,21 @@ Business problem
 | Area | Tools and patterns |
 | --- | --- |
 | AI / LLMs | OpenAI models, prompt design, RAG patterns, AI-assisted workflows, evaluation checklists |
-| Workflow automation | n8n-style orchestration, webhooks, routing, approvals, retries, status flows |
+| Workflow automation | n8n-style orchestration, routing, approvals, retries, status flows, review states |
 | Engineering delivery | GitHub, Codex-style workflows, PR discipline, validation-first delivery, documentation |
 | Backend/services | Python, FastAPI basics, APIs, JSON/XML, service boundaries |
-| Frontend/product surfaces | React/TypeScript with AI-assisted delivery, dashboards, product demos, landing pages |
+| Frontend/product surfaces | React/TypeScript, dashboards, product demos, landing pages, internal tools |
 | Business systems | Google Workspace, Gmail, Drive, Sheets, Telegram, document workflows |
 | Quality/operations | Test cases, proof packs, audit notes, health checks, privacy boundaries, handoff docs |
 
 ## Case Study Directions
 
-These are public-safe directions, not claims of full production deployment, accounting correctness, trading performance, enterprise compliance, or customer outcomes.
+These are public-safe directions, not claims of full production deployment, accounting correctness, trading performance, enterprise compliance, revenue, or customer outcomes.
 
-- **FacturaAI / FineCon:** invoice and document automation workstream with intake, structured data, review states, POHODA XML/UBL preparation direction, and validation-first delivery.
-- **Aureus Automation Lab:** public and product surfaces for explaining AI automation, internal tooling, and delivery systems.
-- **Aureus OS-style internal operating system patterns:** scoped, reviewable, AI-assisted work with explicit validation and handoff.
-- **n8n workflow factory / workflow-as-source patterns:** source-controlled workflow thinking, import boundaries, validation gates, and no-secret discipline.
+- **FacturaAI / FineCon:** document-heavy workflow architecture with intake, extraction direction, review states, downstream handoff boundaries, and validation-first delivery.
+- **Aureus Automation Lab:** public and product surfaces for explaining AI automation, internal tooling, delivery systems, and reviewable product slices.
+- **Aureus OS-style operating system patterns:** scoped AI-assisted work with explicit validation, evidence, approval boundaries, and handoff.
+- **n8n workflow factory / workflow-as-source patterns:** source-controlled workflow thinking, import boundaries, validation gates, and sensitive-value discipline.
 - **Internal dashboards / proof-pack handoff:** operating consoles, evidence notes, QA artifacts, and next-step roadmaps.
 
 Read the public-safe examples: [CASE_STUDIES.md](CASE_STUDIES.md)
@@ -117,10 +138,21 @@ A useful automation or internal tool should include:
 - realistic test examples,
 - exception states,
 - privacy boundary,
+- evidence capture,
 - handoff notes,
 - next-step roadmap.
 
 ![Quality loop](assets/quality-loop.svg)
+
+## Current Portfolio Status
+
+| Area | Public posture |
+| --- | --- |
+| GitHub profile | Public-safe front door |
+| Case studies | Sanitized architecture directions |
+| Private repositories | Not exposed by default |
+| Technical walkthroughs | Available with controlled scope |
+| Production/client-like material | Not public |
 
 ## Public Resources
 
@@ -131,6 +163,12 @@ A useful automation or internal tool should include:
 - [COLLABORATION.md](COLLABORATION.md) - how work starts, moves, and hands off.
 - [PUBLIC_BOUNDARY.md](PUBLIC_BOUNDARY.md) - what can and cannot be shown publicly.
 - [REVIEW_GUIDE.md](REVIEW_GUIDE.md) - review path for recruiters, clients, and technical reviewers.
+- [PROFILE_COMPLETENESS_CHECK.md](PROFILE_COMPLETENESS_CHECK.md) - maintenance checklist before public review.
+- [PROFILE_PINS_GUIDE.md](PROFILE_PINS_GUIDE.md) - manual profile pin guidance.
+
+## Technical Walkthrough
+
+I can walk through selected architecture notes, sanitized examples, and public-safe workflow shapes after the initial context and privacy boundary are clear.
 
 ## Starting Point
 

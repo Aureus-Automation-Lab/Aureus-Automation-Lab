@@ -28,6 +28,14 @@ Good first slices often look like a structured intake flow, review queue, dashbo
 | Handoff | Make the system operable without hidden context | Operating notes, runbook, known limits, next-step roadmap | Could another person run or review it later? |
 | Next iteration | Decide what to improve after evidence exists | Prioritized backlog, scope recommendation, optional next slice | Is the next step based on proof instead of guesswork? |
 
+## What Good Collaboration Prevents
+
+- building before the problem is understood,
+- automating decisions that need review,
+- hiding fragile logic in black boxes,
+- creating systems nobody can operate later,
+- treating AI output as correct without evidence.
+
 ## Communication Style
 
 I aim for communication that is:
