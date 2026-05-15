@@ -26,7 +26,7 @@
     <path d="M175 0V560M350 0V560M525 0V560M700 0V560M875 0V560M1050 0V560M1225 0V560" stroke="#F7F8FA" stroke-opacity="0.08"/>
   </g>
   <text x="74" y="76" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="40" font-weight="800">Collaboration Flow</text>
-  <text x="74" y="110" fill="#B8F7D4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">Robert Kolesar / KimiAoki - AI Automation Solution Architect</text>
+  <text x="74" y="110" fill="#B8F7D4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">Robert Kolesár / KimiAoki - Aureus Automation Lab</text>
   <text x="74" y="140" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Discovery, architecture, build, review, handoff, and next iteration.</text>
   <path d="M178 316C326 246 438 236 586 300C726 360 842 254 982 284C1092 306 1142 248 1246 244" stroke="url(#flow)" stroke-width="6" stroke-linecap="round" stroke-dasharray="16 18">
     <animate attributeName="stroke-dashoffset" values="0;-180" dur="12s" repeatCount="indefinite"/>

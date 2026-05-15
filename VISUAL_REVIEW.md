@@ -1,19 +1,23 @@
 # Visual Review
 
-## Visual Identity Target
+## Aureus Visual Identity Target
 
-Robert Kolesar / KimiAoki
+Robert Kolesár / KimiAoki<br>
+Founder, Aureus Automation Lab<br>
+AI Product Systems Architect<br>
+Builder of Aureus Autonomous Operating Platform
 
-AI Automation Solution Architect
-
-## SVG Assets
+## Aureus Visual Assets
 
 | Asset | Purpose | Should communicate |
 | --- | --- | --- |
-| `assets/profile-banner.svg` | Main hero | Identity, role, process -> architecture -> validation -> handoff |
-| `assets/capability-system.svg` | Capability system | process, AI workflow, internal tool, validation, evidence, handoff |
-| `assets/collaboration-flow.svg` | Delivery flow | discovery, architecture, build, review, handoff, next iteration |
-| `assets/quality-loop.svg` | Quality loop | scope, tests, review, evidence, handoff, iteration |
+| `assets/profile-banner.svg` | Main hero | Identity, Aureus Automation Lab, AOP, public-safe review path |
+| `assets/aureus-aop-public-architecture.svg` | Architecture map | AOP, GitHub/Codex, n8n, Supervisor, Web Studio, FineCon, evidence |
+| `assets/n8n-workflow-automation-map.svg` | n8n workflow map | Workflow source, validation, approval boundary |
+| `assets/supervisor-validation-flow.svg` | Supervisor map | Codex worker, Supervisor capability, scorecard, evidence |
+| `assets/finecon-invoice-flow.svg` | FineCon map | Intake, extraction, review, POHODA boundary |
+| `assets/web-studio-pipeline.svg` | Web Studio map | Brief, design system, tool orchestration, browser QA |
+| `assets/proof-evidence-loop.svg` | Proof loop | Validation, egress, evidence, handoff |
 
 ## Mermaid Diagrams
 
@@ -32,7 +36,7 @@ AI Automation Solution Architect
 ## Visual Checklist
 
 - [ ] no outdated "Kimi Aoki" main title,
-- [ ] role appears as AI Automation Solution Architect,
+- [ ] role appears as Founder, Aureus Automation Lab / AI Product Systems Architect,
 - [ ] diagrams are readable,
 - [ ] no private data,
 - [ ] no external images,

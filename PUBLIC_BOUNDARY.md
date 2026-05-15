@@ -1,5 +1,24 @@
 # Public Boundary
 
+This profile is designed as a public-safe front door for Robert Kolesár / KimiAoki, Aureus Automation Lab, and Aureus Autonomous Operating Platform.
+
+The goal is to show architecture, capability, validation discipline, and public-safe proof without exposing private implementation details.
+
+## Aureus Public / Private Matrix
+
+| Category | Public-safe? | Notes |
+| --- | --- | --- |
+| Aureus AOP architecture | Yes | Generic system maps and review paths are safe |
+| n8n workflow concepts | Yes | Generic workflow shapes only |
+| Raw n8n workflow exports | No | May expose private logic, IDs, endpoints, or credentials |
+| Azure / Supervisor capability | Yes | Demonstrated capability wording only |
+| Azure secrets/endpoints | No | Never public |
+| FineCon / Invoice direction | Yes | Review boundary and public-safe diagrams |
+| POHODA internals | No | Credentials, imports, company data, and accounting internals stay private |
+| Web Studio | Yes | Public-safe architecture and visual QA model |
+| Private screenshots | No | Only sanitized alternatives later |
+| Customer/revenue/compliance claims | No | Only if separately verified |
+
 ## Why Public-Safe Matters
 
 AI automation work often touches private business processes, internal documents, credentials, workflow logic, customer-like records, endpoints, and production settings. A strong public portfolio should show thinking and capability without exposing systems that should remain private.

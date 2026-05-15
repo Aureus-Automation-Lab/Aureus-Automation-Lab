@@ -1,5 +1,36 @@
 # Solution Architecture
 
+## Aureus AOP Architecture Lens
+
+This profile now represents Robert Kolesár / KimiAoki as Founder of Aureus Automation Lab, AI Product Systems Architect, and builder of Aureus Autonomous Operating Platform.
+
+Aureus AOP connects business process discovery, n8n workflow automation, GitHub / Codex delivery, Azure/OpenAI Supervisor capability, validation, egress review, evidence, Web Studio / Experience surfaces, and FineCon / Invoice workflow direction.
+
+```mermaid
+flowchart TD
+    A[Business process] --> B[AOP mission contract]
+    B --> C[GitHub / Codex delivery]
+    C --> D[n8n workflow source]
+    C --> E[Web Studio surface]
+    C --> F[FineCon / Invoice direction]
+    D --> G[Validation + evidence]
+    E --> G
+    F --> G
+    G --> H[Public-safe handoff]
+```
+
+## AOP Layer Snapshot
+
+| Layer | Purpose | Public-safe artifact |
+| --- | --- | --- |
+| Business process | Understand owner, inputs, decisions, failures, and handoffs | Process map |
+| GitHub delivery | Make work scoped, reviewed, and evidence-backed | PR / review path |
+| n8n workflow | Treat automation as reviewable source | Workflow boundary map |
+| AI / Supervisor | Use AI assistance with verifier and evidence concepts | Supervisor capability note |
+| Validation | Prove output quality before trust | Checklist / proof pack |
+| Egress review | Keep external output safe | Public-safe release note |
+| Handoff | Make operation understandable later | Operating notes |
+
 ## Architecture Snapshot
 
 ```mermaid

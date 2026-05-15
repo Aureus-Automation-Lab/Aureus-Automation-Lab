@@ -1,5 +1,20 @@
 # Profile Pins Guide
 
+## Aureus-Aligned Pin Strategy
+
+Pins should make the profile understandable in under 10 seconds:
+
+1. `KimiAoki/KimiAoki` - profile front door.
+2. `AureusAutomationLab/n8n-workflows` - AOP core repository if public/internal access is appropriate.
+3. Best public-safe automation / workflow demo.
+4. Best product or Web Studio surface.
+5. Best template / small service repo.
+6. Best case-study gist or sanitized proof pack.
+
+If no public-safe implementation repo exists yet, create a sanitized demo repo instead of exposing private repos.
+
+Do not pin private repos expecting public reviewers to see them. Do not pin unfinished or confusing repos without README/status.
+
 GitHub profile pins are managed manually from the GitHub profile UI. Private repositories should not be pinned for public reviewers because they will not be visible to most visitors.
 
 ## Recommended Pin Categories
