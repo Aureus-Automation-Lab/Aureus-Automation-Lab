@@ -1,5 +1,13 @@
 # Collaboration
 
+![Aureus collaboration flow](assets/collaboration-flow.svg)
+
+| Page signal | What this page clarifies |
+| --- | --- |
+| Delivery model | discovery -> architecture -> build -> review -> handoff -> next iteration |
+| Good outcome | a first useful slice with evidence and owner control |
+| Safety boundary | sensitive actions stay behind review, explicit approval, and private context |
+
 ## How Collaboration Starts
 
 A good collaboration starts with the process, not the tool. Useful starting inputs are:

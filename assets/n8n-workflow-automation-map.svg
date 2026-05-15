@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="360" viewBox="0 0 980 360" role="img" aria-labelledby="title desc">
+  <title id="title">n8n workflow automation map</title>
+  <desc id="desc">Public-safe map of n8n workflow source, validation, review, import boundary, and owner approval.</desc>
+  <rect width="980" height="360" rx="26" fill="#081018"/>
+  <text x="54" y="62" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="850">n8n Workflow Automation</text>
+  <text x="54" y="96" fill="#9FB0C3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Workflow-as-source with credential and activation boundaries.</text>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="850" font-size="14">
+    <rect x="58" y="170" width="128" height="62" rx="15" fill="#11231F" stroke="#4CE0B5"/><text x="122" y="207" text-anchor="middle" fill="#E5FFF0">spec</text>
+    <rect x="226" y="170" width="128" height="62" rx="15" fill="#111B2A" stroke="#71C7FF"/><text x="290" y="207" text-anchor="middle" fill="#E8F6FF">JSON source</text>
+    <rect x="394" y="170" width="128" height="62" rx="15" fill="#241B0F" stroke="#FFC857"/><text x="458" y="207" text-anchor="middle" fill="#FFF4C7">validation</text>
+    <rect x="562" y="170" width="128" height="62" rx="15" fill="#151424" stroke="#A97CFF"/><text x="626" y="207" text-anchor="middle" fill="#F0E6FF">PR review</text>
+    <rect x="730" y="170" width="158" height="62" rx="15" fill="#2A1115" stroke="#F76F8E"/><text x="809" y="207" text-anchor="middle" fill="#FFE0E8">approval boundary</text>
+  </g>
+  <path d="M186 201H226M354 201H394M522 201H562M690 201H730" stroke="#7ED6FF" stroke-width="4" stroke-linecap="round"/>
+</svg>
+
