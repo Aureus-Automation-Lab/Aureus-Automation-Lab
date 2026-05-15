@@ -1,5 +1,13 @@
 # Profile Completeness Check
 
+![Aureus profile completeness map](assets/completeness-check-map.svg)
+
+| Page signal | What this checklist protects |
+| --- | --- |
+| Launch readiness | identity, public boundary, visuals, links, pins, and external-viewer check |
+| Maintenance readiness | future updates stay honest, visual, and public-safe |
+| Safety boundary | no private repo content, screenshots, credentials, endpoints, or fake claims |
+
 ## Aureus Presentation Readiness
 
 - [ ] README clearly says Robert Kolesár / KimiAoki.

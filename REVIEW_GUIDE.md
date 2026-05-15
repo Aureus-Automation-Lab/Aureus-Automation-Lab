@@ -1,5 +1,13 @@
 # Review Guide
 
+![Aureus reviewer path map](assets/review-path-map.svg)
+
+| Page signal | What to do first |
+| --- | --- |
+| 60-second scan | README, At A Glance, Architecture Cards, Public Boundary |
+| Technical scan | Solution Architecture, Case Studies, Capabilities |
+| Client scan | One-Pager, Build Menu, Collaboration, public pages |
+
 ## Fast Review For Aureus Presentation
 
 If you only have 60 seconds:

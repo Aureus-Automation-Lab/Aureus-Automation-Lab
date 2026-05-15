@@ -1,5 +1,13 @@
 # Aureus Public Profile One-Pager
 
+![Robert Kolesár / KimiAoki public profile banner](assets/profile-banner.svg)
+
+| Page signal | What to remember |
+| --- | --- |
+| Identity | Robert Kolesár / KimiAoki, Founder of Aureus Automation Lab |
+| Platform | Aureus Autonomous Operating Platform connects GitHub, n8n, validation, evidence, and public-safe delivery |
+| Safety boundary | this is a public-safe one-pager, not a private implementation disclosure |
+
 ## Identity
 
 Robert Kolesár / KimiAoki  

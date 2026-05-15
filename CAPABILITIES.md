@@ -1,5 +1,13 @@
 # Capabilities
 
+![Aureus capability system board](assets/capability-system.svg)
+
+| Page signal | What to scan first |
+| --- | --- |
+| Role proof | process architecture, AI workflow architecture, integration architecture, validation architecture |
+| Best proof | capability map, delivery outputs, public boundary |
+| Safety boundary | no private exports, credentials, endpoints, workflow IDs, or unsupported claims |
+
 ## Purpose
 
 This is a public-safe overview of what I can design, build, validate, and hand off as Founder of Aureus Automation Lab, AI Product Systems Architect, and builder of Aureus Autonomous Operating Platform. It describes capability areas and delivery outputs without exposing private systems, credentials, raw workflow exports, customer-like data, endpoints, POHODA internals, or production context.

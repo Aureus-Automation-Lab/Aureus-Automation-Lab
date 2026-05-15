@@ -1,5 +1,13 @@
 # Visual Review
 
+![Robert Kolesár / KimiAoki public architecture banner](assets/profile-banner.svg)
+
+| Page signal | What this page verifies |
+| --- | --- |
+| Visual identity | Robert Kolesár / KimiAoki, Aureus Automation Lab, Aureus AOP |
+| Visual system | all docs have public-safe visuals, diagrams, or asset references |
+| Safety boundary | no fake screenshots, fake proof, private data, or external image dependencies |
+
 ## Aureus Visual Identity Target
 
 Robert Kolesár / KimiAoki<br>
@@ -18,6 +26,12 @@ Builder of Aureus Autonomous Operating Platform
 | `assets/finecon-invoice-flow.svg` | FineCon map | Intake, extraction, review, POHODA boundary |
 | `assets/web-studio-pipeline.svg` | Web Studio map | Brief, design system, tool orchestration, browser QA |
 | `assets/proof-evidence-loop.svg` | Proof loop | Validation, egress, evidence, handoff |
+| `assets/build-menu-map.svg` | Build menu | Collaboration format selection |
+| `assets/case-study-system-map.svg` | Case studies | Problem, architecture, AI role, validation, proof |
+| `assets/public-boundary-map.svg` | Public boundary | Safe-to-show vs never-public |
+| `assets/review-path-map.svg` | Review guide | Recruiter, CTO, client, partner paths |
+| `assets/profile-pins-map.svg` | Profile pins | Public-safe pin order |
+| `assets/completeness-check-map.svg` | Completeness | Identity, visuals, safety, proof, pins, send-ready |
 
 ## Mermaid Diagrams
 

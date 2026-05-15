@@ -121,6 +121,8 @@ This profile does not claim official Azure certification, enterprise compliance 
 | [REVIEW_GUIDE.md](REVIEW_GUIDE.md) | Review paths for different audiences |
 | [PROFILE_PINS_GUIDE.md](PROFILE_PINS_GUIDE.md) | Manual GitHub pin strategy |
 | [PROFILE_COMPLETENESS_CHECK.md](PROFILE_COMPLETENESS_CHECK.md) | Public readiness checklist |
+| [PUBLIC_PIN_CANDIDATES.md](PUBLIC_PIN_CANDIDATES.md) | Final public-safe pin candidates |
+| [PROFILE_PUBLICATION_GUIDE.md](PROFILE_PUBLICATION_GUIDE.md) | Manual visibility and external-viewer checklist |
 | [VISUAL_REVIEW.md](VISUAL_REVIEW.md) | Visual asset and diagram review |
 
 ## Technical Walkthrough

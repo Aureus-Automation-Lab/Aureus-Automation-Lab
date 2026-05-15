@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" role="img" aria-labelledby="title desc">
+  <title id="title">Aureus public boundary map</title>
+  <desc id="desc">Public/private boundary map for responsible GitHub portfolio review.</desc>
+  <rect width="1280" height="520" rx="36" fill="#07111F"/>
+  <text x="76" y="92" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="44" font-weight="800">Public Boundary</text>
+  <text x="76" y="130" fill="#9FB0C3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19">Show architecture and proof discipline. Keep private systems private.</text>
+  <rect x="80" y="186" width="520" height="230" rx="28" fill="#0F1F1D" stroke="#2C6F69"/>
+  <text x="122" y="240" fill="#68F2D8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="900">Safe to show</text>
+  <text x="124" y="286" fill="#D7FFF6" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19">architecture diagrams</text>
+  <text x="124" y="324" fill="#D7FFF6" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19">generic workflow states</text>
+  <text x="124" y="362" fill="#D7FFF6" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19">validation checklists</text>
+  <text x="124" y="400" fill="#D7FFF6" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19">sanitized proof packs</text>
+  <rect x="680" y="186" width="520" height="230" rx="28" fill="#201319" stroke="#A04D5D"/>
+  <text x="722" y="240" fill="#FFD3DA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="900">Never public</text>
+  <text x="724" y="286" fill="#FFE8EC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19">credentials, tokens, secrets</text>
+  <text x="724" y="324" fill="#FFE8EC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19">webhooks, endpoints, workflow IDs</text>
+  <text x="724" y="362" fill="#FFE8EC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19">POHODA internals or private data</text>
+  <text x="724" y="400" fill="#FFE8EC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19">unsupported customer/revenue claims</text>
+  <path d="M622 300 H658" stroke="#77C7FF" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="640" cy="300" r="20" fill="#101923" stroke="#77C7FF"/>
+  <text x="632" y="307" fill="#77C7FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900">/</text>
+</svg>

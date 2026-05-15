@@ -1,5 +1,13 @@
 # Public Boundary
 
+![Aureus public private boundary map](assets/public-boundary-map.svg)
+
+| Page signal | What this page proves |
+| --- | --- |
+| Responsible proof | serious automation can be shown through architecture without leaking implementation |
+| Private-by-design | private repos are not hidden because there is nothing to show; they contain sensitive process context |
+| Safety boundary | no secrets, credentials, endpoints, webhooks, workflow IDs, POHODA internals, or private screenshots |
+
 This profile is designed as a public-safe front door for Robert Kolesár / KimiAoki, Aureus Automation Lab, and Aureus Autonomous Operating Platform.
 
 The goal is to show architecture, capability, validation discipline, and public-safe proof without exposing private implementation details.

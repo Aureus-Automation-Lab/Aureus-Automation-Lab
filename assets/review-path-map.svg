@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" role="img" aria-labelledby="title desc">
+  <title id="title">Aureus reviewer path map</title>
+  <desc id="desc">Reviewer path map for recruiters, CTOs, clients, partners, and investors.</desc>
+  <rect width="1280" height="520" rx="36" fill="#08111F"/>
+  <text x="76" y="92" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="44" font-weight="800">Review Path</text>
+  <text x="76" y="130" fill="#9FB0C3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19">Different reviewers get a clear route through the same public-safe system.</text>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <rect x="90" y="200" width="245" height="150" rx="26" fill="#101923" stroke="#315F87"/>
+    <text x="122" y="252" fill="#91D8FF" font-size="26" font-weight="900">Recruiter</text>
+    <text x="122" y="292" fill="#B6C3D1" font-size="17">role fit, stack, clarity</text>
+    <rect x="375" y="200" width="245" height="150" rx="26" fill="#101923" stroke="#2C6F69"/>
+    <text x="407" y="252" fill="#68F2D8" font-size="26" font-weight="900">CTO</text>
+    <text x="407" y="292" fill="#B6C3D1" font-size="17">architecture, gates, risk</text>
+    <rect x="660" y="200" width="245" height="150" rx="26" fill="#101923" stroke="#8B6C2C"/>
+    <text x="692" y="252" fill="#FFE28A" font-size="26" font-weight="900">Client</text>
+    <text x="692" y="292" fill="#B6C3D1" font-size="17">process value, handoff</text>
+    <rect x="945" y="200" width="245" height="150" rx="26" fill="#101923" stroke="#7A5CF5"/>
+    <text x="977" y="252" fill="#CDBDFF" font-size="26" font-weight="900">Partner</text>
+    <text x="977" y="292" fill="#B6C3D1" font-size="17">platform direction</text>
+  </g>
+  <path d="M212 370 C360 440 910 440 1068 370" fill="none" stroke="#77C7FF" stroke-width="4" opacity="0.5"/>
+  <rect x="240" y="402" width="800" height="58" rx="18" fill="#0F172A" stroke="#243447"/>
+  <text x="282" y="438" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Start at README, then follow the role-specific route to architecture, cases, boundary, and walkthrough.</text>
+</svg>

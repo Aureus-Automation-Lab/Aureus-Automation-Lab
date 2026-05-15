@@ -1,15 +1,25 @@
 # Profile Pins Guide
 
+![Aureus public-safe profile pins map](assets/profile-pins-map.svg)
+
+| Page signal | What this guide prevents |
+| --- | --- |
+| Public proof | pinned items should be polished, understandable, and safe for external reviewers |
+| Review path | pins should form a portfolio path, not a random repo list |
+| Safety boundary | private/internal repos should not be pinned for public reviewers |
+
 ## Aureus-Aligned Pin Strategy
 
 Pins should make the profile understandable in under 10 seconds:
 
+For the final candidate list, use [PUBLIC_PIN_CANDIDATES.md](PUBLIC_PIN_CANDIDATES.md).
+
 1. `KimiAoki/KimiAoki` - profile front door.
-2. `AureusAutomationLab/n8n-workflows` - AOP core repository if public/internal access is appropriate.
-3. Best public-safe automation / workflow demo.
-4. Best product or Web Studio surface.
-5. Best template / small service repo.
-6. Best case-study gist or sanitized proof pack.
+2. Sanitized Aureus AOP architecture gist or demo repo.
+3. Automation Audit public-safe process map gist/demo.
+4. Invoice / FineCon public-safe workflow gist/demo.
+5. Web Studio / Figma-to-code public-safe demo if visually ready.
+6. Template or health demo repo if public/review-safe.
 
 If no public-safe implementation repo exists yet, create a sanitized demo repo instead of exposing private repos.
 
@@ -29,11 +39,11 @@ GitHub profile pins are managed manually from the GitHub profile UI. Private rep
 ## Recommended Pin Order
 
 1. `KimiAoki/KimiAoki`.
-2. Best public-safe automation / workflow demo.
-3. Best product or web surface.
-4. Best template / small service repo.
-5. Best case-study gist.
-6. Best architecture demo or sanitized proof pack.
+2. Sanitized Aureus AOP architecture gist or demo repo.
+3. Automation Audit public-safe process map gist/demo.
+4. Invoice / FineCon public-safe workflow gist/demo.
+5. Web Studio / Figma-to-code public-safe demo if visually ready.
+6. Template or health demo repo if public/review-safe.
 
 If no public-safe implementation repo exists yet, create a sanitized demo repo instead of exposing private repos.
 

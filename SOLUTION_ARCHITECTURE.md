@@ -1,5 +1,13 @@
 # Solution Architecture
 
+![Aureus AOP public architecture](assets/aureus-aop-public-architecture.svg)
+
+| Page signal | What this page demonstrates |
+| --- | --- |
+| Architecture lens | business process -> AOP layers -> review boundaries -> validation -> handoff |
+| Best proof | layer snapshot, decision matrix, failure modes, artifacts |
+| Safety boundary | architecture without credentials, private endpoints, POHODA internals, or live system details |
+
 ## Aureus AOP Architecture Lens
 
 This profile now represents Robert Kolesár / KimiAoki as Founder of Aureus Automation Lab, AI Product Systems Architect, and builder of Aureus Autonomous Operating Platform.

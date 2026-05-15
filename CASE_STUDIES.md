@@ -1,5 +1,13 @@
 # Case Study Directions
 
+![Aureus public-safe case study system map](assets/case-study-system-map.svg)
+
+| Page signal | What to scan first |
+| --- | --- |
+| Proof type | architecture directions, not private implementation dumps |
+| Best examples | FineCon / Invoice, n8n Workflow Factory, Web Studio, internal operating patterns |
+| Safety boundary | no production claims, private workflow exports, customer-like data, credentials, or accounting correctness claims |
+
 These are public-safe case study directions for Robert Kolesár / KimiAoki and Aureus Automation Lab. They show architecture thinking without exposing private implementation details, credentials, raw workflow exports, client-like data, POHODA internals, production context, or unsupported claims.
 
 They are not claims of production deployment, accounting correctness, trading performance, enterprise compliance, revenue, or customer outcomes unless separately verified.
