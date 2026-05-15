@@ -1,8 +1,27 @@
 # Capabilities
 
+![Aureus capability system board](assets/capability-system.svg)
+
+| Page signal | What to scan first |
+| --- | --- |
+| Role proof | process architecture, AI workflow architecture, integration architecture, validation architecture |
+| Best proof | capability map, delivery outputs, public boundary |
+| Safety boundary | no private exports, credentials, endpoints, workflow IDs, or unsupported claims |
+
 ## Purpose
 
-This is a public-safe overview of what I can design, build, validate, and hand off as an AI Automation Solution Architect. It describes capability areas and delivery outputs without exposing private systems, credentials, raw workflow exports, customer-like data, endpoints, or production context.
+This is a public-safe overview of what I can design, build, validate, and hand off as Founder of Aureus Automation Lab, AI Product Systems Architect, and builder of Aureus Autonomous Operating Platform. It describes capability areas and delivery outputs without exposing private systems, credentials, raw workflow exports, customer-like data, endpoints, POHODA internals, or production context.
+
+## Aureus Capability Stack
+
+| Capability | Public-safe signal |
+| --- | --- |
+| Aureus AOP | Operating platform for GitHub/Codex delivery, n8n workflows, validation, evidence, and handoff |
+| n8n workflow automation | Workflow-as-source discipline, import boundaries, activation approval |
+| Supervisor / Azure capability | Demonstrated integration capability through internal runtime, smoke tests, and evidence-based validation |
+| FineCon / Invoice | Document and invoice workflow direction with review and POHODA boundaries |
+| Web Studio / Experience | Public-safe product surfaces with design system, visual QA, claims review, and browser evidence |
+| Proof / evidence | Action gates, egress review, scorecards, and proof packs |
 
 ## Capability Architecture Map
 

@@ -1,10 +1,31 @@
 # Profile Completeness Check
 
+![Aureus profile completeness map](assets/completeness-check-map.svg)
+
+| Page signal | What this checklist protects |
+| --- | --- |
+| Launch readiness | identity, public boundary, visuals, links, pins, and external-viewer check |
+| Maintenance readiness | future updates stay honest, visual, and public-safe |
+| Safety boundary | no private repo content, screenshots, credentials, endpoints, or fake claims |
+
+## Aureus Presentation Readiness
+
+- [ ] README clearly says Robert Kolesár / KimiAoki.
+- [ ] README clearly says Founder, Aureus Automation Lab.
+- [ ] README clearly says AI Product Systems Architect.
+- [ ] README clearly says Builder of Aureus Autonomous Operating Platform.
+- [ ] Public URLs are present.
+- [ ] Azure / Supervisor wording says demonstrated capability, not certification.
+- [ ] FineCon / Invoice wording avoids accounting correctness claims.
+- [ ] Web Studio wording avoids final proof claims unless evidence exists.
+- [ ] Public/private boundary is visible.
+- [ ] Visual assets match the Aureus AOP positioning.
+
 Use this checklist before making the profile public or sending it for review.
 
 ## Identity And Positioning
 
-- [ ] README has clear identity and role: Robert Kolesar / KimiAoki, AI Automation Solution Architect.
+- [ ] README has clear identity and role: Robert Kolesár / KimiAoki, Founder of Aureus Automation Lab, AI Product Systems Architect.
 - [ ] Banner matches the identity and role.
 - [ ] The first 10 seconds explain business process -> solution architecture -> AI/workflow layer -> validation -> handoff.
 - [ ] Best-fit roles are visible.

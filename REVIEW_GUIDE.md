@@ -1,5 +1,38 @@
 # Review Guide
 
+![Aureus reviewer path map](assets/review-path-map.svg)
+
+| Page signal | What to do first |
+| --- | --- |
+| 60-second scan | README, At A Glance, Architecture Cards, Public Boundary |
+| Technical scan | Solution Architecture, Case Studies, Capabilities |
+| Client scan | One-Pager, Build Menu, Collaboration, public pages |
+
+## Fast Review For Aureus Presentation
+
+If you only have 60 seconds:
+
+1. Read `README.md`.
+2. Check `AUREUS_PUBLIC_PROFILE_ONE_PAGER.md`.
+3. Review `SOLUTION_ARCHITECTURE.md` for the AOP architecture lens.
+4. Open `CASE_STUDIES.md` for public-safe directions.
+5. Check `PUBLIC_BOUNDARY.md` before asking for private material.
+
+## Reviewer Journey
+
+```mermaid
+flowchart TD
+    A[README] --> B{Reviewer type}
+    B --> C[Recruiter]
+    B --> D[CTO / technical reviewer]
+    B --> E[Client / partner]
+    B --> F[Investor / founder reviewer]
+    C --> G[Capabilities + Review Guide]
+    D --> H[Solution Architecture + Case Studies]
+    E --> I[One-Pager + Build Menu]
+    F --> J[AOP story + public links]
+```
+
 ## Reviewer Journey
 
 ```mermaid
@@ -25,7 +58,7 @@ If you only have 60 seconds:
 
 ## For Recruiters
 
-Best-fit roles include AI Automation Solution Architect, AI Automation Engineer, AI Product Engineer, Workflow Automation Specialist, Internal Tools Engineer, Product Operations Engineer, Solutions Engineer for AI Automation, and Agentic Workflow Engineer.
+Adjacent role signals include AI automation architecture, AI product engineering, workflow automation, internal tools, product operations, solutions engineering, and agentic workflow design.
 
 Start with [README.md](README.md), then review [SOLUTION_ARCHITECTURE.md](SOLUTION_ARCHITECTURE.md) and [CASE_STUDIES.md](CASE_STUDIES.md). Many real automation repositories and workflow exports stay private because they can contain business logic, credentials, customer-like data, endpoints, and production context.
 

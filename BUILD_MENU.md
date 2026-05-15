@@ -1,5 +1,13 @@
 # Build Menu
 
+![Aureus build menu map](assets/build-menu-map.svg)
+
+| Page signal | What this page helps decide |
+| --- | --- |
+| First step | which collaboration format fits the current process problem |
+| Best buyer/user | teams that want useful automation without losing process control |
+| Safety boundary | no live automation, POHODA import, private data, or credential exposure from public review |
+
 These formats are designed for teams that want useful automation without losing control of the process.
 
 This is not a fixed product catalog. It is a public-safe menu of collaboration formats for turning manual or unclear work into controlled AI-assisted workflow systems, internal tools, and reviewable product slices.

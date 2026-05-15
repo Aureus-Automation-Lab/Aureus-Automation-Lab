@@ -1,8 +1,26 @@
 # Case Study Directions
 
-These are public-safe case study directions. They show architecture thinking without exposing private implementation details, credentials, raw workflow exports, client-like data, production context, or unsupported claims.
+![Aureus public-safe case study system map](assets/case-study-system-map.svg)
+
+| Page signal | What to scan first |
+| --- | --- |
+| Proof type | architecture directions, not private implementation dumps |
+| Best examples | FineCon / Invoice, n8n Workflow Factory, Web Studio, internal operating patterns |
+| Safety boundary | no production claims, private workflow exports, customer-like data, credentials, or accounting correctness claims |
+
+These are public-safe case study directions for Robert Kolesár / KimiAoki and Aureus Automation Lab. They show architecture thinking without exposing private implementation details, credentials, raw workflow exports, client-like data, POHODA internals, production context, or unsupported claims.
 
 They are not claims of production deployment, accounting correctness, trading performance, enterprise compliance, revenue, or customer outcomes unless separately verified.
+
+## Aureus Platform Case Study Map
+
+| Direction | What it demonstrates | Public boundary |
+| --- | --- | --- |
+| Aureus AOP | Operating platform around agents, GitHub, n8n, validation, evidence, and handoff | Architecture and docs only |
+| n8n Workflow Factory | Workflow-as-source and controlled automation changes | No raw private exports |
+| Supervisor / Azure capability | Verifier/supervisor integration concept with smoke tests and evidence gates | No Azure secrets or endpoints |
+| FineCon / Invoice | Document/invoice workflow with review and POHODA boundary | No accounting correctness claim |
+| Web Studio / Experience | Public-safe visual/product surface production | No private screenshots or fake dashboards |
 
 ## Case Study Review Map
 
