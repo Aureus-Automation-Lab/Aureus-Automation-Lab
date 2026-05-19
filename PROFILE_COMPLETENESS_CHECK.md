@@ -14,6 +14,8 @@
 - [ ] README clearly says Founder, Aureus Automation Lab.
 - [ ] README clearly says AI Product Systems Architect.
 - [ ] README clearly says Builder of Aureus Autonomous Operating Platform.
+- [ ] README uses the accepted Image 2 hero.
+- [ ] Generated images are labeled as public-safe concept visuals.
 - [ ] Public URLs are present.
 - [ ] Azure / Supervisor wording says demonstrated capability, not certification.
 - [ ] FineCon / Invoice wording avoids accounting correctness claims.
@@ -21,15 +23,15 @@
 - [ ] Public/private boundary is visible.
 - [ ] Visual assets match the Aureus AOP positioning.
 
-Use this checklist before making the profile public or sending it for review.
-
 ## Identity And Positioning
 
 - [ ] README has clear identity and role: Robert Kolesár / KimiAoki, Founder of Aureus Automation Lab, AI Product Systems Architect.
-- [ ] Banner matches the identity and role.
+- [ ] Banner and Image 2 hero match the identity and role.
 - [ ] The first 10 seconds explain business process -> solution architecture -> AI/workflow layer -> validation -> handoff.
 - [ ] Best-fit roles are visible.
 - [ ] Tools and stack are honest.
+- [ ] PROFILE_IMAGE2_PROMPT_PACK.md exists for future visual generation.
+- [ ] PROFILE_VIDEO_STORYBOARD.md exists for future public-safe video work.
 
 ## Public-Safe Boundary
 
@@ -53,6 +55,8 @@ Use this checklist before making the profile public or sending it for review.
 ## Visual Quality
 
 - [ ] Banner matches role.
+- [ ] Image 2 hero renders.
+- [ ] Workflow-governance image renders.
 - [ ] Diagrams render.
 - [ ] Mermaid diagrams are readable.
 - [ ] No visual asset contains outdated positioning.

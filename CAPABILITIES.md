@@ -2,6 +2,10 @@
 
 ![Aureus capability system board](assets/capability-system.svg)
 
+![n8n workflow governance concept](assets/image2/n8n-workflow-governance.png)
+
+Public-safe concept visual. Not a screenshot, not customer proof, not production evidence.
+
 | Page signal | What to scan first |
 | --- | --- |
 | Role proof | process architecture, AI workflow architecture, integration architecture, validation architecture |

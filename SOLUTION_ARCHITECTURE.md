@@ -2,6 +2,10 @@
 
 ![Aureus AOP public architecture](assets/aureus-aop-public-architecture.svg)
 
+![Robert Kolesár / KimiAoki public architecture hero](assets/image2/profile-public-architecture-hero.png)
+
+Public-safe concept visual. Not a screenshot, not customer proof, not production evidence.
+
 | Page signal | What this page demonstrates |
 | --- | --- |
 | Architecture lens | business process -> AOP layers -> review boundaries -> validation -> handoff |
