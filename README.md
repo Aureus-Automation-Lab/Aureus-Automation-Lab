@@ -99,15 +99,19 @@ Most serious automation work cannot be shown as raw code because it may contain 
 
 This profile does not claim official Azure certification, enterprise compliance certification, paying customers, production client results, accounting correctness, trading performance, guaranteed ROI, revenue, or production deployment outcomes unless separately verified.
 
-## Visual Portfolio
+## Visual System
 
-| Area | Visual |
-| --- | --- |
-| Profile architecture hero | ![Profile architecture hero](assets/image2/profile-public-architecture-hero.png) |
-| n8n workflow governance | ![n8n workflow governance](assets/image2/n8n-workflow-governance.png) |
-| Capability system | ![Aureus capability system board](assets/capability-system.svg) |
-| Collaboration flow | ![Aureus collaboration flow](assets/collaboration-flow.svg) |
-| Quality loop | ![Aureus quality loop](assets/quality-loop.svg) |
+These visuals are not decorative AI images. Each one has a review job.
+
+| Visual slot | What it should prove | Asset |
+| --- | --- | --- |
+| Profile hero | Manual process becomes architecture, validation, private boundary, and handoff | ![Profile architecture hero](assets/image2/profile-public-architecture-hero.png) |
+| Workflow governance | Workflow source moves through review gates, approval, credential separation, evidence, and handoff | ![n8n workflow governance](assets/image2/n8n-workflow-governance.png) |
+| Public boundary | Public-safe proof passes through a controlled boundary while private implementation stays sealed | ![Public private boundary](assets/image2/public-private-boundary.png) |
+| Supervisor validation | Worker output moves through contract check, supervisor review, repair loop, approval, and evidence | ![Supervisor validation capability](assets/image2/supervisor-validation-capability.png) |
+| Capability system | Aureus capabilities connect into an operating model | ![Aureus capability system board](assets/capability-system.svg) |
+| Collaboration flow | Work moves from discovery to architecture, build, review, handoff, and iteration | ![Aureus collaboration flow](assets/collaboration-flow.svg) |
+| Quality loop | Scope, tests, review, evidence, handoff, and iteration are part of delivery | ![Aureus quality loop](assets/quality-loop.svg) |
 
 ## Portfolio Navigation
 
@@ -121,6 +125,7 @@ This profile does not claim official Azure certification, enterprise compliance 
 | [COLLABORATION.md](COLLABORATION.md) | How work starts, reviews, and hands off |
 | [PUBLIC_BOUNDARY.md](PUBLIC_BOUNDARY.md) | What can and cannot be shown publicly |
 | [REVIEW_GUIDE.md](REVIEW_GUIDE.md) | Review paths for different audiences |
+| [PROFILE_IMAGEGEN_PRODUCTION_GUIDE.md](PROFILE_IMAGEGEN_PRODUCTION_GUIDE.md) | Image 2 production workflow and acceptance gate |
 | [PROFILE_IMAGE2_PROMPT_PACK.md](PROFILE_IMAGE2_PROMPT_PACK.md) | Prompt system for future profile visuals |
 | [PROFILE_VIDEO_STORYBOARD.md](PROFILE_VIDEO_STORYBOARD.md) | Azure/Sora-ready video concept package |
 | [PROFILE_PINS_GUIDE.md](PROFILE_PINS_GUIDE.md) | Manual GitHub pin strategy |

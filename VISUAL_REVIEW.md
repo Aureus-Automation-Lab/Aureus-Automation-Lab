@@ -23,6 +23,8 @@ Builder of Aureus Autonomous Operating Platform
 | --- | --- | --- |
 | `assets/image2/profile-public-architecture-hero.png` | Premium profile hero | Founder identity, AOP map, validation, evidence, public/private boundary |
 | `assets/image2/n8n-workflow-governance.png` | Premium workflow visual | Workflow source, review gates, credential separation, handoff evidence |
+| `assets/image2/public-private-boundary.png` | Premium public/private boundary visual | Public-safe artifacts, controlled review window, sealed private implementation |
+| `assets/image2/supervisor-validation-capability.png` | Premium supervisor validation visual | Contract check, supervisor review, repair loop, approval gate, evidence/handoff |
 | `assets/profile-banner.svg` | Static fallback hero | Identity, Aureus Automation Lab, AOP, public-safe review path |
 | `assets/aureus-aop-public-architecture.svg` | Architecture map | AOP, GitHub/Codex, n8n, Supervisor, Web Studio, FineCon, evidence |
 | `assets/n8n-workflow-automation-map.svg` | n8n workflow map | Workflow source, validation, approval boundary |
@@ -43,8 +45,10 @@ Builder of Aureus Autonomous Operating Platform
 | --- | --- | --- |
 | `assets/image2/profile-public-architecture-hero.png` | Accepted | No readable text, no fake data, no provider logo, meaningful profile/AOP concept |
 | `assets/image2/n8n-workflow-governance.png` | Accepted | No workflow IDs, no endpoints, no private payloads, clear review-gate concept |
+| `assets/image2/public-private-boundary.png` | Accepted | No text, no private data, clear public/private separation |
+| `assets/image2/supervisor-validation-capability.png` | Accepted | No provider logos, no certification implication, clear validation flow |
 
-See [PROFILE_IMAGE2_PROMPT_PACK.md](PROFILE_IMAGE2_PROMPT_PACK.md) for future prompt controls.
+See [PROFILE_IMAGE2_PROMPT_PACK.md](PROFILE_IMAGE2_PROMPT_PACK.md) and [PROFILE_IMAGEGEN_PRODUCTION_GUIDE.md](PROFILE_IMAGEGEN_PRODUCTION_GUIDE.md) for future prompt controls.
 
 ## Video Assets
 

@@ -6,6 +6,10 @@
 
 Public-safe concept visual. Not a screenshot, not customer proof, not production evidence.
 
+![Supervisor validation capability](assets/image2/supervisor-validation-capability.png)
+
+Public-safe concept visual. Demonstrated capability direction only, not official certification, not production proof.
+
 | Page signal | What this page demonstrates |
 | --- | --- |
 | Architecture lens | business process -> AOP layers -> review boundaries -> validation -> handoff |
