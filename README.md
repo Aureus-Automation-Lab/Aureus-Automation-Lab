@@ -25,6 +25,17 @@ This profile is a public-safe front door. It shows architecture, system thinking
 | Public proof style | Architecture maps, sanitized case studies, validation/evidence notes |
 | Main public pages | [Automation Lab](https://aureus.it.com/automationlab) and [Invoice / FineCon](https://aureus.it.com/invoice) |
 
+## What I Have Built
+
+| Built surface | What it shows publicly | What it should tell a reviewer |
+| --- | --- | --- |
+| Aureus Automation Lab | AI-native automation and product systems direction | I can shape a business process into a system, not just a script |
+| Aureus Autonomous Operating Platform | GitHub/Codex delivery, n8n workflows, validation, evidence, and handoff | I think in operating loops, gates, and reviewable delivery |
+| n8n workflow governance | Workflow-as-source, review boundaries, credential separation, activation control | I can make automation safer and maintainable |
+| Supervisor / Azure capability | Demonstrated integration capability through runtime, smoke tests, and evidence-based review | I can use AI as a controlled verifier, not a blind authority |
+| FineCon / Invoice direction | Document/invoice intake, review, validation, POHODA boundary, handoff | I can map document-heavy business workflows without overclaiming correctness |
+| Web Studio / Experience direction | Public-safe product surfaces, design system thinking, visual QA, claims review | I can make technical systems understandable to non-technical reviewers |
+
 ## Review Path
 
 | If you are... | Start here | What you will see |
@@ -103,12 +114,22 @@ This profile does not claim official Azure certification, enterprise compliance 
 
 | Area | Public posture |
 | --- | --- |
-| Profile repository | Ready to make public after owner visibility check |
+| Profile repository | Public-safe GitHub front door once repository visibility is enabled |
 | Private repositories | Not exposed by default |
 | Public pages | Linked as public review surfaces |
 | Architecture notes | Public-safe and sanitized |
 | Technical walkthroughs | Available with controlled scope |
 | Public pins / gists | Manual follow-up before broad outreach |
+
+## Before This Goes Public
+
+The profile is designed for public review, but the final owner check still matters. Before changing repository visibility, use [PUBLIC_LAUNCH_READINESS.md](PUBLIC_LAUNCH_READINESS.md) to confirm:
+
+- the GitHub profile repository is the correct special repo, `KimiAoki/KimiAoki`,
+- the first screen clearly explains who I am and what I built,
+- public proof is architecture-based rather than private implementation-based,
+- risky terms appear only in safety, boundary, or do-not-claim contexts,
+- no private repository content, secrets, workflow exports, endpoints, screenshots, or unsupported claims are exposed.
 
 ## Visual Proof Index
 
@@ -141,6 +162,7 @@ The visuals are concept explanations, not screenshots or proof claims. Each one 
 | [PROFILE_PINS_GUIDE.md](PROFILE_PINS_GUIDE.md) | Manual GitHub pin strategy |
 | [PROFILE_COMPLETENESS_CHECK.md](PROFILE_COMPLETENESS_CHECK.md) | Public readiness checklist |
 | [PROFILE_PUBLICATION_GUIDE.md](PROFILE_PUBLICATION_GUIDE.md) | Manual visibility and external-viewer checklist |
+| [PUBLIC_LAUNCH_READINESS.md](PUBLIC_LAUNCH_READINESS.md) | Final public-launch safety and clarity review |
 | [VISUAL_REVIEW.md](VISUAL_REVIEW.md) | Visual asset and diagram review |
 
 ## Technical Walkthrough
