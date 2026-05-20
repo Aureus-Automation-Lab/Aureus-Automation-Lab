@@ -4,6 +4,17 @@
 
 This task does not change repository visibility automatically. GitHub profile README appears publicly only when the special profile repository `KimiAoki/KimiAoki` is public.
 
+## Correct GitHub Target
+
+GitHub profile READMEs are rendered from a repository whose name exactly matches the account login. For this account, the public profile target is:
+
+| Item | Value |
+| --- | --- |
+| GitHub login | `KimiAoki` |
+| Display identity | Robert Kolesár / KimiAoki |
+| Profile repository | `KimiAoki/KimiAoki` |
+| Branch to verify | `main` |
+
 ## Before Making The Profile Public
 
 | Check | Required state |
@@ -14,12 +25,13 @@ This task does not change repository visibility automatically. GitHub profile RE
 | Visuals | README and key docs include public-safe SVG visuals |
 | Claims | No fake customers, revenue, certifications, accounting correctness, trading performance, or production client results |
 | Links | Public links and internal review links are intentional |
+| Launch review | [PUBLIC_LAUNCH_READINESS.md](PUBLIC_LAUNCH_READINESS.md) is reviewed |
 
 ## Manual Steps To Make The Profile Repo Public
 
 1. Open GitHub repository settings for `KimiAoki/KimiAoki`.
 2. Go to the danger zone visibility section.
-3. Change visibility from private to public only after the checklist above is complete.
+3. Change visibility from private to public only after [PUBLIC_LAUNCH_READINESS.md](PUBLIC_LAUNCH_READINESS.md) is complete.
 4. Confirm the repository name remains exactly `KimiAoki/KimiAoki`.
 5. Open the public GitHub profile in a signed-out or private browser session.
 
