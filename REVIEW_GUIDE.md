@@ -8,15 +8,15 @@
 | Technical scan | Solution Architecture, Case Studies, Capabilities |
 | Client scan | One-Pager, Build Menu, Collaboration, public pages |
 
-## Fast Review For Aureus Presentation
+## 60-Second Review
 
 If you only have 60 seconds:
 
-1. Read `README.md`.
-2. Check `AUREUS_PUBLIC_PROFILE_ONE_PAGER.md`.
-3. Review `SOLUTION_ARCHITECTURE.md` for the AOP architecture lens.
-4. Open `CASE_STUDIES.md` for public-safe directions.
-5. Check `PUBLIC_BOUNDARY.md` before asking for private material.
+1. Read the hero and At A Glance in [README.md](README.md).
+2. Check the Public Architecture Snapshot.
+3. Review [Capabilities](CAPABILITIES.md) for role fit and system range.
+4. Open [Case Studies](CASE_STUDIES.md) for public-safe examples.
+5. Check [Public Boundary](PUBLIC_BOUNDARY.md) before asking for private material.
 
 ## Reviewer Journey
 
@@ -32,29 +32,6 @@ flowchart TD
     E --> I[One-Pager + Build Menu]
     F --> J[AOP story + public links]
 ```
-
-## Reviewer Journey
-
-```mermaid
-flowchart TD
-    A[README] --> B{Reviewer type}
-    B --> C[Recruiter path]
-    B --> D[Technical path]
-    B --> E[Client / partner path]
-    C --> F[Roles + stack]
-    D --> G[Architecture + case studies]
-    E --> H[Build menu + collaboration]
-```
-
-## Fast Review
-
-If you only have 60 seconds:
-
-1. Read the hero section in [README.md](README.md).
-2. Check the Architecture Pattern.
-3. Review Best-Fit Roles and Tools And Stack.
-4. Open [CASE_STUDIES.md](CASE_STUDIES.md).
-5. Open [SOLUTION_ARCHITECTURE.md](SOLUTION_ARCHITECTURE.md).
 
 ## For Recruiters
 
