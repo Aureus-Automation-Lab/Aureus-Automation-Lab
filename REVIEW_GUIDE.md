@@ -13,10 +13,21 @@
 If you only have 60 seconds:
 
 1. Read the hero and At A Glance in [README.md](README.md).
-2. Check the Public Architecture Snapshot.
-3. Review [Capabilities](CAPABILITIES.md) for role fit and system range.
-4. Open [Case Studies](CASE_STUDIES.md) for public-safe examples.
-5. Check [Public Boundary](PUBLIC_BOUNDARY.md) before asking for private material.
+2. Check `What I Have Built` to understand the created systems and public-safe proof.
+3. Check the Public Architecture Snapshot.
+4. Review [Capabilities](CAPABILITIES.md) for role fit and system range.
+5. Open [Case Studies](CASE_STUDIES.md) for public-safe examples.
+6. Check [Public Boundary](PUBLIC_BOUNDARY.md) before asking for private material.
+
+## What To Remember
+
+| Signal | Meaning |
+| --- | --- |
+| Aureus Automation Lab | Robert is building an AI-native automation/product systems lab, not a generic freelancer page |
+| Aureus AOP | The core idea is an operating platform around GitHub/Codex, n8n, validation, evidence, and handoff |
+| n8n governance | Workflow automation is treated as source, review, approval, and evidence |
+| Supervisor capability | AI review is framed as demonstrated integration capability, not official certification |
+| Public-safe proof | The profile shows architecture and review discipline without leaking private systems |
 
 ## Reviewer Journey
 
@@ -78,6 +89,7 @@ The collaboration model is designed around first useful scope, safety boundary, 
 | Capability range | [CAPABILITIES.md](CAPABILITIES.md) |
 | Collaboration style | [COLLABORATION.md](COLLABORATION.md) |
 | Privacy discipline | [PUBLIC_BOUNDARY.md](PUBLIC_BOUNDARY.md) |
+| Public launch readiness | [PUBLIC_LAUNCH_READINESS.md](PUBLIC_LAUNCH_READINESS.md) |
 
 ## What This Profile Is Not
 
