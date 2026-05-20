@@ -14,8 +14,10 @@
 - [ ] README clearly says Founder, Aureus Automation Lab.
 - [ ] README clearly says AI Product Systems Architect.
 - [ ] README clearly says Builder of Aureus Autonomous Operating Platform.
+- [ ] README includes `What I Have Built` so reviewers understand what Robert created.
 - [ ] README uses the accepted Image 2 hero.
 - [ ] Generated images are labeled as public-safe concept visuals.
+- [ ] PUBLIC_LAUNCH_READINESS.md exists and has been reviewed before changing visibility.
 - [ ] PROFILE_IMAGEGEN_PRODUCTION_GUIDE.md exists and matches the current Image 2 workflow.
 - [ ] Public URLs are present.
 - [ ] Azure / Supervisor wording says demonstrated capability, not certification.
@@ -37,6 +39,7 @@
 
 ## Public-Safe Boundary
 
+- [ ] GitHub target is correct: `KimiAoki/KimiAoki` is the special profile repository for the `KimiAoki` account.
 - [ ] Public-safe boundary is clear.
 - [ ] Case studies are public-safe.
 - [ ] No secrets or private details are present.
