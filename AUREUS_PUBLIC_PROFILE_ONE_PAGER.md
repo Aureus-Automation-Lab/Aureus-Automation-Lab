@@ -23,6 +23,17 @@ I build AI-native workflow and product systems that make automation controlled, 
 
 The work usually starts with a manual process, then moves through process mapping, workflow architecture, AI assistance, human review boundaries, validation, evidence, and handoff.
 
+## What I Have Created
+
+| Created / shaped | Public-safe takeaway |
+| --- | --- |
+| Aureus Automation Lab | a focused AI automation and product systems lab |
+| Aureus Autonomous Operating Platform | an operating model for GitHub/Codex delivery, n8n workflow governance, validation, evidence, and handoff |
+| n8n workflow governance | a way to treat automation as source-controlled, reviewable system work |
+| Supervisor / Azure capability | a demonstrated verifier/supervisor pattern with smoke tests and evidence-based review |
+| FineCon / Invoice direction | a document-heavy workflow direction with review and POHODA boundaries |
+| Web Studio / Experience direction | a public-safe way to turn technical systems into understandable product surfaces |
+
 ## Main Platform Direction
 
 Aureus Autonomous Operating Platform connects:
