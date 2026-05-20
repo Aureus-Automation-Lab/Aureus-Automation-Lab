@@ -23,7 +23,7 @@ This profile is a public-safe front door. It shows architecture, system thinking
 | Platform | Aureus Autonomous Operating Platform |
 | Core strength | Turning manual processes into controlled AI-assisted workflow systems |
 | Public proof style | Architecture maps, sanitized case studies, validation/evidence notes |
-| Main public pages | https://aureus.it.com/automationlab and https://aureus.it.com/invoice |
+| Main public pages | [Automation Lab](https://aureus.it.com/automationlab) and [Invoice / FineCon](https://aureus.it.com/invoice) |
 
 ## Review Path
 
@@ -99,19 +99,29 @@ Most serious automation work cannot be shown as raw code because it may contain 
 
 This profile does not claim official Azure certification, enterprise compliance certification, paying customers, production client results, accounting correctness, trading performance, guaranteed ROI, revenue, or production deployment outcomes unless separately verified.
 
-## Visual System
+## Current Public Status
 
-These visuals are not decorative AI images. Each one has a review job.
+| Area | Public posture |
+| --- | --- |
+| Profile repository | Ready to make public after owner visibility check |
+| Private repositories | Not exposed by default |
+| Public pages | Linked as public review surfaces |
+| Architecture notes | Public-safe and sanitized |
+| Technical walkthroughs | Available with controlled scope |
+| Public pins / gists | Manual follow-up before broad outreach |
 
-| Visual slot | What it should prove | Asset |
-| --- | --- | --- |
-| Profile hero | Manual process becomes architecture, validation, private boundary, and handoff | ![Profile architecture hero](assets/image2/profile-public-architecture-hero.png) |
-| Workflow governance | Workflow source moves through review gates, approval, credential separation, evidence, and handoff | ![n8n workflow governance](assets/image2/n8n-workflow-governance.png) |
-| Public boundary | Public-safe proof passes through a controlled boundary while private implementation stays sealed | ![Public private boundary](assets/image2/public-private-boundary.png) |
-| Supervisor validation | Worker output moves through contract check, supervisor review, repair loop, approval, and evidence | ![Supervisor validation capability](assets/image2/supervisor-validation-capability.png) |
-| Capability system | Aureus capabilities connect into an operating model | ![Aureus capability system board](assets/capability-system.svg) |
-| Collaboration flow | Work moves from discovery to architecture, build, review, handoff, and iteration | ![Aureus collaboration flow](assets/collaboration-flow.svg) |
-| Quality loop | Scope, tests, review, evidence, handoff, and iteration are part of delivery | ![Aureus quality loop](assets/quality-loop.svg) |
+## Visual Proof Index
+
+The visuals are concept explanations, not screenshots or proof claims. Each one exists to make one part of the system easier to review.
+
+| Signal | Where to review it |
+| --- | --- |
+| Full profile architecture | Hero above and [Solution Architecture](SOLUTION_ARCHITECTURE.md) |
+| Workflow governance | Section above and [Capabilities](CAPABILITIES.md) |
+| Public/private boundary | [Public Boundary](PUBLIC_BOUNDARY.md) |
+| Supervisor validation | [Solution Architecture](SOLUTION_ARCHITECTURE.md) |
+| Collaboration and handoff | [Collaboration](COLLABORATION.md) |
+| Visual QA and prompt discipline | [Visual Review](VISUAL_REVIEW.md), [ImageGen Production Guide](PROFILE_IMAGEGEN_PRODUCTION_GUIDE.md) |
 
 ## Portfolio Navigation
 
