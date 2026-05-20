@@ -6,9 +6,9 @@ The goal is not to generate beautiful random images. The goal is to create publi
 
 ## Official Guidance Applied
 
-This workflow follows the OpenAI image generation guidance used through the OpenAI Developers docs:
+This workflow uses Codex built-in `image_gen` as the primary production path for this repository. OpenAI Image Generation / Images 2.0 guidance is used for prompt structure, review discipline, and future direct API runs if the owner explicitly configures that path.
 
-- use `gpt-image-2` for generation when using the Image API route,
+- generate through Codex built-in `image_gen` for normal profile assets,
 - include the intended use of the image in the prompt,
 - structure prompts in a stable order: scene/background, subject, key details, constraints,
 - use short labeled sections for complex prompts,
@@ -23,30 +23,35 @@ Reference pages:
 - OpenAI GPT Image Prompting Guide: https://developers.openai.com/cookbook/examples/multimodal/image-gen-models-prompting-guide
 - OpenAI Images 2.0 announcement: https://openai.com/sk-SK/index/introducing-chatgpt-images-2-0/
 
-## API Route Decision
+## Codex ImageGen Route Decision
 
 | Need | Use | Why |
 | --- | --- | --- |
-| One new final asset from one prompt | Image API with `gpt-image-2` | Direct generation path for a single image |
-| Iterative creative direction | Responses API with image generation tool | Supports multi-turn refinement through conversation state |
-| High-fidelity edits from a previous image | Responses API or Image API edits | Use when the base image is good and only one part needs to change |
-| Reference-image composition | Image API edits or Responses API with image inputs | Use when style, structure, or source objects must be preserved |
-| Transparent background | Not native in `gpt-image-2` | Use opaque output or a controlled chroma-key/removal flow instead |
+| Normal profile visual | Codex built-in `image_gen` | Fastest available path in Codex; no API key setup required |
+| Iterative creative direction | Codex built-in `image_gen` with one targeted follow-up at a time | Keeps the image direction controlled and avoids random drift |
+| Project-bound asset | Generate in Codex, inspect, then copy accepted output into `assets/image2/` | The repository must not reference temporary generated-image paths |
+| Future direct API run | Image API / Responses API only if explicitly configured | Useful when the owner wants exact API control over size, quality, format, or streaming |
+| Transparent background | Avoid for this profile unless needed | GitHub profile images should be opaque 16:9 visuals; transparency needs a separate removal workflow |
 
 For this GitHub profile, the default production pattern is:
 
-1. Generate a strong base concept with the Image API style prompt structure.
+1. Generate a strong base concept with Codex built-in `image_gen`.
 2. Review it against the slot-specific acceptance gate.
 3. If only one thing is wrong, run a targeted iteration instead of rewriting the whole prompt.
-4. Save only accepted assets into `assets/image2/`.
+4. Inspect the generated PNG.
+5. Copy only accepted assets into `assets/image2/`.
+6. Document the prompt, visual job, and acceptance decision.
 
-## Recommended Settings For GitHub Profile Assets
+## Recommended Settings And Constraints
+
+Codex built-in `image_gen` does not require us to manage `OPENAI_API_KEY` or write a custom API runner for this repo. The controllable variables are the prompt, iteration discipline, asset selection, and QA gate.
+
+If a future direct API run is explicitly configured, use these settings as the default:
 
 | Stage | Recommended setting | Notes |
 | --- | --- | --- |
-| First draft | `quality: low` or built-in fast draft | Use only to test composition and meaning |
-| Review candidate | `quality: medium` | Good balance for visual QA |
-| Final public asset | `quality: high` when using direct API | Use for hero and major profile visuals |
+| First draft | low or medium quality | Use only to test composition and meaning |
+| Final public asset | high quality | Use for hero and major profile visuals |
 | README landscape | `1536x1024` or `2048x1152` | Landscape assets fit GitHub profile sections best |
 | Output format | PNG | Best default for crisp GitHub concept visuals |
 | In-image text | Avoid | Use Markdown/SVG text instead; generated text can drift |
