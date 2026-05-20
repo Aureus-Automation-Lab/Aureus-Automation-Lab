@@ -1,6 +1,8 @@
 # Aureus Public Profile One-Pager
 
-![Robert Kolesár / KimiAoki public profile banner](assets/profile-banner.svg)
+![Robert Kolesár / KimiAoki public profile hero](assets/image2/profile-public-architecture-hero.png)
+
+Public-safe concept visual. Not a screenshot, not customer proof, not production evidence.
 
 | Page signal | What to remember |
 | --- | --- |

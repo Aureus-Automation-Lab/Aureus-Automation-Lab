@@ -23,6 +23,12 @@ For the final candidate list, use [PUBLIC_PIN_CANDIDATES.md](PUBLIC_PIN_CANDIDAT
 
 If no public-safe implementation repo exists yet, create a sanitized demo repo instead of exposing private repos.
 
+## Visual Quality For Pins
+
+A pinned repo should have at least one meaningful visual or diagram near the top of the README. Prefer architecture visuals, workflow maps, proof-pack diagrams, or sanitized screenshots over generic badges.
+
+Do not pin a repo that visually looks unfinished, even if the code is strong.
+
 Do not pin private repos expecting public reviewers to see them. Do not pin unfinished or confusing repos without README/status.
 
 GitHub profile pins are managed manually from the GitHub profile UI. Private repositories should not be pinned for public reviewers because they will not be visible to most visitors.

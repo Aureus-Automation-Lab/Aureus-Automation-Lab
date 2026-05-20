@@ -1,6 +1,8 @@
 # Visual Review
 
-![Robert Kolesár / KimiAoki public architecture banner](assets/profile-banner.svg)
+![Robert Kolesár / KimiAoki public architecture hero](assets/image2/profile-public-architecture-hero.png)
+
+Public-safe concept visual. Not a screenshot, not customer proof, not production evidence.
 
 | Page signal | What this page verifies |
 | --- | --- |
@@ -19,7 +21,11 @@ Builder of Aureus Autonomous Operating Platform
 
 | Asset | Purpose | Should communicate |
 | --- | --- | --- |
-| `assets/profile-banner.svg` | Main hero | Identity, Aureus Automation Lab, AOP, public-safe review path |
+| `assets/image2/profile-public-architecture-hero.png` | Premium profile hero | Founder identity, AOP map, validation, evidence, public/private boundary |
+| `assets/image2/n8n-workflow-governance.png` | Premium workflow visual | Workflow source, review gates, credential separation, handoff evidence |
+| `assets/image2/public-private-boundary.png` | Premium public/private boundary visual | Public-safe artifacts, controlled review window, sealed private implementation |
+| `assets/image2/supervisor-validation-capability.png` | Premium supervisor validation visual | Contract check, supervisor review, repair loop, approval gate, evidence/handoff |
+| `assets/profile-banner.svg` | Static fallback hero | Identity, Aureus Automation Lab, AOP, public-safe review path |
 | `assets/aureus-aop-public-architecture.svg` | Architecture map | AOP, GitHub/Codex, n8n, Supervisor, Web Studio, FineCon, evidence |
 | `assets/n8n-workflow-automation-map.svg` | n8n workflow map | Workflow source, validation, approval boundary |
 | `assets/supervisor-validation-flow.svg` | Supervisor map | Codex worker, Supervisor capability, scorecard, evidence |
@@ -32,6 +38,21 @@ Builder of Aureus Autonomous Operating Platform
 | `assets/review-path-map.svg` | Review guide | Recruiter, CTO, client, partner paths |
 | `assets/profile-pins-map.svg` | Profile pins | Public-safe pin order |
 | `assets/completeness-check-map.svg` | Completeness | Identity, visuals, safety, proof, pins, send-ready |
+
+## Image 2 Assets
+
+| Asset | QA status | Notes |
+| --- | --- | --- |
+| `assets/image2/profile-public-architecture-hero.png` | Accepted | No readable text, no fake data, no provider logo, meaningful profile/AOP concept |
+| `assets/image2/n8n-workflow-governance.png` | Accepted | No workflow IDs, no endpoints, no private payloads, clear review-gate concept |
+| `assets/image2/public-private-boundary.png` | Accepted | No text, no private data, clear public/private separation |
+| `assets/image2/supervisor-validation-capability.png` | Accepted | No provider logos, no certification implication, clear validation flow |
+
+See [PROFILE_IMAGE2_PROMPT_PACK.md](PROFILE_IMAGE2_PROMPT_PACK.md) and [PROFILE_IMAGEGEN_PRODUCTION_GUIDE.md](PROFILE_IMAGEGEN_PRODUCTION_GUIDE.md) for future prompt controls.
+
+## Video Assets
+
+No MP4 is committed in this pass. See [PROFILE_VIDEO_STORYBOARD.md](PROFILE_VIDEO_STORYBOARD.md) for the Azure/Sora-ready storyboard and safety gate.
 
 ## Mermaid Diagrams
 
@@ -55,7 +76,8 @@ Builder of Aureus Autonomous Operating Platform
 - [ ] no private data,
 - [ ] no external images,
 - [ ] GitHub-safe rendering,
-- [ ] useful even if animation does not run.
+- [ ] useful even if animation does not run,
+- [ ] generated assets are labeled as concept visuals, not proof.
 
 ## Review Note
 
