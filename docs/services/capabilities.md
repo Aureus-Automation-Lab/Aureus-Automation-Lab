@@ -1,8 +1,8 @@
 # Capabilities
 
-![Aureus capability system board](assets/capability-system.svg)
+![Aureus capability system board](../../assets/capability-system.svg)
 
-![n8n workflow governance concept](assets/image2/n8n-workflow-governance.png)
+![n8n workflow governance concept](../../assets/image2/n8n-workflow-governance.png)
 
 Public-safe concept visual. Not a screenshot, not customer proof, not production evidence.
 

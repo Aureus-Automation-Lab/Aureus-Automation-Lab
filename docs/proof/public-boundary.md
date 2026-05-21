@@ -1,8 +1,8 @@
 # Public Boundary
 
-![Aureus public private boundary map](assets/public-boundary-map.svg)
+![Aureus public private boundary map](../../assets/public-boundary-map.svg)
 
-![Public private boundary concept](assets/image2/public-private-boundary.png)
+![Public private boundary concept](../../assets/image2/public-private-boundary.png)
 
 Public-safe concept visual. Not a screenshot, not customer proof, not production evidence.
 

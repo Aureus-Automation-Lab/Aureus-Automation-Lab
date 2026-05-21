@@ -17,14 +17,14 @@ The profile is intentionally public-safe. It does not expose raw private impleme
 
 ## Best Reading Order
 
-1. [README.md](README.md) - understand the whole profile in one page.
-2. [AUREUS_PUBLIC_PROFILE_ONE_PAGER.md](AUREUS_PUBLIC_PROFILE_ONE_PAGER.md) - use this as the short external-safe summary.
-3. [BUILD_MENU.md](BUILD_MENU.md) - see where a first project can start.
-4. [AUTOMATION_LAB.md](AUTOMATION_LAB.md) - review automation capabilities and Sales Machine direction.
-5. [FINECON.md](FINECON.md) - review FinEcon and invoice/financial intelligence direction.
-6. [AUREUS_OS.md](AUREUS_OS.md) - review the operating system behind the delivery model.
-7. [SOLUTION_ARCHITECTURE.md](SOLUTION_ARCHITECTURE.md) - review deeper architecture and decision boundaries.
-8. [PUBLIC_BOUNDARY.md](PUBLIC_BOUNDARY.md) - understand what stays private and why.
+1. [README.md](../../README.md) - understand the whole profile in one page.
+2. [One-page profile](../overview/one-pager.md) - use this as the short external-safe summary.
+3. [Build menu](../services/build-menu.md) - see where a first project can start.
+4. [Automation Lab](../services/automation-lab.md) - review automation capabilities and Sales Machine direction.
+5. [FinEcon](../services/finecon.md) - review invoice and financial intelligence direction.
+6. [Aureus OS](../system/aureus-os.md) - review the operating system behind the delivery model.
+7. [Solution architecture](../system/solution-architecture.md) - review deeper architecture and decision boundaries.
+8. [Public boundary](public-boundary.md) - understand what stays private and why.
 
 ## Proof Types Shown Here
 
@@ -46,4 +46,3 @@ Those claims require separate evidence and should not be implied from a public-s
 ## One-Line External Summary
 
 **Aureus Automation Lab builds controlled AI workflow systems for automation, finance intelligence, and internal execution with review gates, validation, evidence, and public/private safety boundaries.**
-

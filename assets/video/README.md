@@ -2,7 +2,7 @@
 
 This folder is reserved for future public-safe profile video assets.
 
-No MP4 is committed in this pass. The profile uses static GitHub-safe images and SVGs, plus the video storyboard in `PROFILE_VIDEO_STORYBOARD.md`.
+No MP4 is committed in this pass. The profile uses static GitHub-safe images and SVGs, plus the video storyboard in `docs/visuals/video-storyboard.md`.
 
 ## Add A Video Only When
 

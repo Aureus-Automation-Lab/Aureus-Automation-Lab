@@ -1,6 +1,6 @@
 # Review Guide
 
-![Aureus reviewer path map](assets/review-path-map.svg)
+![Aureus reviewer path map](../../assets/review-path-map.svg)
 
 | Page signal | What to do first |
 | --- | --- |
@@ -12,11 +12,11 @@
 
 If you only have 60 seconds:
 
-1. Read the hero and At A Glance in [README.md](README.md).
+1. Read the hero and At A Glance in [README.md](../../README.md).
 2. Check the Public Architecture Snapshot.
-3. Review [Capabilities](CAPABILITIES.md) for role fit and system range.
-4. Open [Case Studies](CASE_STUDIES.md) for public-safe examples.
-5. Check [Public Boundary](PUBLIC_BOUNDARY.md) before asking for private material.
+3. Review [Capabilities](../services/capabilities.md) for role fit and system range.
+4. Open [Case Studies](case-studies.md) for public-safe examples.
+5. Check [Public Boundary](public-boundary.md) before asking for private material.
 
 ## Reviewer Journey
 
@@ -37,7 +37,7 @@ flowchart TD
 
 Adjacent role signals include AI automation architecture, AI product engineering, workflow automation, internal tools, product operations, solutions engineering, and agentic workflow design.
 
-Start with [README.md](README.md), then review [SOLUTION_ARCHITECTURE.md](SOLUTION_ARCHITECTURE.md) and [CASE_STUDIES.md](CASE_STUDIES.md). Many real automation repositories and workflow exports stay private because they can contain business logic, credentials, customer-like data, endpoints, and production context.
+Start with the [root profile](../../README.md), then review [solution architecture](../system/solution-architecture.md) and [case studies](case-studies.md). Many real automation repositories and workflow exports stay private because they can contain business logic, credentials, customer-like data, endpoints, and production context.
 
 ## For Technical Reviewers
 
@@ -60,24 +60,24 @@ The collaboration model is designed around first useful scope, safety boundary, 
 
 ## Suggested Review Path
 
-1. [README.md](README.md)
-2. [SOLUTION_ARCHITECTURE.md](SOLUTION_ARCHITECTURE.md)
-3. [CASE_STUDIES.md](CASE_STUDIES.md)
-4. [CAPABILITIES.md](CAPABILITIES.md)
-5. [COLLABORATION.md](COLLABORATION.md)
-6. [BUILD_MENU.md](BUILD_MENU.md)
-7. [PUBLIC_BOUNDARY.md](PUBLIC_BOUNDARY.md)
+1. [README.md](../../README.md)
+2. [Solution architecture](../system/solution-architecture.md)
+3. [Case studies](case-studies.md)
+4. [Capabilities](../services/capabilities.md)
+5. [Collaboration](../services/collaboration.md)
+6. [Build menu](../services/build-menu.md)
+7. [Public boundary](public-boundary.md)
 
 ## Reviewer Score Signals
 
 | Signal | Where to look |
 | --- | --- |
-| Role clarity | [README.md](README.md) |
-| Architecture thinking | [SOLUTION_ARCHITECTURE.md](SOLUTION_ARCHITECTURE.md) |
-| Public-safe examples | [CASE_STUDIES.md](CASE_STUDIES.md) |
-| Capability range | [CAPABILITIES.md](CAPABILITIES.md) |
-| Collaboration style | [COLLABORATION.md](COLLABORATION.md) |
-| Privacy discipline | [PUBLIC_BOUNDARY.md](PUBLIC_BOUNDARY.md) |
+| Role clarity | [README.md](../../README.md) |
+| Architecture thinking | [Solution architecture](../system/solution-architecture.md) |
+| Public-safe examples | [Case studies](case-studies.md) |
+| Capability range | [Capabilities](../services/capabilities.md) |
+| Collaboration style | [Collaboration](../services/collaboration.md) |
+| Privacy discipline | [Public boundary](public-boundary.md) |
 
 ## What This Profile Is Not
 
