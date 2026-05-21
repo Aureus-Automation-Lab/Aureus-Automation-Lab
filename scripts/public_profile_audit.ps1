@@ -6,6 +6,54 @@ Write-Host "This script reports public-release risks. It does not delete, rewrit
 Write-Host "`n== Git status =="
 git status --short
 
+Write-Host "`n== Profile repo naming check =="
+$remoteUrl = ""
+$currentUsername = ""
+$repoOwner = ""
+$repoName = ""
+
+try {
+  $remoteUrl = (& git remote get-url origin 2>$null).Trim()
+} catch {
+  $remoteUrl = ""
+}
+
+if ($remoteUrl) {
+  Write-Host "Current git remote: $remoteUrl"
+  if ($remoteUrl -match "github\.com[:/](?<owner>[^/]+)/(?<repo>[^/.]+)(?:\.git)?$") {
+    $repoOwner = $Matches.owner
+    $repoName = $Matches.repo
+    Write-Host "Current repository: $repoOwner/$repoName"
+  } else {
+    Write-Host "Current repository could not be parsed from remote. Verify manually."
+  }
+} else {
+  Write-Host "Current git remote could not be detected. Verify manually."
+}
+
+try {
+  $currentUsername = (& gh api user --jq .login 2>$null).Trim()
+} catch {
+  $currentUsername = ""
+}
+
+if ($currentUsername) {
+  Write-Host "Detected GitHub username: $currentUsername"
+  if ($repoName) {
+    if ($repoName -eq $currentUsername) {
+      Write-Host "Profile repo naming OK: repository name matches current username."
+    } else {
+      Write-Host "WARNING: Profile repo naming mismatch."
+      Write-Host "Repository name: $repoName"
+      Write-Host "Current username: $currentUsername"
+      Write-Host "Required profile repository: $currentUsername/$currentUsername"
+      Write-Host "Do not switch visibility to public until repository name equals current username."
+    }
+  }
+} else {
+  Write-Host "GitHub username could not be detected automatically. Verify manually that repository name matches username before public."
+}
+
 Write-Host "`n== Suspicious text scan =="
 $patterns = @(
   ("BEGIN " + "PRIVATE KEY"),
@@ -49,9 +97,13 @@ Write-Host "`n== Identity references to review =="
 Write-Host "These are not automatic failures. Confirm they appear only in migration, audit, or owner-instruction docs."
 $identityPatterns = @(
   ("Kimi" + "Aoki"),
+  ("Kimi " + "Aoki"),
   ("github.com/" + "Kimi" + "Aoki"),
   ("Private draft " + "profile"),
-  ("Kimi" + "Aoki/Kimi" + "Aoki")
+  ("Kimi" + "Aoki/Kimi" + "Aoki"),
+  ("Robert " + "Kolesar"),
+  ("Robert Koles" + [char]0x00E1 + "r"),
+  ("R" + [char]0x00F3 + "bert Kolesar")
 )
 
 foreach ($pattern in $identityPatterns) {

@@ -14,7 +14,7 @@ Pins should make the profile understandable in under 10 seconds:
 
 For the final candidate list, use [PUBLIC_PIN_CANDIDATES.md](public-pin-candidates.md).
 
-1. `robertkolesar/robertkolesar` - profile front door.
+1. `Aureus-Automation-Lab/Aureus-Automation-Lab` - profile front door.
 2. Sanitized Aureus AOP architecture gist or demo repo.
 3. Automation Audit public-safe process map gist/demo.
 4. Invoice / FinEcon public-safe workflow gist/demo.
@@ -35,7 +35,7 @@ GitHub profile pins are managed manually from the GitHub profile UI. Private rep
 
 ## Recommended Pin Categories
 
-1. Profile repo `robertkolesar/robertkolesar`.
+1. Profile repo `Aureus-Automation-Lab/Aureus-Automation-Lab`.
 2. Public/review-safe Automation Lab surface if available.
 3. Public demo or sanitized workflow demo if available.
 4. Web/product prototype repo if safe.
@@ -44,7 +44,7 @@ GitHub profile pins are managed manually from the GitHub profile UI. Private rep
 
 ## Recommended Pin Order
 
-1. `robertkolesar/robertkolesar`.
+1. `Aureus-Automation-Lab/Aureus-Automation-Lab`.
 2. Sanitized Aureus AOP architecture gist or demo repo.
 3. Automation Audit public-safe process map gist/demo.
 4. Invoice / FinEcon public-safe workflow gist/demo.

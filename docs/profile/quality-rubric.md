@@ -22,8 +22,8 @@ Use this rubric before sharing the GitHub profile with clients, partners, collab
 A 10/10 public profile requires:
 
 - public name is human and professional: `Róbert Kolesár`,
-- GitHub username is clean and shareable: `robertkolesar`,
-- profile repository matches the username: `robertkolesar/robertkolesar`,
+- current GitHub username and profile repository match: `Aureus-Automation-Lab/Aureus-Automation-Lab`,
+- founder handle remains clear inside the profile: `robertkolesar`,
 - README, docs, proof pages, About settings, and pins use the same public identity,
 - old nickname-first positioning is not presented as the main public brand.
 
