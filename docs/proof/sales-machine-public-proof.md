@@ -1,21 +1,21 @@
 # Sales Machine Public Proof
 
-This page explains the public-safe direction of Aureus Sales Machine.
+This page shows the public-safe direction of Aureus Sales Machine.
 
-It does not expose private workflow exports, credentials, endpoints, real leads, or private inbox data.
+It does not expose private workflow exports, credentials, endpoints, lead lists, inbox data, workflow IDs, draft IDs, or private prompts.
 
-## What Problem It Solves
+## Problem
 
-Companies lose revenue when leads and follow-ups are handled manually.
+Sales follow-up often breaks in small invisible ways:
 
-Common issues:
-
-- leads are not qualified consistently,
-- follow-ups are forgotten,
+- leads are captured but not qualified,
+- good prospects wait too long,
+- follow-ups depend on memory,
 - replies are not classified,
-- sales activity is not visible,
-- nobody knows what happened yesterday,
-- AI outreach can become risky if it sends without review.
+- activity is hard to review,
+- AI outreach becomes risky if it sends without approval.
+
+The problem is not only speed. The problem is control.
 
 ## Safe Workflow Direction
 
@@ -24,37 +24,59 @@ lead source
 -> lead discovery / import
 -> qualification
 -> outreach draft
--> manual approval
+-> human approval
 -> follow-up draft
 -> reply classification
--> booking draft
+-> booking response draft
 -> daily report
 -> audit log
 ```
 
-## Key Safety Boundary
-
-```text
-No blind auto-send.
-No uncontrolled outreach.
-No sensitive external action without review.
-```
-
 ## What AI May Do
 
-| AI role | Allowed |
+| AI role | Public-safe boundary |
 | --- | --- |
-| qualify lead | yes, with scoring and review |
-| draft outreach | yes, as a draft |
-| draft follow-up | yes, as a draft |
-| classify reply | yes, with uncertainty handling |
-| create booking response | yes, as a draft |
-| send email automatically | no, unless explicitly approved by the owner in a separate controlled system |
+| Lead qualifier | score or classify leads for review |
+| Outreach assistant | draft first-message options |
+| Follow-up assistant | draft follow-up options |
+| Reply classifier | label replies and flag uncertainty |
+| Reporting assistant | summarize activity and next actions |
 
-## Public Proof Value
+## What Humans Approve
 
-This demonstrates that Aureus understands sales automation as a controlled workflow, not as a spam machine.
+Humans approve:
+
+- which leads are worth contacting,
+- final outbound messages,
+- sensitive replies,
+- booking language,
+- escalation decisions,
+- any external send unless a separate controlled approval system exists.
+
+## What This Proves Publicly
+
+This proves the architecture direction: Aureus treats sales automation as a reviewed workflow, not as uncontrolled spam.
+
+It shows:
+
+- lead handling can be structured,
+- AI can help without sending blindly,
+- review boundaries can be explicit,
+- daily reporting and audit notes can make the process visible.
+
+## Example Public-Safe Workflow Map
+
+```mermaid
+flowchart LR
+    A[Lead source] --> B[Qualification]
+    B --> C[Outreach draft]
+    C --> D[Human approval]
+    D --> E[Follow-up draft]
+    E --> F[Reply classification]
+    F --> G[Daily report]
+    G --> H[Audit note]
+```
 
 ## What Stays Private
 
-Real lead lists, inbox data, Gmail draft IDs, workflow IDs, credentials, private prompts, webhook URLs, and private logs stay private.
+Real lead lists, inbox data, message drafts, Gmail details, workflow IDs, credentials, endpoints, webhook URLs, private prompts, and private logs stay private.

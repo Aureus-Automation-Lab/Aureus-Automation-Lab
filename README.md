@@ -1,9 +1,9 @@
 # Aureus Automation Lab
 
-**AI workflow automation for companies that want cleaner operations, faster execution, and systems their team can actually trust.**
+**Controlled AI workflow systems for companies that want cleaner sales, operations, finance, documents, reporting, and internal execution.**
 
 Led by **Róbert Kolesár / KimiAoki**<br>
-Founder, AI Systems Engineer, workflow automation architect
+Founder of Aureus Automation Lab · AI Systems Engineer · workflow automation architect
 
 ![Aureus Automation Lab public profile hero](assets/image2/profile-public-architecture-hero.png)
 
@@ -11,9 +11,22 @@ Founder, AI Systems Engineer, workflow automation architect
 
 Most companies do not need more tools.
 
-They need repeated work to stop getting lost between emails, spreadsheets, invoices, documents, CRM systems, approvals, dashboards, AI assistants, and people waiting for the next step.
+They need important work to stop getting lost between emails, spreadsheets, invoices, documents, CRMs, dashboards, approvals, AI assistants, and people waiting for the next step.
 
-**Aureus Automation Lab designs the missing operating layer around that work.**
+**Aureus designs the missing operating layer around that work.**
+
+## What Aureus Builds
+
+| Area | What it helps a company do |
+| --- | --- |
+| **Sales automation** | capture leads, qualify them, draft follow-ups, and keep activity visible |
+| **Operations automation** | route tasks, approvals, reminders, exceptions, and handoffs |
+| **Invoice and document workflows** | collect documents, extract data, check missing fields, and prepare review queues |
+| **FinEcon** | create a reviewed finance/document intelligence layer for invoices, cashflow, costs, revenue, and reports |
+| **Aureus OS** | keep AI-assisted work scoped, reviewed, validated, evidenced, and handed off |
+| **Premium web + automation** | explain the offer publicly and connect it to real workflows behind the business |
+
+## The Simple Rule
 
 ```text
 manual work
@@ -21,198 +34,65 @@ manual work
 -> AI-assisted draft / extraction / classification
 -> human review
 -> validation
--> proof
+-> evidence
 -> safe next action
 ```
 
-The rule is simple:
-
-> AI helps. People approve. The system keeps evidence.
-
-## What We Do
-
-Aureus Automation Lab helps founders and teams turn repeated manual work into controlled business systems.
-
-We focus on the work that quietly slows a company down: the handoffs between people, spreadsheets, inboxes, documents, CRMs, finance tools, websites, and AI assistants.
-
-| Business area | What we improve |
-| --- | --- |
-| Sales and lead handling | intake, qualification, follow-up drafts, CRM states, reporting |
-| Operations | approvals, task routing, handoffs, reminders, exception handling |
-| Documents and invoices | intake, extraction, review queues, proof folders, downstream handoff |
-| Internal reporting | daily summaries, owner dashboards, financial visibility, audit trails |
-| AI-assisted execution | safe AI drafts, validation, human review, evidence, and controlled next actions |
-
-The goal is not to add more software.
-
-The goal is to make the business easier to operate.
+**AI helps. People approve. The system keeps evidence.**
 
 ## Three Public Proof Paths
 
-| Pillar | Simple explanation | Public proof |
+| Pillar | What it shows | Open |
 | --- | --- | --- |
-| **Aureus Automation Lab** | AI and n8n systems for sales, operations, documents, reporting, and workflow control | [Sales Machine public proof](docs/proof/sales-machine-public-proof.md) |
-| **FinEcon** | invoice, document, cashflow, cost, revenue, and reporting intelligence with review boundaries | [FinEcon public proof](docs/proof/finecon-public-proof.md) |
-| **Aureus OS** | operating method for AI-assisted work, validation, evidence, Git truth, and handoff | [Aureus OS public proof](docs/proof/aureus-os-public-proof.md) |
-
-## Why Companies Need This
-
-Most teams already have enough software. The real problem is usually underneath:
-
-- nobody knows who owns the next step,
-- approvals disappear in chat,
-- invoices wait because a detail is missing,
-- leads are followed up too late,
-- documents are copied from one place to another,
-- workflows run, but nobody can explain what happened when they fail.
-
-Aureus designs the missing operating layer around that work.
-
-```text
-messy manual process
--> mapped workflow
--> AI-assisted draft or extraction
--> human review
--> validation
--> evidence
--> safe handoff
-```
-
-## Why Choose Aureus
-
-Most automation providers build a workflow and call the job finished.
-
-Aureus builds the operating layer around the workflow:
-
-| What clients usually get elsewhere | What Aureus adds |
-| --- | --- |
-| A workflow that works once | A process that can be reviewed, repaired, and handed off |
-| AI prompts without governance | AI roles with review boundaries and evidence |
-| A tool setup | A business process with owner, input, output, exception, and proof |
-| A dashboard without source truth | A reviewed flow from intake to decision |
-| Technical delivery without sales context | Systems designed to reduce friction, increase trust, and create clearer buyer journeys |
-
-You choose Aureus when you do not just want automation.
-
-You choose Aureus when you want the company to run cleaner.
-
-## Backed By Git, Not Guesswork
-
-This profile is not written as a loose agency brochure. It is a public-safe window into the Aureus source-of-truth system.
-
-The private Aureus Git source contains operating standards, productization notes, workflow governance, revenue packaging, proof-pack rules, FinEcon boundaries, premium web standards, and Git-backed LinkedIn growth architecture. The public profile translates those internal artifacts into language a buyer can understand.
-
-| Public message | Source-backed reality | Why it matters to a buyer |
-| --- | --- | --- |
-| **Aureus builds controlled automation systems** | Aureus OS v12 defines scope, evidence, validation, quality gates, and A4 approval boundaries | The work is designed to be reviewable, not improvised |
-| **Automation Audit is the first commercial step** | The service package catalog defines audit deliverables, timeline, proof required, risks, and follow-up path | A buyer can start small before funding a bigger build |
-| **n8n automation is treated as infrastructure** | The workflow standard requires source-of-truth exports, credential boundaries, error branches, retry/backoff, and validation | Workflows are easier to inspect, repair, and hand off |
-| **FinEcon is a controlled pilot direction** | Productization docs separate technical proof from accountant validation and production accounting claims | Finance automation stays serious and bounded |
-| **Aureus OS is a delivery method, not buzzword branding** | Company operating docs define how ideas, assets, AI systems, and client demand become reliable products and evidence | The same system used to build work is used to explain and sell it |
-| **Premium websites are connected to real operations** | Web Studio standards require target user, conversion action, visual QA, accessibility, performance intent, and evidence | The website becomes a sales surface for the actual system |
-| **LinkedIn and growth content should come from truth** | The Git-backed editorial engine reads approved source paths, extracts claim status, and blocks unsupported claims | Public content does not drift into generic AI hype |
-
-[Review the public source truth map](docs/proof/source-truth-map.md)
-
-## Core Offers
-
-| Offer | Best for | Outcome |
-| --- | --- | --- |
-| **Automation Audit** | You know operations are messy, but not what to automate first. | A clear map of the process, risks, quick wins, and the first automation worth building. |
-| **n8n Workflow Automation** | You need repeatable workflows with approvals, retries, logs, and ownership. | A reviewable automation system instead of a fragile one-off workflow. |
-| **FinEcon Pilot** | You need better visibility around invoices, documents, cashflow, costs, margins, or reports. | A structured review layer for finance/admin work before downstream handoff. |
-| **Aureus OS** | You want AI, Git, Codex, n8n, review, validation, and evidence working as one company process. | A repeatable internal operating system for building, checking, and running work. |
-| **Premium AI Website + Automation** | You need a public-facing product or service page connected to real operations. | A professional sales surface backed by actual workflows, not just marketing copy. |
-
-## How The Offers Work Together
-
-```text
-Automation Audit
--> first workflow / n8n automation
--> FinEcon or operations layer
--> Aureus OS for repeatable execution
--> website and content that explain the system clearly
-```
-
-That is the commercial advantage: the public message, the internal workflow, and the operating system support each other.
-
-## From Profile To Revenue
-
-The public profile is designed to support a simple sales path:
-
-```text
-clear public explanation
--> buyer understands the problem
--> Automation Audit or workflow review
--> first controlled build
--> proof pack and handoff
--> monthly automation partner or productized pilot
-```
-
-The goal is not to look busy on GitHub. The goal is to make the right buyer understand what Aureus can do for them, why the approach is safer than random automation, and what first step they can buy.
-
-## How We Build
-
-![Aureus operating loop](assets/aureus-operating-loop.svg)
-
-1. **Map the real process**<br>
-   What starts the work, who owns it, what can fail, and what proof is needed?
-
-2. **Choose the right automation boundary**<br>
-   AI can draft, classify, extract, summarize, and check. Sensitive actions stay reviewed.
-
-3. **Build the first useful workflow**<br>
-   The first version should solve one real bottleneck, not pretend to automate the whole company.
-
-4. **Add validation and evidence**<br>
-   A workflow is not finished just because it runs. It needs logs, review states, examples, and a repair path.
-
-5. **Hand it off clearly**<br>
-   The system should make sense after the builder leaves.
-
-## What Makes Aureus Different
-
-We treat automation like business infrastructure, not a clever demo.
-
-That means:
-
-- clear inputs and outputs,
-- no blind external sends,
-- no hidden credentials in workflow exports,
-- human review for sensitive steps,
-- source-controlled changes where possible,
-- public/private boundaries,
-- proof notes and operating handoff,
-- content and public explanation that help the market understand what the system does.
+| **Aureus Automation Lab** | safe sales and workflow automation direction | [Sales Machine public proof](docs/proof/sales-machine-public-proof.md) |
+| **FinEcon** | finance/document intelligence with review boundaries | [FinEcon public proof](docs/proof/finecon-public-proof.md) |
+| **Aureus OS** | operating model for AI-assisted delivery | [Aureus OS public proof](docs/proof/aureus-os-public-proof.md) |
 
 ## Good First Projects
 
 | If this sounds familiar | Start with |
 | --- | --- |
-| “We manually chase leads and forget follow-ups.” | Sales workflow audit |
-| “Invoices and documents are slow to review.” | FinEcon document flow pilot |
-| “Our n8n workflow works, but nobody trusts it.” | Workflow governance rebuild |
-| “We need a serious website that explains the real system.” | Premium AI website + automation |
-| “I want AI helping my business, but not acting uncontrolled.” | Internal AI operating system slice |
+| "We do too much manually, but we do not know what to automate first." | **Automation Audit** |
+| "We use n8n, but the workflow is fragile or hard to explain." | **n8n Workflow Governance** |
+| "Invoices, documents, and reports slow us down." | **FinEcon Pilot** |
+| "We want AI in the company, but not uncontrolled." | **Aureus OS Setup** |
+| "Our website does not explain what we actually do." | **Premium AI Website + Automation** |
+| "We need someone to maintain and improve automations monthly." | **Monthly Automation Partner** |
 
-## Review The Public Portfolio
+## Why Aureus Is Different
 
-This repository is a public-safe portfolio. It explains how Aureus thinks, builds, validates, and protects sensitive work.
+Most automation projects stop at "the workflow runs."
 
-| Start here | Use it for |
+Aureus cares about what happens after that:
+
+- Who owns the next step?
+- What can AI safely do?
+- What must a person approve?
+- What happens when the workflow fails?
+- What proof is kept?
+- Can the team understand the system after handoff?
+
+That is the difference between a clever demo and a business system people can trust.
+
+## Public Proof And Safety
+
+This profile is public-safe. It explains the work without exposing private systems.
+
+| Review path | Use it for |
 | --- | --- |
-| [Start here](docs/overview/start-here.md) | Simplest explanation for a non-technical visitor |
-| [One-page profile](docs/overview/one-pager.md) | Quick external summary |
-| [Build menu](docs/services/build-menu.md) | Pick the right first engagement |
-| [Capabilities](docs/services/capabilities.md) | See what can be designed and built |
-| [Solution architecture](docs/system/solution-architecture.md) | Technical review of system boundaries |
-| [Proof index](docs/proof/proof-index.md) | Understand what this public repo proves |
-| [Sales Machine public proof](docs/proof/sales-machine-public-proof.md) | Review safe sales automation direction |
-| [FinEcon public proof](docs/proof/finecon-public-proof.md) | Review finance and document workflow boundaries |
-| [Aureus OS public proof](docs/proof/aureus-os-public-proof.md) | Review the operating model behind delivery |
-| [Source truth map](docs/proof/source-truth-map.md) | See which public claims are backed by Aureus Git source |
-| [Public release audit](docs/profile/public-release-audit.md) | Final checklist before making the repo public |
-| [Docs map](docs/README.md) | Full supporting library |
+| [Start here](docs/overview/start-here.md) | simplest non-technical explanation |
+| [One-page profile](docs/overview/one-pager.md) | quick external summary |
+| [Build menu](docs/services/build-menu.md) | choose the right first engagement |
+| [Capabilities](docs/services/capabilities.md) | see what can be designed, built, validated, and handed off |
+| [Solution architecture](docs/system/solution-architecture.md) | technical system boundaries |
+| [Proof index](docs/proof/proof-index.md) | full public proof map |
+| [Source truth map](docs/proof/source-truth-map.md) | public claims mapped to source discipline |
+| [Public release audit](docs/profile/public-release-audit.md) | final checklist before going public |
+| [Pinned items strategy](docs/profile/pinned-items-strategy.md) | GitHub profile pin strategy |
+| [Quality rubric](docs/profile/quality-rubric.md) | 10/10 profile standard |
+| [Docs map](docs/README.md) | full supporting library |
+
+This repo does **not** claim guaranteed ROI, official certification, production client results, accounting correctness, tax or legal advice, trading performance, enterprise compliance, or public exposure of private systems.
 
 ## Public Pages
 
@@ -221,4 +101,4 @@ This repository is a public-safe portfolio. It explains how Aureus thinks, build
 
 ## One Sentence
 
-**Aureus Automation Lab builds controlled AI workflow systems that help companies turn manual work into visible, reviewable, and reliable execution.**
+**Aureus Automation Lab turns manual business chaos into controlled AI-assisted execution with review, validation, evidence, and handoff.**

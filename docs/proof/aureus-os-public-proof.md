@@ -1,12 +1,23 @@
 # Aureus OS Public Proof
 
-This page explains the public-safe Aureus OS direction.
+This page explains Aureus OS as an operating model, not as a buzzword.
 
-Aureus OS is the operating method behind AI-assisted delivery.
+## Problem
 
-## What Problem It Solves
+AI output is not enough for serious company work.
 
-AI can produce output quickly, but businesses need more than fast output. They need scope, ownership, review, validation, evidence, handoff, and a safe way to decide what happens next.
+A business also needs:
+
+- scope,
+- ownership,
+- review,
+- validation,
+- evidence,
+- approval boundaries,
+- handoff,
+- a way to continue work without relying on memory.
+
+Without that, AI creates more drafts, more files, more uncertainty, and more unfinished work.
 
 ## Operating Flow
 
@@ -25,19 +36,34 @@ mission / task
 
 | Layer | Purpose |
 | --- | --- |
-| Mission contract | define the goal and constraints |
-| GitHub / Codex | keep work reviewable |
+| Mission contract | define the goal, context, constraints, and risk |
+| GitHub / Codex | keep work reviewable and source-controlled |
 | n8n | automate repeatable workflow states |
-| AI assistant | draft, classify, reason, and summarize |
-| Validation | check outputs before trust |
+| AI assistant | draft, classify, reason, summarize, and propose |
+| Validation | check output before trust |
 | Action gate | stop unsafe downstream actions |
-| Evidence | show what happened |
-| Handoff | make the system usable later |
+| Evidence | show what happened and what remains uncertain |
+| Handoff | make the system understandable later |
 
-## Public Proof Value
+## Why This Matters For Companies
 
-This demonstrates that Aureus is not just building random automations. It is building a repeatable operating model for AI-assisted company work.
+Companies do not only need faster work. They need work that can be explained, reviewed, improved, and safely handed to the next person.
+
+Aureus OS is the method behind that:
+
+- tasks start with scope,
+- AI works inside boundaries,
+- sensitive actions stay reviewed,
+- outputs are checked,
+- evidence is kept,
+- the next step is clear.
+
+## What This Proves Publicly
+
+This proves that Aureus is not just building random automations. It is building a repeatable method for AI-assisted company work.
+
+The public proof is the operating shape: scope, review, validation, evidence, and handoff.
 
 ## What Stays Private
 
-Internal prompts, private repos, credentials, workflow IDs, production logs, customer data, and private endpoints stay private.
+Internal prompts, private repositories, credentials, workflow IDs, production logs, customer data, private endpoints, and private implementation details stay private.
