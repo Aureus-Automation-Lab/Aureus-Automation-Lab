@@ -1,73 +1,50 @@
-# Profile Completeness Check
+# Profile Readiness Check
 
 ![Aureus profile completeness map](assets/completeness-check-map.svg)
 
-| Page signal | What this checklist protects |
-| --- | --- |
-| Launch readiness | identity, public boundary, visuals, links, pins, and external-viewer check |
-| Maintenance readiness | future updates stay honest, visual, and public-safe |
-| Safety boundary | no private repo content, screenshots, credentials, endpoints, or fake claims |
+This file is the public-readiness checklist for the `KimiAoki/KimiAoki` profile repository. It exists so future updates stay useful, honest, and safe for external viewers.
 
-## Aureus Presentation Readiness
+## Current State
 
-- [ ] README clearly says Robert Kolesár / KimiAoki.
-- [ ] README clearly says Founder, Aureus Automation Lab.
-- [ ] README clearly says AI Product Systems Architect.
-- [ ] README clearly says Builder of Aureus Autonomous Operating Platform.
-- [ ] README uses the accepted Image 2 hero.
-- [ ] Generated images are labeled as public-safe concept visuals.
-- [ ] PROFILE_IMAGEGEN_PRODUCTION_GUIDE.md exists and matches the current Image 2 workflow.
-- [ ] Public URLs are present.
-- [ ] Azure / Supervisor wording says demonstrated capability, not certification.
-- [ ] FineCon / Invoice wording avoids accounting correctness claims.
-- [ ] Web Studio wording avoids final proof claims unless evidence exists.
-- [ ] Public/private boundary is visible.
-- [ ] Visual assets match the Aureus AOP positioning.
-
-## Identity And Positioning
-
-- [ ] README has clear identity and role: Robert Kolesár / KimiAoki, Founder of Aureus Automation Lab, AI Product Systems Architect.
-- [ ] Banner and Image 2 hero match the identity and role.
-- [ ] The first 10 seconds explain business process -> solution architecture -> AI/workflow layer -> validation -> handoff.
-- [ ] Best-fit roles are visible.
-- [ ] Tools and stack are honest.
-- [ ] PROFILE_IMAGE2_PROMPT_PACK.md exists for future visual generation.
-- [ ] Image generation prompts define intended use, composition, system anatomy, constraints, and success criteria.
-- [ ] PROFILE_VIDEO_STORYBOARD.md exists for future public-safe video work.
+| Area | Status | Notes |
+| --- | --- | --- |
+| Identity | Ready | Robert Kolesar / KimiAoki, Founder of Aureus Automation Lab |
+| Positioning | Ready | AI Product Systems Architect and builder of Aureus Autonomous Operating Platform |
+| Public story | Ready | README explains what Aureus builds in plain language and technical review language |
+| Automation Lab page | Ready | Local public explanation exists in `AUTOMATION_LAB.md` |
+| FinEcon page | Ready | Local public explanation exists in `FINECON.md` |
+| Aureus OS page | Ready | Local public explanation exists in `AUREUS_OS.md` |
+| Proof boundary | Ready | `PUBLIC_BOUNDARY.md` and `PROOF_INDEX.md` explain what is and is not claimed |
+| Visuals | Ready | Public-safe hero, architecture, workflow, and review visuals are included |
+| Links | Validated locally | Internal Markdown links should be checked before each public push |
+| Repository visibility | Manual owner gate | Make public only after owner confirms the final visibility change |
+| Public pins | Manual follow-up | Pin only public-safe repos or gists after the profile repo is public |
 
 ## Public-Safe Boundary
 
-- [ ] Public-safe boundary is clear.
-- [ ] Case studies are public-safe.
-- [ ] No secrets or private details are present.
-- [ ] No raw workflow exports are present.
-- [ ] No credentials, endpoints, webhook URLs, workflow IDs, production settings, or private screenshots are present.
-- [ ] Unsupported customer, revenue, accounting correctness, trading performance, and enterprise compliance claims are not present.
+The repository must not include:
 
-## Review Quality
+- credentials or secrets,
+- webhook URLs or private endpoints,
+- private workflow exports,
+- production logs,
+- customer-like data,
+- POHODA access details,
+- private screenshots,
+- unsupported customer, revenue, ROI, certification, accounting-correctness, or production-result claims.
 
-- [ ] Links work.
-- [ ] Assets render.
-- [ ] The profile reads as a solution architect portfolio, not a source-code dump.
-- [ ] The profile is credible without sounding inflated.
-- [ ] Repository should be public if the profile README should appear publicly.
-- [ ] Pin up to six public/review-safe repos or gists.
-- [ ] Add sanitized screenshots later if available.
+## External Viewer Test
 
-## Visual Quality
+Before sharing the profile broadly:
 
-- [ ] Banner matches role.
-- [ ] Image 2 hero renders.
-- [ ] Workflow-governance image renders.
-- [ ] Public/private boundary image renders.
-- [ ] Supervisor-validation image renders.
-- [ ] Diagrams render.
-- [ ] Mermaid diagrams are readable.
-- [ ] No visual asset contains outdated positioning.
-- [ ] Profile is scannable in under 60 seconds.
+1. Open the repository in a signed-out browser.
+2. Confirm the README renders in the first screen.
+3. Confirm images load.
+4. Confirm internal links open.
+5. Confirm public websites open.
+6. Confirm private repositories are not required to understand the story.
+7. Confirm the profile reads like a professional client-acquisition front door, not a private source dump.
 
-## Maintenance Notes
+## Maintenance Rule
 
-- Keep the profile small, focused, and easy to review.
-- Add new public material only when it strengthens the architecture signal.
-- Do not add private implementation details just to make the profile look fuller.
+Add new material only when it makes the public story clearer, safer, or more commercially useful. Do not add private implementation details just to make the profile look bigger.

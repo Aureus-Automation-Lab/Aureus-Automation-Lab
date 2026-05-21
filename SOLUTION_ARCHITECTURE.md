@@ -20,7 +20,7 @@ Public-safe concept visual. Demonstrated capability direction only, not official
 
 This profile now represents Robert Kolesár / KimiAoki as Founder of Aureus Automation Lab, AI Product Systems Architect, and builder of Aureus Autonomous Operating Platform.
 
-Aureus AOP connects business process discovery, n8n workflow automation, GitHub / Codex delivery, Azure/OpenAI Supervisor capability, validation, egress review, evidence, Web Studio / Experience surfaces, and FineCon / Invoice workflow direction.
+Aureus AOP connects business process discovery, n8n workflow automation, GitHub / Codex delivery, Azure/OpenAI Supervisor capability, validation, egress review, evidence, Web Studio / Experience surfaces, and FinEcon / Invoice workflow direction.
 
 ```mermaid
 flowchart TD
@@ -28,7 +28,7 @@ flowchart TD
     B --> C[GitHub / Codex delivery]
     C --> D[n8n workflow source]
     C --> E[Web Studio surface]
-    C --> F[FineCon / Invoice direction]
+    C --> F[FinEcon / Invoice direction]
     D --> G[Validation + evidence]
     E --> G
     F --> G

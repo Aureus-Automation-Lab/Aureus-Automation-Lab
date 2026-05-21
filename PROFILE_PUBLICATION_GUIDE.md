@@ -35,7 +35,7 @@ This task does not change repository visibility automatically. GitHub profile RE
 | 1 | `KimiAoki/KimiAoki` |
 | 2 | Aureus AOP architecture gist/demo |
 | 3 | Automation Audit process map gist/demo |
-| 4 | Invoice / FineCon public-safe workflow gist/demo |
+| 4 | Invoice / FinEcon public-safe workflow gist/demo |
 | 5 | Web Studio / Figma-to-code public-safe demo when visually ready |
 | 6 | Template or health demo repo if polished |
 

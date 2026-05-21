@@ -9,7 +9,7 @@ Public-safe concept visual. Not a screenshot, not customer proof, not production
 | Page signal | What to scan first |
 | --- | --- |
 | Proof type | architecture directions, not private implementation dumps |
-| Best examples | FineCon / Invoice, n8n Workflow Factory, Web Studio, internal operating patterns |
+| Best examples | FinEcon / Invoice, n8n Workflow Factory, Web Studio, internal operating patterns |
 | Safety boundary | no production claims, private workflow exports, customer-like data, credentials, or accounting correctness claims |
 
 These are public-safe case study directions for Robert Kolesár / KimiAoki and Aureus Automation Lab. They show architecture thinking without exposing private implementation details, credentials, raw workflow exports, client-like data, POHODA internals, production context, or unsupported claims.
@@ -23,7 +23,7 @@ They are not claims of production deployment, accounting correctness, trading pe
 | Aureus AOP | Operating platform around agents, GitHub, n8n, validation, evidence, and handoff | Architecture and docs only |
 | n8n Workflow Factory | Workflow-as-source and controlled automation changes | No raw private exports |
 | Supervisor / Azure capability | Verifier/supervisor integration concept with smoke tests and evidence gates | No Azure secrets or endpoints |
-| FineCon / Invoice | Document/invoice workflow with review and POHODA boundary | No accounting correctness claim |
+| FinEcon / Invoice | Document/invoice workflow with review and POHODA boundary | No accounting correctness claim |
 | Web Studio / Experience | Public-safe visual/product surface production | No private screenshots or fake dashboards |
 
 ## Case Study Review Map
@@ -37,7 +37,7 @@ flowchart LR
     E --> F[Public-safe proof]
 ```
 
-## FacturaAI / FineCon - Invoice And Document Automation
+## FacturaAI / FinEcon - Invoice And Document Automation
 
 | Area | Public-safe signal |
 | --- | --- |

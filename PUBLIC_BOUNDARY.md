@@ -25,7 +25,7 @@ The goal is to show architecture, capability, validation discipline, and public-
 | Raw n8n workflow exports | No | May expose private logic, IDs, endpoints, or credentials |
 | Azure / Supervisor capability | Yes | Demonstrated capability wording only |
 | Azure secrets/endpoints | No | Never public |
-| FineCon / Invoice direction | Yes | Review boundary and public-safe diagrams |
+| FinEcon / Invoice direction | Yes | Review boundary and public-safe diagrams |
 | POHODA internals | No | Credentials, imports, company data, and accounting internals stay private |
 | Web Studio | Yes | Public-safe architecture and visual QA model |
 | Private screenshots | No | Only sanitized alternatives later |

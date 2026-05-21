@@ -12,9 +12,9 @@ Public-safe concept visual. Not a screenshot, not customer proof, not production
 
 ## Identity
 
-Robert Kolesár / KimiAoki  
-Founder, Aureus Automation Lab  
-AI Product Systems Architect  
+Robert Kolesár / KimiAoki<br>
+Founder, Aureus Automation Lab<br>
+AI Product Systems Architect<br>
 Builder of Aureus Autonomous Operating Platform
 
 ## What I Build
@@ -22,6 +22,16 @@ Builder of Aureus Autonomous Operating Platform
 I build AI-native workflow and product systems that make automation controlled, reviewable, and evidence-backed.
 
 The work usually starts with a manual process, then moves through process mapping, workflow architecture, AI assistance, human review boundaries, validation, evidence, and handoff.
+
+## Practical Starting Points
+
+| Need | Start with | Public explanation |
+| --- | --- | --- |
+| You want to know what can be automated first | Automation Audit | [BUILD_MENU.md](BUILD_MENU.md) |
+| You need n8n workflow automation with review and logs | Automation Lab | [AUTOMATION_LAB.md](AUTOMATION_LAB.md) |
+| You need invoice/document flow, review, and finance visibility | FinEcon | [FINECON.md](FINECON.md) |
+| You need an internal AI operating layer for the company | Aureus OS | [AUREUS_OS.md](AUREUS_OS.md) |
+| You want to review proof without seeing private internals | Proof Index | [PROOF_INDEX.md](PROOF_INDEX.md) |
 
 ## Main Platform Direction
 
@@ -37,12 +47,12 @@ Aureus Autonomous Operating Platform connects:
 - action gates,
 - evidence ledger,
 - Web Studio / Experience systems,
-- FineCon / Invoice direction.
+- FinEcon / Invoice direction.
 
 ## Public Pages
 
 - Automation Lab: https://aureus.it.com/automationlab
-- Invoice / FineCon: https://aureus.it.com/invoice
+- Invoice / FinEcon: https://aureus.it.com/invoice
 
 ## Public-Safe Proof
 
