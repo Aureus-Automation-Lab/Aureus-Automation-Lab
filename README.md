@@ -7,6 +7,28 @@ Founder, AI Systems Engineer, workflow automation architect
 
 ![Aureus Automation Lab public profile hero](assets/image2/profile-public-architecture-hero.png)
 
+## In Plain Words
+
+Most companies do not need more tools.
+
+They need repeated work to stop getting lost between emails, spreadsheets, invoices, documents, CRM systems, approvals, dashboards, AI assistants, and people waiting for the next step.
+
+**Aureus Automation Lab designs the missing operating layer around that work.**
+
+```text
+manual work
+-> clear process
+-> AI-assisted draft / extraction / classification
+-> human review
+-> validation
+-> proof
+-> safe next action
+```
+
+The rule is simple:
+
+> AI helps. People approve. The system keeps evidence.
+
 ## What We Do
 
 Aureus Automation Lab helps founders and teams turn repeated manual work into controlled business systems.
@@ -24,6 +46,14 @@ We focus on the work that quietly slows a company down: the handoffs between peo
 The goal is not to add more software.
 
 The goal is to make the business easier to operate.
+
+## Three Public Proof Paths
+
+| Pillar | Simple explanation | Public proof |
+| --- | --- | --- |
+| **Aureus Automation Lab** | AI and n8n systems for sales, operations, documents, reporting, and workflow control | [Sales Machine public proof](docs/proof/sales-machine-public-proof.md) |
+| **FinEcon** | invoice, document, cashflow, cost, revenue, and reporting intelligence with review boundaries | [FinEcon public proof](docs/proof/finecon-public-proof.md) |
+| **Aureus OS** | operating method for AI-assisted work, validation, evidence, Git truth, and handoff | [Aureus OS public proof](docs/proof/aureus-os-public-proof.md) |
 
 ## Why Companies Need This
 
@@ -171,12 +201,17 @@ This repository is a public-safe portfolio. It explains how Aureus thinks, build
 
 | Start here | Use it for |
 | --- | --- |
+| [Start here](docs/overview/start-here.md) | Simplest explanation for a non-technical visitor |
 | [One-page profile](docs/overview/one-pager.md) | Quick external summary |
 | [Build menu](docs/services/build-menu.md) | Pick the right first engagement |
 | [Capabilities](docs/services/capabilities.md) | See what can be designed and built |
 | [Solution architecture](docs/system/solution-architecture.md) | Technical review of system boundaries |
 | [Proof index](docs/proof/proof-index.md) | Understand what this public repo proves |
+| [Sales Machine public proof](docs/proof/sales-machine-public-proof.md) | Review safe sales automation direction |
+| [FinEcon public proof](docs/proof/finecon-public-proof.md) | Review finance and document workflow boundaries |
+| [Aureus OS public proof](docs/proof/aureus-os-public-proof.md) | Review the operating model behind delivery |
 | [Source truth map](docs/proof/source-truth-map.md) | See which public claims are backed by Aureus Git source |
+| [Public release audit](docs/profile/public-release-audit.md) | Final checklist before making the repo public |
 | [Docs map](docs/README.md) | Full supporting library |
 
 ## Public Pages

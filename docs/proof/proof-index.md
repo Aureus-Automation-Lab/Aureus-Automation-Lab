@@ -18,14 +18,16 @@ The profile is intentionally public-safe. It does not expose raw private impleme
 ## Best Reading Order
 
 1. [README.md](../../README.md) - understand the whole profile in one page.
-2. [One-page profile](../overview/one-pager.md) - use this as the short external-safe summary.
-3. [Build menu](../services/build-menu.md) - see where a first project can start.
-4. [Automation Lab](../services/automation-lab.md) - review automation capabilities and Sales Machine direction.
-5. [FinEcon](../services/finecon.md) - review invoice and financial intelligence direction.
-6. [Aureus OS](../system/aureus-os.md) - review the operating system behind the delivery model.
-7. [Solution architecture](../system/solution-architecture.md) - review deeper architecture and decision boundaries.
-8. [Source truth map](source-truth-map.md) - see which public claims are backed by Aureus Git source.
-9. [Public boundary](public-boundary.md) - understand what stays private and why.
+2. [Start here](../overview/start-here.md) - read the simplest non-technical explanation.
+3. [One-page profile](../overview/one-pager.md) - use this as the short external-safe summary.
+4. [Build menu](../services/build-menu.md) - see where a first project can start.
+5. [Sales Machine public proof](sales-machine-public-proof.md) - review safe sales automation direction.
+6. [FinEcon public proof](finecon-public-proof.md) - review finance and document workflow boundaries.
+7. [Aureus OS public proof](aureus-os-public-proof.md) - review the controlled AI-assisted delivery model.
+8. [Automation Lab](../services/automation-lab.md) - review automation capabilities and Sales Machine direction.
+9. [Solution architecture](../system/solution-architecture.md) - review deeper architecture and decision boundaries.
+10. [Source truth map](source-truth-map.md) - see which public claims are backed by Aureus Git source.
+11. [Public boundary](public-boundary.md) - understand what stays private and why.
 
 ## Proof Types Shown Here
 
@@ -36,6 +38,7 @@ The profile is intentionally public-safe. It does not expose raw private impleme
 | **Safety proof** | public/private boundary, unsupported-claims discipline |
 | **Automation proof** | n8n workflow governance and Sales Machine direction |
 | **Financial workflow proof** | FinEcon, invoice/document review, POHODA/UBL boundary |
+| **Operating-system proof** | Aureus OS scope, review, validation, action gate, evidence, and handoff |
 | **Source-truth proof** | public claim register mapped to private Aureus Git artifact families |
 | **Delivery proof** | GitHub/Codex, validation, evidence, handoff notes |
 

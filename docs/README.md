@@ -6,6 +6,7 @@ The root `README.md` is the main profile. This folder keeps the supporting mater
 
 | Page | What it answers |
 | --- | --- |
+| [Start here](overview/start-here.md) | The simplest explanation of Aureus for a first-time visitor |
 | [One-page profile](overview/one-pager.md) | Who Aureus is and what we build |
 | [Build menu](services/build-menu.md) | Which first project makes sense |
 | [Automation Lab](services/automation-lab.md) | How n8n and AI workflows are approached |
@@ -37,6 +38,9 @@ The root `README.md` is the main profile. This folder keeps the supporting mater
 | Page | What it answers |
 | --- | --- |
 | [Proof index](proof/proof-index.md) | What the public portfolio is meant to prove |
+| [Sales Machine public proof](proof/sales-machine-public-proof.md) | Safe sales automation direction without private lead or inbox data |
+| [FinEcon public proof](proof/finecon-public-proof.md) | Finance and document workflow boundary |
+| [Aureus OS public proof](proof/aureus-os-public-proof.md) | Controlled AI-assisted delivery model |
 | [Source truth map](proof/source-truth-map.md) | Which public claims are backed by the Aureus Git source-of-truth |
 | [Public boundary](proof/public-boundary.md) | What is intentionally not exposed |
 | [Review guide](proof/review-guide.md) | How different audiences should review the profile |
@@ -48,7 +52,9 @@ The root `README.md` is the main profile. This folder keeps the supporting mater
 | [Readiness check](profile/readiness-check.md) | Public profile QA checklist |
 | [Publication guide](profile/publication-guide.md) | Visibility and external-viewer checklist |
 | [Pins guide](profile/pins-guide.md) | GitHub pin strategy |
+| [Pinned items strategy](profile/pinned-items-strategy.md) | Short executive pinning strategy |
 | [Public pin candidates](profile/public-pin-candidates.md) | Future public-safe demos or gists to prepare |
+| [Public release audit](profile/public-release-audit.md) | Final checklist and local audit command before public launch |
 
 ## Visual System
 
