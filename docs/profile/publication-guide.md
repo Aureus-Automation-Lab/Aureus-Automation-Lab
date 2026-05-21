@@ -2,7 +2,9 @@
 
 ![Aureus profile completeness map](../../assets/completeness-check-map.svg)
 
-This task does not change repository visibility automatically. GitHub profile README appears publicly only when the special profile repository `KimiAoki/KimiAoki` is public.
+This task does not change repository visibility automatically. GitHub profile README appears publicly only when the special profile repository matches the current GitHub username and is public.
+
+For the identity change sequence, use [GitHub identity transition](github-identity-transition.md). For repository About settings, use [GitHub About settings](github-about-settings.md).
 
 GitHub reference:
 
@@ -13,7 +15,7 @@ GitHub reference:
 
 | Check | Required state |
 | --- | --- |
-| Identity | Robert Kolesár / KimiAoki is clear in the first screen |
+| Identity | Róbert Kolesár / robert-kolesar is clear in the first screen |
 | Positioning | Founder, Aureus Automation Lab; AI Product Systems Architect; Builder of Aureus AOP |
 | Public boundary | Private systems, credentials, endpoints, POHODA internals, and private screenshots are not exposed |
 | Source truth | Public claims are connected to the [source truth map](../proof/source-truth-map.md) |
@@ -23,10 +25,10 @@ GitHub reference:
 
 ## Manual Steps To Make The Profile Repo Public
 
-1. Open GitHub repository settings for `KimiAoki/KimiAoki`.
+1. Open GitHub repository settings for `robert-kolesar/robert-kolesar`.
 2. Go to the danger zone visibility section.
 3. Change visibility from private to public only after the checklist above is complete.
-4. Confirm the repository name remains exactly `KimiAoki/KimiAoki`.
+4. Confirm the repository name remains exactly `robert-kolesar/robert-kolesar`.
 5. Open the public GitHub profile in a signed-out or private browser session.
 
 Before switching visibility, run the local public release audit:
@@ -44,7 +46,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File scripts\public_profile_audit
 
 | Priority | Pin |
 | --- | --- |
-| 1 | `KimiAoki/KimiAoki` |
+| 1 | `robert-kolesar/robert-kolesar` |
 | 2 | Aureus OS architecture gist/demo |
 | 3 | Sales Machine public-safe workflow map gist/demo |
 | 4 | Invoice / FinEcon public-safe workflow map gist/demo |

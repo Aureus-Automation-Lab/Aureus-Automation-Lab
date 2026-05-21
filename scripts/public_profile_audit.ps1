@@ -45,6 +45,27 @@ foreach ($pattern in $patterns) {
   }
 }
 
+Write-Host "`n== Identity references to review =="
+Write-Host "These are not automatic failures. Confirm they appear only in migration, audit, or owner-instruction docs."
+$identityPatterns = @(
+  ("Kimi" + "Aoki"),
+  ("github.com/" + "Kimi" + "Aoki"),
+  ("Private draft " + "profile"),
+  ("Kimi" + "Aoki/Kimi" + "Aoki")
+)
+
+foreach ($pattern in $identityPatterns) {
+  Write-Host "`n--- identity pattern: $pattern ---"
+  $matches = & git grep -n -I --fixed-strings $pattern 2>$null
+  if ($LASTEXITCODE -eq 0) {
+    $matches | ForEach-Object { Write-Host $_ }
+  } elseif ($LASTEXITCODE -eq 1) {
+    Write-Host "No matches"
+  } else {
+    throw "git grep failed for identity pattern: $pattern"
+  }
+}
+
 Write-Host "`n== Large files over 5MB =="
 $largeFiles = Get-ChildItem -Recurse -File |
   Where-Object { $_.Length -gt 5MB -and $_.FullName -notmatch "\\.git\\" }

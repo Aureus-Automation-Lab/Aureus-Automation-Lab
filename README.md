@@ -2,7 +2,7 @@
 
 **Controlled AI workflow systems for companies that want cleaner sales, operations, finance, documents, reporting, and internal execution.**
 
-Led by **Róbert Kolesár / KimiAoki**<br>
+Led by **Róbert Kolesár / robert-kolesar**<br>
 Founder of Aureus Automation Lab · AI Systems Engineer · workflow automation architect
 
 ![Aureus Automation Lab public profile hero](assets/image2/profile-public-architecture-hero.png)

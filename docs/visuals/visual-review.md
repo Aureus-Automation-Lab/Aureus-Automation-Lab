@@ -1,18 +1,18 @@
 # Visual Review
 
-![Robert Kolesár / KimiAoki public architecture hero](../../assets/image2/profile-public-architecture-hero.png)
+![Róbert Kolesár / robert-kolesar public architecture hero](../../assets/image2/profile-public-architecture-hero.png)
 
 Public-safe concept visual. Not a screenshot, not customer proof, not production evidence.
 
 | Page signal | What this page verifies |
 | --- | --- |
-| Visual identity | Robert Kolesár / KimiAoki, Aureus Automation Lab, Aureus AOP |
+| Visual identity | Róbert Kolesár / robert-kolesar, Aureus Automation Lab, Aureus AOP |
 | Visual system | all docs have public-safe visuals, diagrams, or asset references |
 | Safety boundary | no fake screenshots, fake proof, private data, or external image dependencies |
 
 ## Aureus Visual Identity Target
 
-Robert Kolesár / KimiAoki<br>
+Róbert Kolesár / robert-kolesar<br>
 Founder, Aureus Automation Lab<br>
 AI Product Systems Architect<br>
 Builder of Aureus Autonomous Operating Platform
@@ -70,7 +70,7 @@ No MP4 is committed in this pass. See the [video storyboard](video-storyboard.md
 
 ## Visual Checklist
 
-- [ ] no outdated "Kimi Aoki" main title,
+- [ ] no outdated nickname-first main title,
 - [ ] role appears as Founder, Aureus Automation Lab / AI Product Systems Architect,
 - [ ] diagrams are readable,
 - [ ] no private data,

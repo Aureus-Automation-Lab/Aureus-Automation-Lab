@@ -17,6 +17,16 @@ Use this rubric before sharing the GitHub profile with clients, partners, collab
 | Buyer conversion path | A company can see practical first projects: Automation Audit, n8n Workflow Governance, FinEcon Pilot, Aureus OS Setup, Premium AI Website + Automation, or Monthly Automation Partner. |
 | External share readiness | The repo can be opened in a signed-out browser, understood without private repos, and reviewed without exposing secrets or unsupported claims. |
 
+## Identity Polish
+
+A 10/10 public profile requires:
+
+- public name is human and professional: `Róbert Kolesár`,
+- GitHub username is clean and shareable: `robert-kolesar`,
+- profile repository matches the username: `robert-kolesar/robert-kolesar`,
+- README, docs, proof pages, About settings, and pins use the same public identity,
+- old nickname-first positioning is not presented as the main public brand.
+
 ## Required Public Proof Artifacts
 
 A 10/10 profile includes:

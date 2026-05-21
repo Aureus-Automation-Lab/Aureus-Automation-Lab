@@ -1,5 +1,5 @@
 <svg width="1400" height="560" viewBox="0 0 1400 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Robert Kolesar / KimiAoki quality loop</title>
+  <title id="title">Róbert Kolesár / robert-kolesar quality loop</title>
   <desc id="desc">A dark quality loop showing scope, tests, review, evidence, handoff, and iteration.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="560" gradientUnits="userSpaceOnUse">
@@ -18,7 +18,7 @@
     <path d="M175 0V560M350 0V560M525 0V560M700 0V560M875 0V560M1050 0V560M1225 0V560" stroke="#F7F8FA" stroke-opacity="0.08"/>
   </g>
   <text x="74" y="76" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="40" font-weight="800">Quality Loop</text>
-  <text x="74" y="110" fill="#B8F7D4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">Robert Kolesár / KimiAoki - Aureus Automation Lab</text>
+  <text x="74" y="110" fill="#B8F7D4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">Róbert Kolesár / robert-kolesar - Aureus Automation Lab</text>
   <text x="74" y="140" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">A workflow is not finished just because it runs once.</text>
   <g transform="translate(112 178)">
     <rect width="1176" height="270" rx="30" fill="url(#panel)" stroke="#F7F8FA" stroke-opacity="0.14"/>
