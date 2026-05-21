@@ -12,7 +12,7 @@ Public-safe concept visual. Not a screenshot, not customer proof, not production
 | Best examples | FinEcon / Invoice, n8n Workflow Factory, Web Studio, internal operating patterns |
 | Safety boundary | no production claims, private workflow exports, customer-like data, credentials, or accounting correctness claims |
 
-These are public-safe case study directions for Róbert Kolesár / robert-kolesar and Aureus Automation Lab. They show architecture thinking without exposing private implementation details, credentials, raw workflow exports, client-like data, POHODA internals, production context, or unsupported claims.
+These are public-safe case study directions for Róbert Kolesár / robertkolesar and Aureus Automation Lab. They show architecture thinking without exposing private implementation details, credentials, raw workflow exports, client-like data, POHODA internals, production context, or unsupported claims.
 
 They are not claims of production deployment, accounting correctness, trading performance, enterprise compliance, revenue, or customer outcomes unless separately verified.
 

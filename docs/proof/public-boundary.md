@@ -12,7 +12,7 @@ Public-safe concept visual. Not a screenshot, not customer proof, not production
 | Private-by-design | private repos are not hidden because there is nothing to show; they contain sensitive process context |
 | Safety boundary | no secrets, credentials, endpoints, webhooks, workflow IDs, POHODA internals, or private screenshots |
 
-This profile is designed as a public-safe front door for Róbert Kolesár / robert-kolesar, Aureus Automation Lab, and Aureus Autonomous Operating Platform.
+This profile is designed as a public-safe front door for Róbert Kolesár / robertkolesar, Aureus Automation Lab, and Aureus Autonomous Operating Platform.
 
 The goal is to show architecture, capability, validation discipline, and public-safe proof without exposing private implementation details.
 

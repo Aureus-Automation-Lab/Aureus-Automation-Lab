@@ -2,13 +2,13 @@
 
 ![Aureus profile completeness map](../../assets/completeness-check-map.svg)
 
-This file is the public-readiness checklist for the `robert-kolesar/robert-kolesar` profile repository. It exists so future updates stay useful, honest, and safe for external viewers.
+This file is the public-readiness checklist for the `robertkolesar/robertkolesar` profile repository. It exists so future updates stay useful, honest, and safe for external viewers.
 
 ## Current State
 
 | Area | Status | Notes |
 | --- | --- | --- |
-| Identity | Ready | Róbert Kolesár / robert-kolesar, Founder of Aureus Automation Lab |
+| Identity | Ready | Róbert Kolesár / robertkolesar, Founder of Aureus Automation Lab |
 | Identity transition | Manual owner gate | Use `docs/profile/github-identity-transition.md` before changing GitHub username or repository name |
 | Positioning | Ready | AI Product Systems Architect and builder of Aureus Autonomous Operating Platform |
 | Public story | Ready | README explains what Aureus builds in plain language and technical review language |
