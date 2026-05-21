@@ -1,11 +1,23 @@
 # GitHub About Settings
 
-Use these settings after the GitHub identity transition is ready for final owner review.
+Use these repository About settings for the current brand/account profile.
+
+## Current Username
+
+```text
+Aureus-Automation-Lab
+```
 
 ## Recommended Description
 
 ```text
 Public profile for Aureus Automation Lab — controlled AI workflow systems for sales, operations, finance, documents, reporting, and internal execution.
+```
+
+If the account later becomes the personal username `robertkolesar`, use:
+
+```text
+Public founder profile for Róbert Kolesár and Aureus Automation Lab — controlled AI workflow systems for sales, operations, finance, documents, reporting, and internal execution.
 ```
 
 ## Recommended Website
@@ -25,9 +37,13 @@ https://aureus.it.com/automationlab
 - `operations`
 - `public-proof`
 
-## Remove Old Description
+## Remove Old About Description
 
-Remove any old private-draft wording that describes the repository as an internal prototype profile.
+Remove old About description:
+
+```text
+Private draft profile for automation, AI operations, internal tools, and product prototypes
+```
 
 The About section should now present a public Aureus Automation Lab profile, not an internal draft.
 

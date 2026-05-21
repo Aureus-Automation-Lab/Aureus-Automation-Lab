@@ -1,27 +1,52 @@
 # Public Release Audit
 
-Use this checklist before switching `robertkolesar/robertkolesar` from private to public.
+Use this checklist before switching the profile repository from private to public.
+
+## Hard Warning
+
+Do not switch visibility to public until the repository name equals the current GitHub username.
+
+Current detected username:
+
+```text
+Aureus-Automation-Lab
+```
+
+Current repository:
+
+```text
+Aureus-Automation-Lab/robertkolesar
+```
+
+Required profile repository:
+
+```text
+Aureus-Automation-Lab/Aureus-Automation-Lab
+```
 
 ## Repository Visibility
 
 The profile works publicly only when:
 
-- the repository name is exactly `robertkolesar/robertkolesar`,
+- the repository owner is the GitHub account,
+- the repository name equals the current GitHub username,
 - the repository is public,
 - the root `README.md` exists,
 - the root `README.md` has useful content.
 
-## Identity Checks
+## Identity And Naming Checks
 
 Confirm:
 
+- Current username is detected and documented.
+- Repository name equals current username.
 - GitHub display name is `Róbert Kolesár`.
-- GitHub username is `robertkolesar`.
-- Profile repository name matches the username: `robertkolesar/robertkolesar`.
-- README presents `Róbert Kolesár / robertkolesar` as the main public identity.
-- Repository About description no longer uses old private-draft wording.
+- README presents `Róbert Kolesár / robertkolesar` as the founder identity.
+- Repository About description is public-safe.
+- Repository About description no longer says `Private draft profile`.
 - Repository About topics are public-safe and aligned with Aureus.
 - The manual sequence in [GitHub identity transition](github-identity-transition.md) has been reviewed.
+- The final naming gate in [Final public switch checklist](final-public-switch-checklist.md) has been reviewed.
 - The recommended settings in [GitHub About settings](github-about-settings.md) have been applied or consciously deferred.
 
 ## Final Content Checks
@@ -62,6 +87,8 @@ The public repo must not include:
 - private workflow IDs,
 - POHODA access details,
 - real invoices,
+- real leads,
+- real inbox data,
 - client-like data,
 - production logs,
 - private screenshots,
@@ -69,13 +96,22 @@ The public repo must not include:
 - fake testimonials,
 - unsupported customer, ROI, certification, accounting, tax, legal, trading, or enterprise-compliance claims.
 
+## Identity Reference Checks
+
+Confirm:
+
+- no old nickname appears as current public identity,
+- no old private-draft About wording remains in GitHub About,
+- no public-facing page claims unsupported production results,
+- no private implementation appears.
+
 ## External Viewer Test
 
 After switching to public, open the profile in a signed-out or incognito browser.
 
 Confirm:
 
-1. README renders.
+1. README renders on the profile page.
 2. Hero image loads.
 3. Public proof links open.
 4. Public websites open.

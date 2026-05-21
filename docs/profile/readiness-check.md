@@ -2,7 +2,7 @@
 
 ![Aureus profile completeness map](../../assets/completeness-check-map.svg)
 
-This file is the public-readiness checklist for the `robertkolesar/robertkolesar` profile repository. It exists so future updates stay useful, honest, and safe for external viewers.
+This file is the public-readiness checklist for the `Aureus-Automation-Lab/Aureus-Automation-Lab` profile repository. It exists so future updates stay useful, honest, and safe for external viewers.
 
 ## Current State
 

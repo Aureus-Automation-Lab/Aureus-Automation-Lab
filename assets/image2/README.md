@@ -1,6 +1,6 @@
 # Image 2 Profile Assets
 
-This folder contains accepted public-safe concept visuals for the `robertkolesar/robertkolesar` GitHub profile.
+This folder contains accepted public-safe concept visuals for the `Aureus-Automation-Lab/Aureus-Automation-Lab` GitHub profile.
 
 ## Accepted Assets
 

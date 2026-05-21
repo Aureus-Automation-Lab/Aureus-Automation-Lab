@@ -1,106 +1,101 @@
 # GitHub Identity Transition
 
-This guide prepares the public GitHub identity transition for Róbert Kolesár and Aureus Automation Lab.
+This guide records the final public-profile naming rule for Aureus Automation Lab.
 
-It does not change the GitHub username, repository name, repository visibility, or public profile automatically. Those are owner-controlled GitHub actions.
+It does not change repository visibility. The repository must remain private until the final owner review passes.
 
-## Target Identity
+## Detected State
 
-| Field | Target |
+| Field | Current value |
 | --- | --- |
-| Display name | `Róbert Kolesár` |
-| GitHub username | `robertkolesar` |
-| Profile repository | `robertkolesar/robertkolesar` |
+| Current GitHub username | `Aureus-Automation-Lab` |
+| Current repository path | `Aureus-Automation-Lab/robertkolesar` |
+| Required profile repository path | `Aureus-Automation-Lab/Aureus-Automation-Lab` |
+| Display name target | `Róbert Kolesár` |
+| Founder identity inside profile | `Róbert Kolesár / robertkolesar` |
 | Public brand | Aureus Automation Lab |
-| Role line | Founder of Aureus Automation Lab · AI Systems Engineer · workflow automation architect |
 
-## A. Before Username Change
+This is the brand/account profile. Róbert Kolesár is the founder identity presented inside the profile.
 
-1. Confirm the target username `robertkolesar` is available in GitHub account settings.
-2. Confirm the local repository is clean.
-3. Run the public audit:
+## Why This Matters
 
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File scripts\public_profile_audit.ps1
+GitHub profile README appears only when all of these are true:
+
+- the repository owner is the GitHub account,
+- the repository name exactly matches the current GitHub username,
+- the repository is public,
+- `README.md` exists in the repository root,
+- `README.md` has content.
+
+Because the current username is `Aureus-Automation-Lab`, the profile repository must be:
+
+```text
+Aureus-Automation-Lab/Aureus-Automation-Lab
 ```
 
-4. Review all identity references reported by the audit.
-5. Do not make the repository public until the final owner review is complete.
+The current repository name `robertkolesar` is not enough for the brand/account profile README to render.
 
-## B. GitHub Account Update
+## Required Manual Rename Before Public
 
-In GitHub:
+In GitHub repository settings:
 
-1. Open **Settings**.
-2. Open **Account**.
-3. Change the current GitHub username to `robertkolesar` if the username is available.
-4. Open **Public profile**.
-5. Set **Name** to `Róbert Kolesár`.
+1. Open the repository settings for `Aureus-Automation-Lab/robertkolesar`.
+2. Rename the repository from:
 
-## C. Repository Rename
+```text
+robertkolesar
+```
 
-After the username change:
+to:
 
-1. Open the profile repository settings.
-2. Rename the profile repository to `robertkolesar`.
+```text
+Aureus-Automation-Lab
+```
+
 3. Confirm the final repository path is:
+
+```text
+Aureus-Automation-Lab/Aureus-Automation-Lab
+```
+
+## If The Account Username Changes Later
+
+If the GitHub username is later changed to `robertkolesar`, then the profile repository must be renamed to:
 
 ```text
 robertkolesar/robertkolesar
 ```
 
-## D. About Section
+Do not switch the repository to public until the repository name matches the current GitHub username.
 
-Recommended repository description:
+## Public Switch Steps
 
-```text
-Public profile for Aureus Automation Lab — controlled AI workflow systems for sales, operations, finance, documents, reporting, and internal execution.
+1. Confirm the repository name equals the current GitHub username.
+2. Confirm the display name is `Róbert Kolesár`.
+3. Confirm the About description is public-safe.
+4. Run the public audit:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts\public_profile_audit.ps1
 ```
 
-Recommended website:
+5. Switch the repository to public only after the audit passes and the owner approves.
+6. Open the profile in a signed-out or incognito browser.
+7. Confirm the README appears on the GitHub profile page.
+8. Confirm images render and all public-proof links open.
+
+## Incognito Test
+
+Open:
 
 ```text
-https://aureus.it.com/automationlab
+https://github.com/Aureus-Automation-Lab
 ```
 
-Recommended topics:
+Confirm:
 
-- `aureus-automation-lab`
-- `ai-automation`
-- `workflow-automation`
-- `n8n`
-- `finecon`
-- `aureus-os`
-- `operations`
-- `public-proof`
-
-## E. Public Switch
-
-1. Keep the repository private until the audit passes and the owner completes final review.
-2. Switch the repository to public only after approval.
-3. Open `https://github.com/robertkolesar` in an incognito or signed-out browser.
-4. Confirm the README renders as the profile README.
-5. Confirm images render.
-6. Confirm public-proof links work.
-7. Confirm no private implementation, unsupported claim, or old public identity appears.
-
-## F. Pins
-
-After the profile is public:
-
-1. Pin the profile repository.
-2. Later create and pin public-safe gists or mini-repos from:
-   - `public-proof/sales-machine`
-   - `public-proof/finecon`
-   - `public-proof/aureus-os`
-
-Do not pin raw workflow exports, private-context repositories, private screenshots, credentials, endpoints, logs, real invoices, real leads, or unsupported claims.
-
-## Profile Repository Behavior
-
-GitHub profile README appears only when the profile repository name matches the current GitHub username.
-
-Therefore:
-
-- if the username has not changed yet, the profile repository must keep matching the current username,
-- if username becomes `robertkolesar`, the profile repository must be `robertkolesar/robertkolesar`.
+- the README appears on the profile,
+- the first screen says Aureus Automation Lab,
+- the founder line says `Róbert Kolesár / robertkolesar`,
+- the public-proof showroom opens,
+- no private implementation or unsupported claim appears.

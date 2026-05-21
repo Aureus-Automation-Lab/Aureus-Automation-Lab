@@ -25,10 +25,10 @@ GitHub reference:
 
 ## Manual Steps To Make The Profile Repo Public
 
-1. Open GitHub repository settings for `robertkolesar/robertkolesar`.
+1. Open GitHub repository settings for `Aureus-Automation-Lab/Aureus-Automation-Lab`.
 2. Go to the danger zone visibility section.
 3. Change visibility from private to public only after the checklist above is complete.
-4. Confirm the repository name remains exactly `robertkolesar/robertkolesar`.
+4. Confirm the repository name remains exactly `Aureus-Automation-Lab/Aureus-Automation-Lab`.
 5. Open the public GitHub profile in a signed-out or private browser session.
 
 Before switching visibility, run the local public release audit:
@@ -46,7 +46,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File scripts\public_profile_audit
 
 | Priority | Pin |
 | --- | --- |
-| 1 | `robertkolesar/robertkolesar` |
+| 1 | `Aureus-Automation-Lab/Aureus-Automation-Lab` |
 | 2 | Aureus OS architecture gist/demo |
 | 3 | Sales Machine public-safe workflow map gist/demo |
 | 4 | Invoice / FinEcon public-safe workflow map gist/demo |
