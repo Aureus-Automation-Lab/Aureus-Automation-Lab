@@ -59,6 +59,7 @@ Confirm:
 | Aureus pillars | Automation Lab, FinEcon, and Aureus OS are easy to understand |
 | Public proof | proof paths are visible and public-safe |
 | Public proof showroom | `public-proof/README.md` opens and all three proof packages open |
+| Distribution kit | `docs/profile/distribution-kit.md` opens and contains only public-safe messaging |
 | Internal links | all linked local docs open |
 | Images | README images load |
 | Public pages | public websites open |

@@ -19,3 +19,4 @@ powershell -NoProfile -ExecutionPolicy Bypass -File scripts\public_profile_audit
 10. Confirm images render.
 11. Confirm public-proof links open.
 12. Set pinned items.
+13. Use the [distribution kit](distribution-kit.md) to place the public proof link on LinkedIn, the website, email signature, proposals, and buyer follow-ups.

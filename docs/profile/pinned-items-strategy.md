@@ -69,6 +69,10 @@ who we are
 -> small proof of implementation hygiene
 ```
 
+## Distribution Link
+
+After the profile repo is public, use the [distribution kit](distribution-kit.md) to place the public proof link on LinkedIn, the Aureus website, email signatures, proposals, and buyer follow-ups without turning it into spam or unsupported hype.
+
 ## Relationship To Existing Pin Guides
 
 This is the short executive strategy. For fuller detail, use the [profile pins guide](pins-guide.md) and [public pin candidates](public-pin-candidates.md).
