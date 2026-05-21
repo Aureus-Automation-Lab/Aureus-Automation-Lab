@@ -1,6 +1,6 @@
 # Profile Readiness Check
 
-![Aureus profile completeness map](assets/completeness-check-map.svg)
+![Aureus profile completeness map](../../assets/completeness-check-map.svg)
 
 This file is the public-readiness checklist for the `KimiAoki/KimiAoki` profile repository. It exists so future updates stay useful, honest, and safe for external viewers.
 
@@ -11,10 +11,10 @@ This file is the public-readiness checklist for the `KimiAoki/KimiAoki` profile 
 | Identity | Ready | Robert Kolesar / KimiAoki, Founder of Aureus Automation Lab |
 | Positioning | Ready | AI Product Systems Architect and builder of Aureus Autonomous Operating Platform |
 | Public story | Ready | README explains what Aureus builds in plain language and technical review language |
-| Automation Lab page | Ready | Local public explanation exists in `AUTOMATION_LAB.md` |
-| FinEcon page | Ready | Local public explanation exists in `FINECON.md` |
-| Aureus OS page | Ready | Local public explanation exists in `AUREUS_OS.md` |
-| Proof boundary | Ready | `PUBLIC_BOUNDARY.md` and `PROOF_INDEX.md` explain what is and is not claimed |
+| Automation Lab page | Ready | Public explanation exists in `docs/services/automation-lab.md` |
+| FinEcon page | Ready | Public explanation exists in `docs/services/finecon.md` |
+| Aureus OS page | Ready | Public explanation exists in `docs/system/aureus-os.md` |
+| Proof boundary | Ready | `docs/proof/public-boundary.md` and `docs/proof/proof-index.md` explain what is and is not claimed |
 | Visuals | Ready | Public-safe hero, architecture, workflow, and review visuals are included |
 | Links | Validated locally | Internal Markdown links should be checked before each public push |
 | Repository visibility | Manual owner gate | Make public only after owner confirms the final visibility change |

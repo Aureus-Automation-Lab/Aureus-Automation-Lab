@@ -1,6 +1,6 @@
 # Aureus Public Profile One-Pager
 
-![Robert Kolesár / KimiAoki public profile hero](assets/image2/profile-public-architecture-hero.png)
+![Robert Kolesár / KimiAoki public profile hero](../../assets/image2/profile-public-architecture-hero.png)
 
 Public-safe concept visual. Not a screenshot, not customer proof, not production evidence.
 
@@ -27,11 +27,11 @@ The work usually starts with a manual process, then moves through process mappin
 
 | Need | Start with | Public explanation |
 | --- | --- | --- |
-| You want to know what can be automated first | Automation Audit | [BUILD_MENU.md](BUILD_MENU.md) |
-| You need n8n workflow automation with review and logs | Automation Lab | [AUTOMATION_LAB.md](AUTOMATION_LAB.md) |
-| You need invoice/document flow, review, and finance visibility | FinEcon | [FINECON.md](FINECON.md) |
-| You need an internal AI operating layer for the company | Aureus OS | [AUREUS_OS.md](AUREUS_OS.md) |
-| You want to review proof without seeing private internals | Proof Index | [PROOF_INDEX.md](PROOF_INDEX.md) |
+| You want to know what can be automated first | Automation Audit | [Build menu](../services/build-menu.md) |
+| You need n8n workflow automation with review and logs | Automation Lab | [Automation Lab](../services/automation-lab.md) |
+| You need invoice/document flow, review, and finance visibility | FinEcon | [FinEcon](../services/finecon.md) |
+| You need an internal AI operating layer for the company | Aureus OS | [Aureus OS](../system/aureus-os.md) |
+| You want to review proof without seeing private internals | Proof Index | [Proof index](../proof/proof-index.md) |
 
 ## Main Platform Direction
 
@@ -77,8 +77,8 @@ Do not use official-certification wording unless a real certification exists.
 
 ## Best Review Path
 
-1. Read `README.md`.
-2. Open `SOLUTION_ARCHITECTURE.md`.
-3. Review `CASE_STUDIES.md`.
-4. Check `PUBLIC_BOUNDARY.md`.
-5. Use `PROFILE_PINS_GUIDE.md` before pinning public repos.
+1. Read the root `README.md`.
+2. Open [solution architecture](../system/solution-architecture.md).
+3. Review [case studies](../proof/case-studies.md).
+4. Check the [public boundary](../proof/public-boundary.md).
+5. Use the [pins guide](../profile/pins-guide.md) before pinning public repos.

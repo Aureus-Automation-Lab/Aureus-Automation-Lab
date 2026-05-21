@@ -1,6 +1,6 @@
 # Visual Review
 
-![Robert Kolesár / KimiAoki public architecture hero](assets/image2/profile-public-architecture-hero.png)
+![Robert Kolesár / KimiAoki public architecture hero](../../assets/image2/profile-public-architecture-hero.png)
 
 Public-safe concept visual. Not a screenshot, not customer proof, not production evidence.
 
@@ -48,25 +48,25 @@ Builder of Aureus Autonomous Operating Platform
 | `assets/image2/public-private-boundary.png` | Accepted | No text, no private data, clear public/private separation |
 | `assets/image2/supervisor-validation-capability.png` | Accepted | No provider logos, no certification implication, clear validation flow |
 
-See [PROFILE_IMAGE2_PROMPT_PACK.md](PROFILE_IMAGE2_PROMPT_PACK.md) and [PROFILE_IMAGEGEN_PRODUCTION_GUIDE.md](PROFILE_IMAGEGEN_PRODUCTION_GUIDE.md) for future prompt controls.
+See the [Image 2 prompt pack](image2-prompt-pack.md) and [image generation guide](imagegen-production-guide.md) for future prompt controls.
 
 ## Video Assets
 
-No MP4 is committed in this pass. See [PROFILE_VIDEO_STORYBOARD.md](PROFILE_VIDEO_STORYBOARD.md) for the Azure/Sora-ready storyboard and safety gate.
+No MP4 is committed in this pass. See the [video storyboard](video-storyboard.md) for the Azure/Sora-ready storyboard and safety gate.
 
 ## Mermaid Diagrams
 
 | File | Diagram | Purpose |
 | --- | --- | --- |
 | `README.md` | Public Architecture Snapshot | 10-second process-to-handoff story |
-| `SOLUTION_ARCHITECTURE.md` | Architecture Snapshot | Layered solution architecture |
-| `CAPABILITIES.md` | Capability Architecture Map | Capability groups as architecture path |
-| `CASE_STUDIES.md` | Case Study Review Map | Public-safe case-study structure |
-| `CASE_STUDIES.md` | FacturaAI / FinEcon flow | Document intake to evidence notes |
-| `CASE_STUDIES.md` | n8n Workflow Factory flow | Review, validation, import boundary, handoff |
-| `BUILD_MENU.md` | Selection flow | Choose a collaboration format |
-| `COLLABORATION.md` | Collaboration Flow | Delivery model from discovery to iteration |
-| `REVIEW_GUIDE.md` | Reviewer Journey | Recruiter, technical, and client paths |
+| Solution architecture | Architecture Snapshot | Layered solution architecture |
+| Capabilities | Capability Architecture Map | Capability groups as architecture path |
+| Case studies | Case Study Review Map | Public-safe case-study structure |
+| Case studies | FacturaAI / FinEcon flow | Document intake to evidence notes |
+| Case studies | n8n Workflow Factory flow | Review, validation, import boundary, handoff |
+| Build menu | Selection flow | Choose a collaboration format |
+| Collaboration | Collaboration Flow | Delivery model from discovery to iteration |
+| Review guide | Reviewer Journey | Recruiter, technical, and client paths |
 
 ## Visual Checklist
 

@@ -1,6 +1,6 @@
 # Profile Pins Guide
 
-![Aureus public-safe profile pins map](assets/profile-pins-map.svg)
+![Aureus public-safe profile pins map](../../assets/profile-pins-map.svg)
 
 | Page signal | What this guide prevents |
 | --- | --- |
@@ -12,7 +12,7 @@
 
 Pins should make the profile understandable in under 10 seconds:
 
-For the final candidate list, use [PUBLIC_PIN_CANDIDATES.md](PUBLIC_PIN_CANDIDATES.md).
+For the final candidate list, use [PUBLIC_PIN_CANDIDATES.md](public-pin-candidates.md).
 
 1. `KimiAoki/KimiAoki` - profile front door.
 2. Sanitized Aureus AOP architecture gist or demo repo.

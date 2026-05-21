@@ -1,6 +1,6 @@
 # Profile Video Storyboard
 
-![Robert Kolesár / KimiAoki public architecture hero](assets/image2/profile-public-architecture-hero.png)
+![Robert Kolesár / KimiAoki public architecture hero](../../assets/image2/profile-public-architecture-hero.png)
 
 Public-safe concept visual. Not a screenshot, not customer proof, not production evidence.
 

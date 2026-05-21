@@ -1,166 +1,112 @@
-# Robert Kolesár / KimiAoki
+# Róbert Kolesár / KimiAoki
 
-**Founder, Aureus Automation Lab**<br>
-**AI Product Systems Architect**<br>
-**Builder of Aureus Autonomous Operating Platform**
+**Founder of Aureus Automation Lab**<br>
+AI systems, workflow automation, document automation, FinEcon, and internal operating systems for real business work.
 
-![Robert Kolesár / KimiAoki public architecture hero](assets/image2/profile-public-architecture-hero.png)
+![Aureus Automation Lab public profile hero](assets/image2/profile-public-architecture-hero.png)
 
-Public-safe concept visual. Not a screenshot, not customer proof, not production evidence.
+I build controlled AI automation systems for companies that want less manual chaos and more visible execution.
 
-I build AI-native workflow and product systems that turn unclear manual business processes into controlled, reviewable, and evidence-backed operating loops.
+The work usually starts with a simple business problem:
 
-My work connects business process mapping, n8n workflow automation, Codex/GitHub delivery, Azure/OpenAI Supervisor capability, validation gates, proof/evidence systems, FinEcon / Invoice direction, and Web Studio / Experience surfaces.
+- leads are handled manually,
+- invoices and documents are slow to check,
+- workflows run but nobody knows what failed,
+- reporting depends on spreadsheets and memory,
+- AI is used, but without review, evidence, or ownership.
 
-This profile is a public-safe front door. It shows architecture, system thinking, review paths, and proof philosophy without exposing private workflow exports, credentials, endpoints, POHODA internals, client-like data, production settings, or private repositories.
+Aureus turns that into a system:
 
-## At A Glance
+```text
+business process
+-> workflow map
+-> AI-assisted step
+-> human review
+-> validation
+-> evidence
+-> safe handoff
+```
 
-| Signal | Meaning |
-| --- | --- |
-| Identity | Robert Kolesár / KimiAoki |
-| Role | Founder, Aureus Automation Lab; AI Product Systems Architect |
-| Platform | Aureus Autonomous Operating Platform |
-| Core strength | Turning manual processes into controlled AI-assisted workflow systems |
-| Public proof style | Architecture maps, sanitized case studies, validation/evidence notes |
-| Main public pages | [Automation Lab](https://aureus.it.com/automationlab) and [Invoice / FinEcon](https://aureus.it.com/invoice) |
+## What Aureus Builds
 
-## Review Path
-
-| If you are... | Start here | What you will see |
+| Offer | What it means in plain language | Start here |
 | --- | --- | --- |
-| Recruiter / hiring manager | [Capabilities](CAPABILITIES.md), [Review Guide](REVIEW_GUIDE.md) | Role fit, stack, architecture range, public-safe delivery discipline |
-| CTO / technical reviewer | [Solution Architecture](SOLUTION_ARCHITECTURE.md), [Case Studies](CASE_STUDIES.md), [Public Boundary](PUBLIC_BOUNDARY.md) | AOP layers, workflow boundaries, validation, evidence, risk handling |
-| Client / partner | [One-Pager](AUREUS_PUBLIC_PROFILE_ONE_PAGER.md), [Build Menu](BUILD_MENU.md), [Automation Lab](AUTOMATION_LAB.md), [FinEcon](FINECON.md), [Collaboration](COLLABORATION.md) | What can be built, how work starts, what stays private |
-| Founder / investor reviewer | This README, [Case Studies](CASE_STUDIES.md), [Profile Pins Guide](PROFILE_PINS_GUIDE.md) | Platform direction, proof posture, public-safe portfolio plan |
+| **Automation Audit** | We inspect one repeated process and show what should be automated, reviewed, or left manual. | [Build Menu](docs/services/build-menu.md) |
+| **n8n Workflow Automation** | We turn repeated work into workflows with clear inputs, approvals, retries, logs, and handoff. | [Automation Lab](docs/services/automation-lab.md) |
+| **FinEcon** | We structure invoice, document, cashflow, cost, and reporting flows so owners can review better decisions. | [FinEcon](docs/services/finecon.md) |
+| **Internal AI Operating System** | We connect Git, Codex, n8n, validation, proof, and approval gates into a repeatable company workflow. | [Aureus OS](docs/system/aureus-os.md) |
+| **Premium AI Website + Automation** | We create public-facing product surfaces connected to real workflows behind the business. | [Capabilities](docs/services/capabilities.md) |
 
-## Buyer Starting Points
+## Why This Matters
 
-If you are looking at this profile because you need help, start with the business problem rather than the tool.
+Most automation fails because the process underneath is unclear.
 
-| Business problem | First useful offer | Why it is a good start |
-| --- | --- | --- |
-| Repeated work depends on memory, chat, or manual copying | [Automation Audit](BUILD_MENU.md) | It finds the first useful control point before building too much |
-| A process should run in n8n but still be reviewable | [Automation Lab](AUTOMATION_LAB.md) | It turns workflow ideas into source, review, validation, and handoff |
-| Invoices or documents are slow to check and route | [FinEcon](FINECON.md) | It separates extraction, review, exceptions, and downstream handoff |
-| You need a premium website connected to real operations | [Capabilities](CAPABILITIES.md) | It links the public surface to the system behind it |
-| You want an internal AI operating layer | [Aureus OS](AUREUS_OS.md) | It gives AI-assisted work scope, gates, evidence, and ownership |
+A form is submitted.<br>
+A row appears in a sheet.<br>
+A workflow runs.<br>
+Then the real question arrives:
 
-## Public Architecture Snapshot
+**Who checks the exception?**
 
-![Aureus AOP public architecture](assets/aureus-aop-public-architecture.svg)
+That is where Aureus focuses: ownership, review, validation, evidence, and a clean handoff.
+
+## Public Architecture
+
+![Aureus operating loop](assets/aureus-operating-loop.svg)
 
 ```mermaid
 flowchart LR
-    A[Business process] --> B[Aureus AOP]
-    B --> C[GitHub / Codex delivery]
-    B --> D[n8n workflow automation]
-    B --> E[Supervisor validation]
-    B --> F[Web Studio / Experience]
-    B --> G[FinEcon / Invoice direction]
-    C --> H[Evidence + handoff]
-    D --> H
-    E --> H
-    F --> H
-    G --> H
+    A[Manual process] --> B[Mapped workflow]
+    B --> C[AI assist]
+    C --> D[Human review]
+    D --> E[Validation]
+    E --> F[Evidence]
+    F --> G[Safe handoff]
 ```
 
-## What Aureus Automation Lab Does
+## How To Review This Repository
 
-| System type | Public-safe explanation | Typical artifact |
+| If you are... | Read this | You will understand |
 | --- | --- | --- |
-| AI workflow automation | Turns manual process steps into controlled AI-assisted workflows | Process map, review states |
-| n8n workflow source | Treats workflows as reviewable source artifacts, not hidden click-only automation | Workflow boundary map |
-| GitHub / Codex delivery | Uses branches, PRs, validation, and review notes as delivery evidence | PR path, proof notes |
-| Supervisor / Azure capability | Demonstrated integration capability through internal runtime, smoke tests, and evidence-based validation | Supervisor capability note |
-| FinEcon / Invoice | Maps document and invoice workflows with review and POHODA boundaries | Intake/review/handoff flow |
-| Web Studio / Experience | Creates public-safe product surfaces with visual QA, design system, and claims review | Page proof pack |
+| **Potential client** | [One-page profile](docs/overview/one-pager.md) | What Aureus does and where a first project can start |
+| **Founder or operator** | [Build menu](docs/services/build-menu.md) | Which offer fits your current bottleneck |
+| **Technical reviewer** | [Solution architecture](docs/system/solution-architecture.md) | How the system is structured and bounded |
+| **Privacy or claim reviewer** | [Public boundary](docs/proof/public-boundary.md) | What is intentionally not exposed publicly |
+| **Collaborator** | [Collaboration guide](docs/services/collaboration.md) | How work starts, gets reviewed, and hands off |
 
-For a plain-English explanation of the operating model behind these systems, see [Aureus OS](AUREUS_OS.md). For the public evidence boundary, see [Proof Index](PROOF_INDEX.md).
+For the full document map, open [docs/README.md](docs/README.md).
 
-## Workflow Governance Visual
+## Public Proof, Not Private Dump
 
-![n8n workflow governance concept](assets/image2/n8n-workflow-governance.png)
+This repository is not a dump of private workflows, credentials, customer data, or production systems.
 
-Public-safe concept visual. Not a screenshot, not customer proof, not production evidence.
+It shows the parts that are safe and useful for review:
 
-The important signal is not “I have private automations.” The signal is that automation work is governed: source, review, validation, approval, credential separation, evidence, and handoff.
+- architecture,
+- service direction,
+- public-safe case studies,
+- validation philosophy,
+- visual standards,
+- proof and privacy boundaries.
 
-## Architecture Cards
+## What Stays Private
 
-| Card | Signal |
-| --- | --- |
-| Process first | Start with owner, decision, input, failure point, and handoff |
-| AI with boundaries | AI suggests, classifies, drafts, or checks; humans approve sensitive actions |
-| Workflow-as-source | n8n workflows are reviewed as source, not hidden click-only automation |
-| Validation-first | Output needs tests, examples, evidence, or review states before trust |
-| Public-safe proof | Show architecture and sanitized examples without leaking private systems |
-| Handoff-ready | The system should be understandable after the builder leaves |
+This public profile intentionally does **not** expose:
 
-## Proof Without Exposure
+- API keys, credentials, or tokens,
+- webhook URLs or private endpoints,
+- private n8n workflow exports,
+- private prompts,
+- production logs,
+- client-like data,
+- POHODA access or accounting data,
+- unsupported customer, revenue, ROI, certification, or production-result claims.
 
-Most serious automation work cannot be shown as raw code because it may contain private process logic, workflow exports, credentials, endpoints, documents, POHODA context, or business data. Instead, this profile shows:
+## Public Pages
 
-- architecture maps,
-- public-safe case study directions,
-- n8n workflow governance,
-- validation and evidence philosophy,
-- Supervisor / Azure capability wording,
-- Web Studio and FinEcon boundaries,
-- controlled review paths.
+- [Automation Lab](https://aureus.it.com/automationlab)
+- [Invoice / FinEcon direction](https://aureus.it.com/invoice)
 
-## What I Do Not Claim
+## One-Line Positioning
 
-This profile does not claim official Azure certification, enterprise compliance certification, paying customers, production client results, accounting correctness, trading performance, guaranteed ROI, revenue, or production deployment outcomes unless separately verified.
-
-## Current Public Status
-
-| Area | Public posture |
-| --- | --- |
-| Profile repository | Ready to make public after owner visibility check |
-| Private repositories | Not exposed by default |
-| Public pages | Linked as public review surfaces |
-| Architecture notes | Public-safe and sanitized |
-| Technical walkthroughs | Available with controlled scope |
-| Public pins / gists | Manual follow-up before broad outreach |
-
-## Visual Proof Index
-
-The visuals are concept explanations, not screenshots or proof claims. Each one exists to make one part of the system easier to review.
-
-| Signal | Where to review it |
-| --- | --- |
-| Full profile architecture | Hero above and [Solution Architecture](SOLUTION_ARCHITECTURE.md) |
-| Workflow governance | Section above and [Capabilities](CAPABILITIES.md) |
-| Public/private boundary | [Public Boundary](PUBLIC_BOUNDARY.md) |
-| Supervisor validation | [Solution Architecture](SOLUTION_ARCHITECTURE.md) |
-| Collaboration and handoff | [Collaboration](COLLABORATION.md) |
-| Visual QA and prompt discipline | [Visual Review](VISUAL_REVIEW.md), [ImageGen Production Guide](PROFILE_IMAGEGEN_PRODUCTION_GUIDE.md) |
-
-## Portfolio Navigation
-
-| Page | Use it for |
-| --- | --- |
-| [AUREUS_PUBLIC_PROFILE_ONE_PAGER.md](AUREUS_PUBLIC_PROFILE_ONE_PAGER.md) | Short external-safe profile summary |
-| [AUTOMATION_LAB.md](AUTOMATION_LAB.md) | Public explanation of n8n and AI workflow automation work |
-| [FINECON.md](FINECON.md) | Public explanation of invoice, document, finance, and owner-review systems |
-| [AUREUS_OS.md](AUREUS_OS.md) | Operating model for scoped, validated, evidence-backed AI-assisted delivery |
-| [PROOF_INDEX.md](PROOF_INDEX.md) | Public-safe proof model and claim boundary |
-| [SOLUTION_ARCHITECTURE.md](SOLUTION_ARCHITECTURE.md) | AOP architecture layers and decision boundaries |
-| [CASE_STUDIES.md](CASE_STUDIES.md) | Public-safe system directions |
-| [CAPABILITIES.md](CAPABILITIES.md) | Capability map and proof outputs |
-| [BUILD_MENU.md](BUILD_MENU.md) | Project formats and collaboration entry points |
-| [COLLABORATION.md](COLLABORATION.md) | How work starts, reviews, and hands off |
-| [PUBLIC_BOUNDARY.md](PUBLIC_BOUNDARY.md) | What can and cannot be shown publicly |
-| [REVIEW_GUIDE.md](REVIEW_GUIDE.md) | Review paths for different audiences |
-| [PROFILE_IMAGEGEN_PRODUCTION_GUIDE.md](PROFILE_IMAGEGEN_PRODUCTION_GUIDE.md) | Image 2 production workflow and acceptance gate |
-| [PROFILE_IMAGE2_PROMPT_PACK.md](PROFILE_IMAGE2_PROMPT_PACK.md) | Prompt system for future profile visuals |
-| [PROFILE_VIDEO_STORYBOARD.md](PROFILE_VIDEO_STORYBOARD.md) | Azure/Sora-ready video concept package |
-| [PROFILE_PINS_GUIDE.md](PROFILE_PINS_GUIDE.md) | Manual GitHub pin strategy |
-| [PROFILE_COMPLETENESS_CHECK.md](PROFILE_COMPLETENESS_CHECK.md) | Public readiness checklist |
-| [PROFILE_PUBLICATION_GUIDE.md](PROFILE_PUBLICATION_GUIDE.md) | Manual visibility and external-viewer checklist |
-| [VISUAL_REVIEW.md](VISUAL_REVIEW.md) | Visual asset and diagram review |
-
-## Technical Walkthrough
-
-I can walk through selected architecture notes, sanitized examples, public-safe workflow shapes, and the Aureus AOP review path after the privacy boundary and context are clear.
+**Aureus Automation Lab builds controlled AI workflow systems that turn manual business work into structured execution with review, validation, evidence, and handoff.**

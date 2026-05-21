@@ -1,8 +1,8 @@
 # Case Study Directions
 
-![Aureus public-safe case study system map](assets/case-study-system-map.svg)
+![Aureus public-safe case study system map](../../assets/case-study-system-map.svg)
 
-![n8n workflow governance concept](assets/image2/n8n-workflow-governance.png)
+![n8n workflow governance concept](../../assets/image2/n8n-workflow-governance.png)
 
 Public-safe concept visual. Not a screenshot, not customer proof, not production evidence.
 

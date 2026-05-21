@@ -1,6 +1,6 @@
 # Public Pin Candidates
 
-![Aureus public-safe profile pins map](assets/profile-pins-map.svg)
+![Aureus public-safe profile pins map](../../assets/profile-pins-map.svg)
 
 | Priority | Candidate | Public-safe status | Why it matters |
 | --- | --- | --- | --- |
