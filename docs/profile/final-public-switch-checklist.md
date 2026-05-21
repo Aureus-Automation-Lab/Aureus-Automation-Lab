@@ -13,7 +13,7 @@ Aureus-Automation-Lab
 Current repository:
 
 ```text
-Aureus-Automation-Lab/robertkolesar
+Aureus-Automation-Lab/Aureus-Automation-Lab
 ```
 
 Required profile repository:
@@ -22,35 +22,23 @@ Required profile repository:
 Aureus-Automation-Lab/Aureus-Automation-Lab
 ```
 
-## Required Action Before Public
+## Naming Gate
 
-Rename repository from:
+Status: **ready**.
 
-```text
-robertkolesar
-```
-
-to:
-
-```text
-Aureus-Automation-Lab
-```
-
-Do not switch repository visibility to public until this rename is complete.
+The repository name now equals the current GitHub username, so this repository can render as the GitHub profile README after it is made public.
 
 ## Profile README Rule
 
 GitHub profile README appears only when the repository name equals the current GitHub username.
 
 - Current username: `Aureus-Automation-Lab`
-- Required repository name: `Aureus-Automation-Lab`
-- Required final path: `Aureus-Automation-Lab/Aureus-Automation-Lab`
+- Current repository name: `Aureus-Automation-Lab`
+- Final path: `Aureus-Automation-Lab/Aureus-Automation-Lab`
 
 If the username later becomes `robertkolesar`, then the required final path becomes `robertkolesar/robertkolesar`.
 
-## Final Gate
-
-After the rename:
+## Final Gate Before Public
 
 1. Run `scripts/public_profile_audit.ps1`.
 2. Confirm README first screen.

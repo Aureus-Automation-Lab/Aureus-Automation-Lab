@@ -9,7 +9,7 @@ It does not change repository visibility. The repository must remain private unt
 | Field | Current value |
 | --- | --- |
 | Current GitHub username | `Aureus-Automation-Lab` |
-| Current repository path | `Aureus-Automation-Lab/robertkolesar` |
+| Current repository path | `Aureus-Automation-Lab/Aureus-Automation-Lab` |
 | Required profile repository path | `Aureus-Automation-Lab/Aureus-Automation-Lab` |
 | Display name target | `Róbert Kolesár` |
 | Founder identity inside profile | `Róbert Kolesár / robertkolesar` |
@@ -34,30 +34,7 @@ Because the current username is `Aureus-Automation-Lab`, the profile repository 
 Aureus-Automation-Lab/Aureus-Automation-Lab
 ```
 
-The current repository name `robertkolesar` is not enough for the brand/account profile README to render.
-
-## Required Manual Rename Before Public
-
-In GitHub repository settings:
-
-1. Open the repository settings for `Aureus-Automation-Lab/robertkolesar`.
-2. Rename the repository from:
-
-```text
-robertkolesar
-```
-
-to:
-
-```text
-Aureus-Automation-Lab
-```
-
-3. Confirm the final repository path is:
-
-```text
-Aureus-Automation-Lab/Aureus-Automation-Lab
-```
+That naming gate is now satisfied.
 
 ## If The Account Username Changes Later
 
@@ -67,7 +44,7 @@ If the GitHub username is later changed to `robertkolesar`, then the profile rep
 robertkolesar/robertkolesar
 ```
 
-Do not switch the repository to public until the repository name matches the current GitHub username.
+Do not switch the repository to public unless the repository name matches the current GitHub username.
 
 ## Public Switch Steps
 
