@@ -66,6 +66,24 @@ You choose Aureus when you do not just want automation.
 
 You choose Aureus when you want the company to run cleaner.
 
+## Backed By Git, Not Guesswork
+
+This profile is not written as a loose agency brochure. It is a public-safe window into the Aureus source-of-truth system.
+
+The private Aureus Git source contains operating standards, productization notes, workflow governance, revenue packaging, proof-pack rules, FinEcon boundaries, premium web standards, and Git-backed LinkedIn growth architecture. The public profile translates those internal artifacts into language a buyer can understand.
+
+| Public message | Source-backed reality | Why it matters to a buyer |
+| --- | --- | --- |
+| **Aureus builds controlled automation systems** | Aureus OS v12 defines scope, evidence, validation, quality gates, and A4 approval boundaries | The work is designed to be reviewable, not improvised |
+| **Automation Audit is the first commercial step** | The service package catalog defines audit deliverables, timeline, proof required, risks, and follow-up path | A buyer can start small before funding a bigger build |
+| **n8n automation is treated as infrastructure** | The workflow standard requires source-of-truth exports, credential boundaries, error branches, retry/backoff, and validation | Workflows are easier to inspect, repair, and hand off |
+| **FinEcon is a controlled pilot direction** | Productization docs separate technical proof from accountant validation and production accounting claims | Finance automation stays serious and bounded |
+| **Aureus OS is a delivery method, not buzzword branding** | Company operating docs define how ideas, assets, AI systems, and client demand become reliable products and evidence | The same system used to build work is used to explain and sell it |
+| **Premium websites are connected to real operations** | Web Studio standards require target user, conversion action, visual QA, accessibility, performance intent, and evidence | The website becomes a sales surface for the actual system |
+| **LinkedIn and growth content should come from truth** | The Git-backed editorial engine reads approved source paths, extracts claim status, and blocks unsupported claims | Public content does not drift into generic AI hype |
+
+[Review the public source truth map](docs/proof/source-truth-map.md)
+
 ## Core Offers
 
 | Offer | Best for | Outcome |
@@ -87,6 +105,21 @@ Automation Audit
 ```
 
 That is the commercial advantage: the public message, the internal workflow, and the operating system support each other.
+
+## From Profile To Revenue
+
+The public profile is designed to support a simple sales path:
+
+```text
+clear public explanation
+-> buyer understands the problem
+-> Automation Audit or workflow review
+-> first controlled build
+-> proof pack and handoff
+-> monthly automation partner or productized pilot
+```
+
+The goal is not to look busy on GitHub. The goal is to make the right buyer understand what Aureus can do for them, why the approach is safer than random automation, and what first step they can buy.
 
 ## How We Build
 
@@ -143,6 +176,7 @@ This repository is a public-safe portfolio. It explains how Aureus thinks, build
 | [Capabilities](docs/services/capabilities.md) | See what can be designed and built |
 | [Solution architecture](docs/system/solution-architecture.md) | Technical review of system boundaries |
 | [Proof index](docs/proof/proof-index.md) | Understand what this public repo proves |
+| [Source truth map](docs/proof/source-truth-map.md) | See which public claims are backed by Aureus Git source |
 | [Docs map](docs/README.md) | Full supporting library |
 
 ## Public Pages

@@ -14,6 +14,8 @@ The menu is intentionally commercial: it helps a buyer choose the first step wit
 
 This is not a fixed product catalog. It is a public-safe menu of collaboration formats for turning manual or unclear work into controlled AI-assisted workflow systems, internal tools, and reviewable product slices.
 
+Each format is mapped to the Aureus source-of-truth discipline in the [source truth map](../proof/source-truth-map.md), so the profile can explain what is offer-ready, what is pilot-stage, and what still needs owner or expert validation.
+
 ## Which Format Fits?
 
 | Situation | Best format |
@@ -50,6 +52,16 @@ flowchart TD
 | Premium AI Website + Automation | A company needs to explain its offer, product, or system in a way buyers understand | Positioning, page structure, proof sections, conversion path, optional workflow connection | The public surface becomes clearer, more credible, and connected to real operations | Claims stay evidence-backed; private internals stay private |
 | Automation Cleanup And Handoff | An existing automation is fragile, undocumented, risky, or hard to operate | Workflow inventory, risk notes, validation path, operating notes, maintenance backlog | The system becomes easier to understand, review, and improve | No live workflow changes, imports, or owner-controlled actions without explicit approval |
 | Technical Walkthrough / Architecture Review | A reviewer, client, or partner needs to understand the system shape before deeper access | Architecture discussion, sanitized diagrams, risk/review boundary, validation plan, next-step options | Everyone understands the process, system boundary, and first safe action | Controlled access only when appropriate; no secret or private system exposure |
+
+## Offer Ladder
+
+| First paid step | When to use it | Natural next step |
+| --- | --- | --- |
+| Automation Audit | The buyer knows something is inefficient, but the first build is unclear | first workflow slice or monthly partner |
+| n8n Workflow Governance | Existing automations are hard to trust, repair, or explain | rebuild, support retainer, or operating dashboard |
+| FinEcon Paid Pilot | Finance/admin work depends on documents, review, and POHODA preparation | accountant-reviewed pilot, proof pack, monthly support |
+| Aureus OS Setup | AI-assisted work is spread across tools and memory | routines, scorecards, validation, ongoing delivery system |
+| Premium AI Website + Automation | The company needs buyers to understand the offer and the system behind it | conversion page, intake path, content engine, workflow connection |
 
 ## Why Start With Aureus
 

@@ -9,6 +9,7 @@ Public-safe concept visual. Not a screenshot, not customer proof, not production
 | Identity | Robert Kolesár / KimiAoki, Founder of Aureus Automation Lab |
 | Platform | Aureus Autonomous Operating Platform connects GitHub, n8n, validation, evidence, and public-safe delivery |
 | Safety boundary | this is a public-safe one-pager, not a private implementation disclosure |
+| Source truth | public claims are mapped back to Aureus Git source artifacts in the [source truth map](../proof/source-truth-map.md) |
 
 ## Identity
 
@@ -32,6 +33,16 @@ The work usually starts with a manual process, then moves through process mappin
 | "AI output cannot be trusted blindly." | Keep AI inside reviewed roles with validation and evidence. |
 | "Finance and documents are sensitive." | Separate extraction, review, exception handling, and downstream approval. |
 | "Our public offer is hard to explain." | Connect the website, content, proof, and automation story into one clear narrative. |
+
+## Why This Is Not Generic AI Automation
+
+Aureus is built around a source-of-truth discipline:
+
+- public claims come from Git-backed product, workflow, revenue, and proof artifacts,
+- AI assists the work, but owner review remains visible,
+- n8n workflows are treated as systems that need source, validation, and handoff,
+- FinEcon is positioned with clear accountant-review boundaries,
+- sales content should teach the buyer what the system does instead of repeating generic AI hype.
 
 ## Practical Starting Points
 

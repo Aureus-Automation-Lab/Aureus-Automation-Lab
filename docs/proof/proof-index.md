@@ -24,7 +24,8 @@ The profile is intentionally public-safe. It does not expose raw private impleme
 5. [FinEcon](../services/finecon.md) - review invoice and financial intelligence direction.
 6. [Aureus OS](../system/aureus-os.md) - review the operating system behind the delivery model.
 7. [Solution architecture](../system/solution-architecture.md) - review deeper architecture and decision boundaries.
-8. [Public boundary](public-boundary.md) - understand what stays private and why.
+8. [Source truth map](source-truth-map.md) - see which public claims are backed by Aureus Git source.
+9. [Public boundary](public-boundary.md) - understand what stays private and why.
 
 ## Proof Types Shown Here
 
@@ -35,6 +36,7 @@ The profile is intentionally public-safe. It does not expose raw private impleme
 | **Safety proof** | public/private boundary, unsupported-claims discipline |
 | **Automation proof** | n8n workflow governance and Sales Machine direction |
 | **Financial workflow proof** | FinEcon, invoice/document review, POHODA/UBL boundary |
+| **Source-truth proof** | public claim register mapped to private Aureus Git artifact families |
 | **Delivery proof** | GitHub/Codex, validation, evidence, handoff notes |
 
 ## What This Repository Does Not Claim
