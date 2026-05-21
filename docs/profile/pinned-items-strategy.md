@@ -9,11 +9,21 @@ Do not use pins as a dumping ground for old experiments. Use them as a small pub
 | Priority | Pin | Format | Purpose |
 | --- | --- | --- | --- |
 | 1 | `KimiAoki/KimiAoki` | profile repo | main public front door |
-| 2 | Aureus Sales Machine public workflow map | gist or repo | shows safe sales automation with human approval |
-| 3 | FinEcon invoice review flow | gist or repo | shows finance/document workflow boundaries |
-| 4 | Aureus OS public architecture | gist or repo | shows the operating model behind AI-assisted delivery |
+| 2 | Sales Machine public workflow map | gist or repo based on `public-proof/sales-machine` | shows safe sales automation with human approval |
+| 3 | FinEcon invoice review flow | gist or repo based on `public-proof/finecon` | shows finance/document workflow boundaries |
+| 4 | Aureus OS public operating model | gist or repo based on `public-proof/aureus-os` | shows the operating model behind AI-assisted delivery |
 | 5 | Public-safe web/product demo | repo, when ready | shows visual and product execution |
 | 6 | Small utility/template repo | repo, when polished | shows technical hygiene without private context |
+
+## Public-Proof Source Packages
+
+The three proof packages under [public-proof](../../public-proof/README.md) should be treated as the source material for future pinned artifacts:
+
+- [Sales Machine](../../public-proof/sales-machine/README.md),
+- [FinEcon](../../public-proof/finecon/README.md),
+- [Aureus OS](../../public-proof/aureus-os/README.md).
+
+Convert them into pinned gists or public mini-repos only after this profile repo is public, reviewed, and confirmed safe from a signed-out browser.
 
 ## Pin Rules
 

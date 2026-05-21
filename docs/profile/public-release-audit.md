@@ -20,10 +20,21 @@ The profile works publicly only when:
 | Offers | first project options are clear |
 | Aureus pillars | Automation Lab, FinEcon, and Aureus OS are easy to understand |
 | Public proof | proof paths are visible and public-safe |
+| Public proof showroom | `public-proof/README.md` opens and all three proof packages open |
 | Internal links | all linked local docs open |
 | Images | README images load |
 | Public pages | public websites open |
 | Private context | private repos are not required to understand the story |
+
+## Public-Proof Checks
+
+Confirm:
+
+- [Public proof showroom](../../public-proof/README.md) opens.
+- [Sales Machine proof package](../../public-proof/sales-machine/README.md) opens.
+- [FinEcon proof package](../../public-proof/finecon/README.md) opens.
+- [Aureus OS proof package](../../public-proof/aureus-os/README.md) opens.
+- No proof artifact includes private implementation, raw workflow exports, private endpoints, real invoices, real leads, private prompts, logs, or unsupported claims.
 
 ## Safety Checks
 

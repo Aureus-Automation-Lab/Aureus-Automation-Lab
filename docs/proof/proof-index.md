@@ -4,6 +4,16 @@ This page explains how to evaluate the public Aureus GitHub profile.
 
 The profile is intentionally public-safe. It does not expose raw private implementation or customer-like data. It shows architecture, operating discipline, safety boundaries, and proof direction.
 
+## Primary Public Proof Artifacts
+
+The `docs/proof` pages explain the proof philosophy. The `public-proof` packages show concrete public-safe proof objects that can later be converted into pinned gists or public mini-repos.
+
+| Proof package | What it contains |
+| --- | --- |
+| [Sales Machine proof package](../../public-proof/sales-machine/README.md) | workflow map, safe lead state model, fictional buyer example |
+| [FinEcon proof package](../../public-proof/finecon/README.md) | invoice review flow, review boundary, fictional buyer example |
+| [Aureus OS proof package](../../public-proof/aureus-os/README.md) | operating model, action gates, fictional buyer example |
+
 ## What This Repository Is Meant To Prove
 
 | Signal | What to look for |
@@ -21,13 +31,14 @@ The profile is intentionally public-safe. It does not expose raw private impleme
 2. [Start here](../overview/start-here.md) - read the simplest non-technical explanation.
 3. [One-page profile](../overview/one-pager.md) - use this as the short external-safe summary.
 4. [Build menu](../services/build-menu.md) - see where a first project can start.
-5. [Sales Machine public proof](sales-machine-public-proof.md) - review safe sales automation direction.
-6. [FinEcon public proof](finecon-public-proof.md) - review finance and document workflow boundaries.
-7. [Aureus OS public proof](aureus-os-public-proof.md) - review the controlled AI-assisted delivery model.
-8. [Automation Lab](../services/automation-lab.md) - review automation capabilities and Sales Machine direction.
-9. [Solution architecture](../system/solution-architecture.md) - review deeper architecture and decision boundaries.
-10. [Source truth map](source-truth-map.md) - see which public claims are backed by Aureus Git source.
-11. [Public boundary](public-boundary.md) - understand what stays private and why.
+5. [Public proof showroom](../../public-proof/README.md) - review concrete public-safe proof objects.
+6. [Sales Machine proof package](../../public-proof/sales-machine/README.md) - review sales workflow map and state model.
+7. [FinEcon proof package](../../public-proof/finecon/README.md) - review invoice/document flow and review boundary.
+8. [Aureus OS proof package](../../public-proof/aureus-os/README.md) - review operating model and action gates.
+9. [Automation Lab](../services/automation-lab.md) - review automation capabilities and Sales Machine direction.
+10. [Solution architecture](../system/solution-architecture.md) - review deeper architecture and decision boundaries.
+11. [Source truth map](source-truth-map.md) - see which public claims are backed by Aureus Git source.
+12. [Public boundary](public-boundary.md) - understand what stays private and why.
 
 ## Proof Types Shown Here
 
