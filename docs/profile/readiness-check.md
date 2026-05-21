@@ -14,7 +14,8 @@ This file is the public-readiness checklist for the `KimiAoki/KimiAoki` profile 
 | Automation Lab page | Ready | Public explanation exists in `docs/services/automation-lab.md` |
 | FinEcon page | Ready | Public explanation exists in `docs/services/finecon.md` |
 | Aureus OS page | Ready | Public explanation exists in `docs/system/aureus-os.md` |
-| Proof boundary | Ready | `docs/proof/public-boundary.md` and `docs/proof/proof-index.md` explain what is and is not claimed |
+| Proof boundary | Ready | `docs/proof/public-boundary.md`, `docs/proof/proof-index.md`, and `docs/proof/source-truth-map.md` explain what is and is not claimed |
+| Git-backed truth | Ready | Public claims are mapped to private Aureus source artifact families without exposing private implementation |
 | Visuals | Ready | Public-safe hero, architecture, workflow, and review visuals are included |
 | Links | Validated locally | Internal Markdown links should be checked before each public push |
 | Repository visibility | Manual owner gate | Make public only after owner confirms the final visibility change |

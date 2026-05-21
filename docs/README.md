@@ -37,6 +37,7 @@ The root `README.md` is the main profile. This folder keeps the supporting mater
 | Page | What it answers |
 | --- | --- |
 | [Proof index](proof/proof-index.md) | What the public portfolio is meant to prove |
+| [Source truth map](proof/source-truth-map.md) | Which public claims are backed by the Aureus Git source-of-truth |
 | [Public boundary](proof/public-boundary.md) | What is intentionally not exposed |
 | [Review guide](proof/review-guide.md) | How different audiences should review the profile |
 

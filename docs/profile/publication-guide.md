@@ -4,6 +4,11 @@
 
 This task does not change repository visibility automatically. GitHub profile README appears publicly only when the special profile repository `KimiAoki/KimiAoki` is public.
 
+GitHub reference:
+
+- [Managing your profile README](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme)
+- [Pinning items to your profile](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/pinning-items-to-your-profile)
+
 ## Before Making The Profile Public
 
 | Check | Required state |
@@ -11,6 +16,7 @@ This task does not change repository visibility automatically. GitHub profile RE
 | Identity | Robert Kolesár / KimiAoki is clear in the first screen |
 | Positioning | Founder, Aureus Automation Lab; AI Product Systems Architect; Builder of Aureus AOP |
 | Public boundary | Private systems, credentials, endpoints, POHODA internals, and private screenshots are not exposed |
+| Source truth | Public claims are connected to the [source truth map](../proof/source-truth-map.md) |
 | Visuals | README and key docs include public-safe SVG visuals |
 | Claims | No fake customers, revenue, certifications, accounting correctness, trading performance, or production client results |
 | Links | Public links and internal review links are intentional |

@@ -20,6 +20,8 @@ This is a public-safe overview of what I can design, build, validate, and hand o
 
 The capabilities are not listed as a technical inventory. They are the building blocks of better business execution.
 
+They also create the sales path: audit the process, build the first controlled slice, prove it, hand it off, and then decide whether the client needs FinEcon, Aureus OS, premium web automation, or a monthly automation partner.
+
 | Capability | Business reason to care |
 | --- | --- |
 | Automation Audit | Find the first valuable automation before wasting money on the wrong workflow |
@@ -28,6 +30,19 @@ The capabilities are not listed as a technical inventory. They are the building 
 | Aureus OS | Turn AI-assisted work into a repeatable company operating process |
 | Premium AI Web + Automation | Explain the offer publicly and connect the message to the system behind it |
 | Proof / evidence | Make the system easier to trust, sell, review, and improve |
+
+## Source-Backed Capability Promise
+
+Aureus capabilities should be presented as source-backed, not exaggerated:
+
+| Claim type | Public-safe promise |
+| --- | --- |
+| What we can design | process maps, workflow architecture, review gates, AI roles, proof packs, handoff notes |
+| What we can build | n8n automations, internal tool slices, document/data flows, premium public surfaces, AI-assisted workflows |
+| What we can validate | input/output shape, review states, error paths, sensitive-action boundaries, public/private claim safety |
+| What we will not fake | guaranteed ROI, accounting correctness, certification, client results, or production readiness without separate evidence |
+
+See the [source truth map](../proof/source-truth-map.md) for how public claims map back to Aureus source artifacts.
 
 ## Aureus Capability Stack
 
