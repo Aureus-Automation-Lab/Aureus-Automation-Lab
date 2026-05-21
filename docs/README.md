@@ -10,7 +10,18 @@ The root `README.md` is the main profile. This folder keeps the supporting mater
 | [Build menu](services/build-menu.md) | Which first project makes sense |
 | [Automation Lab](services/automation-lab.md) | How n8n and AI workflows are approached |
 | [FinEcon](services/finecon.md) | How invoice, document, and finance workflows stay reviewable |
+| [Aureus OS](system/aureus-os.md) | Why AI-assisted work needs an operating layer |
 | [Collaboration](services/collaboration.md) | How we start and hand off work |
+
+## Buyer Decision Guide
+
+| If the buyer says... | Point them to |
+| --- | --- |
+| "We do too much manually, but we do not know where to start." | [Build menu](services/build-menu.md) |
+| "We need workflows that do not break silently." | [Automation Lab](services/automation-lab.md) |
+| "Invoices, documents, and reports are messy." | [FinEcon](services/finecon.md) |
+| "We want AI in the company, but with control." | [Aureus OS](system/aureus-os.md) |
+| "We need to explain our system professionally to buyers." | [Capabilities](services/capabilities.md) |
 
 ## For Technical Review
 

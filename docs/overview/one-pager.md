@@ -23,6 +23,16 @@ I build AI-native workflow and product systems that make automation controlled, 
 
 The work usually starts with a manual process, then moves through process mapping, workflow architecture, AI assistance, human review boundaries, validation, evidence, and handoff.
 
+## Why A Buyer Would Choose Aureus
+
+| Buyer concern | Aureus answer |
+| --- | --- |
+| "I do not know what to automate first." | Start with an Automation Audit and identify the first useful system. |
+| "We already tried tools and it became messy." | Design the process, owner, review state, and exception path before scaling. |
+| "AI output cannot be trusted blindly." | Keep AI inside reviewed roles with validation and evidence. |
+| "Finance and documents are sensitive." | Separate extraction, review, exception handling, and downstream approval. |
+| "Our public offer is hard to explain." | Connect the website, content, proof, and automation story into one clear narrative. |
+
 ## Practical Starting Points
 
 | Need | Start with | Public explanation |
@@ -31,6 +41,7 @@ The work usually starts with a manual process, then moves through process mappin
 | You need n8n workflow automation with review and logs | Automation Lab | [Automation Lab](../services/automation-lab.md) |
 | You need invoice/document flow, review, and finance visibility | FinEcon | [FinEcon](../services/finecon.md) |
 | You need an internal AI operating layer for the company | Aureus OS | [Aureus OS](../system/aureus-os.md) |
+| You need a public offer that explains the system clearly | Premium AI Website + Automation | [Capabilities](../services/capabilities.md) |
 | You want to review proof without seeing private internals | Proof Index | [Proof index](../proof/proof-index.md) |
 
 ## Main Platform Direction
