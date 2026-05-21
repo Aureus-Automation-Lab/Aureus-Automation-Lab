@@ -14,7 +14,7 @@ Public-safe concept visual. Not a screenshot, not customer proof, not production
 
 ## Purpose
 
-This is a public-safe overview of what I can design, build, validate, and hand off as Founder of Aureus Automation Lab, AI Product Systems Architect, and builder of Aureus Autonomous Operating Platform. It describes capability areas and delivery outputs without exposing private systems, credentials, raw workflow exports, customer-like data, endpoints, POHODA internals, or production context.
+This is a public-safe overview of what I can design, build, validate, and hand off as Founder of Aureus Automation Lab, AI Systems Architect, and builder of controlled AI operating systems for business execution. It describes capability areas and delivery outputs without exposing private systems, credentials, raw workflow exports, customer-like data, endpoints, POHODA internals, or production context.
 
 ## Why These Capabilities Matter Commercially
 

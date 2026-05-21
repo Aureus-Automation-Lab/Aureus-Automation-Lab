@@ -55,12 +55,12 @@ Target:
 Use this prompt when generating a hero image for the first screen of the profile.
 
 ```text
-Create a premium public-safe GitHub profile hero image for Róbert Kolesár / robertkolesar, Founder of Aureus Automation Lab and builder of Aureus Autonomous Operating Platform.
+Create a premium public-safe GitHub profile hero image for Róbert Kolesár / robertkolesar, Founder of Aureus Automation Lab and builder of controlled AI operating systems for business execution.
 
 INTENDED USE
 - Wide GitHub README hero image, 16:9 landscape, readable at medium size.
 - It must communicate within five seconds: unclear manual process -> structured architecture -> AI/workflow layer -> validation -> evidence/handoff.
-- It should feel like a serious AI Product Systems Architect profile, not a generic AI automation banner.
+- It should feel like a serious AI Systems Architect profile, not a generic AI automation banner.
 
 CORE VISUAL IDEA
 A dark architectural tabletop model showing a left-to-right operating system path:

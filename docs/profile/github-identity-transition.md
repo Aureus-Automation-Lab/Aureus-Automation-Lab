@@ -13,6 +13,7 @@ It does not change repository visibility. The repository must remain private unt
 | Required profile repository path | `Aureus-Automation-Lab/Aureus-Automation-Lab` |
 | Display name target | `Róbert Kolesár` |
 | Founder identity inside profile | `Róbert Kolesár / robertkolesar` |
+| Public role line | Founder of Aureus Automation Lab · AI Systems Architect · Builder of controlled AI operating systems for business execution |
 | Public brand | Aureus Automation Lab |
 
 This is the brand/account profile. Róbert Kolesár is the founder identity presented inside the profile.

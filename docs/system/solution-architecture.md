@@ -18,7 +18,7 @@ Public-safe concept visual. Demonstrated capability direction only, not official
 
 ## Aureus AOP Architecture Lens
 
-This profile now represents Róbert Kolesár / robertkolesar as Founder of Aureus Automation Lab, AI Product Systems Architect, and builder of Aureus Autonomous Operating Platform.
+This profile now represents Róbert Kolesár / robertkolesar as Founder of Aureus Automation Lab, AI Systems Architect, and builder of controlled AI operating systems for business execution.
 
 Aureus AOP connects business process discovery, n8n workflow automation, GitHub / Codex delivery, Azure/OpenAI Supervisor capability, validation, egress review, evidence, Web Studio / Experience surfaces, and FinEcon / Invoice workflow direction.
 

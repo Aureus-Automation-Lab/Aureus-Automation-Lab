@@ -61,4 +61,4 @@ Those claims require separate evidence and should not be implied from a public-s
 
 ## One-Line External Summary
 
-**Aureus Automation Lab builds controlled AI workflow systems for automation, finance intelligence, and internal execution with review gates, validation, evidence, and public/private safety boundaries.**
+**Aureus Automation Lab builds controlled AI operating systems for automation, finance intelligence, and internal execution with review gates, validation, evidence, and public/private safety boundaries.**

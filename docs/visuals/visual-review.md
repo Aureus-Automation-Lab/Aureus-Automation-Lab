@@ -14,8 +14,8 @@ Public-safe concept visual. Not a screenshot, not customer proof, not production
 
 Róbert Kolesár / robertkolesar<br>
 Founder, Aureus Automation Lab<br>
-AI Product Systems Architect<br>
-Builder of Aureus Autonomous Operating Platform
+AI Systems Architect<br>
+Builder of controlled AI operating systems for business execution
 
 ## Aureus Visual Assets
 
@@ -71,7 +71,7 @@ No MP4 is committed in this pass. See the [video storyboard](video-storyboard.md
 ## Visual Checklist
 
 - [ ] no outdated nickname-first main title,
-- [ ] role appears as Founder, Aureus Automation Lab / AI Product Systems Architect,
+- [ ] role appears as Founder, Aureus Automation Lab / AI Systems Architect,
 - [ ] diagrams are readable,
 - [ ] no private data,
 - [ ] no external images,
