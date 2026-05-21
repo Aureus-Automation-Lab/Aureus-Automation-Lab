@@ -1,19 +1,19 @@
 # Aureus Public Profile One-Pager
 
-![Róbert Kolesár / robert-kolesar public profile hero](../../assets/image2/profile-public-architecture-hero.png)
+![Róbert Kolesár / robertkolesar public profile hero](../../assets/image2/profile-public-architecture-hero.png)
 
 Public-safe concept visual. Not a screenshot, not customer proof, not production evidence.
 
 | Page signal | What to remember |
 | --- | --- |
-| Identity | Róbert Kolesár / robert-kolesar, Founder of Aureus Automation Lab |
+| Identity | Róbert Kolesár / robertkolesar, Founder of Aureus Automation Lab |
 | Platform | Aureus Autonomous Operating Platform connects GitHub, n8n, validation, evidence, and public-safe delivery |
 | Safety boundary | this is a public-safe one-pager, not a private implementation disclosure |
 | Source truth | public claims are mapped back to Aureus Git source artifacts in the [source truth map](../proof/source-truth-map.md) |
 
 ## Identity
 
-Róbert Kolesár / robert-kolesar<br>
+Róbert Kolesár / robertkolesar<br>
 Founder, Aureus Automation Lab<br>
 AI Product Systems Architect<br>
 Builder of Aureus Autonomous Operating Platform

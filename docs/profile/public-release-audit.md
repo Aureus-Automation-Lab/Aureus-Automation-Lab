@@ -1,12 +1,12 @@
 # Public Release Audit
 
-Use this checklist before switching `robert-kolesar/robert-kolesar` from private to public.
+Use this checklist before switching `robertkolesar/robertkolesar` from private to public.
 
 ## Repository Visibility
 
 The profile works publicly only when:
 
-- the repository name is exactly `robert-kolesar/robert-kolesar`,
+- the repository name is exactly `robertkolesar/robertkolesar`,
 - the repository is public,
 - the root `README.md` exists,
 - the root `README.md` has useful content.
@@ -16,9 +16,9 @@ The profile works publicly only when:
 Confirm:
 
 - GitHub display name is `Róbert Kolesár`.
-- GitHub username is `robert-kolesar`.
-- Profile repository name matches the username: `robert-kolesar/robert-kolesar`.
-- README presents `Róbert Kolesár / robert-kolesar` as the main public identity.
+- GitHub username is `robertkolesar`.
+- Profile repository name matches the username: `robertkolesar/robertkolesar`.
+- README presents `Róbert Kolesár / robertkolesar` as the main public identity.
 - Repository About description no longer uses old private-draft wording.
 - Repository About topics are public-safe and aligned with Aureus.
 - The manual sequence in [GitHub identity transition](github-identity-transition.md) has been reviewed.

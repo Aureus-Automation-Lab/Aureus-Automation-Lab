@@ -1,6 +1,6 @@
 # Profile ImageGen Production Guide
 
-This guide defines how public profile images should be generated for Róbert Kolesár / robert-kolesar and Aureus Automation Lab.
+This guide defines how public profile images should be generated for Róbert Kolesár / robertkolesar and Aureus Automation Lab.
 
 The goal is not to generate beautiful random images. The goal is to create public-safe visuals that explain the portfolio faster than text can.
 

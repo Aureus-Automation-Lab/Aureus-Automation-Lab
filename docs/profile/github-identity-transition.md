@@ -9,14 +9,14 @@ It does not change the GitHub username, repository name, repository visibility, 
 | Field | Target |
 | --- | --- |
 | Display name | `Róbert Kolesár` |
-| GitHub username | `robert-kolesar` |
-| Profile repository | `robert-kolesar/robert-kolesar` |
+| GitHub username | `robertkolesar` |
+| Profile repository | `robertkolesar/robertkolesar` |
 | Public brand | Aureus Automation Lab |
 | Role line | Founder of Aureus Automation Lab · AI Systems Engineer · workflow automation architect |
 
 ## A. Before Username Change
 
-1. Confirm the target username `robert-kolesar` is available in GitHub account settings.
+1. Confirm the target username `robertkolesar` is available in GitHub account settings.
 2. Confirm the local repository is clean.
 3. Run the public audit:
 
@@ -33,7 +33,7 @@ In GitHub:
 
 1. Open **Settings**.
 2. Open **Account**.
-3. Change the current GitHub username to `robert-kolesar` if the username is available.
+3. Change the current GitHub username to `robertkolesar` if the username is available.
 4. Open **Public profile**.
 5. Set **Name** to `Róbert Kolesár`.
 
@@ -42,11 +42,11 @@ In GitHub:
 After the username change:
 
 1. Open the profile repository settings.
-2. Rename the profile repository to `robert-kolesar`.
+2. Rename the profile repository to `robertkolesar`.
 3. Confirm the final repository path is:
 
 ```text
-robert-kolesar/robert-kolesar
+robertkolesar/robertkolesar
 ```
 
 ## D. About Section
@@ -78,7 +78,7 @@ Recommended topics:
 
 1. Keep the repository private until the audit passes and the owner completes final review.
 2. Switch the repository to public only after approval.
-3. Open `https://github.com/robert-kolesar` in an incognito or signed-out browser.
+3. Open `https://github.com/robertkolesar` in an incognito or signed-out browser.
 4. Confirm the README renders as the profile README.
 5. Confirm images render.
 6. Confirm public-proof links work.
@@ -103,4 +103,4 @@ GitHub profile README appears only when the profile repository name matches the 
 Therefore:
 
 - if the username has not changed yet, the profile repository must keep matching the current username,
-- if username becomes `robert-kolesar`, the profile repository must be `robert-kolesar/robert-kolesar`.
+- if username becomes `robertkolesar`, the profile repository must be `robertkolesar/robertkolesar`.

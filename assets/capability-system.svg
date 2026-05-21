@@ -1,5 +1,5 @@
 <svg width="1400" height="720" viewBox="0 0 1400 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Róbert Kolesár / robert-kolesar capability system board</title>
+  <title id="title">Róbert Kolesár / robertkolesar capability system board</title>
   <desc id="desc">A dark capability board showing business process, AI workflow, internal tool, validation, evidence, and handoff layers.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="720" gradientUnits="userSpaceOnUse">
@@ -21,7 +21,7 @@
     <path d="M160 0V720M320 0V720M480 0V720M640 0V720M800 0V720M960 0V720M1120 0V720M1280 0V720" stroke="#F7F8FA" stroke-opacity="0.08"/>
   </g>
   <text x="72" y="78" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="40" font-weight="800">Capability System</text>
-  <text x="72" y="112" fill="#B8F7D4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">Róbert Kolesár / robert-kolesar - Aureus Automation Lab</text>
+  <text x="72" y="112" fill="#B8F7D4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">Róbert Kolesár / robertkolesar - Aureus Automation Lab</text>
   <text x="72" y="142" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Business process, AI workflow, internal tool, validation, evidence, and handoff.</text>
   <g transform="translate(72 172)" filter="url(#glow)">
     <rect width="1256" height="470" rx="30" fill="#101720" fill-opacity="0.84" stroke="#F7F8FA" stroke-opacity="0.14"/>

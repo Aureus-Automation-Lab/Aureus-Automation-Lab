@@ -1,18 +1,18 @@
 # Visual Review
 
-![Róbert Kolesár / robert-kolesar public architecture hero](../../assets/image2/profile-public-architecture-hero.png)
+![Róbert Kolesár / robertkolesar public architecture hero](../../assets/image2/profile-public-architecture-hero.png)
 
 Public-safe concept visual. Not a screenshot, not customer proof, not production evidence.
 
 | Page signal | What this page verifies |
 | --- | --- |
-| Visual identity | Róbert Kolesár / robert-kolesar, Aureus Automation Lab, Aureus AOP |
+| Visual identity | Róbert Kolesár / robertkolesar, Aureus Automation Lab, Aureus AOP |
 | Visual system | all docs have public-safe visuals, diagrams, or asset references |
 | Safety boundary | no fake screenshots, fake proof, private data, or external image dependencies |
 
 ## Aureus Visual Identity Target
 
-Róbert Kolesár / robert-kolesar<br>
+Róbert Kolesár / robertkolesar<br>
 Founder, Aureus Automation Lab<br>
 AI Product Systems Architect<br>
 Builder of Aureus Autonomous Operating Platform
