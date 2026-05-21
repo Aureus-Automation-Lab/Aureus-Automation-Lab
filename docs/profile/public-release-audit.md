@@ -2,9 +2,7 @@
 
 Use this checklist before switching the profile repository from private to public.
 
-## Hard Warning
-
-Do not switch visibility to public until the repository name equals the current GitHub username.
+## Profile Naming Gate
 
 Current detected username:
 
@@ -15,7 +13,7 @@ Aureus-Automation-Lab
 Current repository:
 
 ```text
-Aureus-Automation-Lab/robertkolesar
+Aureus-Automation-Lab/Aureus-Automation-Lab
 ```
 
 Required profile repository:
@@ -23,6 +21,8 @@ Required profile repository:
 ```text
 Aureus-Automation-Lab/Aureus-Automation-Lab
 ```
+
+Status: **ready**. The repository name equals the current GitHub username.
 
 ## Repository Visibility
 
