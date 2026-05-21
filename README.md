@@ -48,6 +48,14 @@ manual work
 | **FinEcon** | finance/document intelligence with review boundaries | [FinEcon public proof](docs/proof/finecon-public-proof.md) |
 | **Aureus OS** | operating model for AI-assisted delivery | [Aureus OS public proof](docs/proof/aureus-os-public-proof.md) |
 
+## Public Proof Showroom
+
+Concrete public-safe proof packages live in [public-proof](public-proof/README.md):
+
+- [Sales Machine workflow map](public-proof/sales-machine/README.md),
+- [FinEcon invoice review flow](public-proof/finecon/README.md),
+- [Aureus OS operating model](public-proof/aureus-os/README.md).
+
 ## Good First Projects
 
 | If this sounds familiar | Start with |
@@ -86,6 +94,7 @@ This profile is public-safe. It explains the work without exposing private syste
 | [Capabilities](docs/services/capabilities.md) | see what can be designed, built, validated, and handed off |
 | [Solution architecture](docs/system/solution-architecture.md) | technical system boundaries |
 | [Proof index](docs/proof/proof-index.md) | full public proof map |
+| [Public proof showroom](public-proof/README.md) | concrete public-safe proof objects |
 | [Source truth map](docs/proof/source-truth-map.md) | public claims mapped to source discipline |
 | [Public release audit](docs/profile/public-release-audit.md) | final checklist before going public |
 | [Pinned items strategy](docs/profile/pinned-items-strategy.md) | GitHub profile pin strategy |

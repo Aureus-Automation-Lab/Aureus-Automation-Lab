@@ -17,6 +17,19 @@ Use this rubric before sharing the GitHub profile with clients, partners, collab
 | Buyer conversion path | A company can see practical first projects: Automation Audit, n8n Workflow Governance, FinEcon Pilot, Aureus OS Setup, Premium AI Website + Automation, or Monthly Automation Partner. |
 | External share readiness | The repo can be opened in a signed-out browser, understood without private repos, and reviewed without exposing secrets or unsupported claims. |
 
+## Required Public Proof Artifacts
+
+A 10/10 profile includes:
+
+- a clear root `README.md`,
+- public proof pages under `docs/proof`,
+- concrete proof packages under `public-proof`,
+- a public safety audit checklist,
+- a report-only audit script,
+- a future pinned-items strategy.
+
+The proof packages must show real system thinking without exposing private implementation.
+
 ## 10/10 Standard
 
 The profile is ready when it feels like a serious public company/studio front door, not a private archive.
