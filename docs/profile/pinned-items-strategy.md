@@ -1,28 +1,56 @@
 # GitHub Pinned Items Strategy
 
-GitHub lets a profile pin up to six repositories and gists.
+GitHub profile pins should show the clearest public-safe proof of Aureus.
 
-The pinned section should show the best public-safe proof of Aureus, not random private or unfinished work.
+Do not use pins as a dumping ground for old experiments. Use them as a small public showroom.
 
 ## Recommended Pins
 
-| Priority | Pin | Purpose |
-| --- | --- | --- |
-| 1 | `KimiAoki/KimiAoki` | main public profile |
-| 2 | `aureus-sales-machine-public-map` gist | sales automation proof |
-| 3 | `finecon-invoice-review-flow` gist | finance/document proof |
-| 4 | `aureus-os-public-architecture` gist | operating-system proof |
-| 5 | public web/demo repo when polished | visual/product proof |
-| 6 | small utility/template repo when polished | technical proof |
+| Priority | Pin | Format | Purpose |
+| --- | --- | --- | --- |
+| 1 | `KimiAoki/KimiAoki` | profile repo | main public front door |
+| 2 | Aureus Sales Machine public workflow map | gist or repo | shows safe sales automation with human approval |
+| 3 | FinEcon invoice review flow | gist or repo | shows finance/document workflow boundaries |
+| 4 | Aureus OS public architecture | gist or repo | shows the operating model behind AI-assisted delivery |
+| 5 | Public-safe web/product demo | repo, when ready | shows visual and product execution |
+| 6 | Small utility/template repo | repo, when polished | shows technical hygiene without private context |
 
-## Pin Rule
+## Pin Rules
 
-Only pin something if it is public-safe, clean, understandable in under one minute, not full of private/internal context, not making unsupported claims, and visually or structurally polished.
+Only pin artifacts that are:
+
+- public-safe,
+- polished,
+- understandable in under one minute,
+- supported by a clear README,
+- free of private context,
+- free of credentials, endpoints, logs, and raw workflow exports,
+- honest about what is proven and what is only a direction.
 
 ## Do Not Pin
 
-Do not pin raw private workflow exports, unfinished experiments, repos with broken READMEs, repos that require private context, or anything with credentials, endpoints, or internal logs.
+Do not pin:
+
+- random experiments,
+- private-context repos,
+- raw workflow exports,
+- unfinished demos,
+- repos with broken or unclear README files,
+- anything with credentials, endpoints, private logs, client-like data, or unsupported claims.
+
+## Recommended Public Story
+
+The pinned section should tell this story:
+
+```text
+who we are
+-> how we handle sales workflows
+-> how we handle finance/document workflows
+-> how Aureus OS controls AI-assisted work
+-> what we can build visually/product-wise
+-> small proof of implementation hygiene
+```
 
 ## Relationship To Existing Pin Guides
 
-This is the short executive version. For fuller detail, use the [profile pins guide](pins-guide.md) and [public pin candidates](public-pin-candidates.md).
+This is the short executive strategy. For fuller detail, use the [profile pins guide](pins-guide.md) and [public pin candidates](public-pin-candidates.md).

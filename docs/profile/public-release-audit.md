@@ -1,41 +1,63 @@
 # Public Release Audit
 
-Use this checklist before making `KimiAoki/KimiAoki` public.
+Use this checklist before switching `KimiAoki/KimiAoki` from private to public.
 
 ## Repository Visibility
 
-The profile README appears publicly only when the repository name matches the GitHub username, the repository is public, there is a root `README.md`, and the README contains content.
+The profile works publicly only when:
 
-## Content Checks
+- the repository name is exactly `KimiAoki/KimiAoki`,
+- the repository is public,
+- the root `README.md` exists,
+- the root `README.md` has useful content.
+
+## Final Content Checks
 
 | Check | Required state |
 | --- | --- |
-| First screen | clear who Aureus is and what it does |
-| Language | understandable to non-technical people |
-| Offers | clear enough for a buyer |
-| Proof | public-safe proof paths exist |
-| Safety | no unsupported claims |
-| Links | internal links work |
-| Images | visuals load and are public-safe |
-| Private data | none exposed |
+| README first screen | clear who Aureus is and what it does |
+| Non-technical clarity | a business reader understands the profile in 30 seconds |
+| Offers | first project options are clear |
+| Aureus pillars | Automation Lab, FinEcon, and Aureus OS are easy to understand |
+| Public proof | proof paths are visible and public-safe |
+| Internal links | all linked local docs open |
+| Images | README images load |
+| Public pages | public websites open |
+| Private context | private repos are not required to understand the story |
 
 ## Safety Checks
 
-The repository must not include secrets, API keys, credentials, webhook URLs, private endpoints, real invoices, real client data, private workflow exports, POHODA access details, production logs, raw financial records, or unsupported ROI/revenue/customer claims.
+The public repo must not include:
+
+- secrets,
+- API keys,
+- credentials,
+- webhook URLs,
+- private endpoints,
+- raw n8n workflow exports,
+- private workflow IDs,
+- POHODA access details,
+- real invoices,
+- client-like data,
+- production logs,
+- private screenshots,
+- private prompts,
+- fake testimonials,
+- unsupported customer, ROI, certification, accounting, tax, legal, trading, or enterprise-compliance claims.
 
 ## External Viewer Test
 
-Open the profile in an incognito browser after making it public.
+After switching to public, open the profile in a signed-out or incognito browser.
 
 Confirm:
 
 1. README renders.
-2. Images render.
-3. Public pages open.
-4. Internal docs open.
-5. Visitor understands Aureus without private repos.
+2. Hero image loads.
+3. Public proof links open.
+4. Public websites open.
+5. The visitor understands Aureus without access to private repos.
 6. No private or unsupported claim appears.
-7. The profile feels like a serious company front door.
+7. The profile feels like a serious company/studio front door.
 
 ## Local Audit Command
 
@@ -44,3 +66,5 @@ Before publishing, run:
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File scripts\public_profile_audit.ps1
 ```
+
+Then review the output manually before changing repository visibility.

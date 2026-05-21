@@ -44,7 +44,7 @@ For this GitHub profile, the default production pattern is:
 
 ## Recommended Settings And Constraints
 
-Codex built-in `image_gen` does not require us to manage `OPENAI_API_KEY` or write a custom API runner for this repo. The controllable variables are the prompt, iteration discipline, asset selection, and QA gate.
+Codex built-in `image_gen` does not require this public repo to store or manage an OpenAI API key environment variable or write a custom API runner. The controllable variables are the prompt, iteration discipline, asset selection, and QA gate.
 
 If a future direct API run is explicitly configured, use these settings as the default:
 

@@ -1,12 +1,20 @@
 # FinEcon Public Proof
 
-This page explains the public-safe FinEcon direction.
+This page explains the public-safe FinEcon direction for finance and operations readers.
 
-FinEcon is not presented as automatic accounting truth. It is a reviewed intelligence layer for finance, invoices, documents, and reporting.
+FinEcon is a finance/document intelligence direction and reviewed workflow layer. It is not an automatic accounting authority.
 
-## What Problem It Solves
+## Problem
 
-Financial and document work often gets stuck because invoices arrive in many places, data is copied manually, missing fields are found late, owners do not see cashflow clearly, reports depend on memory, and downstream accounting tools need careful handoff.
+Finance and document work often gets stuck because:
+
+- invoices arrive in different places,
+- data is copied manually,
+- missing fields are found late,
+- owners do not see cashflow clearly,
+- reports depend on memory,
+- downstream accounting tools need careful handoff,
+- nobody has a clean proof trail for what was checked.
 
 ## Safe Workflow Direction
 
@@ -15,33 +23,63 @@ document / invoice intake
 -> structured extraction
 -> validation checks
 -> exception queue
--> owner review
+-> human review
 -> dashboard / report
 -> reviewed downstream handoff
+-> proof note
 ```
 
-## Review Boundary
+## What FinEcon Can Support
 
-FinEcon can help prepare and explain data.
+FinEcon can support:
 
-It should not silently decide tax correctness, legal interpretation, final accounting classification, final import into accounting systems, or professional accounting advice.
+- document and invoice intake,
+- field extraction,
+- missing-data checks,
+- exception queues,
+- owner review,
+- cashflow and reporting visibility,
+- preparation for downstream handoff,
+- proof notes and audit trail direction.
+
+## What FinEcon Does Not Claim
+
+FinEcon does not claim:
+
+- accounting correctness,
+- tax or legal advice,
+- replacement of accountant review,
+- final accounting classification,
+- unattended production accounting operation,
+- guaranteed financial results.
 
 ## What AI May Do
 
-| AI role | Allowed |
+| AI role | Public-safe boundary |
 | --- | --- |
-| extract fields | yes, with validation |
-| classify document type | yes, with review |
-| summarize invoice/document | yes |
-| detect missing data | yes |
-| draft report | yes |
-| decide final accounting truth | no |
-| replace accountant review | no |
+| Field extractor | extract candidate fields for validation |
+| Document classifier | classify document type with review |
+| Exception detector | flag missing or inconsistent data |
+| Report assistant | draft summaries and review notes |
+| Explanation assistant | explain what appears to be missing or unclear |
+
+## What Humans Review
+
+Humans review:
+
+- final accounting interpretation,
+- tax/legal-sensitive decisions,
+- downstream imports,
+- uncertain fields,
+- exceptions,
+- payment or record-affecting actions.
 
 ## Public Proof Value
 
-This demonstrates finance and document workflow thinking with proper boundaries.
+This proves that Aureus understands finance automation as a controlled workflow with review boundaries.
+
+The value is not "AI does accounting." The value is clearer intake, better visibility, better review queues, and better evidence before downstream action.
 
 ## What Stays Private
 
-Real invoices, POHODA access, accounting context, company financial data, private workflow exports, credentials, production logs, and client-like records stay private.
+Real invoices, POHODA access details, accounting context, company financial records, private workflow exports, credentials, production logs, private screenshots, and client-like records stay private.

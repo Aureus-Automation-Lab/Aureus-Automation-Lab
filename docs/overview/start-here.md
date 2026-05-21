@@ -2,41 +2,59 @@
 
 This is the simplest explanation of Aureus Automation Lab.
 
-## What Aureus Does
+## What Does Aureus Do?
 
-Aureus helps companies turn manual work into controlled AI-assisted systems.
+Aureus helps companies turn repeated manual work into controlled AI-assisted systems.
 
-That can mean following up leads, sorting email, checking documents, preparing invoice data, creating reports, routing tasks, building dashboards, or making AI useful without losing control.
+That work can include leads, follow-ups, approvals, invoices, documents, reports, dashboards, task routing, and internal handoffs.
 
-## Why It Exists
+## Why Does A Company Need This?
 
-Many companies already use tools. The problem is that the work between tools is messy.
+Many companies already have tools. The hard part is the work between the tools.
 
-Aureus designs the workflow around the business:
+Common problems:
 
-```text
-who owns the step?
-what starts the work?
-what does AI help with?
-what needs human approval?
-what happens if something fails?
-what proof is kept?
-```
+- someone forgets the next step,
+- approvals happen in chat,
+- documents are copied manually,
+- invoice data is checked too late,
+- leads are followed up inconsistently,
+- nobody can explain what happened when a workflow fails.
 
-## What Is Safe About The Approach
+Aureus maps the real process first, then designs a safer workflow around it.
 
-Aureus does not treat AI as an uncontrolled employee.
+## What Can AI Do Safely?
 
-AI can draft, classify, extract, summarize, suggest, and check. People still approve important actions.
+AI can help with:
 
-## The Three Parts
+- drafts,
+- summaries,
+- classification,
+- extraction,
+- checking missing information,
+- suggested replies,
+- report preparation.
 
-| Part | Meaning |
+## What Must People Still Approve?
+
+People should still approve:
+
+- external sends,
+- important business decisions,
+- final finance/accounting interpretation,
+- sensitive workflow changes,
+- anything that can affect a client, supplier, payment, record, or public claim.
+
+## What Are The Three Parts?
+
+| Part | Simple meaning |
 | --- | --- |
-| Automation Lab | systems that automate sales, operations, documents, and reports |
-| FinEcon | finance and invoice intelligence for clearer business decisions |
-| Aureus OS | operating method that keeps AI work scoped, reviewed, and proven |
+| **Automation Lab** | AI and n8n workflow systems for sales, operations, documents, and reports |
+| **FinEcon** | reviewed finance/document intelligence for invoices, cashflow, costs, revenue, and reporting |
+| **Aureus OS** | the operating method that keeps AI work scoped, reviewed, validated, evidenced, and handed off |
 
-## Best Next Page
+## What Should I Open Next?
 
-If you want to understand what Aureus can build, read the [Build menu](../services/build-menu.md).
+Start with the [Build menu](../services/build-menu.md) if you want to see what a first project can look like.
+
+Open the [Proof index](../proof/proof-index.md) if you want to review public-safe proof paths.

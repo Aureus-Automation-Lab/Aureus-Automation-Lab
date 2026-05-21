@@ -55,6 +55,7 @@ The root `README.md` is the main profile. This folder keeps the supporting mater
 | [Pinned items strategy](profile/pinned-items-strategy.md) | Short executive pinning strategy |
 | [Public pin candidates](profile/public-pin-candidates.md) | Future public-safe demos or gists to prepare |
 | [Public release audit](profile/public-release-audit.md) | Final checklist and local audit command before public launch |
+| [Quality rubric](profile/quality-rubric.md) | 10/10 public profile standard |
 
 ## Visual System
 
