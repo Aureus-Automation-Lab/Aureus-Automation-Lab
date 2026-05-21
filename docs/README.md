@@ -53,6 +53,7 @@ The root `README.md` is the main profile. This folder keeps the supporting mater
 
 | Page | What it answers |
 | --- | --- |
+| [Distribution kit](profile/distribution-kit.md) | How to use the public profile across LinkedIn, website, email, proposals, and buyer follow-up |
 | [Readiness check](profile/readiness-check.md) | Public profile QA checklist |
 | [GitHub identity transition](profile/github-identity-transition.md) | Current username, required profile repo path, and final rename logic |
 | [GitHub About settings](profile/github-about-settings.md) | Recommended public-safe repository description, website, and topics |

@@ -98,6 +98,7 @@ This profile is public-safe. It explains the work without exposing private syste
 | [Source truth map](docs/proof/source-truth-map.md) | public claims mapped to source discipline |
 | [Public release audit](docs/profile/public-release-audit.md) | final checklist before going public |
 | [Pinned items strategy](docs/profile/pinned-items-strategy.md) | GitHub profile pin strategy |
+| [Distribution kit](docs/profile/distribution-kit.md) | where and how to use this public profile in sales and marketing |
 | [Quality rubric](docs/profile/quality-rubric.md) | 10/10 profile standard |
 | [Docs map](docs/README.md) | full supporting library |
 
