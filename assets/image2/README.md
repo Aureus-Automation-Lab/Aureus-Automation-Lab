@@ -1,6 +1,6 @@
 # Image 2 Profile Assets
 
-This folder contains accepted public-safe concept visuals for the `KimiAoki/KimiAoki` GitHub profile.
+This folder contains accepted public-safe concept visuals for the `robert-kolesar/robert-kolesar` GitHub profile.
 
 ## Accepted Assets
 
@@ -17,7 +17,7 @@ Do not add an image because it looks impressive. Add it only when the image has 
 
 | Slot | Required meaning |
 | --- | --- |
-| Hero | Who Robert / KimiAoki is and what Aureus AOP turns work into |
+| Hero | Who Róbert Kolesár is and what Aureus AOP turns work into |
 | Workflow governance | How workflow source moves through review and approval |
 | Public/private boundary | What can be shown and what stays sealed |
 | Supervisor validation | How model output is checked, repaired, scored, and evidenced |

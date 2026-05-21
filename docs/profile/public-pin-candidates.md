@@ -4,7 +4,7 @@
 
 | Priority | Candidate | Public-safe status | Why it matters |
 | --- | --- | --- | --- |
-| 1 | `KimiAoki/KimiAoki` profile repo | Owner must make public manually | Front door for identity, AOP positioning, review path, and public boundary |
+| 1 | `robert-kolesar/robert-kolesar` profile repo | Owner must make public manually | Front door for identity, AOP positioning, review path, and public boundary |
 | 2 | Aureus AOP architecture gist or demo repo | Prepare as sanitized public asset | Shows the platform shape without private implementation |
 | 3 | Automation Audit process map gist/demo | Prepare as sanitized public asset | Shows process mapping and first-slice thinking |
 | 4 | Invoice / FinEcon public-safe workflow gist/demo | Prepare as sanitized public asset | Shows document workflow, review, POHODA boundary, and no accounting correctness claim |

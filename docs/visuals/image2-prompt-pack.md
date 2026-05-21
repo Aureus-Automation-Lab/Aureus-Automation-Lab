@@ -1,6 +1,6 @@
 # Profile ImageGen Prompt Pack
 
-![Robert Kolesár / KimiAoki public architecture hero](../../assets/image2/profile-public-architecture-hero.png)
+![Róbert Kolesár / robert-kolesar public architecture hero](../../assets/image2/profile-public-architecture-hero.png)
 
 Public-safe concept visual. Not a screenshot, not customer proof, not production evidence.
 
@@ -55,7 +55,7 @@ Target:
 Use this prompt when generating a hero image for the first screen of the profile.
 
 ```text
-Create a premium public-safe GitHub profile hero image for Robert Kolesár / KimiAoki, Founder of Aureus Automation Lab and builder of Aureus Autonomous Operating Platform.
+Create a premium public-safe GitHub profile hero image for Róbert Kolesár / robert-kolesar, Founder of Aureus Automation Lab and builder of Aureus Autonomous Operating Platform.
 
 INTENDED USE
 - Wide GitHub README hero image, 16:9 landscape, readable at medium size.

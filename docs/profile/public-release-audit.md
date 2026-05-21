@@ -1,15 +1,28 @@
 # Public Release Audit
 
-Use this checklist before switching `KimiAoki/KimiAoki` from private to public.
+Use this checklist before switching `robert-kolesar/robert-kolesar` from private to public.
 
 ## Repository Visibility
 
 The profile works publicly only when:
 
-- the repository name is exactly `KimiAoki/KimiAoki`,
+- the repository name is exactly `robert-kolesar/robert-kolesar`,
 - the repository is public,
 - the root `README.md` exists,
 - the root `README.md` has useful content.
+
+## Identity Checks
+
+Confirm:
+
+- GitHub display name is `Róbert Kolesár`.
+- GitHub username is `robert-kolesar`.
+- Profile repository name matches the username: `robert-kolesar/robert-kolesar`.
+- README presents `Róbert Kolesár / robert-kolesar` as the main public identity.
+- Repository About description no longer uses old private-draft wording.
+- Repository About topics are public-safe and aligned with Aureus.
+- The manual sequence in [GitHub identity transition](github-identity-transition.md) has been reviewed.
+- The recommended settings in [GitHub About settings](github-about-settings.md) have been applied or consciously deferred.
 
 ## Final Content Checks
 

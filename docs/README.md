@@ -54,6 +54,8 @@ The root `README.md` is the main profile. This folder keeps the supporting mater
 | Page | What it answers |
 | --- | --- |
 | [Readiness check](profile/readiness-check.md) | Public profile QA checklist |
+| [GitHub identity transition](profile/github-identity-transition.md) | Manual sequence for moving from the old handle to `robert-kolesar` |
+| [GitHub About settings](profile/github-about-settings.md) | Recommended public-safe repository description, website, and topics |
 | [Publication guide](profile/publication-guide.md) | Visibility and external-viewer checklist |
 | [Pins guide](profile/pins-guide.md) | GitHub pin strategy |
 | [Pinned items strategy](profile/pinned-items-strategy.md) | Short executive pinning strategy |

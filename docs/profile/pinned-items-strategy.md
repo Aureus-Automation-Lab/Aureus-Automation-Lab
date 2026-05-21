@@ -8,12 +8,19 @@ Do not use pins as a dumping ground for old experiments. Use them as a small pub
 
 | Priority | Pin | Format | Purpose |
 | --- | --- | --- | --- |
-| 1 | `KimiAoki/KimiAoki` | profile repo | main public front door |
+| 1 | `robert-kolesar/robert-kolesar` | profile repo | main public front door |
 | 2 | Sales Machine public workflow map | gist or repo based on `public-proof/sales-machine` | shows safe sales automation with human approval |
 | 3 | FinEcon invoice review flow | gist or repo based on `public-proof/finecon` | shows finance/document workflow boundaries |
 | 4 | Aureus OS public operating model | gist or repo based on `public-proof/aureus-os` | shows the operating model behind AI-assisted delivery |
 | 5 | Public-safe web/product demo | repo, when ready | shows visual and product execution |
 | 6 | Small utility/template repo | repo, when polished | shows technical hygiene without private context |
+
+## Profile Repo Naming Rule
+
+GitHub profile README rendering depends on the repository name matching the current username.
+
+- If the GitHub username has not changed yet, the profile repository must keep matching the current username.
+- If the GitHub username changes to `robert-kolesar`, the profile repository must be renamed to `robert-kolesar/robert-kolesar`.
 
 ## Public-Proof Source Packages
 
