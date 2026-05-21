@@ -10,7 +10,7 @@ This file is the public-readiness checklist for the `Aureus-Automation-Lab/Aureu
 | --- | --- | --- |
 | Identity | Ready | Róbert Kolesár / robertkolesar, Founder of Aureus Automation Lab |
 | Identity transition | Manual owner gate | Use `docs/profile/github-identity-transition.md` before changing GitHub username or repository name |
-| Positioning | Ready | AI Product Systems Architect and builder of Aureus Autonomous Operating Platform |
+| Positioning | Ready | AI Systems Architect and builder of controlled AI operating systems for business execution |
 | Public story | Ready | README explains what Aureus builds in plain language and technical review language |
 | Automation Lab page | Ready | Public explanation exists in `docs/services/automation-lab.md` |
 | FinEcon page | Ready | Public explanation exists in `docs/services/finecon.md` |

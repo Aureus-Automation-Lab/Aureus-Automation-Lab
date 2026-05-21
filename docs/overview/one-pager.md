@@ -7,7 +7,7 @@ Public-safe concept visual. Not a screenshot, not customer proof, not production
 | Page signal | What to remember |
 | --- | --- |
 | Identity | Róbert Kolesár / robertkolesar, Founder of Aureus Automation Lab |
-| Platform | Aureus Autonomous Operating Platform connects GitHub, n8n, validation, evidence, and public-safe delivery |
+| Platform | Aureus OS connects GitHub, n8n, validation, evidence, and public-safe delivery |
 | Safety boundary | this is a public-safe one-pager, not a private implementation disclosure |
 | Source truth | public claims are mapped back to Aureus Git source artifacts in the [source truth map](../proof/source-truth-map.md) |
 
@@ -15,8 +15,8 @@ Public-safe concept visual. Not a screenshot, not customer proof, not production
 
 Róbert Kolesár / robertkolesar<br>
 Founder, Aureus Automation Lab<br>
-AI Product Systems Architect<br>
-Builder of Aureus Autonomous Operating Platform
+AI Systems Architect<br>
+Builder of controlled AI operating systems for business execution
 
 ## What I Build
 
@@ -57,7 +57,7 @@ Aureus is built around a source-of-truth discipline:
 
 ## Main Platform Direction
 
-Aureus Autonomous Operating Platform connects:
+Aureus OS connects:
 
 - n8n workflow automation,
 - GitHub / Codex delivery,

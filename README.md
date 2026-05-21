@@ -1,9 +1,9 @@
 # Aureus Automation Lab
 
-**Controlled AI workflow systems for companies that want cleaner sales, operations, finance, documents, reporting, and internal execution.**
+**Controlled AI operating systems for companies that want cleaner sales, operations, finance, documents, reporting, and internal execution.**
 
 Led by **Róbert Kolesár / robertkolesar**<br>
-Founder of Aureus Automation Lab · AI Systems Engineer · workflow automation architect
+Founder of Aureus Automation Lab · AI Systems Architect · Builder of controlled AI operating systems for business execution
 
 ![Aureus Automation Lab public profile hero](assets/image2/profile-public-architecture-hero.png)
 
@@ -44,7 +44,7 @@ manual work
 
 | Pillar | What it shows | Open |
 | --- | --- | --- |
-| **Aureus Automation Lab** | safe sales and workflow automation direction | [Sales Machine public proof](docs/proof/sales-machine-public-proof.md) |
+| **Aureus Automation Lab** | controlled sales and business execution systems | [Sales Machine public proof](docs/proof/sales-machine-public-proof.md) |
 | **FinEcon** | finance/document intelligence with review boundaries | [FinEcon public proof](docs/proof/finecon-public-proof.md) |
 | **Aureus OS** | operating model for AI-assisted delivery | [Aureus OS public proof](docs/proof/aureus-os-public-proof.md) |
 

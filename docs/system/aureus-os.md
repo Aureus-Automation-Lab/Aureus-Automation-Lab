@@ -1,4 +1,4 @@
-# Aureus OS / Autonomous Operating Platform
+# Aureus OS / Controlled AI Operating System
 
 **Aureus OS is the operating layer behind Aureus Automation Lab.**
 

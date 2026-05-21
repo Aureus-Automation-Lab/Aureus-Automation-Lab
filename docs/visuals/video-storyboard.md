@@ -43,7 +43,7 @@ It should feel like a premium founder/engineering portfolio asset, not a generic
 ```text
 VIDEO PROMPT CONTRACT
 
-Create a 4-second premium public-safe video for the GitHub profile of Róbert Kolesár / robertkolesar, Founder of Aureus Automation Lab and builder of Aureus Autonomous Operating Platform.
+Create a 4-second premium public-safe video for the GitHub profile of Róbert Kolesár / robertkolesar, Founder of Aureus Automation Lab and builder of controlled AI operating systems for business execution.
 
 CREATIVE STRATEGY
 The video must explain a controlled AI automation architecture without using private implementation details. The story is: scattered manual business process -> AOP system map -> workflow governance and validation -> evidence-backed handoff.
