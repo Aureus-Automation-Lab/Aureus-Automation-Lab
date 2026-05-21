@@ -4,6 +4,20 @@
 
 It is designed for businesses that need clearer visibility into invoices, documents, cashflow, costs, revenue, margins, and reporting without turning AI into an uncontrolled accounting authority.
 
+## Why Choose FinEcon
+
+Financial and document work is sensitive. It cannot be treated like a simple AI demo.
+
+FinEcon is built around visibility and review: the owner should see what came in, what was extracted, what is uncertain, what needs approval, and what can move downstream.
+
+| Problem | FinEcon direction |
+| --- | --- |
+| Invoices are scattered across inboxes, folders, and chats | Create a structured intake and review path |
+| Manual copying slows the team down | Extract and prepare fields for review |
+| Cashflow and costs are hard to see early | Build owner-facing summaries and reporting direction |
+| Exceptions are missed | Track incomplete, risky, or uncertain records |
+| POHODA or downstream finance systems require care | Keep final handoff reviewed and bounded |
+
 ## Product Direction
 
 FinEcon helps structure financial and operational data so owners can review, understand, and act.
@@ -29,6 +43,17 @@ The point is not to replace professional accounting. The point is to reduce manu
 | **Margin and profitability insight** | highlight patterns, anomalies, and questions | business review |
 | **Monthly reporting** | draft management reports and summaries | owner approval |
 | **POHODA / UBL direction** | prepare reviewed export or handoff shape | no silent final import |
+
+## Business Value
+
+FinEcon is useful when the owner wants:
+
+- fewer document bottlenecks,
+- faster invoice review,
+- cleaner monthly reporting,
+- better visibility before decisions,
+- reviewed handoff to accounting-style systems,
+- less dependence on memory and manual searching.
 
 ## Architecture Shape
 
@@ -74,4 +99,3 @@ Private material stays private: real invoices, credentials, POHODA access, produ
 ## FinEcon In One Sentence
 
 **FinEcon turns scattered financial and document work into a reviewed intelligence layer for clearer business decisions.**
-

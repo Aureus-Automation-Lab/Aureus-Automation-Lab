@@ -11,7 +11,7 @@ Founder, AI Systems Engineer, workflow automation architect
 
 Aureus Automation Lab helps founders and teams turn repeated manual work into controlled business systems.
 
-We focus on work that usually gets stuck between people, spreadsheets, inboxes, documents, CRMs, and disconnected tools:
+We focus on the work that quietly slows a company down: the handoffs between people, spreadsheets, inboxes, documents, CRMs, finance tools, websites, and AI assistants.
 
 | Business area | What we improve |
 | --- | --- |
@@ -21,9 +21,9 @@ We focus on work that usually gets stuck between people, spreadsheets, inboxes, 
 | Internal reporting | daily summaries, owner dashboards, financial visibility, audit trails |
 | AI-assisted execution | safe AI drafts, validation, human review, evidence, and controlled next actions |
 
-The goal is not to add more tools.
+The goal is not to add more software.
 
-The goal is to make the work visible, reviewable, and easier to run.
+The goal is to make the business easier to operate.
 
 ## Why Companies Need This
 
@@ -48,15 +48,45 @@ messy manual process
 -> safe handoff
 ```
 
+## Why Choose Aureus
+
+Most automation providers build a workflow and call the job finished.
+
+Aureus builds the operating layer around the workflow:
+
+| What clients usually get elsewhere | What Aureus adds |
+| --- | --- |
+| A workflow that works once | A process that can be reviewed, repaired, and handed off |
+| AI prompts without governance | AI roles with review boundaries and evidence |
+| A tool setup | A business process with owner, input, output, exception, and proof |
+| A dashboard without source truth | A reviewed flow from intake to decision |
+| Technical delivery without sales context | Systems designed to reduce friction, increase trust, and create clearer buyer journeys |
+
+You choose Aureus when you do not just want automation.
+
+You choose Aureus when you want the company to run cleaner.
+
 ## Core Offers
 
 | Offer | Best for | Outcome |
 | --- | --- | --- |
-| **Automation Audit** | You know work is messy, but not what to automate first. | A clear process map, risks, quick wins, and first build scope. |
+| **Automation Audit** | You know operations are messy, but not what to automate first. | A clear map of the process, risks, quick wins, and the first automation worth building. |
 | **n8n Workflow Automation** | You need repeatable workflows with approvals, retries, logs, and ownership. | A reviewable automation system instead of a fragile one-off workflow. |
-| **FinEcon Pilot** | You need better visibility around invoices, documents, costs, cashflow, or reports. | A structured review layer for finance/admin work before downstream handoff. |
-| **Premium AI Website + Automation** | You need a public-facing product or service page connected to real operations. | A professional surface backed by actual workflows, not just marketing copy. |
-| **Internal AI Operating System** | You want Git, Codex, n8n, AI, review, validation, and evidence working as one process. | A repeatable internal execution system for building and operating work. |
+| **FinEcon Pilot** | You need better visibility around invoices, documents, cashflow, costs, margins, or reports. | A structured review layer for finance/admin work before downstream handoff. |
+| **Aureus OS** | You want AI, Git, Codex, n8n, review, validation, and evidence working as one company process. | A repeatable internal operating system for building, checking, and running work. |
+| **Premium AI Website + Automation** | You need a public-facing product or service page connected to real operations. | A professional sales surface backed by actual workflows, not just marketing copy. |
+
+## How The Offers Work Together
+
+```text
+Automation Audit
+-> first workflow / n8n automation
+-> FinEcon or operations layer
+-> Aureus OS for repeatable execution
+-> website and content that explain the system clearly
+```
+
+That is the commercial advantage: the public message, the internal workflow, and the operating system support each other.
 
 ## How We Build
 
@@ -89,7 +119,8 @@ That means:
 - human review for sensitive steps,
 - source-controlled changes where possible,
 - public/private boundaries,
-- proof notes and operating handoff.
+- proof notes and operating handoff,
+- content and public explanation that help the market understand what the system does.
 
 ## Good First Projects
 

@@ -16,6 +16,19 @@ Public-safe concept visual. Not a screenshot, not customer proof, not production
 
 This is a public-safe overview of what I can design, build, validate, and hand off as Founder of Aureus Automation Lab, AI Product Systems Architect, and builder of Aureus Autonomous Operating Platform. It describes capability areas and delivery outputs without exposing private systems, credentials, raw workflow exports, customer-like data, endpoints, POHODA internals, or production context.
 
+## Why These Capabilities Matter Commercially
+
+The capabilities are not listed as a technical inventory. They are the building blocks of better business execution.
+
+| Capability | Business reason to care |
+| --- | --- |
+| Automation Audit | Find the first valuable automation before wasting money on the wrong workflow |
+| n8n workflow automation | Make repeated work faster, clearer, and easier to review |
+| FinEcon / Invoice | Give owners better visibility into document, invoice, cost, and reporting flows |
+| Aureus OS | Turn AI-assisted work into a repeatable company operating process |
+| Premium AI Web + Automation | Explain the offer publicly and connect the message to the system behind it |
+| Proof / evidence | Make the system easier to trust, sell, review, and improve |
+
 ## Aureus Capability Stack
 
 | Capability | Public-safe signal |
@@ -26,6 +39,7 @@ This is a public-safe overview of what I can design, build, validate, and hand o
 | FinEcon / Invoice | Document and invoice workflow direction with review and POHODA boundaries |
 | Web Studio / Experience | Public-safe product surfaces with design system, visual QA, claims review, and browser evidence |
 | Proof / evidence | Action gates, egress review, scorecards, and proof packs |
+| Automation Audit | Process diagnosis, first-slice scope, and buyer-ready implementation path |
 
 ## Capability Architecture Map
 
