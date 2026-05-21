@@ -17,7 +17,7 @@ For the final candidate list, use [PUBLIC_PIN_CANDIDATES.md](PUBLIC_PIN_CANDIDAT
 1. `KimiAoki/KimiAoki` - profile front door.
 2. Sanitized Aureus AOP architecture gist or demo repo.
 3. Automation Audit public-safe process map gist/demo.
-4. Invoice / FineCon public-safe workflow gist/demo.
+4. Invoice / FinEcon public-safe workflow gist/demo.
 5. Web Studio / Figma-to-code public-safe demo if visually ready.
 6. Template or health demo repo if public/review-safe.
 
@@ -47,7 +47,7 @@ GitHub profile pins are managed manually from the GitHub profile UI. Private rep
 1. `KimiAoki/KimiAoki`.
 2. Sanitized Aureus AOP architecture gist or demo repo.
 3. Automation Audit public-safe process map gist/demo.
-4. Invoice / FineCon public-safe workflow gist/demo.
+4. Invoice / FinEcon public-safe workflow gist/demo.
 5. Web Studio / Figma-to-code public-safe demo if visually ready.
 6. Template or health demo repo if public/review-safe.
 

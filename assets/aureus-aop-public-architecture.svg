@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="560" viewBox="0 0 1280 560" role="img" aria-labelledby="title desc">
   <title id="title">Aureus AOP public architecture</title>
-  <desc id="desc">Public-safe map showing Aureus AOP connecting business process, GitHub delivery, n8n workflows, Supervisor validation, Web Studio, FineCon, and evidence.</desc>
+  <desc id="desc">Public-safe map showing Aureus AOP connecting business process, GitHub delivery, n8n workflows, Supervisor validation, Web Studio, FinEcon, and evidence.</desc>
   <rect width="1280" height="560" rx="32" fill="#071014"/>
   <text x="70" y="74" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="850">Aureus AOP Public Architecture</text>
-  <text x="70" y="110" fill="#9FB0C3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Process -> GitHub/Codex -> n8n / Supervisor / Web Studio / FineCon -> evidence -> handoff</text>
+  <text x="70" y="110" fill="#9FB0C3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Process -> GitHub/Codex -> n8n / Supervisor / Web Studio / FinEcon -> evidence -> handoff</text>
   <rect x="70" y="160" width="1140" height="292" rx="30" fill="#101823" stroke="#2A3748"/>
   <g font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="850" font-size="15">
     <rect x="115" y="252" width="142" height="70" rx="17" fill="#11231F" stroke="#4CE0B5"/><text x="186" y="293" text-anchor="middle" fill="#E5FFF0">process</text>
@@ -11,7 +11,7 @@
     <rect x="491" y="202" width="142" height="58" rx="17" fill="#241B0F" stroke="#FFC857"/><text x="562" y="237" text-anchor="middle" fill="#FFF4C7">n8n</text>
     <rect x="491" y="292" width="142" height="58" rx="17" fill="#151424" stroke="#A97CFF"/><text x="562" y="327" text-anchor="middle" fill="#F0E6FF">Supervisor</text>
     <rect x="679" y="202" width="142" height="58" rx="17" fill="#10211E" stroke="#4CE0B5"/><text x="750" y="237" text-anchor="middle" fill="#E5FFF0">Web Studio</text>
-    <rect x="679" y="292" width="142" height="58" rx="17" fill="#2A1115" stroke="#F76F8E"/><text x="750" y="327" text-anchor="middle" fill="#FFE0E8">FineCon</text>
+    <rect x="679" y="292" width="142" height="58" rx="17" fill="#2A1115" stroke="#F76F8E"/><text x="750" y="327" text-anchor="middle" fill="#FFE0E8">FinEcon</text>
     <rect x="867" y="252" width="142" height="70" rx="17" fill="#171F24" stroke="#5CE1E6"/><text x="938" y="293" text-anchor="middle" fill="#DDFEFF">evidence</text>
     <rect x="1055" y="252" width="112" height="70" rx="17" fill="#101823" stroke="#B8F7D4"/><text x="1111" y="293" text-anchor="middle" fill="#E5FFF0">handoff</text>
   </g>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Aureus Automation Lab public profile hero</title>
+  <desc id="desc">A premium public-safe architecture illustration showing business work becoming a reviewed AI workflow system.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071016"/>
+      <stop offset="0.52" stop-color="#10242c"/>
+      <stop offset="1" stop-color="#0b141a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f2d58a"/>
+      <stop offset="1" stop-color="#b78a32"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="520" rx="34" fill="url(#bg)"/>
+  <g opacity="0.18">
+    <path d="M80 110 H1120" stroke="#d7c182" stroke-width="1"/>
+    <path d="M80 210 H1120" stroke="#d7c182" stroke-width="1"/>
+    <path d="M80 310 H1120" stroke="#d7c182" stroke-width="1"/>
+    <path d="M80 410 H1120" stroke="#d7c182" stroke-width="1"/>
+    <path d="M180 60 V460" stroke="#d7c182" stroke-width="1"/>
+    <path d="M360 60 V460" stroke="#d7c182" stroke-width="1"/>
+    <path d="M540 60 V460" stroke="#d7c182" stroke-width="1"/>
+    <path d="M720 60 V460" stroke="#d7c182" stroke-width="1"/>
+    <path d="M900 60 V460" stroke="#d7c182" stroke-width="1"/>
+  </g>
+  <g filter="url(#softShadow)">
+    <rect x="72" y="80" width="310" height="360" rx="22" fill="#f8f4e8"/>
+    <rect x="104" y="116" width="162" height="16" rx="8" fill="#13232c"/>
+    <rect x="104" y="156" width="230" height="12" rx="6" fill="#7b8b92"/>
+    <rect x="104" y="184" width="190" height="12" rx="6" fill="#a8b1b5"/>
+    <rect x="104" y="246" width="230" height="82" rx="16" fill="#12242c"/>
+    <rect x="128" y="270" width="58" height="38" rx="8" fill="#f8f4e8"/>
+    <rect x="204" y="278" width="96" height="8" rx="4" fill="url(#gold)"/>
+    <rect x="204" y="296" width="74" height="8" rx="4" fill="#6eb8c7"/>
+    <text x="104" y="382" fill="#13232c" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Business process</text>
+    <text x="104" y="414" fill="#4c5b62" font-family="Inter, Arial, sans-serif" font-size="16">mapped before automation</text>
+  </g>
+  <g>
+    <path d="M410 260 C470 260 470 160 530 160 H612" fill="none" stroke="url(#gold)" stroke-width="5" stroke-linecap="round"/>
+    <path d="M410 260 C470 260 470 360 530 360 H612" fill="none" stroke="#6eb8c7" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="628" cy="160" r="12" fill="url(#gold)"/>
+    <circle cx="628" cy="360" r="12" fill="#6eb8c7"/>
+  </g>
+  <g filter="url(#softShadow)">
+    <rect x="620" y="102" width="228" height="116" rx="20" fill="#12242c" stroke="#304850"/>
+    <text x="652" y="150" fill="#f8f4e8" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">AI assist</text>
+    <text x="652" y="182" fill="#a9bbc0" font-family="Inter, Arial, sans-serif" font-size="15">draft, classify, extract</text>
+    <rect x="620" y="302" width="228" height="116" rx="20" fill="#12242c" stroke="#304850"/>
+    <text x="652" y="350" fill="#f8f4e8" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Review gate</text>
+    <text x="652" y="382" fill="#a9bbc0" font-family="Inter, Arial, sans-serif" font-size="15">owner-approved action</text>
+  </g>
+  <g>
+    <path d="M850 160 C910 160 910 260 970 260" fill="none" stroke="url(#gold)" stroke-width="5" stroke-linecap="round"/>
+    <path d="M850 360 C910 360 910 260 970 260" fill="none" stroke="#6eb8c7" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#softShadow)">
+    <rect x="950" y="125" width="180" height="270" rx="24" fill="#f8f4e8"/>
+    <circle cx="1040" cy="190" r="46" fill="none" stroke="url(#gold)" stroke-width="8"/>
+    <path d="M1018 190 L1034 206 L1066 172" fill="none" stroke="#13232c" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="994" y="286" fill="#13232c" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Evidence</text>
+    <text x="986" y="320" fill="#4c5b62" font-family="Inter, Arial, sans-serif" font-size="16">validation + handoff</text>
+  </g>
+  <text x="72" y="52" fill="#f8f4e8" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">AUREUS AUTOMATION LAB</text>
+  <text x="72" y="488" fill="#a9bbc0" font-family="Inter, Arial, sans-serif" font-size="18">Controlled AI workflow systems for business operations, finance, documents, and internal execution.</text>
+</svg>
+

@@ -26,10 +26,10 @@ Builder of Aureus Autonomous Operating Platform
 | `assets/image2/public-private-boundary.png` | Premium public/private boundary visual | Public-safe artifacts, controlled review window, sealed private implementation |
 | `assets/image2/supervisor-validation-capability.png` | Premium supervisor validation visual | Contract check, supervisor review, repair loop, approval gate, evidence/handoff |
 | `assets/profile-banner.svg` | Static fallback hero | Identity, Aureus Automation Lab, AOP, public-safe review path |
-| `assets/aureus-aop-public-architecture.svg` | Architecture map | AOP, GitHub/Codex, n8n, Supervisor, Web Studio, FineCon, evidence |
+| `assets/aureus-aop-public-architecture.svg` | Architecture map | AOP, GitHub/Codex, n8n, Supervisor, Web Studio, FinEcon, evidence |
 | `assets/n8n-workflow-automation-map.svg` | n8n workflow map | Workflow source, validation, approval boundary |
 | `assets/supervisor-validation-flow.svg` | Supervisor map | Codex worker, Supervisor capability, scorecard, evidence |
-| `assets/finecon-invoice-flow.svg` | FineCon map | Intake, extraction, review, POHODA boundary |
+| `assets/finecon-invoice-flow.svg` | FinEcon map | Intake, extraction, review, POHODA boundary |
 | `assets/web-studio-pipeline.svg` | Web Studio map | Brief, design system, tool orchestration, browser QA |
 | `assets/proof-evidence-loop.svg` | Proof loop | Validation, egress, evidence, handoff |
 | `assets/build-menu-map.svg` | Build menu | Collaboration format selection |
@@ -62,7 +62,7 @@ No MP4 is committed in this pass. See [PROFILE_VIDEO_STORYBOARD.md](PROFILE_VIDE
 | `SOLUTION_ARCHITECTURE.md` | Architecture Snapshot | Layered solution architecture |
 | `CAPABILITIES.md` | Capability Architecture Map | Capability groups as architecture path |
 | `CASE_STUDIES.md` | Case Study Review Map | Public-safe case-study structure |
-| `CASE_STUDIES.md` | FacturaAI / FineCon flow | Document intake to evidence notes |
+| `CASE_STUDIES.md` | FacturaAI / FinEcon flow | Document intake to evidence notes |
 | `CASE_STUDIES.md` | n8n Workflow Factory flow | Review, validation, import boundary, handoff |
 | `BUILD_MENU.md` | Selection flow | Choose a collaboration format |
 | `COLLABORATION.md` | Collaboration Flow | Delivery model from discovery to iteration |

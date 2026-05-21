@@ -32,7 +32,7 @@
       <path d="M811 319H850M946 319H985" stroke="#7ED6FF" stroke-width="4" stroke-linecap="round"/>
       <rect x="715" y="380" width="126" height="34" rx="17" fill="#151424" stroke="#A97CFF"/><text x="778" y="402" text-anchor="middle" fill="#F0E6FF">Supervisor</text>
       <rect x="860" y="380" width="126" height="34" rx="17" fill="#10211E" stroke="#4CE0B5"/><text x="923" y="402" text-anchor="middle" fill="#E5FFF0">Web Studio</text>
-      <rect x="1005" y="380" width="126" height="34" rx="17" fill="#2A1115" stroke="#F76F8E"/><text x="1068" y="402" text-anchor="middle" fill="#FFE0E8">FineCon</text>
+      <rect x="1005" y="380" width="126" height="34" rx="17" fill="#2A1115" stroke="#F76F8E"/><text x="1068" y="402" text-anchor="middle" fill="#FFE0E8">FinEcon</text>
     </g>
   </g>
 </svg>

@@ -10,7 +10,7 @@ Public-safe concept visual. Not a screenshot, not customer proof, not production
 
 I build AI-native workflow and product systems that turn unclear manual business processes into controlled, reviewable, and evidence-backed operating loops.
 
-My work connects business process mapping, n8n workflow automation, Codex/GitHub delivery, Azure/OpenAI Supervisor capability, validation gates, proof/evidence systems, FineCon / Invoice direction, and Web Studio / Experience surfaces.
+My work connects business process mapping, n8n workflow automation, Codex/GitHub delivery, Azure/OpenAI Supervisor capability, validation gates, proof/evidence systems, FinEcon / Invoice direction, and Web Studio / Experience surfaces.
 
 This profile is a public-safe front door. It shows architecture, system thinking, review paths, and proof philosophy without exposing private workflow exports, credentials, endpoints, POHODA internals, client-like data, production settings, or private repositories.
 
@@ -23,7 +23,7 @@ This profile is a public-safe front door. It shows architecture, system thinking
 | Platform | Aureus Autonomous Operating Platform |
 | Core strength | Turning manual processes into controlled AI-assisted workflow systems |
 | Public proof style | Architecture maps, sanitized case studies, validation/evidence notes |
-| Main public pages | [Automation Lab](https://aureus.it.com/automationlab) and [Invoice / FineCon](https://aureus.it.com/invoice) |
+| Main public pages | [Automation Lab](https://aureus.it.com/automationlab) and [Invoice / FinEcon](https://aureus.it.com/invoice) |
 
 ## Review Path
 
@@ -31,8 +31,20 @@ This profile is a public-safe front door. It shows architecture, system thinking
 | --- | --- | --- |
 | Recruiter / hiring manager | [Capabilities](CAPABILITIES.md), [Review Guide](REVIEW_GUIDE.md) | Role fit, stack, architecture range, public-safe delivery discipline |
 | CTO / technical reviewer | [Solution Architecture](SOLUTION_ARCHITECTURE.md), [Case Studies](CASE_STUDIES.md), [Public Boundary](PUBLIC_BOUNDARY.md) | AOP layers, workflow boundaries, validation, evidence, risk handling |
-| Client / partner | [One-Pager](AUREUS_PUBLIC_PROFILE_ONE_PAGER.md), [Build Menu](BUILD_MENU.md), [Collaboration](COLLABORATION.md) | What can be built, how work starts, what stays private |
+| Client / partner | [One-Pager](AUREUS_PUBLIC_PROFILE_ONE_PAGER.md), [Build Menu](BUILD_MENU.md), [Automation Lab](AUTOMATION_LAB.md), [FinEcon](FINECON.md), [Collaboration](COLLABORATION.md) | What can be built, how work starts, what stays private |
 | Founder / investor reviewer | This README, [Case Studies](CASE_STUDIES.md), [Profile Pins Guide](PROFILE_PINS_GUIDE.md) | Platform direction, proof posture, public-safe portfolio plan |
+
+## Buyer Starting Points
+
+If you are looking at this profile because you need help, start with the business problem rather than the tool.
+
+| Business problem | First useful offer | Why it is a good start |
+| --- | --- | --- |
+| Repeated work depends on memory, chat, or manual copying | [Automation Audit](BUILD_MENU.md) | It finds the first useful control point before building too much |
+| A process should run in n8n but still be reviewable | [Automation Lab](AUTOMATION_LAB.md) | It turns workflow ideas into source, review, validation, and handoff |
+| Invoices or documents are slow to check and route | [FinEcon](FINECON.md) | It separates extraction, review, exceptions, and downstream handoff |
+| You need a premium website connected to real operations | [Capabilities](CAPABILITIES.md) | It links the public surface to the system behind it |
+| You want an internal AI operating layer | [Aureus OS](AUREUS_OS.md) | It gives AI-assisted work scope, gates, evidence, and ownership |
 
 ## Public Architecture Snapshot
 
@@ -45,7 +57,7 @@ flowchart LR
     B --> D[n8n workflow automation]
     B --> E[Supervisor validation]
     B --> F[Web Studio / Experience]
-    B --> G[FineCon / Invoice direction]
+    B --> G[FinEcon / Invoice direction]
     C --> H[Evidence + handoff]
     D --> H
     E --> H
@@ -61,8 +73,10 @@ flowchart LR
 | n8n workflow source | Treats workflows as reviewable source artifacts, not hidden click-only automation | Workflow boundary map |
 | GitHub / Codex delivery | Uses branches, PRs, validation, and review notes as delivery evidence | PR path, proof notes |
 | Supervisor / Azure capability | Demonstrated integration capability through internal runtime, smoke tests, and evidence-based validation | Supervisor capability note |
-| FineCon / Invoice | Maps document and invoice workflows with review and POHODA boundaries | Intake/review/handoff flow |
+| FinEcon / Invoice | Maps document and invoice workflows with review and POHODA boundaries | Intake/review/handoff flow |
 | Web Studio / Experience | Creates public-safe product surfaces with visual QA, design system, and claims review | Page proof pack |
+
+For a plain-English explanation of the operating model behind these systems, see [Aureus OS](AUREUS_OS.md). For the public evidence boundary, see [Proof Index](PROOF_INDEX.md).
 
 ## Workflow Governance Visual
 
@@ -92,7 +106,7 @@ Most serious automation work cannot be shown as raw code because it may contain 
 - n8n workflow governance,
 - validation and evidence philosophy,
 - Supervisor / Azure capability wording,
-- Web Studio and FineCon boundaries,
+- Web Studio and FinEcon boundaries,
 - controlled review paths.
 
 ## What I Do Not Claim
@@ -128,6 +142,10 @@ The visuals are concept explanations, not screenshots or proof claims. Each one 
 | Page | Use it for |
 | --- | --- |
 | [AUREUS_PUBLIC_PROFILE_ONE_PAGER.md](AUREUS_PUBLIC_PROFILE_ONE_PAGER.md) | Short external-safe profile summary |
+| [AUTOMATION_LAB.md](AUTOMATION_LAB.md) | Public explanation of n8n and AI workflow automation work |
+| [FINECON.md](FINECON.md) | Public explanation of invoice, document, finance, and owner-review systems |
+| [AUREUS_OS.md](AUREUS_OS.md) | Operating model for scoped, validated, evidence-backed AI-assisted delivery |
+| [PROOF_INDEX.md](PROOF_INDEX.md) | Public-safe proof model and claim boundary |
 | [SOLUTION_ARCHITECTURE.md](SOLUTION_ARCHITECTURE.md) | AOP architecture layers and decision boundaries |
 | [CASE_STUDIES.md](CASE_STUDIES.md) | Public-safe system directions |
 | [CAPABILITIES.md](CAPABILITIES.md) | Capability map and proof outputs |

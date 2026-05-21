@@ -80,7 +80,7 @@ Every image must have a slot and a job.
 | Workflow governance | Explain why workflow automation is controlled | Source, review gates, approval, credential separation, evidence, handoff |
 | Public/private boundary | Explain why raw private work is not public | Public proof artifacts are separated from sealed private implementation |
 | Supervisor validation | Explain model supervision without fake certification | Worker output passes contract, review, repair, scorecard, and evidence |
-| FineCon / Invoice | Explain document-heavy workflow boundaries | Intake, extraction, review, POHODA boundary, evidence |
+| FinEcon / Invoice | Explain document-heavy workflow boundaries | Intake, extraction, review, POHODA boundary, evidence |
 | Web Studio | Explain visual production discipline | Brief, design system, build, browser QA, proof pack |
 
 If an image cannot name its slot and review job, it should not be generated.

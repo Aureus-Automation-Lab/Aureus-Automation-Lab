@@ -23,7 +23,7 @@ This is a public-safe overview of what I can design, build, validate, and hand o
 | Aureus AOP | Operating platform for GitHub/Codex delivery, n8n workflows, validation, evidence, and handoff |
 | n8n workflow automation | Workflow-as-source discipline, import boundaries, activation approval |
 | Supervisor / Azure capability | Demonstrated integration capability through internal runtime, smoke tests, and evidence-based validation |
-| FineCon / Invoice | Document and invoice workflow direction with review and POHODA boundaries |
+| FinEcon / Invoice | Document and invoice workflow direction with review and POHODA boundaries |
 | Web Studio / Experience | Public-safe product surfaces with design system, visual QA, claims review, and browser evidence |
 | Proof / evidence | Action gates, egress review, scorecards, and proof packs |
 
