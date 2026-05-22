@@ -13,7 +13,11 @@ def marker(*parts: str) -> str:
 REQUIRED_FILES = [
     "README.md",
     "docs/portfolio/public-demo-flow.md",
+    "docs/portfolio/synthetic-demo-case.md",
+    "docs/portfolio/cv-usage.md",
     "docs/portfolio/offer-menu.md",
+    "docs/portfolio/capabilities.md",
+    "docs/portfolio/review-guide.md",
     "docs/portfolio/public-portfolio-scorecard.md",
     "assets/aureus-profile-hero.gif",
     "assets/aureus-offer-menu.gif",
@@ -29,14 +33,23 @@ REQUIRED_FILES = [
 ]
 
 README_REQUIRED = [
-    "Founder & AI Systems Architect",
+    "Founder & AI Automation Solution Architect",
+    "AI Automation Solution Architect",
     "Controlled AI automation",
     "docs/portfolio/public-demo-flow.md",
+    "docs/portfolio/synthetic-demo-case.md",
     "docs/portfolio/offer-menu.md",
+    "docs/portfolio/cv-usage.md",
 ]
 
+FILE_REQUIRED = {
+    "docs/portfolio/capabilities.md": ["Best-Fit Roles"],
+    "docs/portfolio/review-guide.md": ["CV"],
+    "docs/portfolio/offer-menu.md": ["Recommended first purchase"],
+}
+
 FORBIDDEN_PHRASES = [
-    marker("guaranteed", " ROI"),
+    marker("guar", "anteed", " ROI"),
     marker("proven", " revenue"),
     marker("world", "-class"),
     marker("best in", " the world"),
@@ -87,6 +100,25 @@ def main() -> int:
     for required in README_REQUIRED:
         if required not in readme:
             errors.append(f"README.md missing required text/link: {required}")
+
+    if "Founder & AI Systems Architect" in readme:
+        errors.append("README.md still contains old main hero phrase: Founder & AI Systems Architect")
+
+    headings = [
+        line.strip()
+        for line in readme.splitlines()
+        if line.startswith("#")
+    ]
+    duplicate_headings = sorted({heading for heading in headings if headings.count(heading) > 1})
+    for heading in duplicate_headings:
+        errors.append(f"README.md contains duplicate heading: {heading}")
+
+    for rel, required_values in FILE_REQUIRED.items():
+        path = ROOT / rel
+        content = read_text(path) if path.exists() else ""
+        for required in required_values:
+            if required not in content:
+                errors.append(f"{rel} missing required text: {required}")
 
     for path in iter_text_files():
         rel = path.relative_to(ROOT).as_posix()

@@ -22,7 +22,7 @@ The `docs/proof` pages explain the proof philosophy. The `public-proof` packages
 | **Architecture thinking** | business process -> workflow -> AI role -> review -> validation -> handoff |
 | **Safety discipline** | no blind external actions, no public secrets, no unsupported claims |
 | **Workflow maturity** | workflow-as-source, n8n governance, validation gates |
-| **Finance boundary awareness** | FinEcon supports insight and reviewed handoff, not unsupported accounting guarantees |
+| **Finance boundary awareness** | FinEcon supports insight and reviewed handoff, not unsupported accounting outcome claims |
 | **Public/private separation** | public proof without leaking private implementation |
 
 ## Best Reading Order
@@ -55,7 +55,7 @@ The `docs/proof` pages explain the proof philosophy. The `public-proof` packages
 
 ## What This Repository Does Not Claim
 
-This profile does not claim official Azure certification, enterprise compliance certification, ROI guarantees, paying customer results, production client outcomes, accounting correctness, tax/legal advice, trading performance, or public exposure of private systems.
+This profile does not claim official Azure certification, enterprise compliance certification, ROI promises, paying customer results, production client outcomes, accounting correctness, tax/legal advice, trading performance, or public exposure of private systems.
 
 Those claims require separate evidence and should not be implied from a public-safe architecture profile.
 

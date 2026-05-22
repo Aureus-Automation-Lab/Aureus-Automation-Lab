@@ -8,7 +8,7 @@ This scorecard evaluates the profile against the criteria in the 10/10 public po
 | --- | --- |
 | Before score estimate | 7.2/10 |
 | Target score | 10/10 |
-| Current positioning | Positioned for a 10/10 public portfolio review against the defined criteria |
+| Current positioning | Positioned as 9.2/10+ GitHub public portfolio, with live landing page and verified case results remaining as future upgrades |
 
 ## What Changed
 
@@ -20,6 +20,16 @@ This scorecard evaluates the profile against the criteria in the 10/10 public po
 - AOP is framed as the internal operating engine, not the first thing sold to clients.
 - Review paths are split for recruiters, technical reviewers, and clients.
 - Safety boundaries remain explicit.
+
+## Final Polish Pass
+
+- Standardized the main role title as **Founder & AI Automation Solution Architect**.
+- Added a CV / Recruiter Snapshot to the README.
+- Added a concrete fictional invoice review demo case.
+- Added CV-safe wording for resumes, LinkedIn, and recruiter messages.
+- Clarified the recommended first purchase: Automation Audit.
+- Reduced repeated private-data lists by pointing readers to the public boundary.
+- Strengthened validation checks for role consistency, CV readiness, and link coverage.
 
 ## Remaining Limits
 
@@ -48,6 +58,10 @@ A recruiter should understand in under 30 seconds:
 - Robert is an AI Automation Solution Architect.
 - The work sits between automation, internal systems, solution architecture, and AI-assisted business execution.
 - The strongest role fit is AI automation, internal tooling, n8n workflow systems, solution architecture, or technical product operations.
+
+## CV Readiness Statement
+
+Safe to include in CV/resume as a public portfolio link, provided it is described as a public-safe architecture and automation portfolio rather than verified production/customer proof.
 
 ## Client Readability Check
 

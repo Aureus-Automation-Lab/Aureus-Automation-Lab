@@ -3,7 +3,9 @@
 **Controlled AI automation for companies that need work to be clearer, safer, and easier to run.**
 
 Led by **Róbert Kolesár**<br>
-Founder & AI Systems Architect building reviewed automation systems for sales, operations, finance documents, reporting, and internal execution.
+**Founder & AI Automation Solution Architect**
+
+I build controlled AI automation systems that turn manual business work into reviewed, evidence-backed workflows.
 
 ![Aureus controlled AI automation hero](assets/aureus-profile-hero.gif)
 
@@ -18,6 +20,17 @@ AI prepares.
 People approve.
 The system keeps evidence.
 ```
+
+## CV / Recruiter Snapshot
+
+| Signal | Detail |
+| --- | --- |
+| Role fit | AI Automation Solution Architect |
+| Core skills | AI workflow architecture, n8n workflow systems, internal tools, review boundaries, evidence/proof packs, solution architecture |
+| Best-fit roles | AI Automation Solution Architect, AI Automation Engineer, Solutions Engineer, Workflow Automation Specialist, Technical Product Operations, Internal Tools / Automation Engineer |
+| Review first | [Offer menu](docs/portfolio/offer-menu.md), [public demo flow](docs/portfolio/public-demo-flow.md), [synthetic demo case](docs/portfolio/synthetic-demo-case.md), [solution architecture](docs/portfolio/solution-architecture.md), [public proof showroom](public-proof/README.md) |
+
+Safe CV wording is available in [docs/portfolio/cv-usage.md](docs/portfolio/cv-usage.md).
 
 ## What You Can Start With
 
@@ -48,6 +61,8 @@ manual business chaos
 ```
 
 Open the demo: [docs/portfolio/public-demo-flow.md](docs/portfolio/public-demo-flow.md)
+
+For one concrete fictional example, open [docs/portfolio/synthetic-demo-case.md](docs/portfolio/synthetic-demo-case.md).
 
 ## Public Proof Showroom
 
@@ -82,7 +97,7 @@ That is the difference between a clever demo and a working operating layer.
 
 This profile shows architecture thinking, demo flows, proof-pack structure, case-study directions, offer boundaries, and review models.
 
-It does **not** expose private workflows, credentials, endpoints, production logs, real invoices, client-like data, private prompts, or access details.
+It does **not** expose private implementation, real customer data, credentials, production context, or unsupported result claims. The full boundary is documented in [docs/portfolio/public-boundary.md](docs/portfolio/public-boundary.md).
 
 ## Choose Your Review Path
 
@@ -100,15 +115,17 @@ The root is intentionally clean. Supporting material lives in [docs/portfolio](d
 | --- | --- |
 | [Offer menu](docs/portfolio/offer-menu.md) | clear commercial starting points |
 | [Public demo flow](docs/portfolio/public-demo-flow.md) | one simple public-safe demo |
+| [Synthetic demo case](docs/portfolio/synthetic-demo-case.md) | fictional invoice review example |
 | [Solution architecture](docs/portfolio/solution-architecture.md) | technical architecture snapshot |
 | [Capabilities](docs/portfolio/capabilities.md) | role and capability overview |
 | [Case studies](docs/portfolio/case-studies.md) | public-safe case study directions |
 | [Public boundary](docs/portfolio/public-boundary.md) | what stays private |
 | [Review guide](docs/portfolio/review-guide.md) | review path by audience |
+| [CV usage](docs/portfolio/cv-usage.md) | safe wording for CV, LinkedIn, and recruiter messages |
 
 ## Current Public Boundary
 
-This profile does not claim customer results, production deployments, accounting correctness, tax or legal advice, trading performance, official security certification, public access to private systems, or guaranteed revenue / ROI.
+This profile does not claim customer results, production deployments, accounting correctness, tax or legal advice, trading performance, official security certification, public access to private systems, or promised revenue / ROI.
 
 It is a public portfolio for controlled AI automation design, review boundaries, proof-safe delivery, and business process clarity.
 

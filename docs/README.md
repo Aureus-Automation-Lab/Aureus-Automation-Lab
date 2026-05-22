@@ -8,6 +8,7 @@ The root `README.md` is the main profile. This folder keeps the supporting mater
 | --- | --- |
 | [Offer menu](portfolio/offer-menu.md) | The six clear commercial offers a client can buy first |
 | [Public demo flow](portfolio/public-demo-flow.md) | A simple example of manual work becoming a reviewed workflow |
+| [Synthetic demo case](portfolio/synthetic-demo-case.md) | A fictional invoice review example for quick understanding |
 | [Start here](overview/start-here.md) | The simplest explanation of Aureus for a first-time visitor |
 | [One-page profile](overview/one-pager.md) | Who Aureus is and what we build |
 | [Build menu](services/build-menu.md) | Which first project makes sense |
@@ -52,6 +53,7 @@ The root `README.md` is the main profile. This folder keeps the supporting mater
 | [Source truth map](proof/source-truth-map.md) | Which public claims are backed by the Aureus Git source-of-truth |
 | [Public boundary](proof/public-boundary.md) | What is intentionally not exposed |
 | [Review guide](proof/review-guide.md) | How different audiences should review the profile |
+| [CV usage](portfolio/cv-usage.md) | Public-safe wording for CV, LinkedIn, and recruiter messages |
 
 ## For Profile Operations
 

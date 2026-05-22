@@ -2,13 +2,31 @@
 
 Use this guide to review the portfolio quickly.
 
+## CV / Resume Reviewer
+
+Start with:
+
+1. [README.md](../../README.md)
+2. [Capabilities](capabilities.md)
+3. [Synthetic demo case](synthetic-demo-case.md)
+4. [Solution architecture](solution-architecture.md)
+
+Look for:
+
+- role fit,
+- systems thinking,
+- controlled AI workflow design,
+- n8n / automation relevance,
+- safe public communication.
+
 ## Recruiter / Hiring Manager
 
 Start with:
 
 1. [README.md](../../README.md)
 2. [Capabilities](capabilities.md)
-3. [Case studies](case-studies.md)
+3. [Synthetic demo case](synthetic-demo-case.md)
+4. [Case studies](case-studies.md)
 
 Look for:
 
@@ -23,9 +41,10 @@ Look for:
 Start with:
 
 1. [Solution architecture](solution-architecture.md)
-2. [Public demo flow](public-demo-flow.md)
-3. [Public boundary](public-boundary.md)
-4. [Solution architecture detail](../system/solution-architecture.md)
+2. [Synthetic demo case](synthetic-demo-case.md)
+3. [Public demo flow](public-demo-flow.md)
+4. [Public boundary](public-boundary.md)
+5. [Solution architecture detail](../system/solution-architecture.md)
 
 Look for:
 
@@ -42,6 +61,7 @@ Start with:
 1. [Offer menu](offer-menu.md)
 2. [Build menu](build-menu.md)
 3. [Public demo flow](public-demo-flow.md)
+4. [Synthetic demo case](synthetic-demo-case.md)
 
 Look for:
 

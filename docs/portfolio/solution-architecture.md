@@ -55,6 +55,6 @@ What business output should happen next?
 
 ## What Stays Private
 
-This page does not expose workflow exports, credentials, endpoints, webhook URLs, private prompts, customer-like data, production logs, or live system details.
+This page stays at architecture level. Private implementation, access details, customer-like data, and production context are intentionally excluded. See the full [public boundary](public-boundary.md).
 
 For deeper public-safe docs, see [solution architecture detail](../system/solution-architecture.md).

@@ -51,4 +51,4 @@ The owner approved scope, sensitive actions, public claims, production changes, 
 
 The system kept task scope, constraints, validation notes, approval status, blocked items, and handoff notes.
 
-No guaranteed outcome or customer result is implied.
+No promised outcome or customer result is implied.

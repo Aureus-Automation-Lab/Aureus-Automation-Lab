@@ -11,7 +11,7 @@ Use this rubric before sharing the GitHub profile with clients, partners, collab
 | Business credibility | The profile explains real buyer problems: sales follow-up, operations handoffs, invoices, documents, reporting, and internal execution. |
 | Technical credibility | Technical reviewers can find workflow boundaries, validation, evidence, handoff, source-truth discipline, and public-safe architecture notes. |
 | Public-safe proof | Sales Machine, FinEcon, and Aureus OS each have clear proof pages that show direction without exposing private systems. |
-| Claim safety | The repo avoids ROI guarantees, certifications, production client results, accounting correctness, tax/legal advice, trading performance, and fake testimonials. |
+| Claim safety | The repo avoids ROI promises, certifications, production client results, accounting correctness, tax/legal advice, trading performance, and fake testimonials. |
 | Navigation | README is the front door; docs are a supporting proof library; key links are visible without turning the page into a document dump. |
 | Visual polish | Images are public-safe, relevant, and professional; no broken image links; no low-effort or misleading screenshots. |
 | Buyer conversion path | A company can see practical first projects: Automation Audit, n8n Workflow Governance, FinEcon Pilot, Aureus OS Setup, Premium AI Website + Automation, or Monthly Automation Partner. |

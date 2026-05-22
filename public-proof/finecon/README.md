@@ -54,7 +54,7 @@ Humans review:
 
 ## What FinEcon Does Not Claim
 
-FinEcon does not claim accounting correctness, tax/legal advice, replacement of accountant review, unattended production accounting operation, or guaranteed financial results.
+FinEcon does not claim accounting correctness, tax/legal advice, replacement of accountant review, unattended production accounting operation, or promised financial results.
 
 ## What Stays Private
 

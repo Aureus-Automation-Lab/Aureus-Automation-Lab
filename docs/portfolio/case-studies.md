@@ -1,6 +1,6 @@
 # Case Studies
 
-These are public-safe case study directions. They show the system thinking without exposing private implementation, customer data, workflow exports, credentials, endpoints, invoices, logs, or unsupported claims.
+These are public-safe case study directions. They show system thinking without exposing private implementation, customer data, production context, or unsupported claims. For the full exclusion list, see [public boundary](public-boundary.md).
 
 The useful pattern is:
 
