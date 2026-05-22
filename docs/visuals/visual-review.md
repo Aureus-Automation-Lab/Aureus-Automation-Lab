@@ -2,9 +2,9 @@
 
 The visual target is a premium AI automation architecture portfolio, not a documentation archive.
 
-For the premium root version, see [VISUAL_REVIEW.md](../../VISUAL_REVIEW.md).
+For the premium root version, see [docs/portfolio/visual-review.md](../portfolio/visual-review.md).
 
-![Controlled AI Automation System](../../assets/public-ai-automation-operating-flow.svg)
+![Controlled AI Automation System](../../assets/aureus-profile-hero.gif)
 
 ## First Impression Target
 
@@ -24,11 +24,11 @@ manual work -> reviewed workflow -> evidence-backed output
 - [x] no private data
 - [x] public demo flow exists
 - [x] offer menu exists
-- [x] GitHub-safe SVGs render without external images or fonts
+- [x] GitHub-safe GIFs render without external images or fonts
 
 ## Visual Rules
 
-- Use public-safe SVG or intentional committed images.
+- Use public-safe, intentional committed GIFs or static images.
 - Do not depend on stock photos or external image URLs.
 - Do not show fake dashboards, fake metrics, private screenshots, customer-like data, or certification-style badges.
 - The static frame must make sense even if animation does not run.
@@ -37,10 +37,16 @@ manual work -> reviewed workflow -> evidence-backed output
 
 | Asset | Purpose |
 | --- | --- |
-| `assets/public-ai-automation-operating-flow.svg` | Main public architecture flow |
-| `assets/image2/profile-public-architecture-hero.png` | Previous concept hero |
-| `assets/image2/n8n-workflow-governance.png` | Workflow governance concept |
-| `assets/image2/public-private-boundary.png` | Public/private boundary concept |
-| `assets/image2/supervisor-validation-capability.png` | Supervisor validation concept |
+| `assets/aureus-profile-hero.gif` | Main public architecture flow |
+| `assets/aureus-offer-menu.gif` | Commercial offer menu |
+| `assets/aureus-sales-machine.gif` | Sales Machine workflow |
+| `assets/aureus-finecon-flow.gif` | FinEcon invoice/document review |
+| `assets/aureus-os-model.gif` | Aureus OS operating model |
+| `assets/aureus-public-boundary.gif` | Public/private boundary |
+| `assets/aureus-capability-system.gif` | Capability map |
+| `assets/aureus-collaboration-flow.gif` | Collaboration and handoff flow |
+| `assets/aureus-proof-pack.gif` | Public proof pack boundary |
+| `assets/aureus-readiness-check.gif` | Public release readiness checklist |
+| `assets/aureus-solution-architecture.gif` | Technical solution architecture |
 
 Future visuals should support the same core story: business signal, mission, workflow, review, evidence, and business output.

@@ -2,6 +2,8 @@
 
 This package shows a public-safe sales workflow direction.
 
+![Aureus Sales Machine flow](../../assets/aureus-sales-machine.gif)
+
 It is designed for a business owner who wants better follow-up without letting AI send messages blindly.
 
 ## Problem Statement

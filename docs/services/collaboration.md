@@ -1,6 +1,6 @@
 # Collaboration
 
-![Aureus collaboration flow](../../assets/collaboration-flow.svg)
+![Aureus collaboration flow](../../assets/aureus-collaboration-flow.gif)
 
 | Page signal | What this page clarifies |
 | --- | --- |

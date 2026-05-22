@@ -6,8 +6,8 @@ The root `README.md` is the main profile. This folder keeps the supporting mater
 
 | Page | What it answers |
 | --- | --- |
-| [Offer menu](../OFFER_MENU.md) | The six clear commercial offers a client can buy first |
-| [Public demo flow](../PUBLIC_DEMO_FLOW.md) | A simple example of manual work becoming a reviewed workflow |
+| [Offer menu](portfolio/offer-menu.md) | The six clear commercial offers a client can buy first |
+| [Public demo flow](portfolio/public-demo-flow.md) | A simple example of manual work becoming a reviewed workflow |
 | [Start here](overview/start-here.md) | The simplest explanation of Aureus for a first-time visitor |
 | [One-page profile](overview/one-pager.md) | Who Aureus is and what we build |
 | [Build menu](services/build-menu.md) | Which first project makes sense |
@@ -30,8 +30,8 @@ The root `README.md` is the main profile. This folder keeps the supporting mater
 
 | Page | What it answers |
 | --- | --- |
-| [Solution architecture](../SOLUTION_ARCHITECTURE.md) | Premium public architecture summary |
-| [Public boundary](../PUBLIC_BOUNDARY.md) | What stays private and what can be shown |
+| [Solution architecture](portfolio/solution-architecture.md) | Premium public architecture summary |
+| [Public boundary](portfolio/public-boundary.md) | What stays private and what can be shown |
 | [Capabilities](services/capabilities.md) | What can be designed, built, validated, and handed off |
 | [Aureus OS](system/aureus-os.md) | The operating model behind AI-assisted delivery |
 | [Solution architecture](system/solution-architecture.md) | System layers, decision boundaries, and validation paths |

@@ -12,17 +12,27 @@ def marker(*parts: str) -> str:
 
 REQUIRED_FILES = [
     "README.md",
-    "PUBLIC_DEMO_FLOW.md",
-    "OFFER_MENU.md",
-    "PUBLIC_PORTFOLIO_SCORECARD.md",
-    "assets/public-ai-automation-operating-flow.svg",
+    "docs/portfolio/public-demo-flow.md",
+    "docs/portfolio/offer-menu.md",
+    "docs/portfolio/public-portfolio-scorecard.md",
+    "assets/aureus-profile-hero.gif",
+    "assets/aureus-offer-menu.gif",
+    "assets/aureus-sales-machine.gif",
+    "assets/aureus-finecon-flow.gif",
+    "assets/aureus-os-model.gif",
+    "assets/aureus-public-boundary.gif",
+    "assets/aureus-capability-system.gif",
+    "assets/aureus-collaboration-flow.gif",
+    "assets/aureus-proof-pack.gif",
+    "assets/aureus-readiness-check.gif",
+    "assets/aureus-solution-architecture.gif",
 ]
 
 README_REQUIRED = [
     "Founder & AI Systems Architect",
     "Controlled AI automation",
-    "PUBLIC_DEMO_FLOW.md",
-    "OFFER_MENU.md",
+    "docs/portfolio/public-demo-flow.md",
+    "docs/portfolio/offer-menu.md",
 ]
 
 FORBIDDEN_PHRASES = [

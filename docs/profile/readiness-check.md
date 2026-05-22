@@ -1,6 +1,6 @@
 # Profile Readiness Check
 
-![Aureus profile completeness map](../../assets/completeness-check-map.svg)
+![Aureus public readiness check](../../assets/aureus-readiness-check.gif)
 
 This file is the public-readiness checklist for the `Aureus-Automation-Lab/Aureus-Automation-Lab` profile repository. It exists so future updates stay useful, honest, and safe for external viewers.
 

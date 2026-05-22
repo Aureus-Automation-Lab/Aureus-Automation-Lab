@@ -1,6 +1,6 @@
 # Profile Video Storyboard
 
-![Róbert Kolesár / robertkolesar public architecture hero](../../assets/image2/profile-public-architecture-hero.png)
+![Róbert Kolesár / robertkolesar public architecture hero](../../assets/aureus-profile-hero.gif)
 
 Public-safe concept visual. Not a screenshot, not customer proof, not production evidence.
 

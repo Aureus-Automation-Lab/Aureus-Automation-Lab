@@ -6,7 +6,7 @@ Pins should make the public profile understandable in under 10 seconds.
 
 | Order | Pin | Caption |
 | --- | --- | --- |
-| 1 | `Aureus-Automation-Lab/Aureus-Automation-Lab` | Public front door for Robert Kolesar / KimiAoki and Aureus Automation Lab |
+| 1 | `Aureus-Automation-Lab/Aureus-Automation-Lab` | Public front door for Róbert Kolesár and Aureus Automation Lab |
 | 2 | FinEcon / invoice automation public-safe surface | Reviewed document and invoice workflow direction |
 | 3 | Sanitized n8n workflow demo or review map | Controlled workflow design with review and evidence boundaries |
 | 4 | AOP public architecture artifact | Internal operating engine for AI-assisted work, sanitized for public review |
@@ -35,4 +35,4 @@ Caption:
 AI automation architecture portfolio: controlled workflows, review boundaries, evidence, and public-safe proof paths.
 ```
 
-For the longer pin strategy, see [docs/profile/pins-guide.md](docs/profile/pins-guide.md).
+For the longer pin strategy, see [pins guide detail](../profile/pins-guide.md).

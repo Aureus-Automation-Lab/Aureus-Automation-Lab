@@ -6,9 +6,9 @@ Use this guide to review the portfolio quickly.
 
 Start with:
 
-1. [README.md](README.md)
-2. [CAPABILITIES.md](CAPABILITIES.md)
-3. [CASE_STUDIES.md](CASE_STUDIES.md)
+1. [README.md](../../README.md)
+2. [Capabilities](capabilities.md)
+3. [Case studies](case-studies.md)
 
 Look for:
 
@@ -22,10 +22,10 @@ Look for:
 
 Start with:
 
-1. [SOLUTION_ARCHITECTURE.md](SOLUTION_ARCHITECTURE.md)
-2. [PUBLIC_DEMO_FLOW.md](PUBLIC_DEMO_FLOW.md)
-3. [PUBLIC_BOUNDARY.md](PUBLIC_BOUNDARY.md)
-4. [docs/system/solution-architecture.md](docs/system/solution-architecture.md)
+1. [Solution architecture](solution-architecture.md)
+2. [Public demo flow](public-demo-flow.md)
+3. [Public boundary](public-boundary.md)
+4. [Solution architecture detail](../system/solution-architecture.md)
 
 Look for:
 
@@ -39,9 +39,9 @@ Look for:
 
 Start with:
 
-1. [OFFER_MENU.md](OFFER_MENU.md)
-2. [BUILD_MENU.md](BUILD_MENU.md)
-3. [PUBLIC_DEMO_FLOW.md](PUBLIC_DEMO_FLOW.md)
+1. [Offer menu](offer-menu.md)
+2. [Build menu](build-menu.md)
+3. [Public demo flow](public-demo-flow.md)
 
 Look for:
 

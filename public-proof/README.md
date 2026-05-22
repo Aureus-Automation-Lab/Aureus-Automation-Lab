@@ -2,6 +2,8 @@
 
 This folder is the public proof showroom for Aureus Automation Lab.
 
+![Aureus public proof boundary](../assets/aureus-public-boundary.gif)
+
 Public proof means architecture, workflow maps, state models, examples, and safety boundaries that can be reviewed without exposing private implementation.
 
 It is not customer proof, production proof, or a claim of guaranteed results.

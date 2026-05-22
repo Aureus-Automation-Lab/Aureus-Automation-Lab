@@ -27,6 +27,6 @@ Every useful build should answer:
 - What proof remains?
 - What is the next business output?
 
-For the commercial offer detail, see [OFFER_MENU.md](OFFER_MENU.md).
+For the commercial offer detail, see [offer menu](offer-menu.md).
 
-For the longer build menu, see [docs/services/build-menu.md](docs/services/build-menu.md).
+For the longer build menu, see [build menu detail](../services/build-menu.md).

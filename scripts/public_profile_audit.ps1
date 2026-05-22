@@ -75,7 +75,7 @@ $patterns = @(
   "access_token",
   ("ghp" + "_"),
   ("github" + "_pat_"),
-  "sk-",
+  ("s" + "k-"),
   ("xoxb" + "-"),
   ("AK" + "IA"),
   ("AI" + "za")

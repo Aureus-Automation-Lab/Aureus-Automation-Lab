@@ -13,7 +13,7 @@ Problem
 -> What stays private
 ```
 
-For the premium root version, see [CASE_STUDIES.md](../../CASE_STUDIES.md).
+For the premium root version, see [docs/portfolio/case-studies.md](../portfolio/case-studies.md).
 
 ## 1. Manual Invoice / Document Work
 

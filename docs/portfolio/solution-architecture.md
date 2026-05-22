@@ -1,6 +1,6 @@
 # Solution Architecture
 
-![Controlled AI Automation System](assets/public-ai-automation-operating-flow.svg)
+![Aureus solution architecture](../../assets/aureus-solution-architecture.gif)
 
 ## Architecture Summary
 
@@ -57,4 +57,4 @@ What business output should happen next?
 
 This page does not expose workflow exports, credentials, endpoints, webhook URLs, private prompts, customer-like data, production logs, or live system details.
 
-For deeper public-safe docs, see [docs/system/solution-architecture.md](docs/system/solution-architecture.md).
+For deeper public-safe docs, see [solution architecture detail](../system/solution-architecture.md).

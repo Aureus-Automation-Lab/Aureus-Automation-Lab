@@ -36,4 +36,4 @@ This repository is a public portfolio, not a private implementation dump.
 
 The public profile shows how the work is designed and reviewed. It does not claim private production outcomes, accounting correctness, official certification, tax/legal advice, trading performance, or guarantees about financial results.
 
-For the deeper public boundary library, see [docs/proof/public-boundary.md](docs/proof/public-boundary.md).
+For the deeper public boundary library, see [public boundary detail](../proof/public-boundary.md).

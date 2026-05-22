@@ -1,6 +1,6 @@
 # Profile Publication Guide
 
-![Aureus profile completeness map](../../assets/completeness-check-map.svg)
+![Aureus profile completeness map](../../assets/aureus-public-boundary.gif)
 
 This task does not change repository visibility automatically. GitHub profile README appears publicly only when the special profile repository matches the current GitHub username and is public.
 

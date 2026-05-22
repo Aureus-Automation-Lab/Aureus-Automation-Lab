@@ -1,6 +1,6 @@
 # Profile Pins Guide
 
-![Aureus public-safe profile pins map](../../assets/profile-pins-map.svg)
+![Aureus public proof pack](../../assets/aureus-proof-pack.gif)
 
 | Page signal | What this guide prevents |
 | --- | --- |

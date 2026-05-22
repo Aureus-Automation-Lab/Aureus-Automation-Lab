@@ -21,7 +21,7 @@ Reference pages:
 
 - OpenAI Image Generation Guide: https://developers.openai.com/api/docs/guides/image-generation
 - OpenAI GPT Image Prompting Guide: https://developers.openai.com/cookbook/examples/multimodal/image-gen-models-prompting-guide
-- OpenAI Images 2.0 announcement: https://openai.com/sk-SK/index/introducing-chatgpt-images-2-0/
+- OpenAI Images 2.0 announcement: https://openai.com/index/introducing-chatgpt-images-2-0/
 
 ## Codex ImageGen Route Decision
 
@@ -29,7 +29,7 @@ Reference pages:
 | --- | --- | --- |
 | Normal profile visual | Codex built-in `image_gen` | Fastest available path in Codex; no API key setup required |
 | Iterative creative direction | Codex built-in `image_gen` with one targeted follow-up at a time | Keeps the image direction controlled and avoids random drift |
-| Project-bound asset | Generate in Codex, inspect, then copy accepted output into `assets/image2/` | The repository must not reference temporary generated-image paths |
+| Project-bound asset | Generate in Codex, inspect, then copy accepted output into `assets/` | The repository must not reference temporary generated-image paths |
 | Future direct API run | Image API / Responses API only if explicitly configured | Useful when the owner wants exact API control over size, quality, format, or streaming |
 | Transparent background | Avoid for this profile unless needed | GitHub profile images should be opaque 16:9 visuals; transparency needs a separate removal workflow |
 
@@ -38,8 +38,8 @@ For this GitHub profile, the default production pattern is:
 1. Generate a strong base concept with Codex built-in `image_gen`.
 2. Review it against the slot-specific acceptance gate.
 3. If only one thing is wrong, run a targeted iteration instead of rewriting the whole prompt.
-4. Inspect the generated PNG.
-5. Copy only accepted assets into `assets/image2/`.
+4. Inspect the generated still or GIF frame.
+5. Copy only accepted assets into `assets/`.
 6. Document the prompt, visual job, and acceptance decision.
 
 ## Recommended Settings And Constraints
@@ -53,8 +53,8 @@ If a future direct API run is explicitly configured, use these settings as the d
 | First draft | low or medium quality | Use only to test composition and meaning |
 | Final public asset | high quality | Use for hero and major profile visuals |
 | README landscape | `1536x1024` or `2048x1152` | Landscape assets fit GitHub profile sections best |
-| Output format | PNG | Best default for crisp GitHub concept visuals |
-| In-image text | Avoid | Use Markdown/SVG text instead; generated text can drift |
+| Output format | GIF or static image | Use GIF only when motion helps explain a process |
+| In-image text | Keep short and deliberate | Text must remain readable at GitHub width |
 
 ## OpenAI Images 2.0 Lessons Applied
 
@@ -146,10 +146,17 @@ Use this shared visual system:
 
 | Asset | Decision | Why |
 | --- | --- | --- |
-| `assets/image2/profile-public-architecture-hero.png` | Accepted | It now reads as a five-zone architecture map with manual inputs, process mapping, AOP core, validation, evidence/handoff, and private boundary |
-| `assets/image2/n8n-workflow-governance.png` | Accepted | It reads as workflow source moving through review gates, approval, evidence/handoff, and separated credentials |
-| `assets/image2/public-private-boundary.png` | Accepted | It shows public-safe artifacts, a controlled review window, and sealed private implementation without text |
-| `assets/image2/supervisor-validation-capability.png` | Accepted | It shows contract check, supervisor review, repair loop, owner approval, and evidence/handoff without provider or certification claims |
+| `assets/aureus-profile-hero.gif` | Accepted | It now reads as a five-zone architecture map with manual inputs, process mapping, AOP core, validation, evidence/handoff, and private boundary |
+| `assets/aureus-offer-menu.gif` | Accepted | It shows the six concrete commercial starting points without turning the README into a sales document |
+| `assets/aureus-sales-machine.gif` | Accepted | It shows lead handling, qualification, manual approval, reply classification, next step, report, and evidence |
+| `assets/aureus-finecon-flow.gif` | Accepted | It shows document/invoice intake, extraction, validation, exceptions, owner review, and finance handoff |
+| `assets/aureus-os-model.gif` | Accepted | It shows task, limits, AI draft, validation, approval, and evidence as one operating model |
+| `assets/aureus-public-boundary.gif` | Accepted | It shows public proof separated from private implementation |
+| `assets/aureus-capability-system.gif` | Accepted | It shows each capability as its own lane instead of reusing an offer visual |
+| `assets/aureus-collaboration-flow.gif` | Accepted | It shows the delivery relationship from context to handoff |
+| `assets/aureus-proof-pack.gif` | Accepted | It shows what can be made public and what remains private |
+| `assets/aureus-readiness-check.gif` | Accepted | It shows the final public release gates |
+| `assets/aureus-solution-architecture.gif` | Accepted | It shows the technical flow from signal to evidence |
 
 ## Acceptance Gate
 

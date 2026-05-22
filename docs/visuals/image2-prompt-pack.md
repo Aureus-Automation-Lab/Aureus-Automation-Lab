@@ -1,6 +1,6 @@
 # Profile ImageGen Prompt Pack
 
-![Róbert Kolesár / robertkolesar public architecture hero](../../assets/image2/profile-public-architecture-hero.png)
+![Róbert Kolesár / robertkolesar public architecture hero](../../assets/aureus-profile-hero.gif)
 
 Public-safe concept visual. Not a screenshot, not customer proof, not production evidence.
 
@@ -30,10 +30,17 @@ Reject the image if it looks impressive but does not explain the exact section w
 
 | Asset | Status | Role | Review job |
 | --- | --- | --- | --- |
-| `assets/image2/profile-public-architecture-hero.png` | Accepted | Premium profile hero | Manual process becomes architecture, validation, private boundary, and handoff |
-| `assets/image2/n8n-workflow-governance.png` | Accepted | Workflow governance visual | Workflow source moves through review gates, approval, credential separation, evidence, and handoff |
-| `assets/image2/public-private-boundary.png` | Accepted | Public/private boundary visual | Public-safe proof passes a review window while private implementation stays sealed |
-| `assets/image2/supervisor-validation-capability.png` | Accepted | Supervisor validation visual | Output moves through contract check, supervisor review, repair loop, approval, and evidence |
+| `assets/aureus-profile-hero.gif` | Accepted | Premium profile hero | Manual process becomes architecture, validation, private boundary, and handoff |
+| `assets/aureus-offer-menu.gif` | Accepted | Offer menu visual | The six public offers are visible as concrete buying paths |
+| `assets/aureus-sales-machine.gif` | Accepted | Workflow governance visual | Workflow source moves through review gates, approval, credential separation, evidence, and handoff |
+| `assets/aureus-finecon-flow.gif` | Accepted | FinEcon visual | Document/invoice intake moves through extraction, validation, exceptions, owner review, and finance handoff |
+| `assets/aureus-os-model.gif` | Accepted | Aureus OS visual | Task, constraints, AI draft, validation, approval, and evidence are shown as one operating model |
+| `assets/aureus-public-boundary.gif` | Accepted | Public/private boundary visual | Public-safe proof passes a review window while private implementation stays sealed |
+| `assets/aureus-capability-system.gif` | Accepted | Capability visual | AI systems, n8n automation, documents, finance ops, internal apps, and evidence are separated |
+| `assets/aureus-collaboration-flow.gif` | Accepted | Collaboration visual | Client context, audit, build, review, and handoff are shown as a delivery sequence |
+| `assets/aureus-proof-pack.gif` | Accepted | Public proof visual | Public artifacts and private implementation are separated by a visible boundary |
+| `assets/aureus-readiness-check.gif` | Accepted | Release readiness visual | Public release gates are shown as checklist states |
+| `assets/aureus-solution-architecture.gif` | Accepted | Technical architecture visual | Signals, control, AI layer, review, and evidence are shown as a technical flow |
 
 Rejected generations should stay out of the repository.
 
@@ -50,7 +57,7 @@ Rejected generations should stay out of the repository.
 
 Target:
 
-`assets/image2/profile-public-architecture-hero.png`
+`assets/aureus-profile-hero.gif`
 
 Use this prompt when generating a hero image for the first screen of the profile.
 
@@ -98,7 +105,7 @@ A reviewer should understand: Robert builds controlled AI-assisted operating sys
 
 Target:
 
-`assets/image2/n8n-workflow-governance.png`
+`assets/aureus-sales-machine.gif`
 
 Use this prompt when generating the README workflow governance visual.
 
@@ -145,7 +152,7 @@ A technical reviewer should immediately understand: workflow source, review gate
 
 Target:
 
-`assets/image2/public-private-boundary.png`
+`assets/aureus-public-boundary.gif`
 
 ```text
 Use case: productivity-visual / infographic-diagram
@@ -175,7 +182,7 @@ The image should make privacy discipline feel like a strength, not like absence 
 
 Target:
 
-`assets/image2/supervisor-validation-capability.png`
+`assets/aureus-os-model.gif`
 
 ```text
 Use case: productivity-visual / infographic-diagram

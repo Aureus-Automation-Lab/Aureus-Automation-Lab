@@ -1,12 +1,6 @@
 # Solution Architecture
 
-![Aureus AOP public architecture](../../assets/aureus-aop-public-architecture.svg)
-
-![Róbert Kolesár / robertkolesar public architecture hero](../../assets/image2/profile-public-architecture-hero.png)
-
-Public-safe concept visual. Not a screenshot, not customer proof, not production evidence.
-
-![Supervisor validation capability](../../assets/image2/supervisor-validation-capability.png)
+![Aureus solution architecture](../../assets/aureus-solution-architecture.gif)
 
 Public-safe concept visual. Demonstrated capability direction only, not official certification, not production proof.
 

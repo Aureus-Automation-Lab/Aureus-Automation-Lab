@@ -59,8 +59,8 @@ Problem
 
 ## Public Proof Packages
 
-- [Sales Machine proof package](public-proof/sales-machine/README.md)
-- [FinEcon proof package](public-proof/finecon/README.md)
-- [Aureus OS proof package](public-proof/aureus-os/README.md)
+- [Sales Machine proof package](../../public-proof/sales-machine/README.md)
+- [FinEcon proof package](../../public-proof/finecon/README.md)
+- [Aureus OS proof package](../../public-proof/aureus-os/README.md)
 
-For the older detailed case-study library, see [docs/proof/case-studies.md](docs/proof/case-studies.md).
+For the older detailed case-study library, see [case studies detail](../proof/case-studies.md).

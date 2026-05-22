@@ -2,6 +2,8 @@
 
 This package shows Aureus OS as an operating model for AI-assisted work.
 
+![Aureus OS operating model](../../assets/aureus-os-model.gif)
+
 It is designed for companies that want AI to help without turning work into scattered drafts, unclear decisions, and hidden risk.
 
 ## Problem Statement

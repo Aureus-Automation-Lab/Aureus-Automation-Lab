@@ -5,17 +5,17 @@ The visual target is a **premium AI automation architecture portfolio**, not a d
 The first screen should communicate:
 
 ```text
-Robert Kolesar / KimiAoki
-AI Automation Solution Architect
-controlled AI automation systems
+Aureus Automation Lab
+Led by Róbert Kolesár
+controlled AI automation
 manual work -> reviewed workflow -> evidence-backed output
 ```
 
 ## Main Visual
 
-![Controlled AI Automation System](assets/public-ai-automation-operating-flow.svg)
+![Controlled AI Automation System](../../assets/aureus-profile-hero.gif)
 
-The main SVG is public-safe, static-renderable, and designed to work even if animation is not active.
+The main GIF is public-safe, local to the repo, and designed to communicate the system even when a viewer only sees the first frame.
 
 ## Visual Checklist
 
@@ -26,7 +26,7 @@ The main SVG is public-safe, static-renderable, and designed to work even if ani
 - [x] no private data
 - [x] public demo flow exists
 - [x] offer menu exists
-- [x] GitHub-safe SVG renders without external images or fonts
+- [x] GitHub-safe GIFs render without external images or fonts
 
 ## Quality Bar
 
@@ -48,4 +48,4 @@ Avoid:
 - cluttered flowcharts,
 - unsupported certification or customer-proof visuals.
 
-For deeper visual docs, see [docs/visuals/visual-review.md](docs/visuals/visual-review.md).
+For deeper visual docs, see [visual review detail](../visuals/visual-review.md).

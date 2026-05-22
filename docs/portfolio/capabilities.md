@@ -1,6 +1,6 @@
 # Capabilities
 
-Robert Kolesar / KimiAoki works at the intersection of AI automation, solution architecture, n8n workflow systems, internal tools, document workflows, and operating discipline.
+Róbert Kolesár works at the intersection of AI automation, solution architecture, n8n workflow systems, internal tools, document workflows, and operating discipline.
 
 ## Role Fit
 
@@ -42,4 +42,4 @@ Strong matches:
 
 This profile does not claim production deployment results, customer revenue outcomes, accounting correctness, legal/tax advice, official security certification, trading performance, or public access to private systems.
 
-For the longer capability library, see [docs/services/capabilities.md](docs/services/capabilities.md).
+For the longer capability library, see [capabilities detail](../services/capabilities.md).

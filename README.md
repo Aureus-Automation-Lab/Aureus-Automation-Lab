@@ -5,15 +5,13 @@
 Led by **Róbert Kolesár**<br>
 Founder & AI Systems Architect building reviewed automation systems for sales, operations, finance documents, reporting, and internal execution.
 
-![Aureus controlled AI automation operating flow](assets/public-ai-automation-operating-flow.svg)
+![Aureus controlled AI automation hero](assets/aureus-profile-hero.gif)
 
 ## What Aureus Does
 
 Aureus helps companies turn scattered manual work into controlled workflows.
 
 That means a real business process is mapped, repeated steps are automated, uncertain steps are routed to review, and the system keeps a record of what happened.
-
-The goal is not "AI runs everything." The goal is:
 
 ```text
 AI prepares.
@@ -23,16 +21,18 @@ The system keeps evidence.
 
 ## What You Can Start With
 
+![Aureus offer menu](assets/aureus-offer-menu.gif)
+
 | Offer | Best when | What you get |
 | --- | --- | --- |
-| **Automation Audit** | You know work is too manual, but you do not know what to automate first. | A clear process map, risk points, automation candidates, and a first useful scope. |
-| **n8n Workflow Review** | You already have n8n workflows, but they feel fragile, unclear, or hard to maintain. | Review notes, failure points, safety boundaries, and a practical improvement plan. |
-| **n8n Workflow Automation Build** | A repeated process needs a reliable automation with review gates. | Workflow design, validation notes, approval boundaries, and handoff direction. |
-| **FinEcon Paid Pilot** | Invoice, document, finance, or reporting work needs better structure. | A reviewed finance/document workflow direction with human review kept in place. |
-| **AI Operating System Setup** | Your team wants AI-assisted execution without losing control. | An operating model for scope, ownership, review, evidence, approvals, and handoff. |
-| **Monthly Automation Partner** | You need ongoing improvement, maintenance, and new automation opportunities. | A practical monthly partnership for automation operations and delivery support. |
+| **Automation Audit** | You know work is too manual, but not what to automate first. | A process map, risk points, automation candidates, and first useful scope. |
+| **n8n Workflow Review** | Existing workflows feel fragile or unclear. | Review notes, failure points, safety boundaries, and an improvement plan. |
+| **n8n Workflow Automation Build** | A repeated process needs a reliable automation. | Workflow design, validation notes, approval boundaries, and handoff direction. |
+| **FinEcon Paid Pilot** | Invoice, document, finance, or reporting work needs structure. | A reviewed finance/document workflow direction with human review kept in place. |
+| **AI Operating System Setup** | Your team wants AI-assisted execution without losing control. | Scope, ownership, review, evidence, approvals, and handoff model. |
+| **Monthly Automation Partner** | You need ongoing improvement and maintenance. | A practical monthly partnership for automation operations and delivery support. |
 
-Open the full menu: [OFFER_MENU.md](OFFER_MENU.md)
+Open the full menu: [docs/portfolio/offer-menu.md](docs/portfolio/offer-menu.md)
 
 ## Public Demo Flow
 
@@ -47,9 +47,19 @@ manual business chaos
 -> next-step proposal
 ```
 
-The system does not pretend to be the final authority. It prepares work, shows the uncertainty, asks for approval where it matters, and leaves evidence for the team.
+Open the demo: [docs/portfolio/public-demo-flow.md](docs/portfolio/public-demo-flow.md)
 
-Open the demo: [PUBLIC_DEMO_FLOW.md](PUBLIC_DEMO_FLOW.md)
+## Public Proof Showroom
+
+Each proof path has its own visual because each system explains a different business problem.
+
+| Proof path | Visual | What it shows |
+| --- | --- | --- |
+| [Sales Machine](public-proof/sales-machine/README.md) | <img src="assets/aureus-sales-machine.gif" width="220" alt="Sales Machine flow"> | sales follow-up with qualification, approval, reply handling, and reporting |
+| [FinEcon](public-proof/finecon/README.md) | <img src="assets/aureus-finecon-flow.gif" width="220" alt="FinEcon review flow"> | invoice/document work with extraction, validation, exception queue, and owner review |
+| [Aureus OS](public-proof/aureus-os/README.md) | <img src="assets/aureus-os-model.gif" width="220" alt="Aureus OS operating model"> | AI-assisted work with scope, validation, action gates, evidence, and handoff |
+
+Open the showroom: [public-proof/README.md](public-proof/README.md)
 
 ## Why This Is Different
 
@@ -66,42 +76,35 @@ Aureus cares about the part companies actually depend on:
 
 That is the difference between a clever demo and a working operating layer.
 
-## Public Proof Without Exposure
+## Proof Without Exposure
 
-This profile is intentionally public-safe.
+![Aureus public/private boundary](assets/aureus-public-boundary.gif)
 
-It shows architecture thinking, demo flows, proof-pack structure, case-study directions, offer boundaries, and review models. It does **not** expose private workflows, credentials, endpoints, production logs, real invoices, client-like data, private prompts, or access details.
+This profile shows architecture thinking, demo flows, proof-pack structure, case-study directions, offer boundaries, and review models.
 
-| Public proof path | What it shows |
-| --- | --- |
-| [Sales Machine proof](public-proof/sales-machine/README.md) | How sales follow-up can be controlled, reviewed, and logged. |
-| [FinEcon proof](public-proof/finecon/README.md) | How finance/document work can be structured without removing professional review. |
-| [Aureus OS proof](public-proof/aureus-os/README.md) | How AI-assisted work can stay scoped, reviewed, evidenced, and handed off. |
-
-Open the showroom: [public-proof/README.md](public-proof/README.md)
+It does **not** expose private workflows, credentials, endpoints, production logs, real invoices, client-like data, private prompts, or access details.
 
 ## Choose Your Review Path
 
 | If you are a... | Start here | What to look for |
 | --- | --- | --- |
-| **Client / partner** | [OFFER_MENU.md](OFFER_MENU.md) and [PUBLIC_DEMO_FLOW.md](PUBLIC_DEMO_FLOW.md) | what you can buy first and how the work becomes safer |
-| **Technical reviewer** | [SOLUTION_ARCHITECTURE.md](SOLUTION_ARCHITECTURE.md) | system boundaries, validation, review gates, evidence, and handoff |
-| **Recruiter / hiring manager** | [CAPABILITIES.md](CAPABILITIES.md) | AI systems architecture, automation design, internal tools, and delivery discipline |
+| **Client / partner** | [docs/portfolio/offer-menu.md](docs/portfolio/offer-menu.md) and [docs/portfolio/public-demo-flow.md](docs/portfolio/public-demo-flow.md) | what you can buy first and how the work becomes safer |
+| **Technical reviewer** | [docs/portfolio/solution-architecture.md](docs/portfolio/solution-architecture.md) | system boundaries, validation, review gates, evidence, and handoff |
+| **Recruiter / hiring manager** | [docs/portfolio/capabilities.md](docs/portfolio/capabilities.md) | AI systems architecture, automation design, internal tools, and delivery discipline |
 
 ## Portfolio Library
 
+The root is intentionally clean. Supporting material lives in [docs/portfolio](docs/portfolio/) and deeper proof packages live in [public-proof](public-proof/README.md).
+
 | Page | Purpose |
 | --- | --- |
-| [OFFER_MENU.md](OFFER_MENU.md) | clear commercial starting points |
-| [PUBLIC_DEMO_FLOW.md](PUBLIC_DEMO_FLOW.md) | one simple public-safe demo |
-| [SOLUTION_ARCHITECTURE.md](SOLUTION_ARCHITECTURE.md) | technical architecture snapshot |
-| [CAPABILITIES.md](CAPABILITIES.md) | role and capability overview |
-| [CASE_STUDIES.md](CASE_STUDIES.md) | public-safe case study directions |
-| [BUILD_MENU.md](BUILD_MENU.md) | practical build paths |
-| [PUBLIC_BOUNDARY.md](PUBLIC_BOUNDARY.md) | what stays private |
-| [REVIEW_GUIDE.md](REVIEW_GUIDE.md) | review path by audience |
-| [VISUAL_REVIEW.md](VISUAL_REVIEW.md) | visual standard and checklist |
-| [PUBLIC_PORTFOLIO_SCORECARD.md](PUBLIC_PORTFOLIO_SCORECARD.md) | portfolio scorecard against the defined criteria |
+| [Offer menu](docs/portfolio/offer-menu.md) | clear commercial starting points |
+| [Public demo flow](docs/portfolio/public-demo-flow.md) | one simple public-safe demo |
+| [Solution architecture](docs/portfolio/solution-architecture.md) | technical architecture snapshot |
+| [Capabilities](docs/portfolio/capabilities.md) | role and capability overview |
+| [Case studies](docs/portfolio/case-studies.md) | public-safe case study directions |
+| [Public boundary](docs/portfolio/public-boundary.md) | what stays private |
+| [Review guide](docs/portfolio/review-guide.md) | review path by audience |
 
 ## Current Public Boundary
 

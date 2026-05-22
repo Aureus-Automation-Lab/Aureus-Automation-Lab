@@ -12,9 +12,9 @@ This scorecard evaluates the profile against the criteria in the 10/10 public po
 
 ## What Changed
 
-- README now opens with Robert Kolesar / KimiAoki, role, positioning, and three clear capability bullets.
+- README now opens with Aureus Automation Lab, Róbert Kolesár, clear positioning, and client-readable proof paths.
 - The first screen explains the value in plain business language.
-- A premium public-safe SVG architecture visual now shows the operating flow.
+- A specific public-safe animated visual system now shows the offer menu, Sales Machine, FinEcon, Aureus OS, proof boundary, capabilities, collaboration, readiness, and solution architecture.
 - Offers are concrete and commercially understandable.
 - Public demo flow explains one useful buyer scenario.
 - AOP is framed as the internal operating engine, not the first thing sold to clients.

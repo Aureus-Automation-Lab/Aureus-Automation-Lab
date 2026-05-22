@@ -1,14 +1,14 @@
 # Review Guide
 
-Use this page to choose the right review path. For the premium root version, see [REVIEW_GUIDE.md](../../REVIEW_GUIDE.md).
+Use this page to choose the right review path. For the premium root version, see [docs/portfolio/review-guide.md](../portfolio/review-guide.md).
 
 ## Recruiter / Hiring Manager
 
 Read first:
 
 1. [README.md](../../README.md)
-2. [CAPABILITIES.md](../../CAPABILITIES.md)
-3. [CASE_STUDIES.md](../../CASE_STUDIES.md)
+2. [docs/portfolio/capabilities.md](../portfolio/capabilities.md)
+3. [docs/portfolio/case-studies.md](../portfolio/case-studies.md)
 
 Look for AI Automation Solution Architect fit: automation architecture, n8n workflow thinking, internal systems, solution engineering, and clear communication.
 
@@ -16,9 +16,9 @@ Look for AI Automation Solution Architect fit: automation architecture, n8n work
 
 Read first:
 
-1. [SOLUTION_ARCHITECTURE.md](../../SOLUTION_ARCHITECTURE.md)
-2. [PUBLIC_DEMO_FLOW.md](../../PUBLIC_DEMO_FLOW.md)
-3. [PUBLIC_BOUNDARY.md](../../PUBLIC_BOUNDARY.md)
+1. [docs/portfolio/solution-architecture.md](../portfolio/solution-architecture.md)
+2. [docs/portfolio/public-demo-flow.md](../portfolio/public-demo-flow.md)
+3. [docs/portfolio/public-boundary.md](../portfolio/public-boundary.md)
 4. [Solution architecture detail](../system/solution-architecture.md)
 
 Look for boundaries, validation, review gates, evidence, and privacy-safe architecture rather than raw private exports.
@@ -27,9 +27,9 @@ Look for boundaries, validation, review gates, evidence, and privacy-safe archit
 
 Read first:
 
-1. [OFFER_MENU.md](../../OFFER_MENU.md)
-2. [BUILD_MENU.md](../../BUILD_MENU.md)
-3. [PUBLIC_DEMO_FLOW.md](../../PUBLIC_DEMO_FLOW.md)
+1. [docs/portfolio/offer-menu.md](../portfolio/offer-menu.md)
+2. [docs/portfolio/build-menu.md](../portfolio/build-menu.md)
+3. [docs/portfolio/public-demo-flow.md](../portfolio/public-demo-flow.md)
 
 Look for the best first project: audit, n8n review, workflow build, FinEcon pilot, AI operating-system setup, or monthly partner model.
 

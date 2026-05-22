@@ -2,6 +2,8 @@
 
 This package shows FinEcon as a reviewed finance/document intelligence layer.
 
+![FinEcon reviewed invoice and document flow](../../assets/aureus-finecon-flow.gif)
+
 FinEcon helps prepare, structure, review, and understand data. It does not replace accounting review.
 
 ## Problem Statement

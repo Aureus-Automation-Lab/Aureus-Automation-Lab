@@ -1,6 +1,6 @@
 # Build Menu
 
-![Aureus build menu map](../../assets/build-menu-map.svg)
+![Aureus build menu map](../../assets/aureus-offer-menu.gif)
 
 | Page signal | What this page helps decide |
 | --- | --- |
