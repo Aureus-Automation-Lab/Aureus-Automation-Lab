@@ -55,7 +55,7 @@ The `docs/proof` pages explain the proof philosophy. The `public-proof` packages
 
 ## What This Repository Does Not Claim
 
-This profile does not claim official Azure certification, enterprise compliance certification, guaranteed ROI, paying customer results, production client outcomes, accounting correctness, tax/legal advice, trading performance, or public exposure of private systems.
+This profile does not claim official Azure certification, enterprise compliance certification, ROI guarantees, paying customer results, production client outcomes, accounting correctness, tax/legal advice, trading performance, or public exposure of private systems.
 
 Those claims require separate evidence and should not be implied from a public-safe architecture profile.
 

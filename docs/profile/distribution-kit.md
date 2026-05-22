@@ -261,7 +261,7 @@ https://github.com/Aureus-Automation-Lab
 
 Do not use the public profile to claim:
 
-- guaranteed ROI,
+- ROI guarantees,
 - certified status,
 - production client results,
 - accounting correctness,

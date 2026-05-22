@@ -1,114 +1,116 @@
-# Aureus Automation Lab
+# Robert Kolesar / KimiAoki
 
-**Controlled AI operating systems for companies that want cleaner sales, operations, finance, documents, reporting, and internal execution.**
+**AI Automation Solution Architect**
 
-Led by **Róbert Kolesár / robertkolesar**<br>
-Founder of Aureus Automation Lab · AI Systems Architect · Builder of controlled AI operating systems for business execution
+I build controlled AI automation systems that turn manual business work into reviewed, evidence-backed workflows.
 
-![Aureus Automation Lab public profile hero](assets/image2/profile-public-architecture-hero.png)
+- AI workflow systems
+- n8n and internal automation
+- validation, review, evidence, handoff
 
-## In Plain Words
+![Controlled AI Automation System](assets/public-ai-automation-operating-flow.svg)
 
-Most companies do not need more tools.
+## 20-Second Overview
 
-They need important work to stop getting lost between emails, spreadsheets, invoices, documents, CRMs, dashboards, approvals, AI assistants, and people waiting for the next step.
+I help companies turn messy operational work into controlled automation.
 
-**Aureus designs the missing operating layer around that work.**
+That usually means sales follow-ups, invoice and document handling, internal reporting, approvals, data movement, and repeated manual tasks that currently live across email, spreadsheets, tools, and memory.
 
-## What Aureus Builds
+The goal is not to let AI run the business blindly. The goal is to make work clearer: AI prepares, classifies, drafts, or checks; people approve important steps; the system keeps proof of what happened.
 
-| Area | What it helps a company do |
-| --- | --- |
-| **Sales automation** | capture leads, qualify them, draft follow-ups, and keep activity visible |
-| **Operations automation** | route tasks, approvals, reminders, exceptions, and handoffs |
-| **Invoice and document workflows** | collect documents, extract data, check missing fields, and prepare review queues |
-| **FinEcon** | create a reviewed finance/document intelligence layer for invoices, cashflow, costs, revenue, and reports |
-| **Aureus OS** | keep AI-assisted work scoped, reviewed, validated, evidenced, and handed off |
-| **Premium web + automation** | explain the offer publicly and connect it to real workflows behind the business |
+Public brand: **Aureus Automation Lab**<br>
+Internal engine: **Aureus OS / AOP**, used to keep scope, review, validation, and handoff under control.
 
-## The Simple Rule
+## What I Build
+
+| Offer | Best for | Public-safe outcome |
+| --- | --- | --- |
+| **Automation Audit** | A company knows work is too manual but does not know what to automate first | process map, risk points, automation candidates, first useful scope |
+| **n8n Workflow Review** | Existing n8n workflows feel fragile, unclear, or hard to maintain | review notes, failure points, safety boundaries, improvement plan |
+| **n8n Workflow Automation Build** | A repeated process needs a controlled automation | workflow design, review gates, validation notes, handoff path |
+| **FinEcon Paid Pilot** | Invoice, document, finance, or reporting work needs better structure | reviewed document flow direction with human approval boundary |
+| **AI Operating System Setup** | A team wants AI-assisted execution without losing control | operating model for scope, review, evidence, approvals, and handoff |
+
+For ongoing work, I also offer a **Monthly Automation Partner** model for improving and maintaining automation systems over time.
+
+Open the commercial menu: [OFFER_MENU.md](OFFER_MENU.md)
+
+## Public Demo Flow
+
+A company has manual invoice or process work.
+
+The system maps the process, prepares structured workflow logic, routes uncertain steps to review, generates proof notes, and creates a next-step proposal.
 
 ```text
-manual work
--> clear process
--> AI-assisted draft / extraction / classification
--> human review
--> validation
--> evidence
--> safe next action
+manual business chaos
+-> controlled AI workflow
+-> review boundary
+-> evidence / proof
+-> business output
 ```
 
-**AI helps. People approve. The system keeps evidence.**
+Open the demo: [PUBLIC_DEMO_FLOW.md](PUBLIC_DEMO_FLOW.md)
 
-## Three Public Proof Paths
+## Why This Is Different
 
-| Pillar | What it shows | Open |
+AI is not treated as final authority.
+
+Important actions stay human-approved. Work is validated, reviewed, and handed off. The system is built around business outcomes, not automation for its own sake.
+
+The useful question is not "can this be automated?"
+
+The useful question is:
+
+```text
+What should AI prepare,
+what should a person approve,
+what proof should remain,
+and what business output should happen next?
+```
+
+## Proof Without Exposure
+
+This public profile shows the thinking without exposing private implementation.
+
+It includes public-safe architecture, validation models, demo flows, offer boundaries, case study directions, and proof-pack thinking. Private workflow exports, credentials, endpoints, client-like data, production logs, real invoices, private prompts, and access details stay private.
+
+## Review Paths
+
+| If you are a... | Start here | What to look for |
 | --- | --- | --- |
-| **Aureus Automation Lab** | controlled sales and business execution systems | [Sales Machine public proof](docs/proof/sales-machine-public-proof.md) |
-| **FinEcon** | finance/document intelligence with review boundaries | [FinEcon public proof](docs/proof/finecon-public-proof.md) |
-| **Aureus OS** | operating model for AI-assisted delivery | [Aureus OS public proof](docs/proof/aureus-os-public-proof.md) |
+| **Recruiter / hiring manager** | [CAPABILITIES.md](CAPABILITIES.md) | role fit: AI automation, solution architecture, internal tools, workflow systems |
+| **Technical reviewer** | [SOLUTION_ARCHITECTURE.md](SOLUTION_ARCHITECTURE.md) | boundaries, review gates, validation, evidence, handoff |
+| **Client / partner** | [BUILD_MENU.md](BUILD_MENU.md) and [OFFER_MENU.md](OFFER_MENU.md) | what you can buy first and what outcome to expect |
 
-## Public Proof Showroom
+## Portfolio Library
 
-Concrete public-safe proof packages live in [public-proof](public-proof/README.md):
-
-- [Sales Machine workflow map](public-proof/sales-machine/README.md),
-- [FinEcon invoice review flow](public-proof/finecon/README.md),
-- [Aureus OS operating model](public-proof/aureus-os/README.md).
-
-## Good First Projects
-
-| If this sounds familiar | Start with |
+| Page | Purpose |
 | --- | --- |
-| "We do too much manually, but we do not know what to automate first." | **Automation Audit** |
-| "We use n8n, but the workflow is fragile or hard to explain." | **n8n Workflow Governance** |
-| "Invoices, documents, and reports slow us down." | **FinEcon Pilot** |
-| "We want AI in the company, but not uncontrolled." | **Aureus OS Setup** |
-| "Our website does not explain what we actually do." | **Premium AI Website + Automation** |
-| "We need someone to maintain and improve automations monthly." | **Monthly Automation Partner** |
+| [SOLUTION_ARCHITECTURE.md](SOLUTION_ARCHITECTURE.md) | technical architecture snapshot |
+| [CASE_STUDIES.md](CASE_STUDIES.md) | public-safe case study directions |
+| [CAPABILITIES.md](CAPABILITIES.md) | role and capability overview |
+| [BUILD_MENU.md](BUILD_MENU.md) | commercial starting points |
+| [PUBLIC_DEMO_FLOW.md](PUBLIC_DEMO_FLOW.md) | simple public demo flow |
+| [OFFER_MENU.md](OFFER_MENU.md) | offers a client can buy |
+| [PUBLIC_BOUNDARY.md](PUBLIC_BOUNDARY.md) | what stays private |
+| [REVIEW_GUIDE.md](REVIEW_GUIDE.md) | review path by audience |
+| [VISUAL_REVIEW.md](VISUAL_REVIEW.md) | visual standard and checklist |
+| [PUBLIC_PORTFOLIO_SCORECARD.md](PUBLIC_PORTFOLIO_SCORECARD.md) | portfolio scorecard against this brief |
 
-## Why Aureus Is Different
+Deeper public-safe proof packages remain available in [public-proof](public-proof/README.md).
 
-Most automation projects stop at "the workflow runs."
+## Current Public Boundary
 
-Aureus cares about what happens after that:
+This profile does not claim customer results, production deployments, accounting correctness, tax or legal advice, trading performance, official security certification, public access to private systems, or guarantees about revenue or ROI.
 
-- Who owns the next step?
-- What can AI safely do?
-- What must a person approve?
-- What happens when the workflow fails?
-- What proof is kept?
-- Can the team understand the system after handoff?
+It is a public portfolio for architecture thinking, automation design, review boundaries, and proof-safe delivery discipline.
 
-That is the difference between a clever demo and a business system people can trust.
+## Validate This Profile
 
-## Public Proof And Safety
-
-This profile is public-safe. It explains the work without exposing private systems.
-
-| Review path | Use it for |
-| --- | --- |
-| [Start here](docs/overview/start-here.md) | simplest non-technical explanation |
-| [One-page profile](docs/overview/one-pager.md) | quick external summary |
-| [Build menu](docs/services/build-menu.md) | choose the right first engagement |
-| [Capabilities](docs/services/capabilities.md) | see what can be designed, built, validated, and handed off |
-| [Solution architecture](docs/system/solution-architecture.md) | technical system boundaries |
-| [Proof index](docs/proof/proof-index.md) | full public proof map |
-| [Public proof showroom](public-proof/README.md) | concrete public-safe proof objects |
-| [Source truth map](docs/proof/source-truth-map.md) | public claims mapped to source discipline |
-| [Public release audit](docs/profile/public-release-audit.md) | final checklist before going public |
-| [Pinned items strategy](docs/profile/pinned-items-strategy.md) | GitHub profile pin strategy |
-| [Distribution kit](docs/profile/distribution-kit.md) | where and how to use this public profile in sales and marketing |
-| [Quality rubric](docs/profile/quality-rubric.md) | 10/10 profile standard |
-| [Docs map](docs/README.md) | full supporting library |
-
-This repo does **not** claim guaranteed ROI, official certification, production client results, accounting correctness, tax or legal advice, trading performance, enterprise compliance, or public exposure of private systems.
-
-## Public Pages
-
-- [Automation Lab](https://aureus.it.com/automationlab)
-- [Invoice / FinEcon direction](https://aureus.it.com/invoice)
+```powershell
+python scripts/validate-public-portfolio.py
+```
 
 ## One Sentence
 
-**Aureus Automation Lab turns manual business chaos into controlled AI-assisted execution with review, validation, evidence, and handoff.**
+I build controlled AI automation systems that help companies move from manual business chaos to reviewed, evidence-backed execution.

@@ -66,7 +66,7 @@ $patterns = @(
   "webhook",
   "ngrok",
   "localhost",
-  "127.0.0.1",
+  ("127" + ".0.0.1"),
   "pohoda",
   "mserver",
   "gmail",
