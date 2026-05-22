@@ -1,8 +1,8 @@
 # Case Studies
 
-These are public-safe case study directions. They show system thinking without exposing private implementation, workflow exports, credentials, endpoints, invoices, logs, client-like data, or unsupported claims.
+These are public-safe case study directions. They show the system thinking without exposing private implementation, customer data, workflow exports, credentials, endpoints, invoices, logs, or unsupported claims.
 
-The useful review pattern is:
+The useful pattern is:
 
 ```text
 Problem
@@ -12,8 +12,6 @@ Problem
 -> Public-safe proof
 -> What stays private
 ```
-
-For the premium root version, see [CASE_STUDIES.md](../../CASE_STUDIES.md).
 
 ## 1. Manual Invoice / Document Work
 
@@ -61,10 +59,8 @@ For the premium root version, see [CASE_STUDIES.md](../../CASE_STUDIES.md).
 
 ## Public Proof Packages
 
-- [Sales Machine proof package](../../public-proof/sales-machine/README.md)
-- [FinEcon proof package](../../public-proof/finecon/README.md)
-- [Aureus OS proof package](../../public-proof/aureus-os/README.md)
+- [Sales Machine proof package](public-proof/sales-machine/README.md)
+- [FinEcon proof package](public-proof/finecon/README.md)
+- [Aureus OS proof package](public-proof/aureus-os/README.md)
 
-## Boundary
-
-These case studies are not claims of production deployments, revenue results, accounting correctness, trading performance, official compliance certification, or customer outcomes unless separately verified.
+For the older detailed case-study library, see [docs/proof/case-studies.md](docs/proof/case-studies.md).

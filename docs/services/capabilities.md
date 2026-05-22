@@ -40,7 +40,7 @@ Aureus capabilities should be presented as source-backed, not exaggerated:
 | What we can design | process maps, workflow architecture, review gates, AI roles, proof packs, handoff notes |
 | What we can build | n8n automations, internal tool slices, document/data flows, premium public surfaces, AI-assisted workflows |
 | What we can validate | input/output shape, review states, error paths, sensitive-action boundaries, public/private claim safety |
-| What we will not fake | guaranteed ROI, accounting correctness, certification, client results, or production readiness without separate evidence |
+| What we will not fake | ROI guarantees, accounting correctness, certification, client results, or production readiness without separate evidence |
 
 See the [source truth map](../proof/source-truth-map.md) for how public claims map back to Aureus source artifacts.
 

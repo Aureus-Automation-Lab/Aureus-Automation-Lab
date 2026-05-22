@@ -29,7 +29,7 @@ These proof packages show that Aureus can describe systems clearly:
 
 This folder does not claim:
 
-- guaranteed ROI,
+- ROI guarantees,
 - customer results,
 - production deployment,
 - official certification,
