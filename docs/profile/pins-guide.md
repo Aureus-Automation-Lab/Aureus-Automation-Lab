@@ -10,7 +10,7 @@
 
 ## Aureus-Aligned Pin Strategy
 
-Pins should make the profile understandable in under 10 seconds. The order should show a buyer or reviewer what Robert/KimiAoki builds before they see deeper technical artifacts.
+Pins should make the profile understandable in under 10 seconds. The order should show a buyer or reviewer what Aureus Automation Lab and Róbert Kolesár build before they see deeper technical artifacts.
 
 For the final candidate list, use [PUBLIC_PIN_CANDIDATES.md](public-pin-candidates.md).
 

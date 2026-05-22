@@ -1,119 +1,162 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" role="img" aria-labelledby="title desc">
-  <title id="title">Controlled AI Automation System</title>
-  <desc id="desc">A premium dark architecture diagram showing Business Signal, Mission Queue, AI Workflow Layer, Human Review, Evidence Ledger, and Business Output.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="640" viewBox="0 0 1400 640" role="img" aria-labelledby="title desc">
+  <title id="title">Aureus controlled AI automation operating flow</title>
+  <desc id="desc">A dark premium product-style diagram showing how business signals move through mission queue, AI workflow, human review, evidence, and business output.</desc>
   <defs>
+    <radialGradient id="glowA" cx="22%" cy="20%" r="55%">
+      <stop offset="0" stop-color="#234C5B" stop-opacity="0.72"/>
+      <stop offset="0.45" stop-color="#101B25" stop-opacity="0.52"/>
+      <stop offset="1" stop-color="#070B10" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="86%" cy="18%" r="54%">
+      <stop offset="0" stop-color="#6C4A18" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#1A1410" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#070B10" stop-opacity="0"/>
+    </radialGradient>
     <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#071019"/>
-      <stop offset="0.48" stop-color="#0B1118"/>
-      <stop offset="1" stop-color="#121617"/>
+      <stop offset="0" stop-color="#071018"/>
+      <stop offset="0.48" stop-color="#0A0F15"/>
+      <stop offset="1" stop-color="#12130F"/>
     </linearGradient>
     <linearGradient id="gold" x1="0" x2="1">
-      <stop offset="0" stop-color="#E8C36A"/>
-      <stop offset="0.52" stop-color="#F6E3A2"/>
-      <stop offset="1" stop-color="#B98933"/>
+      <stop offset="0" stop-color="#C89132"/>
+      <stop offset="0.45" stop-color="#F1D98A"/>
+      <stop offset="1" stop-color="#A86F1D"/>
     </linearGradient>
     <linearGradient id="cyan" x1="0" x2="1">
-      <stop offset="0" stop-color="#4DE3FF"/>
-      <stop offset="1" stop-color="#7C8CFF"/>
+      <stop offset="0" stop-color="#4AD6FF"/>
+      <stop offset="1" stop-color="#7BE7C7"/>
     </linearGradient>
-    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="7" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.86 0 1 0 0 0.66 0 0 1 0 0.28 0 0 0 0.55 0"/>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000000" flood-opacity="0.42"/>
+    </filter>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.95 0 1 0 0 0.78 0 0 1 0 0.38 0 0 0 0.7 0"/>
       <feMerge>
         <feMergeNode/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
     <style>
-      .label{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:15px;letter-spacing:.08em;text-transform:uppercase;fill:#AAB7C4}
-      .title{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:23px;font-weight:700;fill:#F7FAFC}
-      .small{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:14px;fill:#8B98A7}
-      .node{fill:#101821;stroke:#283544;stroke-width:1.2}
-      .nodeHot{fill:#121A20;stroke:url(#gold);stroke-width:1.5}
-      .rail{stroke:#334151;stroke-width:2.2;fill:none}
-      .railGold{stroke:url(#gold);stroke-width:2.8;fill:none}
-      .railCyan{stroke:url(#cyan);stroke-width:2.4;fill:none;opacity:.75}
-      .pulse{filter:url(#softGlow)}
+      .label{font-family:Segoe UI,Arial,sans-serif;font-size:14px;letter-spacing:.12em;text-transform:uppercase;fill:#8FA0AF}
+      .title{font-family:Segoe UI,Arial,sans-serif;font-size:34px;font-weight:750;fill:#F5F7FA}
+      .subtitle{font-family:Segoe UI,Arial,sans-serif;font-size:18px;fill:#B8C3CF}
+      .small{font-family:Segoe UI,Arial,sans-serif;font-size:15px;fill:#8997A6}
+      .tiny{font-family:Segoe UI,Arial,sans-serif;font-size:12px;letter-spacing:.06em;text-transform:uppercase;fill:#6F7E8C}
+      .panel{fill:#0E151D;stroke:#243241;stroke-width:1.15}
+      .panelGold{fill:#10171C;stroke:url(#gold);stroke-width:1.4}
+      .line{fill:none;stroke:#314151;stroke-width:2.2}
+      .lineGold{fill:none;stroke:url(#gold);stroke-width:3}
+      .lineCyan{fill:none;stroke:url(#cyan);stroke-width:2.2;opacity:.72}
       @keyframes travel{0%{offset-distance:0%;opacity:0}8%{opacity:1}92%{opacity:1}100%{offset-distance:100%;opacity:0}}
-      @keyframes breathe{0%,100%{opacity:.48}50%{opacity:.95}}
-      @keyframes blink{0%,100%{opacity:.28}50%{opacity:1}}
-      .dot1{offset-path:path("M 106 302 C 230 246, 303 246, 384 286 C 462 326, 545 327, 623 285 C 711 238, 789 241, 865 286 C 943 332, 1017 323, 1162 258");animation:travel 5.8s linear infinite}
-      .dot2{offset-path:path("M 106 302 C 230 246, 303 246, 384 286 C 462 326, 545 327, 623 285 C 711 238, 789 241, 865 286 C 943 332, 1017 323, 1162 258");animation:travel 5.8s linear infinite 1.9s}
-      .dot3{offset-path:path("M 106 302 C 230 246, 303 246, 384 286 C 462 326, 545 327, 623 285 C 711 238, 789 241, 865 286 C 943 332, 1017 323, 1162 258");animation:travel 5.8s linear infinite 3.7s}
-      .breathe{animation:breathe 4s ease-in-out infinite}
-      .blink{animation:blink 2.8s ease-in-out infinite}
+      @keyframes breathe{0%,100%{opacity:.44}50%{opacity:.95}}
+      @keyframes shimmer{0%{transform:translateX(-170px)}100%{transform:translateX(520px)}}
+      @keyframes blink{0%,100%{opacity:.25}50%{opacity:1}}
+      .packet1{offset-path:path("M190 420 C315 322 430 317 556 374 C681 430 766 431 890 364 C1016 296 1125 298 1232 228");animation:travel 6.3s linear infinite}
+      .packet2{offset-path:path("M190 420 C315 322 430 317 556 374 C681 430 766 431 890 364 C1016 296 1125 298 1232 228");animation:travel 6.3s linear infinite 2.1s}
+      .packet3{offset-path:path("M190 420 C315 322 430 317 556 374 C681 430 766 431 890 364 C1016 296 1125 298 1232 228");animation:travel 6.3s linear infinite 4.2s}
+      .breathe{animation:breathe 4.4s ease-in-out infinite}
+      .blink{animation:blink 2.6s ease-in-out infinite}
+      .shimmer{animation:shimmer 5.8s linear infinite}
     </style>
   </defs>
 
-  <rect width="1280" height="520" rx="34" fill="url(#bg)"/>
-  <path d="M60 410 C210 355, 315 365, 452 407 C590 450, 728 449, 864 397 C1008 342, 1102 342, 1220 388" stroke="#1C2733" stroke-width="1.2" fill="none"/>
-  <path d="M50 112 H1230" stroke="#19222E" stroke-width="1"/>
-  <path d="M50 458 H1230" stroke="#19222E" stroke-width="1"/>
+  <rect width="1400" height="640" rx="36" fill="url(#bg)"/>
+  <rect width="1400" height="640" rx="36" fill="url(#glowA)"/>
+  <rect width="1400" height="640" rx="36" fill="url(#glowB)"/>
 
-  <text x="62" y="70" class="label">Aureus Automation Lab</text>
-  <text x="62" y="99" class="title">Controlled AI Automation System</text>
-  <text x="885" y="70" class="small">AI prepares · people approve · evidence remains</text>
-
-  <path class="rail" d="M 106 302 C 230 246, 303 246, 384 286 C 462 326, 545 327, 623 285 C 711 238, 789 241, 865 286 C 943 332, 1017 323, 1162 258"/>
-  <path class="railGold" d="M 106 302 C 230 246, 303 246, 384 286 C 462 326, 545 327, 623 285 C 711 238, 789 241, 865 286 C 943 332, 1017 323, 1162 258" opacity=".62"/>
-  <path class="railCyan breathe" d="M 154 354 C 283 394, 404 383, 519 346 C 640 307, 763 306, 884 349 C 1004 392, 1101 379, 1192 334"/>
-
-  <g transform="translate(64 184)">
-    <rect class="node" width="166" height="112" rx="18"/>
-    <circle cx="28" cy="28" r="7" fill="#4DE3FF" class="blink"/>
-    <text x="22" y="65" class="title" font-size="20">Business Signal</text>
-    <text x="22" y="88" class="small">manual work appears</text>
+  <g opacity=".18">
+    <path d="M0 122H1400M0 240H1400M0 358H1400M0 476H1400" stroke="#73808D" stroke-width="1"/>
+    <path d="M150 0V640M330 0V640M510 0V640M690 0V640M870 0V640M1050 0V640M1230 0V640" stroke="#73808D" stroke-width="1"/>
   </g>
 
-  <g transform="translate(264 132)">
-    <rect class="node" width="166" height="112" rx="18"/>
-    <path d="M26 32 h42 m-42 18 h78 m-78 18 h55" stroke="#E8C36A" stroke-width="5" stroke-linecap="round"/>
-    <text x="22" y="82" class="title" font-size="20">Mission Queue</text>
-    <text x="22" y="104" class="small">scope and owner</text>
+  <g transform="translate(70 64)">
+    <text x="0" y="0" class="label">Aureus Automation Lab</text>
+    <text x="0" y="42" class="title">Controlled AI Automation System</text>
+    <text x="0" y="78" class="subtitle">Business work moves through scope, AI assistance, review, evidence, and handoff.</text>
   </g>
 
-  <g transform="translate(464 188)">
-    <rect class="nodeHot" width="176" height="122" rx="20"/>
-    <path d="M34 42 h108 M34 64 h86 M34 86 h116" stroke="#F6E3A2" stroke-width="4" stroke-linecap="round"/>
-    <text x="22" y="31" class="label">AI Workflow Layer</text>
-    <text x="22" y="110" class="small">draft · classify · check</text>
+  <g transform="translate(1010 58)">
+    <rect class="panel" x="0" y="0" width="316" height="72" rx="18"/>
+    <circle cx="34" cy="36" r="10" fill="#76E4C6" class="blink"/>
+    <text x="58" y="31" class="small" fill="#D9E3EC">AI prepares. People approve.</text>
+    <text x="58" y="53" class="tiny">Evidence remains</text>
   </g>
 
-  <g transform="translate(684 132)">
-    <rect class="node" width="166" height="112" rx="18"/>
-    <path d="M45 63 l22 22 l54 -62" stroke="#E8C36A" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="22" y="31" class="label">Human Review</text>
-    <text x="22" y="102" class="small">approval boundary</text>
+  <path class="line" d="M190 420 C315 322 430 317 556 374 C681 430 766 431 890 364 C1016 296 1125 298 1232 228"/>
+  <path class="lineGold" opacity=".78" d="M190 420 C315 322 430 317 556 374 C681 430 766 431 890 364 C1016 296 1125 298 1232 228"/>
+  <path class="lineCyan breathe" d="M142 506 C302 530 435 501 564 454 C693 407 812 406 944 458 C1062 505 1192 503 1302 462"/>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(72 302)">
+      <rect class="panel" width="212" height="138" rx="22"/>
+      <text x="26" y="36" class="label">Signal</text>
+      <text x="26" y="73" class="subtitle" fill="#F5F7FA">Business work</text>
+      <text x="26" y="101" class="small">request, invoice, lead, task</text>
+      <rect x="26" y="116" width="88" height="5" rx="2.5" fill="url(#cyan)"/>
+    </g>
+
+    <g transform="translate(318 202)">
+      <rect class="panel" width="212" height="138" rx="22"/>
+      <text x="26" y="36" class="label">Mission</text>
+      <text x="26" y="73" class="subtitle" fill="#F5F7FA">Scope and owner</text>
+      <text x="26" y="101" class="small">what should happen next</text>
+      <path d="M26 118H166" stroke="#344658" stroke-width="5" stroke-linecap="round"/>
+      <path d="M26 118H102" stroke="url(#gold)" stroke-width="5" stroke-linecap="round"/>
+    </g>
+
+    <g transform="translate(564 302)">
+      <rect class="panelGold" width="236" height="154" rx="24"/>
+      <text x="28" y="38" class="label">AI workflow</text>
+      <text x="28" y="76" class="subtitle" fill="#F5F7FA">Prepare, classify, draft</text>
+      <text x="28" y="104" class="small">automation works inside limits</text>
+      <rect x="28" y="122" width="176" height="12" rx="6" fill="#25323F"/>
+      <rect class="shimmer" x="28" y="122" width="95" height="12" rx="6" fill="url(#gold)" opacity=".72"/>
+    </g>
+
+    <g transform="translate(838 208)">
+      <rect class="panel" width="212" height="138" rx="22"/>
+      <text x="26" y="36" class="label">Review</text>
+      <text x="26" y="73" class="subtitle" fill="#F5F7FA">Human approval</text>
+      <text x="26" y="101" class="small">important actions pause here</text>
+      <path d="M37 121l20 20 51-60" transform="translate(76 -34)" stroke="url(#gold)" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <g transform="translate(1036 326)">
+      <rect class="panel" width="212" height="138" rx="22"/>
+      <text x="26" y="36" class="label">Evidence</text>
+      <text x="26" y="73" class="subtitle" fill="#F5F7FA">Proof notes</text>
+      <text x="26" y="101" class="small">what changed and why</text>
+      <rect x="26" y="116" width="148" height="6" rx="3" fill="#344658"/>
+      <rect x="26" y="129" width="112" height="6" rx="3" fill="#344658"/>
+    </g>
+
+    <g transform="translate(1118 126)">
+      <rect class="panelGold" width="212" height="142" rx="24"/>
+      <text x="26" y="38" class="label">Output</text>
+      <text x="26" y="76" class="subtitle" fill="#F5F7FA">Clear next step</text>
+      <text x="26" y="104" class="small">handoff, report, proposal</text>
+      <circle cx="162" cy="46" r="18" stroke="url(#gold)" stroke-width="4" fill="none"/>
+    </g>
   </g>
 
-  <g transform="translate(884 196)">
-    <rect class="node" width="166" height="112" rx="18"/>
-    <rect x="28" y="30" width="110" height="13" rx="6" fill="#2F3C49"/>
-    <rect x="28" y="56" width="86" height="13" rx="6" fill="#2F3C49"/>
-    <rect x="28" y="82" width="119" height="13" rx="6" fill="#2F3C49"/>
-    <text x="22" y="132" class="label" fill="#E8C36A">Evidence Ledger</text>
-  </g>
+  <circle class="packet1" r="8" fill="#F3D47D" filter="url(#softGlow)"/>
+  <circle class="packet2" r="6" fill="#58DAFF" filter="url(#softGlow)"/>
+  <circle class="packet3" r="5" fill="#FFFFFF" filter="url(#softGlow)"/>
 
-  <g transform="translate(1084 126)">
-    <rect class="nodeHot" width="166" height="132" rx="20"/>
-    <circle cx="52" cy="54" r="22" fill="none" stroke="url(#gold)" stroke-width="5"/>
-    <path d="M88 46 h45 M88 66 h35 M88 86 h54" stroke="#C8D4DF" stroke-width="5" stroke-linecap="round"/>
-    <text x="22" y="113" class="title" font-size="20">Business Output</text>
-    <text x="22" y="136" class="small">next step is clear</text>
+  <g transform="translate(78 508)">
+    <rect class="panel" width="374" height="78" rx="20"/>
+    <text x="24" y="32" class="label">Review boundary</text>
+    <text x="24" y="56" class="small">AI may prepare work; approval stays visible.</text>
   </g>
-
-  <circle class="pulse dot1" r="7" fill="#F6E3A2"/>
-  <circle class="pulse dot2" r="5.5" fill="#4DE3FF"/>
-  <circle class="pulse dot3" r="4.5" fill="#FFFFFF"/>
-
-  <g opacity=".9">
-    <rect x="64" y="344" width="288" height="58" rx="16" fill="#0C141D" stroke="#23303E"/>
-    <text x="84" y="369" class="label">Review Boundary</text>
-    <text x="84" y="390" class="small">important actions do not run silently</text>
+  <g transform="translate(498 508)">
+    <rect class="panel" width="374" height="78" rx="20"/>
+    <text x="24" y="32" class="label">Evidence ledger</text>
+    <text x="24" y="56" class="small">The system records what happened and what was reviewed.</text>
   </g>
-  <g opacity=".9">
-    <rect x="840" y="356" width="350" height="58" rx="16" fill="#0C141D" stroke="#23303E"/>
-    <text x="862" y="381" class="label">Proof Pack Thinking</text>
-    <text x="862" y="402" class="small">what happened, who reviewed, what changed</text>
+  <g transform="translate(918 508)">
+    <rect class="panel" width="374" height="78" rx="20"/>
+    <text x="24" y="32" class="label">Business output</text>
+    <text x="24" y="56" class="small">The team gets a clear next step, not another loose task.</text>
   </g>
 </svg>

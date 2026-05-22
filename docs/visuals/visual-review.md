@@ -9,9 +9,9 @@ For the premium root version, see [VISUAL_REVIEW.md](../../VISUAL_REVIEW.md).
 ## First Impression Target
 
 ```text
-Robert Kolesar / KimiAoki
-AI Automation Solution Architect
-controlled AI automation systems
+Aureus Automation Lab
+Led by Róbert Kolesár
+controlled AI automation
 manual work -> reviewed workflow -> evidence-backed output
 ```
 

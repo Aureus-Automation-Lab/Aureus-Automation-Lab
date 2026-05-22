@@ -19,8 +19,8 @@ REQUIRED_FILES = [
 ]
 
 README_REQUIRED = [
-    "AI Automation Solution Architect",
-    "controlled AI automation systems",
+    "Founder & AI Systems Architect",
+    "Controlled AI automation",
     "PUBLIC_DEMO_FLOW.md",
     "OFFER_MENU.md",
 ]
