@@ -51,7 +51,7 @@ FinEcon does not claim:
 - replacement of accountant review,
 - final accounting classification,
 - unattended production accounting operation,
-- guaranteed financial results.
+- promised financial results.
 
 ## What AI May Do
 

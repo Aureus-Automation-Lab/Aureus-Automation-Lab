@@ -106,4 +106,4 @@ Aureus automation systems should default to safe behavior:
 
 This page demonstrates process-to-workflow thinking, n8n automation discipline, AI-assisted but human-reviewed execution, validation-first delivery, and public/private boundary awareness.
 
-It does not claim paying customers, ROI guarantees, production client outcomes, official certifications, or accounting correctness unless separately verified.
+It does not claim paying customers, ROI promises, production client outcomes, official certifications, or accounting correctness unless separately verified.

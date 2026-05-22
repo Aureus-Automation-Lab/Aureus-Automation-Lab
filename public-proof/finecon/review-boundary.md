@@ -45,7 +45,7 @@ FinEcon does not claim:
 - tax or legal advice,
 - no-review accounting automation,
 - replacement of accountant review,
-- guaranteed financial outcomes,
+- promised financial outcomes,
 - production readiness for every company.
 
 ## What Stays Private

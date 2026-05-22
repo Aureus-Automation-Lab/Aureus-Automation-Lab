@@ -2,6 +2,8 @@
 
 This is a public-safe demo flow. It explains the work pattern without exposing private workflows, endpoints, credentials, customer data, invoices, logs, or production context.
 
+For a more concrete fictional example, see [Synthetic Demo Case: Manual Invoice Review Flow](synthetic-demo-case.md).
+
 ## Scenario: Manual Business Process
 
 A company handles invoices, requests, approvals, and follow-ups across email, spreadsheets, shared folders, chat messages, and memory.
@@ -61,18 +63,7 @@ The useful output is a clearer business step: a reviewed document queue, a follo
 
 ## What Stays Private
 
-Private implementation stays private:
-
-- workflow exports,
-- credentials,
-- endpoints,
-- webhook URLs,
-- real invoices,
-- real leads,
-- customer-like records,
-- production logs,
-- private prompts,
-- internal screenshots.
+Private implementation stays private. This page does not expose real records, access details, workflow exports, production context, or customer-like data. See the full [public boundary](public-boundary.md).
 
 ## Why It Matters
 

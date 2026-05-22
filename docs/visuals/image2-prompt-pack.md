@@ -48,7 +48,7 @@ Rejected generations should stay out of the repository.
 
 - No readable UI text, fake metrics, fake dashboards, fake certificates, fake client proof, fake invoices, fake logos, or provider badges.
 - No secrets, credentials, endpoints, webhook URLs, workflow IDs, POHODA internals, private payloads, private screenshots, or production logs.
-- No implied official Azure certification, accounting correctness, trading performance, customer outcome, revenue, enterprise compliance, or ROI guarantees.
+- No implied official Azure certification, accounting correctness, trading performance, customer outcome, revenue, enterprise compliance, or ROI promises.
 - Use abstract but understandable system artifacts: process maps, workflow lanes, review gates, evidence cards, validation lens, private vault, handoff package.
 - Keep generous negative space and strong composition for GitHub README width.
 - Premium, calm, precise, senior, architecture-first, public-safe.

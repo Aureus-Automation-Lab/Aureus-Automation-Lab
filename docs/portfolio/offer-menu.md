@@ -2,6 +2,21 @@
 
 This menu explains what a client can buy first. It is intentionally practical: each offer starts with a business process, not with a tool.
 
+## Recommended First Purchase
+
+**Recommended first purchase: Automation Audit.**
+
+Why: it is low-risk, maps the process first, and creates the basis for a scoped workflow build or monthly automation partnership.
+
+Typical next step after the audit:
+
+```text
+Automation Audit
+-> scoped workflow build
+-> validation / handoff
+-> monthly partner if useful
+```
+
 ## 1. Automation Audit
 
 | Field | Detail |
@@ -9,7 +24,7 @@ This menu explains what a client can buy first. It is intentionally practical: e
 | Who it is for | A founder, operator, agency, or team that knows work is too manual but does not know what to automate first. |
 | Problem it solves | The process is unclear, repeated, slow, or dependent on one person's memory. |
 | What is delivered | Process map, automation candidates, risk/review points, first useful scope, and next-step recommendation. |
-| What is not claimed | No guarantee that every step should be automated. No ROI guarantee. No production deployment claim. |
+| What is not claimed | No promise that every step should be automated. No promised ROI. No production deployment claim. |
 | Best next step | Send one process that wastes time or creates repeated mistakes. |
 
 ## 2. n8n Workflow Review
@@ -66,8 +81,7 @@ This menu explains what a client can buy first. It is intentionally practical: e
 
 ```text
 Automation Audit
--> scoped pilot
--> controlled workflow build
--> handoff and validation
--> monthly automation partner if the system becomes important
+-> scoped workflow build
+-> validation / handoff
+-> monthly automation partner if useful
 ```

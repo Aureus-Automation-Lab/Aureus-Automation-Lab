@@ -6,7 +6,7 @@ This folder is the public proof showroom for Aureus Automation Lab.
 
 Public proof means architecture, workflow maps, state models, examples, and safety boundaries that can be reviewed without exposing private implementation.
 
-It is not customer proof, production proof, or a claim of guaranteed results.
+It is not customer proof, production proof, or a claim of promised results.
 
 ## Proof Packages
 
@@ -31,7 +31,7 @@ These proof packages show that Aureus can describe systems clearly:
 
 This folder does not claim:
 
-- ROI guarantees,
+- ROI promises,
 - customer results,
 - production deployment,
 - official certification,
