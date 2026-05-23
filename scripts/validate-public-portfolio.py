@@ -91,6 +91,8 @@ def iter_text_files():
             continue
         if ".git" in path.parts:
             continue
+        if "exports" in path.parts:
+            continue
         if path.suffix.lower() in {".png", ".jpg", ".jpeg", ".gif", ".webp", ".ico"}:
             continue
         yield path

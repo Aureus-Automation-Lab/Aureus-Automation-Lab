@@ -76,6 +76,12 @@ Each proof path has its own visual because each system explains a different busi
 
 Open the showroom: [public-proof/README.md](public-proof/README.md)
 
+## Use Case Showcase
+
+The client-ready use-case system translates the portfolio into six sales and pilot conversations: Automation Audit, n8n Review + Build, FinEcon Pocket / Bridge, Sales Machine, Aureus OS / AOP, and Public Proof Website + Automation.
+
+Start with the [Use Case Offer Sheet](docs/use-cases/AUREUS_CLIENT_USE_CASE_OFFER_SHEET.md), then open the [English showcase copy](docs/use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5.md), [Slovak showcase copy](docs/use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5_SK.md), or [Git proof map](docs/use-cases/AUREUS_USE_CASE_GIT_PROOF_MAP.md).
+
 ## Why This Is Different
 
 Most automation projects stop at "the workflow runs."
@@ -116,6 +122,10 @@ The root is intentionally clean. Supporting material lives in [docs/portfolio](d
 | [Offer menu](docs/portfolio/offer-menu.md) | clear commercial starting points |
 | [Public demo flow](docs/portfolio/public-demo-flow.md) | one simple public-safe demo |
 | [Synthetic demo case](docs/portfolio/synthetic-demo-case.md) | fictional invoice review example |
+| [Use Case Offer Sheet](docs/use-cases/AUREUS_CLIENT_USE_CASE_OFFER_SHEET.md) | client-ready first conversation and pilot menu |
+| [Use Case Showcase EN](docs/use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5.md) | 12-page English showcase copy |
+| [Use Case Showcase SK](docs/use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5_SK.md) | 12-page Slovak showcase copy |
+| [FinEcon Pocket / Bridge one-pager](docs/use-cases/FINECON_POCKET_BRIDGE_USE_CASE_ONE_PAGER.md) | source-backed FinEcon client explanation |
 | [FinEcon source-backed status](docs/proof/finecon-source-backed-status.md) | public-safe summary of FinEcon Pocket, bridge, proof, and accounting boundaries |
 | [Solution architecture](docs/portfolio/solution-architecture.md) | technical architecture snapshot |
 | [Capabilities](docs/portfolio/capabilities.md) | role and capability overview |

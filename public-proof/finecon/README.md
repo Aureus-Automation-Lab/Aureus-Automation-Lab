@@ -106,3 +106,5 @@ Real invoices, POHODA access details, accounting context, company financial reco
 - [Review boundary](review-boundary.md)
 - [Buyer example](buyer-example.md)
 - [FinEcon source-backed status](../../docs/proof/finecon-source-backed-status.md)
+- [FinEcon Pocket / Bridge use-case one-pager](../../docs/use-cases/FINECON_POCKET_BRIDGE_USE_CASE_ONE_PAGER.md)
+- [Aureus use-case Git proof map](../../docs/use-cases/AUREUS_USE_CASE_GIT_PROOF_MAP.md)
