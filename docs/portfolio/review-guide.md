@@ -44,7 +44,8 @@ Start with:
 2. [Synthetic demo case](synthetic-demo-case.md)
 3. [Public demo flow](public-demo-flow.md)
 4. [Public boundary](public-boundary.md)
-5. [Solution architecture detail](../system/solution-architecture.md)
+5. [Pro-tier case studies](case-studies.md)
+6. [Solution architecture detail](../system/solution-architecture.md)
 
 Look for:
 
@@ -62,6 +63,7 @@ Start with:
 2. [Build menu](build-menu.md)
 3. [Public demo flow](public-demo-flow.md)
 4. [Synthetic demo case](synthetic-demo-case.md)
+5. [Pro-tier case studies](case-studies.md)
 
 Look for:
 

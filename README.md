@@ -119,7 +119,7 @@ The root is intentionally clean. Supporting material lives in [docs/portfolio](d
 | [FinEcon source-backed status](docs/proof/finecon-source-backed-status.md) | public-safe summary of FinEcon Pocket, bridge, proof, and accounting boundaries |
 | [Solution architecture](docs/portfolio/solution-architecture.md) | technical architecture snapshot |
 | [Capabilities](docs/portfolio/capabilities.md) | role and capability overview |
-| [Case studies](docs/portfolio/case-studies.md) | public-safe case study directions |
+| [Pro-tier case studies](docs/portfolio/case-studies.md) | public-safe case studies across Aureus offers and project lines |
 | [Public boundary](docs/portfolio/public-boundary.md) | what stays private |
 | [Review guide](docs/portfolio/review-guide.md) | review path by audience |
 | [CV usage](docs/portfolio/cv-usage.md) | safe wording for CV, LinkedIn, and recruiter messages |
