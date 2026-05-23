@@ -1,12 +1,22 @@
 # Aureus Use Case Showcase V5 PDF Handoff
 
-This repo includes a public-safe local PDF generator for the English and Slovak V5 showcase:
+This repo includes public-safe local PDF generators for the English and Slovak V5 showcase.
+
+Preferred generator when the original v4 visual PDF is available:
+
+```powershell
+python scripts\generate-aureus-use-case-pdfs-v4-visuals.py
+```
+
+This keeps the original v4 visual direction and redraws the client-facing text, cards, labels, and Slovak/English copy as editable PDF text.
+
+Fallback diagram generator:
 
 ```powershell
 python scripts\generate-aureus-use-case-pdfs.py
 ```
 
-The script creates polished 16:9 PDF exports under `exports/` and copies the latest files to the desktop/OneDrive desktop folder when available. This handoff defines the source copy, layout rules, and safety checks that the PDF generator must preserve.
+The scripts create polished 16:9 PDF exports under `exports/` and copy the latest files to the desktop/OneDrive desktop folder when available. This handoff defines the source copy, layout rules, and safety checks that the PDF generator must preserve.
 
 ## Source Copy
 

@@ -448,7 +448,7 @@ SK = {
     },
     "model": {
         "kicker": "Discovery model pre AI use cases",
-        "title": "Ako Vyberáme Správny AI Use Case",
+        "title": "Ako vyberáme správny AI use case",
         "subtitle": "Dobrý AI use case nezačína modelom. Začína ohraničeným firemným procesom.",
         "signals": [
             {"title": "Opakovaná práca", "copy": "Úloha sa deje dosť často na to, aby dávalo zmysel vytvoriť systém."},
@@ -464,7 +464,7 @@ SK = {
     },
     "score": {
         "kicker": "Pomôcka pre rozhodnutie klienta",
-        "title": "Use-Case Scorecard Pre Klientsky Rozhovor",
+        "title": "Scorecard pre klientsky rozhovor",
         "subtitle": "Spájame viditeľnú hodnotu, ohraničené úsilie, citlivosť review, proof readiness a vhodnosť prvého pilotu.",
         "columns": ["Use case", "Hodnota", "Úsilie", "Review", "Proof", "Najlepší vstup"],
         "rows": [
@@ -508,7 +508,7 @@ SK = {
     },
     "cta": {
         "kicker": "Najlepší prvý krok",
-        "title": "Začnite S Automation Audit",
+        "title": "Začnite s Automation Audit",
         "subtitle": "Je to najbezpečnejší prvý nákup, pretože nájde prvý užitočný workflow predtým, než sa začne stavať.",
         "first_label": "Prečo prvý?",
         "first_copy": "Audit zmapuje proces, zoradí kandidátov, definuje schvaľovacie hranice a pripraví pilot brief.",
