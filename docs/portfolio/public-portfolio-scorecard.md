@@ -28,6 +28,7 @@ This scorecard evaluates the profile against the criteria in the 10/10 public po
 - Added a concrete fictional invoice review demo case.
 - Added CV-safe wording for resumes, LinkedIn, and recruiter messages.
 - Clarified the recommended first purchase: Automation Audit.
+- Updated FinEcon from concept-level wording to source-backed Pocket, bridge, proof, and accountant-boundary wording.
 - Reduced repeated private-data lists by pointing readers to the public boundary.
 - Strengthened validation checks for role consistency, CV readiness, and link coverage.
 

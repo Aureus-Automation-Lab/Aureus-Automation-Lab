@@ -2,18 +2,23 @@
 
 FinEcon is designed as a reviewed finance/document intelligence layer.
 
+The public source-backed status is important: FinEcon has a private workflow family for Pocket intake, review actions, bridge handoff, proof-pack direction, and validation gates. That technical proof does not remove the professional accounting review boundary.
+
 ## What FinEcon Can Assist With
 
 FinEcon can assist with:
 
 - document intake,
+- Pocket-style upload/status/review flows,
 - invoice field extraction,
 - document classification,
 - missing-data detection,
 - exception queues,
 - finance summaries,
 - review notes,
-- preparation for downstream handoff.
+- bridge-readiness checks,
+- preparation for downstream handoff,
+- proof-pack notes.
 
 ## What Must Be Reviewed By A Person
 
@@ -37,6 +42,14 @@ An accountant or qualified professional should review where required:
 - final import or filing decisions,
 - any decision that affects official accounting records.
 
+## What Source-Backed Proof Means
+
+Source-backed proof means the private Aureus Git contains sanitized workflow definitions, preflight checks, proof-pack direction, and operating notes for the FinEcon workflow family.
+
+It does not mean a public reader can inspect private workflow exports, live runtime details, real documents, or accounting records.
+
+It also does not mean accounting correctness has been confirmed. That remains pending accountant validation.
+
 ## What FinEcon Does Not Claim
 
 FinEcon does not claim:
@@ -50,4 +63,4 @@ FinEcon does not claim:
 
 ## What Stays Private
 
-Real invoices, accounting context, private records, credentials, POHODA access details, endpoints, private workflow exports, logs, and private screenshots stay private.
+Real invoices, accounting context, private records, credentials, POHODA access details, internal routes, private workflow exports, logs, proof-pack file locations, and private screenshots stay private.

@@ -1,8 +1,10 @@
 # FinEcon Public Proof
 
-This page explains the public-safe FinEcon direction for finance and operations readers.
+This page explains the public-safe FinEcon proof direction for finance and operations readers.
 
-FinEcon is a finance/document intelligence direction and reviewed workflow layer. It is not an automatic accounting authority.
+FinEcon is a source-backed finance/document workflow direction and reviewed workflow layer. It is not an automatic accounting authority.
+
+For the public-safe evidence summary, see [FinEcon source-backed status](finecon-source-backed-status.md).
 
 ## Problem
 
@@ -19,14 +21,15 @@ Finance and document work often gets stuck because:
 ## Safe Workflow Direction
 
 ```text
-document / invoice intake
+Pocket document intake
 -> structured extraction
 -> validation checks
 -> exception queue
--> human review
--> dashboard / report
+-> review decision
+-> bridge readiness guard
 -> reviewed downstream handoff
--> proof note
+-> proof notes
+-> accountant validation boundary
 ```
 
 ## What FinEcon Can Support
@@ -34,13 +37,28 @@ document / invoice intake
 FinEcon can support:
 
 - document and invoice intake,
+- Pocket-style upload/status/review flows,
 - field extraction,
 - missing-data checks,
 - exception queues,
 - owner review,
+- reviewed bridge handoff direction,
 - cashflow and reporting visibility,
 - preparation for downstream handoff,
 - proof notes and audit trail direction.
+
+## What The Private Source-Of-Truth Supports
+
+The private Aureus Git source-of-truth contains a sanitized FinEcon workflow family with:
+
+- document discovery and orchestration,
+- invoice and receipt parsing directions,
+- accounting-adjacent review workflows,
+- reviewed bridge handoff and runtime readiness checks,
+- Pocket document intake, status, review, bridge-start, and company-registration directions,
+- proof-pack/writeback and proof-publisher direction.
+
+This public repository describes those layers conceptually. It does not publish internal workflow exports, exact routes, runtime logs, POHODA details, or live proof artifacts.
 
 ## What FinEcon Does Not Claim
 
@@ -76,9 +94,20 @@ Humans review:
 
 ## Public Proof Value
 
-This proves that Aureus understands finance automation as a controlled workflow with review boundaries.
+This proves that Aureus understands finance automation as a controlled workflow with source-of-truth discipline, review boundaries, bridge handoff, proof notes, and accountant validation gates.
 
 The value is not "AI does accounting." The value is clearer intake, better visibility, better review queues, and better evidence before downstream action.
+
+## Current Honest Boundary
+
+The strongest public-safe statement is:
+
+```text
+FinEcon has source-backed Pocket, bridge, proof, and preflight architecture.
+Accounting correctness remains pending accountant validation.
+```
+
+That is the correct distinction between technical workflow proof and accounting authority.
 
 ## What Stays Private
 

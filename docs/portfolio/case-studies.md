@@ -17,11 +17,11 @@ Problem
 
 | Step | Public-safe explanation |
 | --- | --- |
-| Problem | Documents arrive across email, folders, and manual processes. Review is slow and state is unclear. |
-| System shape | Intake, extraction draft, validation checks, exception queue, owner review, evidence note, downstream handoff direction. |
+| Problem | Documents arrive across email, folders, and manual processes. Review is slow, status is unclear, and downstream accounting-style handoff needs care. |
+| System shape | Pocket-style intake, extraction draft, validation checks, exception queue, owner review decision, bridge-readiness guard, evidence note, downstream handoff direction. |
 | AI role | Classify document type, extract draft fields, summarize context, flag missing or uncertain information. |
-| Review boundary | A person reviews uncertain fields and approves downstream use. |
-| Public-safe proof | Sanitized workflow map, review-state model, evidence-note example. |
+| Review boundary | A person reviews uncertain fields and approves downstream use. Accountant validation remains required for accounting-sensitive conclusions. |
+| Public-safe proof | Source-backed FinEcon workflow-family summary, review-state model, Pocket/bridge/proof direction, evidence-note example. |
 | What stays private | Real invoices, POHODA access details, accounting context, workflow exports, endpoints, logs, credentials. |
 
 ## 2. n8n Workflow Review

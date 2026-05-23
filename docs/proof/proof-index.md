@@ -11,7 +11,7 @@ The `docs/proof` pages explain the proof philosophy. The `public-proof` packages
 | Proof package | What it contains |
 | --- | --- |
 | [Sales Machine proof package](../../public-proof/sales-machine/README.md) | workflow map, safe lead state model, fictional buyer example |
-| [FinEcon proof package](../../public-proof/finecon/README.md) | invoice review flow, review boundary, fictional buyer example |
+| [FinEcon proof package](../../public-proof/finecon/README.md) | Pocket/document review flow, bridge handoff boundary, review boundary, fictional buyer example |
 | [Aureus OS proof package](../../public-proof/aureus-os/README.md) | operating model, action gates, fictional buyer example |
 
 ## What This Repository Is Meant To Prove
@@ -33,7 +33,7 @@ The `docs/proof` pages explain the proof philosophy. The `public-proof` packages
 4. [Build menu](../services/build-menu.md) - see where a first project can start.
 5. [Public proof showroom](../../public-proof/README.md) - review concrete public-safe proof objects.
 6. [Sales Machine proof package](../../public-proof/sales-machine/README.md) - review sales workflow map and state model.
-7. [FinEcon proof package](../../public-proof/finecon/README.md) - review invoice/document flow and review boundary.
+7. [FinEcon proof package](../../public-proof/finecon/README.md) - review Pocket/document flow, bridge handoff, and review boundary.
 8. [Aureus OS proof package](../../public-proof/aureus-os/README.md) - review operating model and action gates.
 9. [Automation Lab](../services/automation-lab.md) - review automation capabilities and Sales Machine direction.
 10. [Solution architecture](../system/solution-architecture.md) - review deeper architecture and decision boundaries.
@@ -49,6 +49,7 @@ The `docs/proof` pages explain the proof philosophy. The `public-proof` packages
 | **Safety proof** | public/private boundary, unsupported-claims discipline |
 | **Automation proof** | n8n workflow governance and Sales Machine direction |
 | **Financial workflow proof** | FinEcon, invoice/document review, POHODA/UBL boundary |
+| **FinEcon source-backed proof** | [FinEcon source-backed status](finecon-source-backed-status.md) without exposing private workflow exports or runtime details |
 | **Operating-system proof** | Aureus OS scope, review, validation, action gate, evidence, and handoff |
 | **Source-truth proof** | public claim register mapped to private Aureus Git artifact families |
 | **Delivery proof** | GitHub/Codex, validation, evidence, handoff notes |
