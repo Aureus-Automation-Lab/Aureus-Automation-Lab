@@ -21,9 +21,10 @@ invoice arrives
 -> candidate fields extracted
 -> required fields checked
 -> exceptions separated
--> owner review
--> finance summary
--> reviewed downstream handoff
+-> owner review decision
+-> bridge readiness checked
+-> proof notes created
+-> reviewed downstream handoff proposal
 ```
 
 ## After
@@ -48,6 +49,6 @@ Professional review remains required where accounting, tax, or legal interpretat
 
 ## What Proof Was Kept
 
-The system kept document status, extracted candidate fields, validation notes, exception status, review status, and handoff notes.
+The system kept document status, extracted candidate fields, validation notes, exception status, review status, bridge-readiness notes, and handoff notes.
 
 No accounting correctness, ROI, or customer result is implied.

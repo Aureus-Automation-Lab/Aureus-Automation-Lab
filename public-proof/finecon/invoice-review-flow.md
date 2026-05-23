@@ -1,28 +1,32 @@
 # FinEcon Invoice Review Flow
 
-This is a public-safe invoice/document workflow. It does not include real invoices, POHODA credentials, private endpoints, production logs, or accounting correctness claims.
+This is a public-safe invoice/document workflow. It reflects the public FinEcon direction without including real invoices, POHODA credentials, private endpoints, production logs, or accounting correctness claims.
 
 ```mermaid
 flowchart LR
-    A[Document / invoice intake] --> B[Extraction]
+    A[Pocket document intake] --> B[Extraction]
     B --> C[Validation checks]
     C --> D[Exception queue]
-    D --> E[Owner review]
-    E --> F[Finance summary]
+    D --> E[Review decision]
+    E --> F[Bridge readiness guard]
     F --> G[Reviewed downstream handoff]
+    G --> H[Proof notes]
+    H --> I[Accountant validation boundary]
 ```
 
 ## Stage Explanation
 
 | Stage | What it means |
 | --- | --- |
-| Document / invoice intake | Documents arrive from approved sources and become reviewable records. |
+| Pocket document intake | Documents arrive through a controlled intake direction and become reviewable records. |
 | Extraction | AI may suggest candidate fields such as supplier, date, amount, due date, or document type. |
 | Validation checks | The system checks whether required fields are present and whether something needs attention. |
 | Exception queue | Missing, uncertain, or inconsistent records are separated for review. |
-| Owner review | A human reviews important fields, exceptions, and next actions. |
-| Finance summary | The system can prepare a plain-language summary of open items, upcoming payments, or review needs. |
-| Reviewed downstream handoff | Only reviewed data should move toward downstream accounting-style or reporting workflows. |
+| Review decision | A human can approve, reject, or send the record back for correction. |
+| Bridge readiness guard | The system checks whether a downstream handoff is allowed and safe to attempt. |
+| Reviewed downstream handoff | Only reviewed data should move toward accounting-style or reporting workflows. |
+| Proof notes | The system records what happened, what was reviewed, and what still needs attention. |
+| Accountant validation boundary | Accounting-sensitive conclusions remain subject to accountant/professional review where required. |
 
 ## Public-Safe Boundary
 

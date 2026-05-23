@@ -18,7 +18,7 @@ Short version:
 
 Founder line:
 
-**Róbert Kolesár, Founder of Aureus Automation Lab, AI Systems Architect, builder of controlled AI operating systems for business execution.**
+**Róbert Kolesár, Founder of Aureus Automation Lab, AI Automation Solution Architect, builder of controlled AI automation systems for business execution.**
 
 ## Where To Put It
 
@@ -70,7 +70,7 @@ For buyers and technical reviewers, I keep a public-safe GitHub profile that exp
 ### Headline Options
 
 ```text
-Founder, Aureus Automation Lab | AI Systems Architect | Controlled AI operating systems for business execution
+Founder, Aureus Automation Lab | AI Automation Solution Architect | Controlled AI automation systems for business execution
 ```
 
 ```text
@@ -78,7 +78,7 @@ Founder of Aureus Automation Lab | AI systems for sales, finance, documents, rep
 ```
 
 ```text
-AI Systems Architect | Founder of Aureus Automation Lab | FinEcon, Aureus OS, controlled workflow systems
+AI Automation Solution Architect | Founder of Aureus Automation Lab | FinEcon, Aureus OS, controlled workflow systems
 ```
 
 ## LinkedIn Company Page
@@ -160,7 +160,7 @@ https://github.com/Aureus-Automation-Lab
 ```text
 Róbert Kolesár
 Founder, Aureus Automation Lab
-AI Systems Architect
+AI Automation Solution Architect
 
 Controlled AI operating systems for sales, operations, finance, documents, reporting, and internal execution.
 
@@ -223,7 +223,7 @@ https://github.com/Aureus-Automation-Lab
 ### FinEcon
 
 ```text
-FinEcon is a reviewed finance/document intelligence direction. It helps prepare, structure, validate, and route invoice or document work, but it does not replace accounting review or professional responsibility.
+FinEcon is a source-backed finance/document workflow direction. It supports Pocket intake, document review, bridge handoff, proof notes, and accountant-review boundaries, but it does not replace accounting review or professional responsibility.
 
 Public FinEcon proof starts here:
 https://github.com/Aureus-Automation-Lab

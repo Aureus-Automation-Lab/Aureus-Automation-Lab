@@ -30,6 +30,7 @@ document received
 -> validation checks
 -> exception queue
 -> owner review
+-> bridge-readiness note
 -> evidence note
 -> downstream handoff proposal
 ```
@@ -59,6 +60,7 @@ The workflow should leave a simple record:
 - which fields were drafted,
 - which fields were uncertain,
 - what the owner approved,
+- whether the record was ready for a downstream bridge/handoff attempt,
 - what still needs attention,
 - what next step was proposed.
 

@@ -41,7 +41,7 @@ Safe CV wording is available in [docs/portfolio/cv-usage.md](docs/portfolio/cv-u
 | **Automation Audit** | You know work is too manual, but not what to automate first. | A process map, risk points, automation candidates, and first useful scope. |
 | **n8n Workflow Review** | Existing workflows feel fragile or unclear. | Review notes, failure points, safety boundaries, and an improvement plan. |
 | **n8n Workflow Automation Build** | A repeated process needs a reliable automation. | Workflow design, validation notes, approval boundaries, and handoff direction. |
-| **FinEcon Paid Pilot** | Invoice, document, finance, or reporting work needs structure. | A reviewed finance/document workflow direction with human review kept in place. |
+| **FinEcon Paid Pilot** | Invoice, document, finance, or reporting work needs structure. | A source-backed document workflow direction with Pocket intake, review, bridge handoff, proof notes, and accountant-review boundaries. |
 | **AI Operating System Setup** | Your team wants AI-assisted execution without losing control. | Scope, ownership, review, evidence, approvals, and handoff model. |
 | **Monthly Automation Partner** | You need ongoing improvement and maintenance. | A practical monthly partnership for automation operations and delivery support. |
 
@@ -71,7 +71,7 @@ Each proof path has its own visual because each system explains a different busi
 | Proof path | Visual | What it shows |
 | --- | --- | --- |
 | [Sales Machine](public-proof/sales-machine/README.md) | <img src="assets/aureus-sales-machine.gif" width="220" alt="Sales Machine flow"> | sales follow-up with qualification, approval, reply handling, and reporting |
-| [FinEcon](public-proof/finecon/README.md) | <img src="assets/aureus-finecon-flow.gif" width="220" alt="FinEcon review flow"> | invoice/document work with extraction, validation, exception queue, and owner review |
+| [FinEcon](public-proof/finecon/README.md) | <img src="assets/aureus-finecon-flow.gif" width="220" alt="FinEcon review flow"> | Pocket intake, document review, bridge handoff, proof notes, and accountant validation boundary |
 | [Aureus OS](public-proof/aureus-os/README.md) | <img src="assets/aureus-os-model.gif" width="220" alt="Aureus OS operating model"> | AI-assisted work with scope, validation, action gates, evidence, and handoff |
 
 Open the showroom: [public-proof/README.md](public-proof/README.md)
@@ -116,6 +116,7 @@ The root is intentionally clean. Supporting material lives in [docs/portfolio](d
 | [Offer menu](docs/portfolio/offer-menu.md) | clear commercial starting points |
 | [Public demo flow](docs/portfolio/public-demo-flow.md) | one simple public-safe demo |
 | [Synthetic demo case](docs/portfolio/synthetic-demo-case.md) | fictional invoice review example |
+| [FinEcon source-backed status](docs/proof/finecon-source-backed-status.md) | public-safe summary of FinEcon Pocket, bridge, proof, and accounting boundaries |
 | [Solution architecture](docs/portfolio/solution-architecture.md) | technical architecture snapshot |
 | [Capabilities](docs/portfolio/capabilities.md) | role and capability overview |
 | [Case studies](docs/portfolio/case-studies.md) | public-safe case study directions |

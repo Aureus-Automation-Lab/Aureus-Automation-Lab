@@ -45,10 +45,11 @@ The root `README.md` is the main profile. This folder keeps the supporting mater
 | [Proof index](proof/proof-index.md) | What the public portfolio is meant to prove |
 | [Public proof showroom](../public-proof/README.md) | Concrete public-safe proof objects that can later become pinned artifacts |
 | [Sales Machine proof package](../public-proof/sales-machine/README.md) | Public workflow map, state model, and fictional buyer example |
-| [FinEcon proof package](../public-proof/finecon/README.md) | Invoice/document review flow, boundary, and fictional buyer example |
+| [FinEcon proof package](../public-proof/finecon/README.md) | Pocket/document review flow, bridge handoff boundary, and fictional buyer example |
 | [Aureus OS proof package](../public-proof/aureus-os/README.md) | Operating model, action gates, and fictional buyer example |
 | [Sales Machine public proof](proof/sales-machine-public-proof.md) | Safe sales automation direction without private lead or inbox data |
 | [FinEcon public proof](proof/finecon-public-proof.md) | Finance and document workflow boundary |
+| [FinEcon source-backed status](proof/finecon-source-backed-status.md) | Public-safe summary of the source-backed Pocket, bridge, proof, and accounting-review status |
 | [Aureus OS public proof](proof/aureus-os-public-proof.md) | Controlled AI-assisted delivery model |
 | [Source truth map](proof/source-truth-map.md) | Which public claims are backed by the Aureus Git source-of-truth |
 | [Public boundary](proof/public-boundary.md) | What is intentionally not exposed |

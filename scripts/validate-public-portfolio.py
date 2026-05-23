@@ -19,6 +19,7 @@ REQUIRED_FILES = [
     "docs/portfolio/capabilities.md",
     "docs/portfolio/review-guide.md",
     "docs/portfolio/public-portfolio-scorecard.md",
+    "docs/proof/finecon-source-backed-status.md",
     "assets/aureus-profile-hero.gif",
     "assets/aureus-offer-menu.gif",
     "assets/aureus-sales-machine.gif",
@@ -46,6 +47,11 @@ FILE_REQUIRED = {
     "docs/portfolio/capabilities.md": ["Best-Fit Roles"],
     "docs/portfolio/review-guide.md": ["CV"],
     "docs/portfolio/offer-menu.md": ["Recommended first purchase"],
+    "docs/proof/finecon-source-backed-status.md": [
+        "Pocket document intake",
+        "accountant validation",
+        "does not claim",
+    ],
 }
 
 FORBIDDEN_PHRASES = [
