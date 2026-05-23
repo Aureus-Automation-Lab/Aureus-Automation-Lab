@@ -4,6 +4,26 @@ This page summarizes what the private Aureus source-of-truth Git supports about 
 
 FinEcon is not only a written product idea. It has a source-backed workflow family, a Pocket-facing workflow direction, a bridge handoff model, proof-pack thinking, and documented accounting review boundaries.
 
+## Value In Plain Words
+
+The value of FinEcon is the connected system, not one isolated feature.
+
+```text
+Pocket app / intake layer
++ n8n workflow backend
++ reviewed bridge handoff
++ proof-pack record
++ accountant validation boundary
+```
+
+That means FinEcon is better understood as a controlled document-to-review-to-handoff system. A company can capture documents, see status, review uncertain items, prepare a bounded downstream handoff, and keep proof notes about what happened.
+
+The current public story should not be "FinEcon replaces accounting software." The correct story is:
+
+```text
+FinEcon makes finance/document work easier to collect, review, explain, hand off, and verify.
+```
+
 ## What The Source Supports
 
 | Area | Public-safe status |
@@ -14,6 +34,27 @@ FinEcon is not only a written product idea. It has a source-backed workflow fami
 | Proof layer | FinEcon includes proof-pack storage and a proof publisher direction for selected artifacts. |
 | E2E/preflight | The private repo includes preflight validation that checks the workflow family, required docs, bridge readiness, Pocket workflows, proof publisher, and accounting review boundaries. |
 | Operations signals | The private repo tracks source-of-truth count, sanitized export status, proof-publisher status, notification mode, and bridge readiness signals. |
+
+## What Makes This Strong
+
+FinEcon is stronger than a simple prototype because the source-backed architecture covers multiple layers:
+
+- **Client-facing intake direction** through the Pocket layer.
+- **Workflow backend direction** through the FinEcon n8n family.
+- **Review and approval direction** before sensitive downstream use.
+- **Bridge handoff direction** for accounting-system-adjacent work.
+- **Proof-pack direction** so the work can be inspected later.
+- **Accountant validation boundary** so technical automation does not pretend to be accounting authority.
+
+This is the useful distinction:
+
+```text
+Not just a document upload.
+Not just AI extraction.
+Not just a dashboard.
+
+FinEcon is a controlled path from document capture to reviewed handoff.
+```
 
 ## What This Means Publicly
 
@@ -47,7 +88,20 @@ FinEcon still needs:
 - cleanup decisions for test documents,
 - broader benchmark coverage across more document types,
 - product UX and onboarding polish,
-- paid-pilot packaging and support process validation.
+- a clearer client demo flow,
+- paid-pilot packaging and support process validation,
+- comparison against mature document/accounting SaaS products.
+
+## Correct Market Position
+
+The public position should be honest:
+
+```text
+Mature SaaS products may still have more polished onboarding and broader market packaging.
+FinEcon's strength is a POHODA-first, review-first workflow stack with Pocket intake, n8n backend, bridge handoff, proof packs, and accountant validation boundaries.
+```
+
+If accountant validation confirms the mapping, FinEcon can move from strong technical proof toward a more pilot-ready commercial package.
 
 ## What This Does Not Claim
 

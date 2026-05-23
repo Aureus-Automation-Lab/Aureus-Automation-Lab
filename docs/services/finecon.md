@@ -12,6 +12,8 @@ Financial and document work is sensitive. It cannot be treated like a simple AI 
 
 FinEcon is built around visibility and review: the owner should see what came in, what was extracted, what is uncertain, what needs approval, and what can move downstream.
 
+FinEcon's practical value is that it connects the client-facing document intake idea with the workflow backend, review boundary, bridge handoff, and proof-pack record.
+
 | Problem | FinEcon direction |
 | --- | --- |
 | Invoices are scattered across inboxes, folders, and chats | Create a structured intake and review path |
@@ -35,6 +37,20 @@ documents / invoices / records
 ```
 
 The point is not to replace professional accounting. The point is to reduce manual confusion, improve visibility, and create reviewed handoff paths.
+
+## What FinEcon Is Becoming
+
+FinEcon should be presented as:
+
+```text
+Pocket intake layer
+-> n8n finance/document backend
+-> reviewed bridge handoff
+-> proof-pack trail
+-> accountant validation boundary
+```
+
+This is stronger than a simple invoice parser because it covers the full control path: capture, status, review, handoff, evidence, and professional review boundary.
 
 ## What FinEcon Can Support
 
@@ -101,6 +117,16 @@ The private Aureus source-of-truth supports a stronger FinEcon story than a conc
 
 This means the public offer can be described as a source-backed paid pilot direction. It should not be described as fully accountant-approved production accounting software.
 
+## Current Commercial Position
+
+The honest public position is:
+
+```text
+FinEcon has a technically strong POHODA-first workflow stack with Pocket intake, n8n backend, bridge handoff, and proof-pack structure.
+```
+
+It should still be sold as a controlled paid pilot until accountant validation, broader document benchmark tests, final client UX proof, and client onboarding are complete.
+
 ## AI Role In FinEcon
 
 AI may assist with classification, extraction, summarization, anomaly notes, report drafts, question generation, and exception explanation.
@@ -117,4 +143,4 @@ For the public-safe evidence summary, see [FinEcon source-backed status](../proo
 
 ## FinEcon In One Sentence
 
-**FinEcon turns scattered financial and document work into a reviewed intelligence layer for clearer business decisions.**
+**FinEcon turns scattered financial and document work into a reviewed Pocket-to-bridge workflow with proof notes and accountant-review boundaries.**

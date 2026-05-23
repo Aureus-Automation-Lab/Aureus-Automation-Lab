@@ -98,6 +98,21 @@ This proves that Aureus understands finance automation as a controlled workflow 
 
 The value is not "AI does accounting." The value is clearer intake, better visibility, better review queues, and better evidence before downstream action.
 
+## Why This Is More Than A Parser
+
+FinEcon should be read as a connected workflow stack:
+
+```text
+Pocket intake
+-> workflow backend
+-> review decision
+-> bridge handoff
+-> proof record
+-> accountant validation boundary
+```
+
+The value is that a business can see the path from document arrival to reviewed next step instead of relying on memory, scattered folders, or a black-box automation.
+
 ## Current Honest Boundary
 
 The strongest public-safe statement is:

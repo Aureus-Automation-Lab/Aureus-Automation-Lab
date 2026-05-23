@@ -53,7 +53,7 @@ Automation Audit
 | --- | --- |
 | Who it is for | Teams handling invoices, documents, finance inputs, reporting, or accounting-adjacent review. |
 | Problem it solves | Documents arrive in messy formats and move through unclear review, bridge, or handoff paths. |
-| What is delivered | Source-backed document-flow direction with Pocket-style intake, status/review states, exception handling, bridge-readiness notes, proof notes, and next-step handoff design. |
+| What is delivered | Source-backed document-flow direction with Pocket-style intake, status/review states, exception handling, bridge-readiness notes, proof notes, client demo direction, and next-step handoff design. |
 | What is not claimed | FinEcon does not replace accounting review, tax/legal advice, professional responsibility, or accountant validation. |
 | Best next step | Pick one document flow and define what a person must approve before downstream use. |
 

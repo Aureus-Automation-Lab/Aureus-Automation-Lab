@@ -8,6 +8,21 @@ FinEcon helps prepare, structure, review, and understand data. It does not repla
 
 Public-safe status: FinEcon is backed by a private source-of-truth workflow family that includes Pocket intake, status, review, bridge-start, company-registration, bridge handoff, and proof-pack directions. The public package explains the architecture without exposing internal routes, workflow exports, POHODA details, runtime logs, or real documents.
 
+## Value In One Frame
+
+FinEcon is valuable because it connects the pieces that usually stay separate:
+
+```text
+client document intake
+-> workflow backend
+-> human review
+-> bridge handoff
+-> proof record
+-> accountant validation boundary
+```
+
+That makes it more than a document parser. It is a controlled finance/document workflow direction for companies that need the path from "document arrived" to "reviewed next step" to be visible.
+
 ## Problem Statement
 
 Finance and document work often gets messy when invoices, documents, approvals, and reports live across email, Drive, spreadsheets, accounting tools, and memory.
@@ -55,6 +70,16 @@ Publicly, the source-backed FinEcon direction can be described as:
 - proof-pack/writeback direction,
 - proof publisher direction for selected artifacts,
 - accountant validation boundary for official accounting-sensitive decisions.
+
+## Current Product Truth
+
+FinEcon's strongest public-safe claim is:
+
+```text
+Pocket app direction + n8n backend direction + reviewed bridge handoff + proof-pack discipline.
+```
+
+The remaining work is not "invent Pocket" or "invent E2E." The remaining work is accountant validation, broader document benchmarks, final client UX proof, demo packaging, and paid-pilot readiness.
 
 ## What Humans Review
 
