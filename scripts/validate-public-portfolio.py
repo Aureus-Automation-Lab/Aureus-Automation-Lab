@@ -17,6 +17,7 @@ REQUIRED_FILES = [
     "docs/portfolio/cv-usage.md",
     "docs/portfolio/offer-menu.md",
     "docs/portfolio/capabilities.md",
+    "docs/portfolio/case-studies.md",
     "docs/portfolio/review-guide.md",
     "docs/portfolio/public-portfolio-scorecard.md",
     "docs/proof/finecon-source-backed-status.md",
@@ -45,6 +46,14 @@ README_REQUIRED = [
 
 FILE_REQUIRED = {
     "docs/portfolio/capabilities.md": ["Best-Fit Roles"],
+    "docs/portfolio/case-studies.md": [
+        "Pro-Tier Public Case Studies",
+        "Automation Audit",
+        "Sales Machine",
+        "FinEcon Pocket / Bridge",
+        "Git-Backed LinkedIn Content",
+        "Monthly Automation Partner",
+    ],
     "docs/portfolio/review-guide.md": ["CV"],
     "docs/portfolio/offer-menu.md": ["Recommended first purchase"],
     "docs/proof/finecon-source-backed-status.md": [

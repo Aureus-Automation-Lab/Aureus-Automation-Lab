@@ -51,6 +51,7 @@ The root `README.md` is the main profile. This folder keeps the supporting mater
 | [FinEcon public proof](proof/finecon-public-proof.md) | Finance and document workflow boundary |
 | [FinEcon source-backed status](proof/finecon-source-backed-status.md) | Public-safe summary of the source-backed Pocket, bridge, proof, and accounting-review status |
 | [Aureus OS public proof](proof/aureus-os-public-proof.md) | Controlled AI-assisted delivery model |
+| [Pro-tier case studies](portfolio/case-studies.md) | Public-safe case studies across the main Aureus offers and project lines |
 | [Source truth map](proof/source-truth-map.md) | Which public claims are backed by the Aureus Git source-of-truth |
 | [Public boundary](proof/public-boundary.md) | What is intentionally not exposed |
 | [Review guide](proof/review-guide.md) | How different audiences should review the profile |

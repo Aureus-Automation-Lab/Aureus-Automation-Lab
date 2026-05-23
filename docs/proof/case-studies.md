@@ -13,7 +13,9 @@ Problem
 -> What stays private
 ```
 
-For the premium root version, see [docs/portfolio/case-studies.md](../portfolio/case-studies.md).
+For the premium root version, see [pro-tier public case studies](../portfolio/case-studies.md).
+
+The portfolio version now covers Automation Audit, n8n Review, n8n Build, Sales Machine, FinEcon, Aureus OS, Premium AI Website + Automation, Git-backed LinkedIn content, and Monthly Automation Partner.
 
 ## 1. Manual Invoice / Document Work
 
