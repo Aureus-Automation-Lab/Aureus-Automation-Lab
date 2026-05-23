@@ -1,6 +1,12 @@
 # Aureus Use Case Showcase V5 PDF Handoff
 
-No supported PDF generation script is currently part of this public profile repo. This handoff defines how to create the final PDF safely from the V5 copy.
+This repo includes a public-safe local PDF generator for the English and Slovak V5 showcase:
+
+```powershell
+python scripts\generate-aureus-use-case-pdfs.py
+```
+
+The script creates polished 16:9 PDF exports under `exports/` and copies the latest files to the desktop/OneDrive desktop folder when available. This handoff defines the source copy, layout rules, and safety checks that the PDF generator must preserve.
 
 ## Source Copy
 
