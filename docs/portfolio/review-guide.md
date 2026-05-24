@@ -63,6 +63,7 @@ Start with:
 2. [Use Case Offer Sheet](../use-cases/AUREUS_CLIENT_USE_CASE_OFFER_SHEET.md)
 3. [Use Case Showcase Copy](../use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5.md)
 4. [Use Case Showcase PDF Design](../use-cases/AUREUS_USE_CASE_SHOWCASE_DESIGN_SPEC_V6.md)
+5. [Use Case Instagram Carousel](../use-cases/AUREUS_USE_CASE_INSTAGRAM_CAROUSEL_V7.md)
 4. [Build menu](build-menu.md)
 5. [Public demo flow](public-demo-flow.md)
 6. [Synthetic demo case](synthetic-demo-case.md)

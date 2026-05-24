@@ -23,8 +23,10 @@ REQUIRED_FILES = [
     "docs/use-cases/AUREUS_USE_CASE_SHOWCASE_DESIGN_SPEC_V6.md",
     "docs/use-cases/AUREUS_USE_CASE_SHOWCASE_TOP_TIER_REFERENCE_NOTES.md",
     "docs/use-cases/AUREUS_USE_CASE_LINKEDIN_CAROUSEL.md",
+    "docs/use-cases/AUREUS_USE_CASE_INSTAGRAM_CAROUSEL_V7.md",
     "docs/use-cases/AUREUS_USE_CASE_SHOWCASE_V5_PDF_HANDOFF.md",
     "scripts/generate-aureus-use-case-pdfs-v6-pro.py",
+    "scripts/generate-aureus-use-case-instagram-v7.py",
 ]
 
 USE_CASES = [
@@ -144,6 +146,13 @@ def main() -> int:
         errors.append("V6 pro PDF generator missing")
     if not (ROOT / "docs/use-cases/AUREUS_USE_CASE_LINKEDIN_CAROUSEL.md").exists():
         errors.append("LinkedIn carousel missing")
+    if not (ROOT / "docs/use-cases/AUREUS_USE_CASE_INSTAGRAM_CAROUSEL_V7.md").exists():
+        errors.append("Instagram carousel missing")
+    instagram_generator = ROOT / "scripts/generate-aureus-use-case-instagram-v7.py"
+    if instagram_generator.exists():
+        instagram_text = read_text(instagram_generator)
+        if "1080" not in instagram_text or "1350" not in instagram_text:
+            errors.append("Instagram carousel generator missing 1080x1350 format")
 
     for path in iter_text_files():
         rel = path.relative_to(ROOT).as_posix()
