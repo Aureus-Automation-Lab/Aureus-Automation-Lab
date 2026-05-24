@@ -262,66 +262,83 @@ class UseCase:
     visual_page: int
 
 
+# V7 client-language copy.
+# The V6 deck was technically accurate, but too close to internal architecture language.
+# These definitions intentionally replace the earlier pack/case definitions with simpler
+# client-facing wording while preserving the same proof and approval boundaries.
 def en_pack() -> dict:
     return {
         "lang": "en",
         "cover_title": "Aureus Use Case Portfolio",
-        "cover_subtitle": "Six controlled AI automation examples for companies that need useful work, human approval, and evidence they can review.",
-        "cover_note": "Not chatbot demos. Not blind automation. Each use case starts with a business process, then adds AI only where review and evidence can stay visible.",
-        "rule": "AI prepares. People approve. Evidence remains.",
+        "cover_subtitle": "Six practical examples of how AI can remove manual work without removing human control.",
+        "cover_note": "This is not a chatbot demo and not blind automation. Each example starts with a real business problem, shows what the system prepares, what a person approves, and what record remains for review.",
+        "rule": "AI prepares the work. People make the decision. The record remains.",
         "model_title": "How We Choose The Right AI Use Case",
-        "model_subtitle": "The best AI use cases are not the flashiest. They are repeated, bounded, reviewable, and close to a real business decision.",
+        "model_subtitle": "We do not start by asking which tool looks impressive. We start by finding work that is repeated, painful, reviewable, and useful enough to pilot safely.",
         "signals": [
-            ("Repeated work", "The task happens often enough to justify a system."),
-            ("Skill bottleneck", "Expert time is spent sorting, checking, rewriting, or chasing."),
-            ("Sensitive decision", "Ownership is unclear or the next step affects customers, money, records, or public claims."),
-            ("Evidence-ready", "The workflow can keep a visible record of what happened and what was approved."),
-            ("Bounded pilot", "The first version can be tested safely before scale."),
+            ("Repeated work", "The same task, check, rewrite, reminder, or handoff happens again and again."),
+            ("Clear pain", "People lose time because information is scattered, approvals are unclear, or follow-up depends on memory."),
+            ("Human decision needed", "The system can prepare the work, but a person should still approve sensitive steps."),
+            ("Visible record", "The process can leave a simple record of what happened, who reviewed it, and what comes next."),
+            ("Small safe pilot", "The first version can be tested on one process before it is expanded."),
         ],
-        "flow": ["Discover", "Score", "Design", "Build", "Review", "Scale"],
-        "score_title": "Client Use-Case Scorecard",
-        "score_subtitle": "A practical way to choose the first pilot: visible value, bounded effort, review sensitivity, proof readiness, and first-pilot fit.",
-        "score_headers": ["Use case", "Best buyer signal", "Pilot fit", "Proof status", "Entry action"],
+        "flow": ["Find pain", "Choose first step", "Design safely", "Build pilot", "Review", "Decide next"],
+        "discovery_label": "Decision flow",
+        "decision_rule_label": "Decision rule",
+        "decision_rule": "Start where the buyer can see the value, approve the risk, and understand the next step.",
+        "score_kicker": "Client decision support",
+        "score_title": "Use-Case Scorecard For Client Conversations",
+        "score_subtitle": "This helps choose the first practical pilot: where the value is visible, the effort is bounded, the approval line is clear, and the next step is easy to explain.",
+        "score_headers": ["Use case", "When it fits", "Pilot fit", "Proof status", "First step"],
         "score_rows": [
-            ["Automation Audit", "Work is manual, but the first build is unclear.", "High", "Public-safe / pilot-ready", "First purchase"],
-            ["n8n Review + Build", "A workflow runs, but trust and handoff are weak.", "High", "Setup-gated", "Review existing workflow"],
-            ["FinEcon Pilot", "Documents need reviewed intake and handoff.", "High", "Internal E2E / accountant pending", "Pick one document flow"],
+            ["Automation Audit", "You know work is manual, but not where to start.", "High", "Safe first step", "Map one process"],
+            ["n8n Review + Build", "An automation exists, but nobody fully trusts it.", "High", "Setup-gated", "Review one workflow"],
+            ["FinEcon Pilot", "Documents arrive from many places and need review.", "High", "Internal E2E / accountant pending", "Pick one document flow"],
             ["Sales Machine", "Follow-up depends on memory and risky drafts.", "Medium", "Approval-gated", "One lead source"],
             ["Aureus OS / AOP", "AI work is scattered across people and tools.", "Medium", "Operating model", "One team area"],
-            ["Public Proof Site", "The offer is unclear and not connected to intake.", "High", "Public-safe", "One offer page"],
+            ["Public Proof Site", "The offer is hard to understand and not connected to intake.", "High", "Public-safe", "One offer page"],
         ],
         "pilot_title": "30-Day Client Pilot Path",
-        "pilot_subtitle": "The goal is not to automate everything. The goal is to prove one controlled workflow the client understands, approves, and can inspect.",
+        "pilot_subtitle": "The goal is not to automate the whole company. The goal is to prove one useful workflow that the client understands, approves, and can inspect.",
         "weeks": [
-            ("Week 1", "Discovery", "Map the real process, owners, inputs, exceptions, and risk points."),
-            ("Week 2", "Pilot design", "Define scope, AI role, review boundary, proof model, and acceptance criteria."),
-            ("Week 3", "Build and test", "Build a controlled proof with synthetic or approved examples. Validate the handoff."),
-            ("Week 4", "Review and handoff", "Review evidence, risks, operating notes, and the next decision."),
+            ("Week 1", "Understand the work", "Map the current process, who owns it, where it slows down, and what can go wrong."),
+            ("Week 2", "Design the pilot", "Choose one safe workflow, define what AI prepares, and mark what must stay human-approved."),
+            ("Week 3", "Build and test", "Build a controlled version with synthetic or approved examples and check the handoff."),
+            ("Week 4", "Review and decide", "Review the evidence, risks, operating notes, and decide what should be built next."),
         ],
         "usage_title": "How To Use This Showcase",
-        "usage_subtitle": "Use it as a client conversation tool. It explains what can be bought first and what remains approval-gated.",
+        "usage_subtitle": "Use this as a client conversation tool. It explains what can be bought first, what the client receives, and what remains approval-gated.",
         "usage": [
-            ("First call", "Choose the use case that matches the buyer's real process."),
-            ("Follow-up PDF", "Send the relevant page after a call to make the next step concrete."),
-            ("LinkedIn carousel", "Use the shorter public-safe version for awareness and education."),
-            ("GitHub portfolio", "Point technical reviewers to proof packages and boundaries."),
-            ("Proposal appendix", "Attach the relevant use case and 30-day pilot path."),
-            ("Sales follow-up", "Ask for one workflow, one document flow, or one repeated process."),
+            ("First call", "Pick the use case that sounds closest to the buyer's daily problem."),
+            ("Follow-up PDF", "Send the matching page after a call so the next step feels concrete."),
+            ("LinkedIn carousel", "Use the short version to teach the market what controlled AI automation means."),
+            ("GitHub portfolio", "Send technical reviewers to the public proof pages and safety boundaries."),
+            ("Proposal appendix", "Attach the use case, the 30-day pilot path, and the first action."),
+            ("Sales follow-up", "Ask for one workflow, one document flow, or one repeated process to review."),
         ],
-        "safety": "No private exports, no fake proof, no accounting authority claims, no blind automation, no customer-results claims without separate evidence, and no public claims without approval.",
+        "safety": "Private exports, credentials, real client data, blind sending, unsupported customer-result claims, and accounting authority claims stay out of the public material. Sensitive actions remain approval-gated.",
         "cta_title": "Best First Step: Automation Audit",
-        "cta_subtitle": "Start by finding the first useful workflow before spending money on a build.",
-        "cta_action": "Send one workflow, document flow, or repeated process. We map what AI can prepare, what people must approve, and what evidence should remain.",
+        "cta_subtitle": "Before building anything, find the first workflow that is useful, safe, and simple enough to test.",
+        "cta_action": "Send one repeated process or existing workflow. We map what AI can prepare, what a person must approve, what record should remain, and which pilot makes sense.",
+        "pilot_by_day_label": "By day 30",
+        "pilot_out": "Process map, pilot scope, approval line, evidence example, risk list, and next decision.",
+        "usage_kicker": "Public-safe usage",
+        "safety_label": "Safety boundary",
+        "cta_kicker": "Best first step",
+        "why_label": "Why first?",
+        "why_text": "It turns a vague AI idea into a clear process map, ranked options, approval line, and scoped pilot decision.",
+        "path_title": "Choose the next path",
+        "buyer_action_label": "Buyer action",
         "case_labels": {
-            "problem": "Buyer problem",
-            "ai": "AI prepares",
-            "approve": "People approve",
-            "evidence": "Evidence remains",
-            "receives": "Client receives",
-            "workflow": "Controlled workflow",
-            "proof": "Proof status",
+            "problem": "Everyday problem",
+            "ai": "What the system prepares",
+            "approve": "What people approve",
+            "evidence": "What stays recorded",
+            "receives": "What the client gets",
+            "workflow": "Simple workflow",
+            "proof": "Proof and safety",
             "boundary": "Boundary",
-            "first": "Best first step",
+            "first": "First action",
         },
     }
 
@@ -330,62 +347,75 @@ def sk_pack() -> dict:
     return {
         "lang": "sk",
         "cover_title": "Aureus Use Case Portfólio",
-        "cover_subtitle": "Šesť príkladov kontrolovanej AI automatizácie pre firmy, ktoré potrebujú užitočnú prácu, ľudské schválenie a dôkazový záznam.",
-        "cover_note": "Nie sú to chatbot demo ukážky. Nie je to slepá automatizácia. Každý use case začína firemným procesom a AI sa pridáva až tam, kde zostáva review a dôkaz.",
-        "rule": "AI pripraví. Ľudia schvália. Dôkaz zostáva.",
+        "cover_subtitle": "Šesť praktických príkladov, ako môže AI odstrániť manuálnu prácu bez toho, aby zobrala kontrolu človeku.",
+        "cover_note": "Nie je to chatbot demo ani slepá automatizácia. Každý príklad začína reálnym firemným problémom: čo systém pripraví, čo človek schváli a aký záznam ostane na kontrolu.",
+        "rule": "AI pripraví podklady. Človek rozhodne. Záznam ostane.",
         "model_title": "Ako vyberáme správny AI use case",
-        "model_subtitle": "Najlepšie AI use cases nie sú najefektnejšie. Sú opakované, ohraničené, reviewovateľné a blízko k reálnemu firemnému rozhodnutiu.",
+        "model_subtitle": "Nezačíname otázkou, ktorý nástroj vyzerá efektne. Začíname prácou, ktorá sa opakuje, bolí firmu, dá sa skontrolovať a je vhodná na bezpečný pilot.",
         "signals": [
-            ("Opakovaná práca", "Úloha sa deje dosť často na to, aby dávalo zmysel vytvoriť systém."),
-            ("Úzke miesto", "Odborný čas sa míňa na triedenie, kontrolu, prepisovanie alebo naháňanie."),
-            ("Citlivé rozhodnutie", "Vlastník nie je jasný alebo ďalší krok ovplyvňuje klienta, peniaze, záznamy alebo verejné tvrdenia."),
-            ("Pripravené na dôkaz", "Workflow vie uchovať viditeľný záznam o tom, čo sa stalo a čo bolo schválené."),
-            ("Ohraničený pilot", "Prvá verzia sa dá bezpečne otestovať pred škálovaním."),
+            ("Opakovaná práca", "Rovnaká úloha, kontrola, prepisovanie, pripomienka alebo odovzdanie sa deje stále dokola."),
+            ("Jasná bolesť", "Ľudia strácajú čas, lebo informácie sú rozhádzané, schvaľovanie je nejasné alebo follow-up stojí na pamäti."),
+            ("Rozhoduje človek", "Systém pripraví podklady, ale citlivý krok musí stále schváliť človek."),
+            ("Viditeľný záznam", "Proces zanechá jednoduchý záznam o tom, čo sa stalo, kto to skontroloval a čo je ďalší krok."),
+            ("Malý bezpečný pilot", "Prvá verzia sa otestuje na jednom procese skôr, než sa rozšíri ďalej."),
         ],
-        "flow": ["Objaviť", "Ohodnotiť", "Navrhnúť", "Postaviť", "Skontrolovať", "Škálovať"],
-        "score_title": "Scorecard pre klientsky rozhovor",
-        "score_subtitle": "Praktický spôsob, ako vybrať prvý pilot: viditeľná hodnota, ohraničené úsilie, citlivosť review, pripravenosť dôkazu a vhodnosť prvého pilotu.",
-        "score_headers": ["Use case", "Najlepší signál klienta", "Pilot fit", "Stav dôkazu", "Vstup"],
+        "flow": ["Nájsť bolesť", "Vybrať prvý krok", "Navrhnúť bezpečne", "Postaviť pilot", "Skontrolovať", "Rozhodnúť ďalej"],
+        "discovery_label": "Ako sa rozhodneme",
+        "decision_rule_label": "Pravidlo rozhodnutia",
+        "decision_rule": "Začať tam, kde klient vidí hodnotu, vie schváliť riziko a rozumie ďalšiemu kroku.",
+        "score_kicker": "Pomôcka pre rozhodnutie klienta",
+        "score_title": "Scorecard pre rozhovor s klientom",
+        "score_subtitle": "Pomôcka na výber prvého praktického pilotu: kde je hodnota viditeľná, rozsah ohraničený, schvaľovanie jasné a ďalší krok ľahko vysvetliteľný.",
+        "score_headers": ["Use case", "Kedy dáva zmysel", "Pilot fit", "Stav dôkazu", "Prvý krok"],
         "score_rows": [
-            ["Automation Audit", "Práca je manuálna, ale prvá stavba nie je jasná.", "Vysoký", "Public-safe / pilot-ready", "Prvý nákup"],
-            ["n8n Review + Build", "Workflow beží, ale dôvera a handoff sú slabé.", "Vysoký", "Setup-gated", "Review workflowu"],
-            ["FinEcon Pilot", "Doklady potrebujú reviewovaný vstup a odovzdanie.", "Vysoký", "Interné E2E / čaká účtovník", "Jeden tok dokladov"],
-            ["Sales Machine", "Follow-up stojí na pamäti a rizikových draftoch.", "Stredný", "Approval-gated", "Jeden lead source"],
-            ["Aureus OS / AOP", "AI práca je roztrúsená cez ľudí a nástroje.", "Stredný", "Operating model", "Jedna tímová oblasť"],
-            ["Public Proof Site", "Ponuka je nejasná a nie je napojená na intake.", "Vysoký", "Public-safe", "Jedna offer page"],
+            ["Automation Audit", "Viete, že práca je manuálna, ale neviete kde začať.", "Vysoký", "Bezpečný prvý krok", "Zmapovať jeden proces"],
+            ["n8n Review + Build", "Automatizácia existuje, ale tím jej úplne neverí.", "Vysoký", "Setup-gated", "Skontrolovať jeden workflow"],
+            ["FinEcon Pilot", "Doklady chodia z rôznych miest a potrebujú review.", "Vysoký", "Interné E2E / čaká účtovník", "Vybrať jeden tok dokladov"],
+            ["Sales Machine", "Follow-up stojí na pamäti a rizikových draftoch.", "Stredný", "Approval-gated", "Jeden zdroj leadov"],
+            ["Aureus OS / AOP", "AI práca je rozhádzaná cez ľudí a nástroje.", "Stredný", "Operating model", "Jedna tímová oblasť"],
+            ["Public Proof Site", "Ponuka je ťažko pochopiteľná a nenadväzuje na intake.", "Vysoký", "Public-safe", "Jedna stránka ponuky"],
         ],
         "pilot_title": "30-dňový klientsky pilot",
-        "pilot_subtitle": "Cieľ nie je automatizovať všetko. Cieľ je dokázať jeden kontrolovaný workflow, ktorý klient chápe, schvaľuje a vie skontrolovať.",
+        "pilot_subtitle": "Cieľ nie je automatizovať celú firmu. Cieľ je dokázať jeden užitočný workflow, ktorý klient chápe, schvaľuje a vie skontrolovať.",
         "weeks": [
-            ("Týždeň 1", "Discovery", "Zmapovať reálny proces, vlastníkov, vstupy, výnimky a rizikové body."),
-            ("Týždeň 2", "Návrh pilotu", "Definovať scope, rolu AI, schvaľovaciu hranicu, dôkazový model a kritériá."),
-            ("Týždeň 3", "Build a test", "Postaviť kontrolovaný proof na syntetických alebo schválených príkladoch. Overiť handoff."),
-            ("Týždeň 4", "Review a handoff", "Prejsť dôkaz, riziká, prevádzkové poznámky a ďalšie rozhodnutie."),
+            ("Týždeň 1", "Pochopiť prácu", "Zmapujeme dnešný proces, kto ho vlastní, kde sa spomaľuje a čo sa môže pokaziť."),
+            ("Týždeň 2", "Navrhnúť pilot", "Vyberieme jeden bezpečný workflow, určíme čo pripraví AI a čo musí zostať schválené človekom."),
+            ("Týždeň 3", "Postaviť a otestovať", "Postavíme kontrolovanú verziu na syntetických alebo schválených príkladoch a overíme odovzdanie."),
+            ("Týždeň 4", "Vyhodnotiť a rozhodnúť", "Prejdeme záznamy, riziká, prevádzkové poznámky a rozhodneme, čo má zmysel stavať ďalej."),
         ],
         "usage_title": "Ako používať tento showcase",
-        "usage_subtitle": "Používa sa ako klientsky rozhovorový materiál. Vysvetlí, čo sa dá kúpiť ako prvé a čo zostáva approval-gated.",
+        "usage_subtitle": "Je to materiál na rozhovor s klientom. Vysvetľuje, čo sa dá kúpiť ako prvé, čo klient dostane a čo zostáva schvaľované človekom.",
         "usage": [
-            ("Prvý call", "Vybrať use case podľa reálneho procesu kupujúceho."),
-            ("Follow-up PDF", "Poslať relevantnú stranu po calle, aby bol ďalší krok konkrétny."),
-            ("LinkedIn carousel", "Použiť kratšiu public-safe verziu na edukáciu a dopyt."),
-            ("GitHub portfólio", "Technických reviewerov poslať na proof packages a hranice."),
-            ("Príloha k ponuke", "Pridať relevantný use case a 30-dňový pilot path."),
-            ("Sales follow-up", "Požiadať o jeden workflow, tok dokladov alebo opakovaný proces."),
+            ("Prvý call", "Vybrať use case, ktorý sa najviac podobá na denný problém klienta."),
+            ("Follow-up PDF", "Po calle poslať konkrétnu stranu, aby bol ďalší krok jasný."),
+            ("LinkedIn carousel", "Kratšou verziou vysvetliť trhu, čo znamená kontrolovaná AI automatizácia."),
+            ("GitHub portfólio", "Technických reviewerov poslať na public proof stránky a bezpečnostné hranice."),
+            ("Príloha k ponuke", "Pridať use case, 30-dňový pilot a prvú akciu."),
+            ("Sales follow-up", "Požiadať o jeden workflow, tok dokladov alebo opakovaný proces na review."),
         ],
-        "safety": "Žiadne private exporty, žiadny fake proof, žiadne tvrdenie o účtovnej autorite, žiadna slepá automatizácia, žiadne customer-results tvrdenia bez samostatného dôkazu a žiadne verejné claimy bez approval.",
+        "safety": "Private exporty, credentials, reálne klientské dáta, slepé odosielanie, nepodložené výsledky a tvrdenia o účtovnej autorite nepatria do verejného materiálu. Citlivé akcie zostávajú approval-gated.",
         "cta_title": "Najlepší prvý krok: Automation Audit",
-        "cta_subtitle": "Začnite tým, že nájdeme prvý užitočný workflow ešte predtým, než sa minú peniaze na stavbu.",
-        "cta_action": "Pošlite jeden workflow, tok dokladov alebo opakovaný proces. Zmapujeme, čo môže pripraviť AI, čo musia schváliť ľudia a aký dôkaz má zostať.",
+        "cta_subtitle": "Pred stavbou nájdeme prvý workflow, ktorý je užitočný, bezpečný a dosť jednoduchý na otestovanie.",
+        "cta_action": "Pošlite jeden proces alebo existujúci workflow. Zmapujeme, čo pripraví AI, čo schváli človek, aký záznam ostane a aký pilot dáva zmysel.",
+        "pilot_by_day_label": "Do 30. dňa",
+        "pilot_out": "Mapa procesu, rozsah pilotu, schvaľovacia hranica, príklad záznamu, risk list a ďalšie rozhodnutie.",
+        "usage_kicker": "Verejne bezpečné použitie",
+        "safety_label": "Bezpečnostná hranica",
+        "cta_kicker": "Najlepší prvý krok",
+        "why_label": "Prečo prvý?",
+        "why_text": "Z nejasného AI nápadu vznikne mapa procesu, zoradené možnosti, schvaľovacia hranica a konkrétne rozhodnutie o pilote.",
+        "path_title": "Potom vyberieme ďalšiu cestu",
+        "buyer_action_label": "Akcia pre klienta",
         "case_labels": {
-            "problem": "Problém klienta",
-            "ai": "AI pripraví",
-            "approve": "Ľudia schvália",
-            "evidence": "Dôkaz zostáva",
+            "problem": "Bežný problém",
+            "ai": "Čo systém pripraví",
+            "approve": "Čo schváli človek",
+            "evidence": "Čo ostane zaznamenané",
             "receives": "Čo klient dostane",
-            "workflow": "Kontrolovaný workflow",
-            "proof": "Stav dôkazu",
+            "workflow": "Jednoduchý postup",
+            "proof": "Dôkaz a bezpečnosť",
             "boundary": "Hranica",
-            "first": "Najlepší prvý krok",
+            "first": "Prvý krok",
         },
     }
 
@@ -395,15 +425,15 @@ def en_cases() -> list[UseCase]:
         UseCase(
             "CASE 01",
             "Automation Audit",
-            "Find the first useful AI automation before building.",
-            "A company knows work is manual and messy, but the first useful automation is unclear.",
-            "Summarizes process notes, clusters repeated work, drafts candidate workflows, and prepares an impact / effort view.",
-            "The owner confirms which process matters, which actions are sensitive, and what a safe first pilot can include.",
-            "Process map, candidate list, review boundary, risk list, pilot brief, and next-step recommendation.",
-            ["Intake", "Process map", "Score", "Review boundary", "Pilot brief"],
-            ["process map", "ranked candidates", "review boundary", "pilot recommendation"],
-            ["First purchase", "Pilot-ready"],
-            "No promise that every step should be automated. No promised savings.",
+            "Find the first useful automation before spending money on a build.",
+            "The company knows some work is slow and manual, but it is not clear which process should be automated first.",
+            "It sorts the current work into simple groups, finds repeated tasks, and prepares a shortlist of good automation candidates.",
+            "The owner decides which process matters, which actions are sensitive, and what is safe to test first.",
+            "A clear process map, candidate list, risk list, approval line, and first pilot recommendation.",
+            ["Map the work", "Find repeats", "Score value", "Mark approvals", "Choose pilot"],
+            ["one process map", "ranked automation ideas", "approval boundary", "pilot brief"],
+            ["Safe first step", "Pilot-ready"],
+            "We do not claim every task should be automated and we do not promise savings before the process is reviewed.",
             "Send one repeated process that wastes time or creates avoidable mistakes.",
             GOLD,
             3,
@@ -411,15 +441,15 @@ def en_cases() -> list[UseCase]:
         UseCase(
             "CASE 02",
             "n8n Workflow Review + Build",
-            "Turn fragile automations into reviewable systems people can operate.",
-            "A workflow may run, but the team cannot explain failure paths, ownership, credentials, retries, live actions, or handoff.",
-            "Inspects workflow intent, drafts documentation, identifies weak boundaries, and prepares validation checklists.",
-            "The owner approves credential handling, live activation, external sends, production changes, retry behavior, and failure handling.",
-            "Risk scan, workflow map, failure-path notes, validation checklist, approval boundary, and handoff note.",
-            ["Trigger", "Input contract", "AI assist", "Validation", "Approval", "Handoff"],
-            ["workflow review notes", "failure map", "validation plan", "handoff documentation"],
+            "Make existing automations easier to trust, fix, and operate.",
+            "A workflow may run today, but when it fails, the team does not know who owns it, what changed, or how to repair it safely.",
+            "It explains the workflow in plain language, finds weak points, prepares checks, and suggests a cleaner version.",
+            "The owner approves live activation, credentials, external sends, production changes, and failure handling.",
+            "A review note, workflow map, failure plan, validation checklist, and handoff document.",
+            ["Review flow", "Find weak points", "Define checks", "Repair/build", "Handoff"],
+            ["workflow review", "failure map", "validation plan", "handoff notes"],
             ["Setup-gated", "Pilot-ready"],
-            "No live activation, credential change, external send, or production action without explicit approval.",
+            "No live activation, credential change, external send, or production action happens without approval.",
             "Share a sanitized workflow description and the failure you are most worried about.",
             BLUE,
             4,
@@ -427,31 +457,31 @@ def en_cases() -> list[UseCase]:
         UseCase(
             "CASE 03",
             "FinEcon Pocket / Bridge",
-            "Move documents from intake to reviewed POHODA handoff with proof.",
-            "Invoices, receipts, and documents arrive through different channels. Context gets lost and the accounting-system handoff becomes hard to inspect.",
-            "Extracts candidate fields, classifies document type, flags missing information, and prepares review notes and downstream handoff data.",
-            "People review uncertain fields, accounting-sensitive interpretation, exceptions, Bridge readiness, and official-record handoff.",
+            "Turn messy document intake into reviewed handoff with proof.",
+            "Invoices, receipts, and documents arrive in email, folders, or mobile upload. Context gets lost before accounting review.",
+            "It prepares document fields, flags missing information, shows status, and prepares the Bridge handoff path.",
+            "A person or accountant reviews uncertain fields, exceptions, sensitive accounting interpretation, and official handoff.",
             "Document status, review decision, Bridge readiness note, proof pack, exception list, and accountant checklist.",
-            ["Pocket intake", "Status", "Review action", "Bridge start", "POHODA preflight", "Proof pack"],
-            ["document intake path", "review queue direction", "POHODA handoff model", "proof pack", "accountant checklist"],
+            ["Pocket intake", "Status", "Review", "Bridge", "POHODA handoff", "Proof pack"],
+            ["intake path", "review queue direction", "POHODA handoff model", "proof pack", "accountant checklist"],
             ["Internal E2E passed", "Accountant validation pending"],
-            "Not accounting authority. Not tax or legal advice. Accountant validation remains required.",
-            "Choose one document flow and define what a person or accountant must approve.",
+            "FinEcon is not an accounting authority and does not provide tax or legal advice. Accountant review remains required.",
+            "Choose one document flow and define what must be reviewed by a person or accountant.",
             TEAL,
             5,
         ),
         UseCase(
             "CASE 04",
             "Approval-Safe Sales Machine",
-            "Prepare sales work without blind outreach.",
-            "Leads and follow-ups depend on memory. Messages become inconsistent, claims can become risky, and no one knows what needs review.",
-            "Researches public context, classifies fit, drafts outreach and follow-up, and classifies replies.",
-            "People approve claims, external messages, sensitive personalization, do-not-contact decisions, and any send action.",
-            "Lead state, qualification note, draft message, approval status, reply classification, follow-up plan, and daily report.",
-            ["Lead source", "Qualification", "Draft", "Approval", "Reply", "Report"],
-            ["lead state model", "approved-message workflow", "reply handling", "do-not-contact boundary"],
+            "Prepare follow-up and outreach without sending blindly.",
+            "Leads are forgotten, follow-ups are late, and messages become inconsistent or risky because there is no review step.",
+            "It researches public context, classifies fit, drafts outreach, prepares follow-up, and summarizes replies.",
+            "People approve claims, personalization, do-not-contact decisions, external messages, and every send action.",
+            "Lead state, qualification note, approved draft, reply status, follow-up plan, and daily report.",
+            ["Lead source", "Fit check", "Draft", "Approval", "Reply", "Report"],
+            ["lead state model", "approved-message process", "reply handling", "do-not-contact boundary"],
             ["No blind send", "Pilot-ready"],
-            "No sending without approval. No unsupported claim generation.",
+            "No message is sent without approval and no unsupported claim is generated as final truth.",
             "Start with one lead source and one approved offer message.",
             GREEN,
             6,
@@ -459,32 +489,32 @@ def en_cases() -> list[UseCase]:
         UseCase(
             "CASE 05",
             "Aureus OS / AOP",
-            "Control AI-assisted work with scope, validation, approval, evidence, and handoff.",
-            "AI work is scattered across chats, docs, tasks, automations, and Git without a clear mission, owner, or evidence trail.",
-            "Plans, researches, drafts, inspects, summarizes, validates, and prepares handoff artifacts.",
-            "People approve scope, sensitive actions, public claims, production changes, external messages, financial handoffs, and deliverables.",
-            "Mission brief, source references, validation notes, approval decisions, change summary, risk list, and handoff.",
-            ["Mission", "Scope", "AI work", "Validation", "Action gate", "Handoff"],
+            "Make AI work organized, reviewed, and easier to hand off.",
+            "AI work is spread across chats, documents, tasks, automations, and Git. Nobody has one clear mission trail.",
+            "It prepares plans, research, drafts, checks, summaries, validation notes, and handoff material.",
+            "People approve scope, public claims, sensitive actions, production changes, external messages, and deliverables.",
+            "Mission brief, source notes, validation notes, decisions, risk list, change summary, and handoff.",
+            ["Mission", "Scope", "AI work", "Validation", "Approval gate", "Handoff"],
             ["operating model", "review gates", "evidence format", "handoff discipline"],
             ["Setup-gated", "Pilot-ready"],
-            "AOP is the internal control engine, not the first abstract product sold.",
-            "Name one area where AI should help but should not act as final authority.",
+            "AOP is the internal control engine. It is introduced when a team needs cross-tool control, not as an abstract first purchase.",
+            "Name one area where AI should help but should not make the final decision.",
             PURPLE,
             7,
         ),
         UseCase(
             "CASE 06",
             "Public Proof Website + Automation",
-            "Turn a public offer into a proof-safe website and intake flow.",
-            "The offer exists in the founder's head, but the website does not explain it clearly and does not start the next operational step.",
-            "Drafts offer copy, page structure, intake questions, buyer context summaries, and follow-up materials.",
-            "The owner approves claims, pricing, visuals, public pages, publishing, lead routing, and external messages.",
-            "Claim register, page map, offer menu, intake record, handoff note, and follow-up path.",
-            ["Offer", "Public page", "Intake", "Review", "Follow-up draft", "Handoff"],
+            "Explain the offer clearly and connect it to the next action.",
+            "The service exists, but the website does not explain the value clearly and does not start a useful intake process.",
+            "It prepares offer copy, page structure, intake questions, buyer summaries, and follow-up material.",
+            "The owner approves claims, visuals, pricing, publishing, lead routing, and external messages.",
+            "Claim checklist, page map, offer menu, intake record, handoff note, and follow-up path.",
+            ["Offer", "Page", "Intake", "Review", "Follow-up", "Handoff"],
             ["offer structure", "website copy direction", "intake path", "claim checklist"],
             ["Public-safe", "Pilot-ready"],
-            "No fake proof. No unsupported claims. No publishing without owner approval.",
-            "Send the offer, target buyer, and one client question the page must answer.",
+            "No fake proof, no unsupported public claims, and no publishing without approval.",
+            "Send the offer, target buyer, and one question the page must answer.",
             RED,
             8,
         ),
@@ -496,96 +526,96 @@ def sk_cases() -> list[UseCase]:
         UseCase(
             "CASE 01",
             "Automation Audit",
-            "Nájsť prvú užitočnú AI automatizáciu ešte pred stavbou.",
-            "Firma vie, že práca je manuálna a chaotická, ale nevie, čo automatizovať ako prvé.",
-            "Zhrnie poznámky z procesu, zoskupí opakovanú prácu, pripraví kandidátov a impact / effort pohľad.",
-            "Majiteľ potvrdí, ktorý proces je dôležitý, ktoré akcie sú citlivé a čo môže patriť do bezpečného pilotu.",
-            "Mapa procesu, kandidáti, schvaľovacia hranica, risk list, pilot brief a odporúčanie ďalšieho kroku.",
-            ["Intake", "Mapa procesu", "Skóre", "Schvaľovacia hranica", "Pilot brief"],
-            ["mapa procesu", "zoradení kandidáti", "schvaľovacia hranica", "odporúčanie pilotu"],
-            ["Prvý nákup", "Pilot-ready"],
-            "Netvrdíme, že každý krok sa má automatizovať. Nesľubujeme úspory.",
-            "Pošlite jeden opakovaný proces, ktorý míňa čas alebo vytvára chyby.",
+            "Nájsť prvú užitočnú automatizáciu skôr, než sa minú peniaze na stavbu.",
+            "Firma vie, že niektorá práca je pomalá a manuálna, ale nie je jasné, ktorý proces automatizovať ako prvý.",
+            "Systém roztriedi dnešnú prácu, nájde opakujúce sa úlohy a pripraví krátky zoznam dobrých kandidátov.",
+            "Majiteľ rozhodne, ktorý proces je dôležitý, ktoré kroky sú citlivé a čo je bezpečné otestovať ako prvé.",
+            "Jasná mapa procesu, zoznam kandidátov, riziká, schvaľovacia hranica a odporúčanie prvého pilotu.",
+            ["Zmapovať prácu", "Nájsť opakovania", "Ohodnotiť hodnotu", "Určiť schválenia", "Vybrať pilot"],
+            ["mapa jedného procesu", "zoradené nápady", "schvaľovacia hranica", "pilot brief"],
+            ["Bezpečný prvý krok", "Pilot-ready"],
+            "Netvrdíme, že sa má automatizovať všetko, a nesľubujeme úspory pred tým, než proces skontrolujeme.",
+            "Pošlite jeden opakovaný proces, ktorý berie čas alebo vytvára zbytočné chyby.",
             GOLD,
             3,
         ),
         UseCase(
             "CASE 02",
             "n8n Workflow Review + Build",
-            "Zmeniť krehké automatizácie na reviewovateľné systémy.",
-            "Workflow možno beží, ale tím nevie vysvetliť zlyhania, vlastníctvo, credentialy, retry, live akcie alebo handoff.",
-            "Prečíta zámer workflowu, pripraví dokumentáciu, nájde slabé hranice a validačné checklisty.",
-            "Majiteľ schvaľuje credential handling, live aktiváciu, externé odoslanie, produkčné zmeny, retry a failure handling.",
-            "Risk scan, mapa workflowu, failure-path poznámky, validačný checklist, approval boundary a handoff note.",
-            ["Trigger", "Input contract", "AI assist", "Validácia", "Approval", "Handoff"],
-            ["review poznámky", "mapa zlyhaní", "validačný plán", "handoff dokumentácia"],
+            "Spraviť existujúce automatizácie dôveryhodnejšie, opraviteľné a ľahšie na prevádzku.",
+            "Workflow dnes možno beží, ale keď zlyhá, tím nevie, kto ho vlastní, čo sa zmenilo a ako ho bezpečne opraviť.",
+            "Systém vysvetlí workflow jednoduchou rečou, nájde slabé miesta, pripraví kontroly a navrhne čistejšiu verziu.",
+            "Majiteľ schvaľuje live aktiváciu, credentials, externé odosielanie, produkčné zmeny a postup pri zlyhaní.",
+            "Review poznámka, mapa workflowu, plán zlyhaní, validačný checklist a handoff dokument.",
+            ["Review flow", "Nájsť slabé miesta", "Určiť kontroly", "Opraviť/postaviť", "Handoff"],
+            ["review workflowu", "mapa zlyhaní", "validačný plán", "handoff poznámky"],
             ["Setup-gated", "Pilot-ready"],
-            "Žiadna live aktivácia, zmena credentialov, externé odoslanie ani produkčná akcia bez schválenia.",
-            "Pošlite sanitizovaný opis workflowu a zlyhanie, ktorého sa najviac obávate.",
+            "Bez schválenia sa nerobí live aktivácia, zmena credentialov, externé odoslanie ani produkčná akcia.",
+            "Pošlite bezpečný opis workflowu a zlyhanie, ktorého sa najviac obávate.",
             BLUE,
             4,
         ),
         UseCase(
             "CASE 03",
             "FinEcon Pocket / Bridge",
-            "Presunúť doklady od vstupu po reviewované POHODA odovzdanie s dôkazom.",
-            "Faktúry, bločky a doklady prichádzajú rôznymi kanálmi. Kontext sa stráca a odovzdanie do účtovníckeho systému sa ťažko kontroluje.",
-            "Vytiahne kandidátske polia, klasifikuje typ dokladu, označí chýbajúce údaje a pripraví review aj handoff dáta.",
-            "Ľudia kontrolujú neisté polia, účtovne citlivý výklad, výnimky, Bridge readiness a odovzdanie do oficiálnych záznamov.",
-            "Stav dokladu, review rozhodnutie, Bridge readiness, proof pack, výnimky a checklist pre účtovníka.",
-            ["Pocket intake", "Stav", "Review action", "Bridge start", "POHODA preflight", "Proof pack"],
-            ["cesta vstupu dokladov", "review queue", "POHODA handoff model", "proof pack", "checklist účtovníka"],
+            "Zmeniť chaotický príjem dokladov na reviewované odovzdanie s dôkazom.",
+            "Faktúry, bločky a dokumenty chodia cez e-mail, priečinky alebo mobil. Kontext sa stratí skôr, než príde účtovná kontrola.",
+            "Systém pripraví polia dokladu, označí chýbajúce údaje, ukáže stav a pripraví cestu pre Bridge odovzdanie.",
+            "Človek alebo účtovník kontroluje neisté polia, výnimky, citlivý účtovný výklad a oficiálne odovzdanie.",
+            "Stav dokladu, review rozhodnutie, Bridge readiness poznámka, proof pack, zoznam výnimiek a checklist pre účtovníka.",
+            ["Pocket intake", "Stav", "Review", "Bridge", "POHODA handoff", "Proof pack"],
+            ["cesta príjmu dokladov", "smer review queue", "POHODA handoff model", "proof pack", "účtovnícky checklist"],
             ["Interné E2E prešlo", "Čaká účtovnícke potvrdenie"],
-            "Nie je účtovná autorita. Nie je daňové ani právne poradenstvo. Účtovnícke potvrdenie zostáva potrebné.",
-            "Vyberte jeden tok dokladov a určite, čo musí schváliť človek alebo účtovník.",
+            "FinEcon nie je účtovná autorita a neposkytuje daňové ani právne poradenstvo. Účtovnícka kontrola zostáva potrebná.",
+            "Vyberte jeden tok dokladov a určite, čo musí skontrolovať človek alebo účtovník.",
             TEAL,
             5,
         ),
         UseCase(
             "CASE 04",
             "Approval-Safe Sales Machine",
-            "Pripraviť sales prácu bez slepého outreachu.",
-            "Leady a follow-up stoja na pamäti. Správy sú nekonzistentné, claimy môžu byť rizikové a nie je jasné, čo potrebuje review.",
-            "Robí research verejného kontextu, klasifikuje fit, pripraví outreach, follow-up a reply classification.",
-            "Ľudia schvaľujú claimy, externé správy, citlivú personalizáciu, do-not-contact a samotné odoslanie.",
-            "Lead state, qualification note, draft správa, approval status, reply classification, follow-up plán a report.",
-            ["Lead source", "Qualification", "Draft", "Approval", "Reply", "Report"],
-            ["lead state model", "workflow schválených správ", "reply handling", "do-not-contact hranica"],
-            ["No blind send", "Pilot-ready"],
-            "Žiadne odoslanie bez approval. Žiadne generovanie nepodložených claimov.",
-            "Začnite jedným lead source a jednou schválenou offer message.",
+            "Pripraviť follow-up a outreach bez slepého odosielania.",
+            "Leady sa zabúdajú, follow-up mešká a správy sú nekonzistentné alebo rizikové, lebo chýba review krok.",
+            "Systém urobí research verejného kontextu, posúdi fit, pripraví outreach, follow-up a zhrnutie odpovedí.",
+            "Ľudia schvaľujú claimy, personalizáciu, do-not-contact rozhodnutia, externé správy a každé odoslanie.",
+            "Stav leadu, kvalifikačná poznámka, schválený draft, stav odpovede, follow-up plán a denný report.",
+            ["Zdroj leadov", "Fit check", "Draft", "Approval", "Odpoveď", "Report"],
+            ["lead state model", "proces schválených správ", "reply handling", "do-not-contact hranica"],
+            ["Žiadne slepé odoslanie", "Pilot-ready"],
+            "Žiadna správa sa neposiela bez schválenia a nepodložený claim sa nepovažuje za finálnu pravdu.",
+            "Začnite jedným zdrojom leadov a jednou schválenou ponukovou správou.",
             GREEN,
             6,
         ),
         UseCase(
             "CASE 05",
             "Aureus OS / AOP",
-            "Riadiť AI-asistovanú prácu cez scope, validáciu, approval, dôkaz a handoff.",
-            "AI práca je roztrúsená v chatoch, dokumentoch, taskoch, automatizáciách a Gite bez jasnej misie, vlastníka alebo dôkazu.",
-            "Plánuje, robí research, draftuje, kontroluje, sumarizuje, validuje a pripravuje handoff artefakty.",
-            "Ľudia schvaľujú scope, citlivé akcie, verejné claimy, produkčné zmeny, externé správy, finančné handoffy a deliverables.",
-            "Mission brief, zdroje, validačné poznámky, approval decisions, change summary, risk list a handoff.",
-            ["Misia", "Scope", "AI práca", "Validácia", "Action gate", "Handoff"],
+            "Urobiť AI prácu organizovanú, reviewovanú a ľahšie odovzdateľnú.",
+            "AI práca je rozhádzaná v chatoch, dokumentoch, taskoch, automatizáciách a Gite. Chýba jedna jasná stopa misie.",
+            "Systém pripraví plán, research, drafty, kontroly, zhrnutia, validačné poznámky a handoff materiál.",
+            "Ľudia schvaľujú scope, verejné claimy, citlivé akcie, produkčné zmeny, externé správy a deliverables.",
+            "Mission brief, poznámky k zdrojom, validácia, rozhodnutia, riziká, change summary a handoff.",
+            ["Misia", "Scope", "AI práca", "Validácia", "Approval gate", "Handoff"],
             ["operating model", "review gates", "formát dôkazu", "handoff disciplína"],
             ["Setup-gated", "Pilot-ready"],
-            "AOP je interný control engine, nie prvý abstraktný produkt na predaj.",
-            "Pomenujte jednu oblasť, kde má AI pomôcť, ale nemá byť finálnou autoritou.",
+            "AOP je interný control engine. Dáva zmysel vtedy, keď tím potrebuje kontrolu naprieč nástrojmi.",
+            "Pomenujte jednu oblasť, kde má AI pomáhať, ale nemá robiť finálne rozhodnutie.",
             PURPLE,
             7,
         ),
         UseCase(
             "CASE 06",
             "Public Proof Website + Automation",
-            "Prepojiť verejnú ponuku s proof-safe webom a intake flow.",
-            "Ponuka existuje v hlave foundera, ale web ju nevysvetľuje jasne a nespúšťa ďalší operatívny krok.",
-            "Pripraví offer copy, štruktúru stránok, intake otázky, buyer context a follow-up materiály.",
-            "Majiteľ schvaľuje claimy, pricing, vizuály, verejné stránky, publishing, routing leadov a externé správy.",
-            "Claim register, page map, offer menu, intake record, handoff note a follow-up path.",
-            ["Offer", "Verejná stránka", "Intake", "Review", "Follow-up draft", "Handoff"],
-            ["štruktúra ponuky", "smer web copy", "intake path", "claim checklist"],
+            "Vysvetliť ponuku jasne a napojiť ju na ďalší krok.",
+            "Služba existuje, ale web nevysvetľuje hodnotu jednoducho a nespúšťa užitočný intake proces.",
+            "Systém pripraví text ponuky, štruktúru stránky, intake otázky, zhrnutie kupujúceho a follow-up materiál.",
+            "Majiteľ schvaľuje claimy, vizuály, ceny, publikovanie, routing leadov a externé správy.",
+            "Claim checklist, mapa stránky, offer menu, intake záznam, handoff poznámka a follow-up cesta.",
+            ["Ponuka", "Stránka", "Intake", "Review", "Follow-up", "Handoff"],
+            ["štruktúra ponuky", "smer textu webu", "intake cesta", "claim checklist"],
             ["Public-safe", "Pilot-ready"],
-            "Žiadny fake proof. Žiadne nepodložené claimy. Žiadne publikovanie bez approval.",
-            "Pošlite ponuku, cieľového kupujúceho a jednu otázku, ktorú má web zodpovedať.",
+            "Žiadny fake proof, žiadne nepodložené verejné tvrdenia a žiadne publikovanie bez schválenia.",
+            "Pošlite ponuku, cieľového kupujúceho a jednu otázku, ktorú má stránka zodpovedať.",
             RED,
             8,
         ),
@@ -649,13 +679,11 @@ def draw_model(c: canvas.Canvas, data: dict):
         txt(c, f"{i + 1:02d}", x + 28, y + 94, 34, [TEAL, GOLD, BLUE, GREEN, PURPLE][i], FONT_BOLD)
         wrapped(c, title, x + 92, y + 104, w - 120, 27, INK, FONT_BOLD, 33, 2)
         wrapped(c, body, x + 28, y + 58, w - 56, 19, MUTED, FONT, 26, 2)
-    txt(c, "Discovery flow" if data["lang"] == "en" else "Discovery flow", MARGIN, 260, 30, INK, FONT_BOLD)
+    txt(c, data.get("discovery_label", "Decision flow"), MARGIN, 260, 30, INK, FONT_BOLD)
     draw_flow(c, data["flow"], MARGIN, 155, PAGE_W - MARGIN * 2, 72, False)
     round_rect(c, MARGIN, 72, PAGE_W - MARGIN * 2, 62, BG, BG, 18, 1)
-    txt(c, "Decision rule" if data["lang"] == "en" else "Pravidlo rozhodnutia", MARGIN + 26, 94, 22, GOLD, FONT_BOLD)
-    rule = "Start where value is visible, effort is bounded, and review responsibility is clear."
-    if data["lang"] == "sk":
-        rule = "Začať tam, kde je hodnota viditeľná, úsilie ohraničené a zodpovednosť za review jasná."
+    txt(c, data.get("decision_rule_label", "Decision rule"), MARGIN + 26, 94, 22, GOLD, FONT_BOLD)
+    rule = data.get("decision_rule", "Start where value is visible, effort is bounded, and review responsibility is clear.")
     wrapped(c, rule, MARGIN + 245, 97, 1420, 22, WHITE, FONT, 28, 2)
     footer(c, False)
 
@@ -715,7 +743,7 @@ def draw_use_case(c: canvas.Canvas, uc: UseCase, page: int, data: dict, crops: d
 
 def draw_scorecard(c: canvas.Canvas, data: dict):
     light_page(c)
-    top_rule(c, "Client decision support" if data["lang"] == "en" else "Pomôcka pre rozhodnutie klienta", 9, False)
+    top_rule(c, data.get("score_kicker", "Client decision support"), 9, False)
     wrapped(c, data["score_title"], MARGIN, 900, 1200, 58, INK, FONT_BOLD, 66, 2)
     wrapped(c, data["score_subtitle"], MARGIN, 818, 1400, 27, MUTED, FONT, 36, 2)
     headers = data["score_headers"]
@@ -756,17 +784,15 @@ def draw_pilot(c: canvas.Canvas, data: dict):
         wrapped(c, title, x + 30, 525, 310, 42, WHITE, FONT_BOLD, 48, 2)
         wrapped(c, body, x + 30, 445, 320, 22, SOFT, FONT, 30, 4)
     round_rect(c, MARGIN, 142, PAGE_W - MARGIN * 2, 105, WHITE, WHITE, 24, 1)
-    txt(c, "By day 30" if data["lang"] == "en" else "Do 30. dňa", MARGIN + 34, 184, 32, INK, FONT_BOLD)
-    out = "Process map, pilot spec, review boundary, evidence example, risk list, and next decision."
-    if data["lang"] == "sk":
-        out = "Mapa procesu, pilot spec, schvaľovacia hranica, príklad dôkazu, risk list a ďalšie rozhodnutie."
+    txt(c, data.get("pilot_by_day_label", "By day 30"), MARGIN + 34, 184, 32, INK, FONT_BOLD)
+    out = data.get("pilot_out", "Process map, pilot scope, approval line, evidence example, risk list, and next decision.")
     wrapped(c, out, MARGIN + 270, 190, 1400, 24, MUTED, FONT, 31, 2)
     footer(c, True)
 
 
 def draw_usage(c: canvas.Canvas, data: dict):
     light_page(c)
-    top_rule(c, "Public-safe usage" if data["lang"] == "en" else "Verejne bezpečné použitie", 11, False)
+    top_rule(c, data.get("usage_kicker", "Public-safe usage"), 11, False)
     wrapped(c, data["usage_title"], MARGIN, 900, 1180, 58, INK, FONT_BOLD, 66, 2)
     wrapped(c, data["usage_subtitle"], MARGIN, 815, 1320, 27, MUTED, FONT, 36, 2)
     for i, (title, body) in enumerate(data["usage"]):
@@ -779,23 +805,21 @@ def draw_usage(c: canvas.Canvas, data: dict):
         txt(c, title, x + 28, y + 82, 25, INK, FONT_BOLD)
         wrapped(c, body, x + 28, y + 48, 455, 19, MUTED, FONT, 25, 3)
     round_rect(c, MARGIN, 96, PAGE_W - MARGIN * 2, 126, BG, BG, 22, 1)
-    txt(c, "Safety boundary" if data["lang"] == "en" else "Bezpečnostná hranica", MARGIN + 30, 166, 24, GOLD, FONT_BOLD)
+    txt(c, data.get("safety_label", "Safety boundary"), MARGIN + 30, 166, 24, GOLD, FONT_BOLD)
     wrapped(c, data["safety"], MARGIN + 30, 134, PAGE_W - MARGIN * 2 - 60, 20, WHITE, FONT, 27, 3)
     footer(c, False)
 
 
 def draw_cta(c: canvas.Canvas, data: dict, crops: dict[int, Path]):
     dark_page(c)
-    top_rule(c, "Best first step" if data["lang"] == "en" else "Najlepší prvý krok", 12, True)
+    top_rule(c, data.get("cta_kicker", "Best first step"), 12, True)
     wrapped(c, data["cta_title"], MARGIN, 892, 900, 64, WHITE, FONT_BOLD, 72, 2)
     wrapped(c, data["cta_subtitle"], MARGIN, 790, 850, 30, SOFT, FONT, 40, 2)
     round_rect(c, MARGIN, 545, 760, 142, PANEL, GOLD, 26, 1.4)
-    txt(c, "Why first?" if data["lang"] == "en" else "Prečo prvý?", MARGIN + 34, 628, 26, GOLD, FONT_BOLD)
-    reason = "It maps the process, ranks automation candidates, defines review boundaries, and turns vague AI ideas into a scoped pilot decision."
-    if data["lang"] == "sk":
-        reason = "Zmapuje proces, zoradí kandidátov, definuje schvaľovacie hranice a zmení nejasné AI nápady na scoped pilot rozhodnutie."
+    txt(c, data.get("why_label", "Why first?"), MARGIN + 34, 628, 26, GOLD, FONT_BOLD)
+    reason = data.get("why_text", "It maps the process, ranks automation candidates, defines review boundaries, and turns vague AI ideas into a scoped pilot decision.")
     wrapped(c, reason, MARGIN + 34, 588, 690, 23, WHITE, FONT, 31, 3)
-    path_title = "Choose the next path" if data["lang"] == "en" else "Potom vyberieme ďalšiu cestu"
+    path_title = data.get("path_title", "Choose the next path")
     txt(c, path_title, MARGIN, 470, 30, WHITE, FONT_BOLD)
     paths = [
         ("FinEcon Pilot", TEAL),
@@ -814,7 +838,7 @@ def draw_cta(c: canvas.Canvas, data: dict, crops: dict[int, Path]):
     if 12 in crops:
         image_frame(c, crops[12], 940, 390, 860, 430, "Use case portfolio")
     round_rect(c, 940, 145, 860, 152, WHITE, WHITE, 26, 1)
-    txt(c, "Buyer action" if data["lang"] == "en" else "Akcia pre klienta", 974, 236, 29, INK, FONT_BOLD)
+    txt(c, data.get("buyer_action_label", "Buyer action"), 974, 236, 29, INK, FONT_BOLD)
     wrapped(c, data["cta_action"], 974, 195, 780, 23, MUTED, FONT, 31, 3)
     footer(c, True)
 
@@ -822,7 +846,7 @@ def draw_cta(c: canvas.Canvas, data: dict, crops: dict[int, Path]):
 def generate(path: Path, data: dict, cases: list[UseCase], crops: dict[int, Path]):
     path.parent.mkdir(parents=True, exist_ok=True)
     c = canvas.Canvas(str(path), pagesize=(PAGE_W, PAGE_H))
-    c.setTitle(f"Aureus Use Case Showcase Pro Tier V6 {data['lang'].upper()}")
+    c.setTitle(f"Aureus Use Case Showcase Client Language V7 {data['lang'].upper()}")
     draw_cover(c, data, cases, crops)
     c.showPage()
     draw_model(c, data)
@@ -853,12 +877,12 @@ def render_previews(pdf: Path, prefix: str):
 def main() -> int:
     EXPORT_DIR.mkdir(parents=True, exist_ok=True)
     crops = make_visual_crops()
-    en_path = EXPORT_DIR / "Aureus_Use_Case_Showcase_Pro_Tier_V6_EN.pdf"
-    sk_path = EXPORT_DIR / "Aureus_Use_Case_Showcase_Pro_Tier_V6_SK.pdf"
+    en_path = EXPORT_DIR / "Aureus_Use_Case_Showcase_Client_Language_V7_EN.pdf"
+    sk_path = EXPORT_DIR / "Aureus_Use_Case_Showcase_Client_Language_V7_SK.pdf"
     generate(en_path, en_pack(), en_cases(), crops)
     generate(sk_path, sk_pack(), sk_cases(), crops)
-    render_previews(en_path, "v6_en")
-    render_previews(sk_path, "v6_sk")
+    render_previews(en_path, "v7_en")
+    render_previews(sk_path, "v7_sk")
     desktop = desktop_dir()
     if desktop:
         shutil.copy2(en_path, desktop / en_path.name)

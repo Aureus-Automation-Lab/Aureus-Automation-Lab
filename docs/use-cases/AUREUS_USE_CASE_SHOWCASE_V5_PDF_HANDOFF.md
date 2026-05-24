@@ -2,13 +2,13 @@
 
 This repo includes public-safe local PDF generators for the English and Slovak showcase.
 
-Preferred pro-tier generator:
+Preferred client-language generator:
 
 ```powershell
 python scripts\generate-aureus-use-case-pdfs-v6-pro.py
 ```
 
-This is the recommended version for client conversations. It uses the original v4 visual direction only as cropped conceptual panels, then rebuilds all text, cards, tables, scorecards, and CTAs on a clean grid.
+This is the recommended version for client conversations. It uses the original v4 visual direction only as cropped conceptual panels, then rebuilds all text, cards, tables, scorecards, and CTAs on a clean grid with simpler buyer-facing language.
 
 Legacy generator when the original v4 visual PDF is available:
 
@@ -93,7 +93,7 @@ Do not include:
 - Language variants:
 - English: `Aureus_Use_Case_Showcase_V5_EN.pdf`
 - Slovak: `Aureus_Use_Case_Showcase_V5_SK.pdf`
-- Preferred English: `Aureus_Use_Case_Showcase_Pro_Tier_V6_EN.pdf`
-- Preferred Slovak: `Aureus_Use_Case_Showcase_Pro_Tier_V6_SK.pdf`
+- Preferred English: `Aureus_Use_Case_Showcase_Client_Language_V7_EN.pdf`
+- Preferred Slovak: `Aureus_Use_Case_Showcase_Client_Language_V7_SK.pdf`
 - Use high-quality image export.
 - Keep final file size reasonable for email and LinkedIn follow-up.

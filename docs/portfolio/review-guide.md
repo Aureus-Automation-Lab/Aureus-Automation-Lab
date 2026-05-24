@@ -62,7 +62,7 @@ Start with:
 1. [Offer menu](offer-menu.md)
 2. [Use Case Offer Sheet](../use-cases/AUREUS_CLIENT_USE_CASE_OFFER_SHEET.md)
 3. [Use Case Showcase Copy](../use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5.md)
-4. [Use Case Showcase V6 Design](../use-cases/AUREUS_USE_CASE_SHOWCASE_DESIGN_SPEC_V6.md)
+4. [Use Case Showcase PDF Design](../use-cases/AUREUS_USE_CASE_SHOWCASE_DESIGN_SPEC_V6.md)
 4. [Build menu](build-menu.md)
 5. [Public demo flow](public-demo-flow.md)
 6. [Synthetic demo case](synthetic-demo-case.md)
@@ -82,7 +82,7 @@ Start with:
 
 1. [Slovak Use Case Showcase](../use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5_SK.md)
 2. [FinEcon Pocket / Bridge one-pager](../use-cases/FINECON_POCKET_BRIDGE_USE_CASE_ONE_PAGER.md)
-3. [Use Case Showcase V6 Design](../use-cases/AUREUS_USE_CASE_SHOWCASE_DESIGN_SPEC_V6.md)
+3. [Use Case Showcase PDF Design](../use-cases/AUREUS_USE_CASE_SHOWCASE_DESIGN_SPEC_V6.md)
 4. [FinEcon proof package](../../public-proof/finecon/README.md)
 
 Look for:

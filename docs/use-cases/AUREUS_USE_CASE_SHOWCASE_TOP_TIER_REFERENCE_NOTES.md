@@ -1,6 +1,6 @@
 # Aureus Use Case Showcase Top-Tier Reference Notes
 
-These notes explain the design direction behind the Pro Tier V6 export.
+These notes explain the design direction behind the Pro Tier V6 export and the Client-Language V7 rewrite.
 
 The goal is not to copy any external company. The goal is to use the same public-safe structure that strong enterprise AI and consulting materials use:
 
@@ -39,7 +39,7 @@ business situation -> controlled solution -> review / proof -> business decision
 
 V5 preserved the original v4 PDF as a full-page background and then redrew text on top. That kept the visual mood, but it could create alignment issues and old-text ghosting.
 
-V6 uses the original visuals only as cropped conceptual panels. Everything else is rebuilt as clean editable PDF text on a strict grid. This makes the deck easier to read, easier to translate, and easier to use in client calls.
+V6 uses the original visuals only as cropped conceptual panels. Client-Language V7 keeps the same grid, but rewrites the copy around plain buyer questions: what problem is being solved, what the system prepares, what a person approves, what record remains, and what the client should do next.
 
 ## Safety Boundary
 

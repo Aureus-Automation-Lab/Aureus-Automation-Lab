@@ -1,6 +1,6 @@
-# Aureus Use Case Showcase Design Spec V6
+# Aureus Use Case Showcase Design Spec V6 / Client-Language V7
 
-V6 is the preferred pro-tier PDF format for client conversations.
+V6 introduced the pro-tier PDF grid. Client-Language V7 keeps that visual system but rewrites the deck in simpler buyer language so non-technical clients can understand the offer faster.
 
 ## Core Direction
 
@@ -80,7 +80,7 @@ python scripts\generate-aureus-use-case-pdfs-v6-pro.py
 
 This creates:
 
-- `exports/Aureus_Use_Case_Showcase_Pro_Tier_V6_EN.pdf`
-- `exports/Aureus_Use_Case_Showcase_Pro_Tier_V6_SK.pdf`
+- `exports/Aureus_Use_Case_Showcase_Client_Language_V7_EN.pdf`
+- `exports/Aureus_Use_Case_Showcase_Client_Language_V7_SK.pdf`
 
 The files are also copied to the OneDrive desktop folder when available.

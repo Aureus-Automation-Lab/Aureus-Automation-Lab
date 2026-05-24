@@ -13,7 +13,7 @@ The `docs/proof` pages explain the proof philosophy. The `public-proof` packages
 | [Sales Machine proof package](../../public-proof/sales-machine/README.md) | workflow map, safe lead state model, fictional buyer example |
 | [FinEcon proof package](../../public-proof/finecon/README.md) | Pocket/document review flow, bridge handoff boundary, review boundary, fictional buyer example |
 | [Aureus OS proof package](../../public-proof/aureus-os/README.md) | operating model, action gates, fictional buyer example |
-| [Use Case Showcase system](../use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5.md) | client-ready use-case copy, Slovak variant, offer sheet, proof map, V6 design spec, and LinkedIn carousel |
+| [Use Case Showcase system](../use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5.md) | client-ready use-case copy, Slovak variant, offer sheet, proof map, client-language PDF design spec, and LinkedIn carousel |
 
 ## What This Repository Is Meant To Prove
 
