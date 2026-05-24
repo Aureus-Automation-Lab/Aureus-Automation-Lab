@@ -1,8 +1,16 @@
 # Aureus Use Case Showcase V5 PDF Handoff
 
-This repo includes public-safe local PDF generators for the English and Slovak V5 showcase.
+This repo includes public-safe local PDF generators for the English and Slovak showcase.
 
-Preferred generator when the original v4 visual PDF is available:
+Preferred pro-tier generator:
+
+```powershell
+python scripts\generate-aureus-use-case-pdfs-v6-pro.py
+```
+
+This is the recommended version for client conversations. It uses the original v4 visual direction only as cropped conceptual panels, then rebuilds all text, cards, tables, scorecards, and CTAs on a clean grid.
+
+Legacy generator when the original v4 visual PDF is available:
 
 ```powershell
 python scripts\generate-aureus-use-case-pdfs-v4-visuals.py
@@ -25,6 +33,8 @@ Use:
 - [AUREUS_USE_CASE_SHOWCASE_COPY_V5.md](AUREUS_USE_CASE_SHOWCASE_COPY_V5.md)
 - [AUREUS_USE_CASE_SHOWCASE_COPY_V5_SK.md](AUREUS_USE_CASE_SHOWCASE_COPY_V5_SK.md)
 - [AUREUS_USE_CASE_SHOWCASE_DESIGN_SPEC_V5.md](AUREUS_USE_CASE_SHOWCASE_DESIGN_SPEC_V5.md)
+- [AUREUS_USE_CASE_SHOWCASE_DESIGN_SPEC_V6.md](AUREUS_USE_CASE_SHOWCASE_DESIGN_SPEC_V6.md)
+- [AUREUS_USE_CASE_SHOWCASE_TOP_TIER_REFERENCE_NOTES.md](AUREUS_USE_CASE_SHOWCASE_TOP_TIER_REFERENCE_NOTES.md)
 
 ## Required Pages
 
@@ -81,7 +91,9 @@ Do not include:
 - PDF title: `Aureus Use Case Showcase V5`
 - Author/brand: `Aureus Automation Lab`
 - Language variants:
-  - English: `Aureus_Use_Case_Showcase_V5_EN.pdf`
-  - Slovak: `Aureus_Use_Case_Showcase_V5_SK.pdf`
+- English: `Aureus_Use_Case_Showcase_V5_EN.pdf`
+- Slovak: `Aureus_Use_Case_Showcase_V5_SK.pdf`
+- Preferred English: `Aureus_Use_Case_Showcase_Pro_Tier_V6_EN.pdf`
+- Preferred Slovak: `Aureus_Use_Case_Showcase_Pro_Tier_V6_SK.pdf`
 - Use high-quality image export.
 - Keep final file size reasonable for email and LinkedIn follow-up.

@@ -20,8 +20,11 @@ REQUIRED_FILES = [
     "docs/use-cases/AUREUS_CLIENT_USE_CASE_OFFER_SHEET.md",
     "docs/use-cases/AUREUS_USE_CASE_GIT_PROOF_MAP.md",
     "docs/use-cases/AUREUS_USE_CASE_SHOWCASE_DESIGN_SPEC_V5.md",
+    "docs/use-cases/AUREUS_USE_CASE_SHOWCASE_DESIGN_SPEC_V6.md",
+    "docs/use-cases/AUREUS_USE_CASE_SHOWCASE_TOP_TIER_REFERENCE_NOTES.md",
     "docs/use-cases/AUREUS_USE_CASE_LINKEDIN_CAROUSEL.md",
     "docs/use-cases/AUREUS_USE_CASE_SHOWCASE_V5_PDF_HANDOFF.md",
+    "scripts/generate-aureus-use-case-pdfs-v6-pro.py",
 ]
 
 USE_CASES = [
@@ -135,6 +138,10 @@ def main() -> int:
         errors.append("Git proof map missing")
     if not (ROOT / "docs/use-cases/AUREUS_USE_CASE_SHOWCASE_DESIGN_SPEC_V5.md").exists():
         errors.append("Design spec missing")
+    if not (ROOT / "docs/use-cases/AUREUS_USE_CASE_SHOWCASE_DESIGN_SPEC_V6.md").exists():
+        errors.append("V6 design spec missing")
+    if not (ROOT / "scripts/generate-aureus-use-case-pdfs-v6-pro.py").exists():
+        errors.append("V6 pro PDF generator missing")
     if not (ROOT / "docs/use-cases/AUREUS_USE_CASE_LINKEDIN_CAROUSEL.md").exists():
         errors.append("LinkedIn carousel missing")
 

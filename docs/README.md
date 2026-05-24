@@ -10,6 +10,8 @@ The root `README.md` is the main profile. This folder keeps the supporting mater
 | [Use Case Offer Sheet](use-cases/AUREUS_CLIENT_USE_CASE_OFFER_SHEET.md) | One-page client follow-up for the six use cases |
 | [Use Case Showcase EN](use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5.md) | 12-page English showcase copy for client conversations |
 | [Use Case Showcase SK](use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5_SK.md) | 12-page Slovak showcase copy for local clients and accountants |
+| [Use Case Showcase V6 Design](use-cases/AUREUS_USE_CASE_SHOWCASE_DESIGN_SPEC_V6.md) | Preferred pro-tier PDF grid, proof chips, and export rules |
+| [Top-tier reference notes](use-cases/AUREUS_USE_CASE_SHOWCASE_TOP_TIER_REFERENCE_NOTES.md) | External pattern notes used to improve the use-case deck |
 | [FinEcon Pocket / Bridge one-pager](use-cases/FINECON_POCKET_BRIDGE_USE_CASE_ONE_PAGER.md) | Source-backed FinEcon explanation with accountant validation boundary |
 | [Public demo flow](portfolio/public-demo-flow.md) | A simple example of manual work becoming a reviewed workflow |
 | [Synthetic demo case](portfolio/synthetic-demo-case.md) | A fictional invoice review example for quick understanding |

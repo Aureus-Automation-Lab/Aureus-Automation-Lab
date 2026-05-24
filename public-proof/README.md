@@ -23,6 +23,7 @@ For client conversations, the proof packages are translated into a practical use
 - [Use Case Offer Sheet](../docs/use-cases/AUREUS_CLIENT_USE_CASE_OFFER_SHEET.md)
 - [Use Case Showcase Copy V5](../docs/use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5.md)
 - [Slovak Use Case Showcase Copy V5](../docs/use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5_SK.md)
+- [Use Case Showcase V6 Design Spec](../docs/use-cases/AUREUS_USE_CASE_SHOWCASE_DESIGN_SPEC_V6.md)
 - [Use Case Git Proof Map](../docs/use-cases/AUREUS_USE_CASE_GIT_PROOF_MAP.md)
 - [FinEcon Pocket / Bridge One-Pager](../docs/use-cases/FINECON_POCKET_BRIDGE_USE_CASE_ONE_PAGER.md)
 
