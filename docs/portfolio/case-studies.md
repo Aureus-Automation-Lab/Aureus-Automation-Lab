@@ -29,7 +29,7 @@ Buyer problem
 | 03 | n8n Workflow Automation Build | How repeated work becomes controlled workflow logic |
 | 04 | Sales Machine | How sales follow-up becomes approved, stateful, and reportable |
 | 05 | FinEcon Pocket / Bridge | How document work can move from Pocket intake to reviewed handoff |
-| 06 | Aureus OS / AOP | How AI-assisted work becomes an operating layer with evidence |
+| 06 | Aureus OS | How AI-assisted work becomes scoped, reviewed, validated, evidenced, and handed off |
 | 07 | Premium AI Website + Automation | How a public offer becomes clearer and connected to operations |
 | 08 | Git-Backed LinkedIn Content | How public content can come from source truth instead of generic posts |
 | 09 | Monthly Automation Partner | How automation becomes an ongoing operating rhythm |
@@ -270,7 +270,7 @@ The buyer gets a clearer document-to-review-to-handoff path instead of scattered
 
 Real invoices, company records, POHODA access details, internal routes, workflow exports, document identifiers, runtime logs, proof-pack file locations, credentials, and private screenshots stay private.
 
-## 06. Aureus OS / AOP
+## 06. Aureus OS
 
 ### Buyer Problem
 
@@ -278,15 +278,17 @@ AI work is scattered across chats, documents, code, automations, and people.
 
 The company may have useful output, but weak control: unclear scope, no approval boundary, no evidence trail, and no handoff model.
 
+In simple terms: AI helps, but nobody can easily see what is safe, what was checked, what needs approval, and what should happen next.
+
 ### System Shape
 
 ```text
-mission / task
--> scope and constraints
--> AI-assisted work
--> source-controlled delivery
+business task
+-> scope and rules
+-> AI prepares work
+-> reviewable delivery
 -> validation
--> action gate
+-> approval gate
 -> evidence
 -> handoff
 ```
@@ -309,7 +311,7 @@ The company gets a way to use AI without losing control of ownership, review, va
 
 ### Offer Path
 
-**AI Operating System Setup -> routines / scorecards -> monthly operating partner if useful.**
+**Aureus OS Setup -> routines / scorecards -> monthly operating partner if useful.**
 
 ### What Stays Private
 

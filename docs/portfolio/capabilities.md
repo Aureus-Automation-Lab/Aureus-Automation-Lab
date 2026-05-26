@@ -25,7 +25,7 @@ The main value is not "AI does everything." The value is that AI prepares useful
 - n8n workflow design and review
 - AI-assisted drafting, classification, extraction, and summarization
 - document and finance-adjacent workflow direction through FinEcon
-- internal operating models through Aureus OS / AOP
+- internal operating models through Aureus OS
 - GitHub/Codex-style source-controlled delivery discipline
 - proof-pack, validation, and handoff documentation
 

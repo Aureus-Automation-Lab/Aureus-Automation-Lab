@@ -2,6 +2,8 @@
 
 Action gates are review points before sensitive work moves forward.
 
+They are one of the most important parts of Aureus OS because they keep automation useful without letting it become uncontrolled.
+
 ## What Is An Action Gate?
 
 An action gate is a deliberate stop.
@@ -40,6 +42,14 @@ AI may prepare:
 - a client-facing explanation.
 
 AI should not blindly execute these when the action affects a person, client, record, payment, public claim, or production system.
+
+In simple terms:
+
+```text
+AI can prepare.
+A person approves.
+The system records the decision.
+```
 
 ## Why This Matters
 

@@ -16,7 +16,7 @@ GitHub reference:
 | Check | Required state |
 | --- | --- |
 | Identity | Róbert Kolesár / robertkolesar is clear in the first screen |
-| Positioning | Founder, Aureus Automation Lab; AI Systems Architect; Builder of controlled AI operating systems for business execution |
+| Positioning | Founder, Aureus Automation Lab; AI Automation Solution Architect; Builder of controlled AI automation systems for business execution |
 | Public boundary | Private systems, credentials, endpoints, POHODA internals, and private screenshots are not exposed |
 | Source truth | Public claims are connected to the [source truth map](../proof/source-truth-map.md) |
 | Visuals | README and key docs include public-safe SVG visuals |

@@ -62,7 +62,7 @@ Images 2.0 is useful for more than decorative scenes. For this profile, use it f
 
 | Capability | Profile use |
 | --- | --- |
-| Complex visual systems | AOP architecture maps, governance flows, proof loops |
+| Complex visual systems | Aureus OS architecture maps, governance flows, proof loops |
 | Editorial layouts | GitHub README hero and visual review sections |
 | Diagram-like imagery | Public/private boundary and validation flows |
 | Multi-turn refinement | Fix one defect at a time: remove text, simplify composition, adjust hierarchy |
@@ -76,7 +76,7 @@ Every image must have a slot and a job.
 
 | Slot | Review job | Good image outcome |
 | --- | --- | --- |
-| README hero | Explain the full public profile in one scene | Manual process becomes AOP architecture, validation, evidence, and handoff |
+| README hero | Explain the full public profile in one scene | Manual process becomes Aureus OS architecture, validation, evidence, and handoff |
 | Workflow governance | Explain why workflow automation is controlled | Source, review gates, approval, credential separation, evidence, handoff |
 | Public/private boundary | Explain why raw private work is not public | Public proof artifacts are separated from sealed private implementation |
 | Supervisor validation | Explain model supervision without fake certification | Worker output passes contract, review, repair, scorecard, and evidence |
@@ -146,7 +146,7 @@ Use this shared visual system:
 
 | Asset | Decision | Why |
 | --- | --- | --- |
-| `assets/aureus-profile-hero.gif` | Accepted | It now reads as a five-zone architecture map with manual inputs, process mapping, AOP core, validation, evidence/handoff, and private boundary |
+| `assets/aureus-profile-hero.gif` | Accepted | It now reads as a five-zone architecture map with manual inputs, process mapping, Aureus OS core, validation, evidence/handoff, and private boundary |
 | `assets/aureus-offer-menu.gif` | Accepted | It shows the six concrete commercial starting points without turning the README into a sales document |
 | `assets/aureus-sales-machine.gif` | Accepted | It shows lead handling, qualification, manual approval, reply classification, next step, report, and evidence |
 | `assets/aureus-finecon-flow.gif` | Accepted | It shows document/invoice intake, extraction, validation, exceptions, owner review, and finance handoff |

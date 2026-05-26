@@ -57,15 +57,15 @@ Automation Audit
 | What is not claimed | FinEcon does not replace accounting review, tax/legal advice, professional responsibility, or accountant validation. |
 | Best next step | Pick one document flow and define what a person must approve before downstream use. |
 
-## 5. AI Operating System Setup
+## 5. Aureus OS Setup
 
 | Field | Detail |
 | --- | --- |
-| Who it is for | A team that wants to use AI across work without losing control of scope, review, and evidence. |
-| Problem it solves | AI outputs are scattered across chats, docs, automations, and tools without clear ownership. |
-| What is delivered | Operating model for scope, constraints, review gates, validation, evidence, handoff, and next actions. |
-| What is not claimed | This is not a claim that AI can safely run the company alone. |
-| Best next step | Define the first area where AI should help but not act as final authority. |
+| Who it is for | A founder or team that wants to use AI across real work without losing control of scope, review, and evidence. |
+| Problem it solves | AI outputs are scattered across chats, docs, automations, and tools without clear ownership or proof of what was checked. |
+| What is delivered | A practical operating model for tasks, rules, review gates, validation, evidence, approvals, handoff, and next actions. |
+| What is not claimed | Aureus OS does not claim AI can safely run the company alone or replace responsible human decisions. |
+| Best next step | Define one area where AI should prepare work, while a person still owns the final decision. |
 
 ## 6. Monthly Automation Partner
 

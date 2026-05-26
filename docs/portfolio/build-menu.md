@@ -8,7 +8,7 @@ Use this page to choose the first useful engagement.
 | "We already have n8n workflows, but they feel fragile." | n8n Workflow Review | Reveals failure points, naming issues, review boundaries, and handoff gaps |
 | "We need this repeated process automated." | n8n Workflow Automation Build | Turns a repeated process into a controlled workflow |
 | "Invoices or documents slow down operations." | FinEcon Paid Pilot | Structures document intake, review, evidence, and handoff |
-| "We want AI in the company without losing control." | AI Operating System Setup | Defines scope, review gates, evidence, approval, and handoff |
+| "We want AI in the company without losing control." | Aureus OS Setup | Defines tasks, rules, review gates, validation, evidence, approval, and handoff |
 | "We want someone to keep improving automation." | Monthly Automation Partner | Keeps the system reviewed, maintained, and aligned with real work |
 
 ## Recommended Start

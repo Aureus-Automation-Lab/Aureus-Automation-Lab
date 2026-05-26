@@ -12,7 +12,7 @@ Public-safe concept visual. Not a screenshot, not customer proof, not production
 
 ## Purpose
 
-This is a public-safe overview of what I can design, build, validate, and hand off as Founder of Aureus Automation Lab, AI Systems Architect, and builder of controlled AI operating systems for business execution. It describes capability areas and delivery outputs without exposing private systems, credentials, raw workflow exports, customer-like data, endpoints, POHODA internals, or production context.
+This is a public-safe overview of what I can design, build, validate, and hand off as Founder of Aureus Automation Lab and AI Automation Solution Architect. It describes capability areas and delivery outputs without exposing private systems, credentials, raw workflow exports, customer-like data, endpoints, POHODA internals, or production context.
 
 ## Why These Capabilities Matter Commercially
 
@@ -25,7 +25,7 @@ They also create the sales path: audit the process, build the first controlled s
 | Automation Audit | Find the first valuable automation before wasting money on the wrong workflow |
 | n8n workflow automation | Make repeated work faster, clearer, and easier to review |
 | FinEcon / Invoice | Give owners better visibility into document, invoice, cost, and reporting flows |
-| Aureus OS | Turn AI-assisted work into a repeatable company operating process |
+| Aureus OS | Turn AI-assisted work into a repeatable company operating process with review, validation, evidence, and handoff |
 | Premium AI Web + Automation | Explain the offer publicly and connect the message to the system behind it |
 | Proof / evidence | Make the system easier to trust, sell, review, and improve |
 
@@ -46,7 +46,7 @@ See the [source truth map](../proof/source-truth-map.md) for how public claims m
 
 | Capability | Public-safe signal |
 | --- | --- |
-| Aureus AOP | Operating platform for GitHub/Codex delivery, n8n workflows, validation, evidence, and handoff |
+| Aureus OS | Public name for the operating method that connects GitHub/Codex delivery, n8n workflows, validation, evidence, approvals, and handoff |
 | n8n workflow automation | Workflow-as-source discipline, import boundaries, activation approval |
 | Supervisor / Azure capability | Demonstrated integration capability through internal runtime, smoke tests, and evidence-based validation |
 | FinEcon / Invoice | Document and invoice workflow direction with review and POHODA boundaries |

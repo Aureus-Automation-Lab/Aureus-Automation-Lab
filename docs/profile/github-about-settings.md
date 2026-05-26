@@ -11,13 +11,13 @@ Aureus-Automation-Lab
 ## Recommended Description
 
 ```text
-Public profile for Aureus Automation Lab — controlled AI operating systems for sales, operations, finance, documents, reporting, and internal execution.
+Public profile for Aureus Automation Lab — controlled AI automation systems for sales, operations, finance, documents, reporting, and internal execution.
 ```
 
 If the account later becomes the personal username `robertkolesar`, use:
 
 ```text
-Public founder profile for Róbert Kolesár and Aureus Automation Lab — controlled AI operating systems for sales, operations, finance, documents, reporting, and internal execution.
+Public founder profile for Róbert Kolesár and Aureus Automation Lab — controlled AI automation systems for sales, operations, finance, documents, reporting, and internal execution.
 ```
 
 ## Recommended Website

@@ -14,7 +14,7 @@ This file is the production-ready storyboard and prompt package for a future own
 
 Create a short public-safe profile loop that explains:
 
-business process -> Aureus AOP -> GitHub/Codex delivery -> n8n workflow governance -> Supervisor validation -> evidence -> handoff.
+business process -> Aureus OS -> GitHub/Codex delivery -> n8n workflow governance -> Supervisor validation -> evidence -> handoff.
 
 It should feel like a premium founder/engineering portfolio asset, not a generic AI automation ad.
 
@@ -34,7 +34,7 @@ It should feel like a premium founder/engineering portfolio asset, not a generic
 | Time | Visual action | Meaning |
 | --- | --- | --- |
 | 0-1s | Manual process cards float in as scattered inputs | business process starts messy |
-| 1-2s | Cards align into an Aureus AOP system map | architecture turns work into structure |
+| 1-2s | Cards align into an Aureus OS system map | architecture turns work into structure |
 | 2-3s | Workflow lane passes through review gate and validation lens | AI/workflow layer stays controlled |
 | 3-4s | Evidence cards assemble into a clean handoff package | proof and operation are visible |
 
@@ -43,10 +43,10 @@ It should feel like a premium founder/engineering portfolio asset, not a generic
 ```text
 VIDEO PROMPT CONTRACT
 
-Create a 4-second premium public-safe video for the GitHub profile of Róbert Kolesár / robertkolesar, Founder of Aureus Automation Lab and builder of controlled AI operating systems for business execution.
+Create a 4-second premium public-safe video for the GitHub profile of Róbert Kolesár / robertkolesar, Founder of Aureus Automation Lab and builder of controlled AI automation systems for business execution.
 
 CREATIVE STRATEGY
-The video must explain a controlled AI automation architecture without using private implementation details. The story is: scattered manual business process -> AOP system map -> workflow governance and validation -> evidence-backed handoff.
+The video must explain a controlled AI automation architecture without using private implementation details. The story is: scattered manual business process -> Aureus OS system map -> workflow governance and validation -> evidence-backed handoff.
 
 VISUAL CONTINUITY WITH HERO IMAGE
 Match the dark graphite studio, warm Aureus gold proof lights, cyan workflow routes, muted green validation accents, satin glass, and matte technical material language from the profile hero image.

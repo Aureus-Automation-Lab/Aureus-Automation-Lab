@@ -50,12 +50,12 @@ The portfolio version now covers Automation Audit, n8n Review, n8n Build, Sales 
 | Public-safe proof | State model, workflow map, fictional buyer example. |
 | What stays private | Real leads, inbox data, draft IDs, prompts, workflow IDs, messages, contact data. |
 
-## 4. AI Operating System Setup
+## 4. Aureus OS Setup
 
 | Step | Public-safe explanation |
 | --- | --- |
-| Problem | AI work is scattered across chats, docs, automations, and people, making it hard to review and trust. |
-| System shape | Mission intake, constraints, AI-assisted work, source-controlled delivery, validation, action gate, evidence, handoff. |
+| Problem | AI work is scattered across chats, docs, automations, and people, making it hard to review, trust, and continue. |
+| System shape | Business task, scope and rules, AI-prepared work, reviewable delivery, validation, approval gate, evidence, handoff. |
 | AI role | Draft, classify, summarize, check, propose next steps, and prepare review material. |
 | Review boundary | Public claims, financial handoffs, production actions, client-facing outputs, and external messages need approval. |
 | Public-safe proof | Operating-model diagram, action-gate guide, fictional buyer example. |

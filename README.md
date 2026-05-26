@@ -13,13 +13,15 @@ I build controlled AI automation systems that turn manual business work into rev
 
 Aureus helps companies turn scattered manual work into controlled workflows.
 
-That means a real business process is mapped, repeated steps are automated, uncertain steps are routed to review, and the system keeps a record of what happened.
+That means a real business process is mapped, repeated steps are automated, uncertain steps are routed to a person, and the system keeps a clear record of what happened.
 
 ```text
 AI prepares.
 People approve.
 The system keeps evidence.
 ```
+
+The method behind this is **Aureus OS**. In plain language: it is a way of organizing AI, automation, GitHub, n8n, validation, approvals, and handoff so work does not become a pile of disconnected chat outputs and fragile workflows.
 
 ## CV / Recruiter Snapshot
 
@@ -42,7 +44,7 @@ Safe CV wording is available in [docs/portfolio/cv-usage.md](docs/portfolio/cv-u
 | **n8n Workflow Review** | Existing workflows feel fragile or unclear. | Review notes, failure points, safety boundaries, and an improvement plan. |
 | **n8n Workflow Automation Build** | A repeated process needs a reliable automation. | Workflow design, validation notes, approval boundaries, and handoff direction. |
 | **FinEcon Paid Pilot** | Invoice, document, finance, or reporting work needs structure. | A source-backed document workflow direction with Pocket intake, review, bridge handoff, proof notes, and accountant-review boundaries. |
-| **AI Operating System Setup** | Your team wants AI-assisted execution without losing control. | Scope, ownership, review, evidence, approvals, and handoff model. |
+| **Aureus OS Setup** | Your team wants to use AI across real work without losing control. | A practical operating model for scope, ownership, review, validation, evidence, approvals, and handoff. |
 | **Monthly Automation Partner** | You need ongoing improvement and maintenance. | A practical monthly partnership for automation operations and delivery support. |
 
 Open the full menu: [docs/portfolio/offer-menu.md](docs/portfolio/offer-menu.md)
@@ -72,7 +74,7 @@ Each proof path has its own visual because each system explains a different busi
 | --- | --- | --- |
 | [Sales Machine](public-proof/sales-machine/README.md) | <img src="assets/aureus-sales-machine.gif" width="220" alt="Sales Machine flow"> | sales follow-up with qualification, approval, reply handling, and reporting |
 | [FinEcon](public-proof/finecon/README.md) | <img src="assets/aureus-finecon-flow.gif" width="220" alt="FinEcon review flow"> | Pocket intake, document review, bridge handoff, proof notes, and accountant validation boundary |
-| [Aureus OS](public-proof/aureus-os/README.md) | <img src="assets/aureus-os-model.gif" width="220" alt="Aureus OS operating model"> | AI-assisted work with scope, validation, action gates, evidence, and handoff |
+| [Aureus OS](public-proof/aureus-os/README.md) | <img src="assets/aureus-os-model.gif" width="220" alt="Aureus OS operating model"> | how AI-assisted work becomes scoped, reviewed, validated, evidenced, and easy to hand off |
 
 Open the showroom: [public-proof/README.md](public-proof/README.md)
 
@@ -89,7 +91,7 @@ Aureus cares about the part companies actually depend on:
 - what evidence remains,
 - and whether the team can understand the system after handoff.
 
-That is the difference between a clever demo and a working operating layer.
+That is the difference between a clever demo and a system a business can actually understand, review, and improve.
 
 ## Proof Without Exposure
 
@@ -138,4 +140,4 @@ python scripts/validate-public-portfolio.py
 
 ## One Sentence
 
-Aureus Automation Lab turns manual business work into controlled AI-assisted workflows with review, evidence, and clear next steps.
+Aureus Automation Lab turns manual business work into controlled AI-assisted systems with review, evidence, and clear next steps.

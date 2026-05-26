@@ -17,7 +17,7 @@ This scorecard evaluates the profile against the criteria in the 10/10 public po
 - A specific public-safe animated visual system now shows the offer menu, Sales Machine, FinEcon, Aureus OS, proof boundary, capabilities, collaboration, readiness, and solution architecture.
 - Offers are concrete and commercially understandable.
 - Public demo flow explains one useful buyer scenario.
-- AOP is framed as the internal operating engine, not the first thing sold to clients.
+- Aureus OS is framed as the operating method behind delivery, not as a complicated platform buyers must understand first.
 - Review paths are split for recruiters, technical reviewers, and clients.
 - Safety boundaries remain explicit.
 

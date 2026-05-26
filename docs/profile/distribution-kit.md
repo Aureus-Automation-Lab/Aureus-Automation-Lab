@@ -10,7 +10,7 @@ Use this link when a person needs to understand what Aureus Automation Lab does,
 
 ## Core Message
 
-**Aureus Automation Lab builds controlled AI operating systems for companies that want cleaner sales, operations, finance, documents, reporting, and internal execution.**
+**Aureus Automation Lab builds controlled AI automation systems for companies that want cleaner sales, operations, finance, documents, reporting, and internal execution.**
 
 Short version:
 
@@ -60,7 +60,7 @@ https://github.com/Aureus-Automation-Lab
 ### About Paragraph
 
 ```text
-I build controlled AI operating systems for companies that need cleaner sales, operations, finance, documents, reporting, and internal execution.
+I build controlled AI automation systems for companies that need cleaner sales, operations, finance, documents, reporting, and internal execution.
 
 The simple rule behind Aureus Automation Lab is this: AI helps, people approve, and the system keeps evidence.
 
@@ -86,7 +86,7 @@ AI Automation Solution Architect | Founder of Aureus Automation Lab | FinEcon, A
 ### About Copy
 
 ```text
-Aureus Automation Lab builds controlled AI operating systems for companies that want cleaner sales, operations, finance, documents, reporting, and internal execution.
+Aureus Automation Lab builds controlled AI automation systems for companies that want cleaner sales, operations, finance, documents, reporting, and internal execution.
 
 We turn scattered work across email, spreadsheets, CRMs, documents, approvals, dashboards, and automation tools into controlled workflows with clear ownership, review boundaries, validation, evidence, and safe handoff.
 
@@ -98,7 +98,7 @@ Public proof: https://github.com/Aureus-Automation-Lab
 ### Company Tagline
 
 ```text
-Controlled AI operating systems for real business execution.
+Controlled AI automation systems for real business execution.
 ```
 
 ### First Pinned Company Post
@@ -162,7 +162,7 @@ Róbert Kolesár
 Founder, Aureus Automation Lab
 AI Automation Solution Architect
 
-Controlled AI operating systems for sales, operations, finance, documents, reporting, and internal execution.
+Controlled AI automation systems for sales, operations, finance, documents, reporting, and internal execution.
 
 Public proof: https://github.com/Aureus-Automation-Lab
 Web: https://aureus.it.com/automationlab

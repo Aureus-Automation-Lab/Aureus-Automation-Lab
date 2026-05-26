@@ -12,7 +12,7 @@ Public-safe concept visual. Not a screenshot, not customer proof, not production
 | Private-by-design | private repos are not hidden because there is nothing to show; they contain sensitive process context |
 | Safety boundary | no secrets, credentials, endpoints, webhooks, workflow IDs, POHODA internals, or private screenshots |
 
-This profile is designed as a public-safe front door for Róbert Kolesár / robertkolesar, Aureus Automation Lab, and controlled AI operating systems for business execution.
+This profile is designed as a public-safe front door for Róbert Kolesár / robertkolesar, Aureus Automation Lab, and controlled AI automation systems for business execution.
 
 The goal is to show architecture, capability, validation discipline, and public-safe proof without exposing private implementation details.
 
@@ -20,7 +20,7 @@ The goal is to show architecture, capability, validation discipline, and public-
 
 | Category | Public-safe? | Notes |
 | --- | --- | --- |
-| Aureus AOP architecture | Yes | Generic system maps and review paths are safe |
+| Aureus OS architecture | Yes | Generic system maps and review paths are safe |
 | n8n workflow concepts | Yes | Generic workflow shapes only |
 | Raw n8n workflow exports | No | May expose private logic, IDs, endpoints, or credentials |
 | Azure / Supervisor capability | Yes | Demonstrated capability wording only |

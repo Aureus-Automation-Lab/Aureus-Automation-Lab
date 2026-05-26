@@ -8,7 +8,7 @@ Public-safe concept visual. Not a screenshot, not customer proof, not production
 
 This file keeps future GitHub profile visuals consistent, meaningful, and public-safe.
 
-The goal is not decorative AI art. Every image must explain one review concept: identity, AOP architecture, workflow governance, validation, public/private boundary, or handoff.
+The goal is not decorative AI art. Every image must explain one review concept: identity, Aureus OS architecture, workflow governance, validation, public/private boundary, or handoff.
 
 ## Prompt Method
 
@@ -62,12 +62,12 @@ Target:
 Use this prompt when generating a hero image for the first screen of the profile.
 
 ```text
-Create a premium public-safe GitHub profile hero image for Róbert Kolesár / robertkolesar, Founder of Aureus Automation Lab and builder of controlled AI operating systems for business execution.
+Create a premium public-safe GitHub profile hero image for Róbert Kolesár / robertkolesar, Founder of Aureus Automation Lab and builder of controlled AI automation systems for business execution.
 
 INTENDED USE
 - Wide GitHub README hero image, 16:9 landscape, readable at medium size.
 - It must communicate within five seconds: unclear manual process -> structured architecture -> AI/workflow layer -> validation -> evidence/handoff.
-- It should feel like a serious AI Systems Architect profile, not a generic AI automation banner.
+- It should feel like a serious AI Automation Solution Architect profile, not a generic AI automation banner.
 
 CORE VISUAL IDEA
 A dark architectural tabletop model showing a left-to-right operating system path:
@@ -98,7 +98,7 @@ STRICT CONSTRAINTS
 - Avoid blue-neon cyberpunk command center, random UI wall, office stock-photo, trophy/coin imagery, or chaotic node spaghetti.
 
 SUCCESS CRITERIA
-A reviewer should understand: Robert builds controlled AI-assisted operating systems from manual process chaos; private implementation stays private; the public proof is architecture, validation, evidence, and handoff.
+A reviewer should understand: Robert builds controlled AI-assisted work systems from manual process chaos; private implementation stays private; the public proof is architecture, validation, evidence, and handoff.
 ```
 
 ## Prompt 2 - Workflow Governance
