@@ -28,9 +28,17 @@ The architecture is intentionally simple for the public profile. Private impleme
 | Evidence Ledger | Preserve what happened | notes, state, validation result, handoff proof |
 | Business Output | Produce the useful next step | proposal, reviewed queue, report, follow-up, handoff |
 
-## What AOP Means Here
+## What Aureus OS Means Here
 
-AOP / Aureus OS is the internal operating engine. It is not the first product sold to clients.
+Aureus OS is the operating method behind the work. It is not the first thing a client needs to buy as a complicated platform.
+
+For buyers, the simple meaning is:
+
+```text
+AI can help prepare work.
+People still approve important actions.
+The system keeps evidence and makes handoff clear.
+```
 
 It is the delivery discipline behind the work:
 

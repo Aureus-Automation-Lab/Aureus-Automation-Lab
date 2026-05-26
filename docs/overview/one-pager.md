@@ -15,8 +15,8 @@ Public-safe concept visual. Not a screenshot, not customer proof, not production
 
 Róbert Kolesár / robertkolesar<br>
 Founder, Aureus Automation Lab<br>
-AI Systems Architect<br>
-Builder of controlled AI operating systems for business execution
+AI Automation Solution Architect<br>
+Builder of controlled AI automation systems for business execution
 
 ## What I Build
 
@@ -63,7 +63,7 @@ Aureus OS connects:
 - GitHub / Codex delivery,
 - Agent HQ and controlled agent work,
 - Autonomous Execution OS,
-- AOP Master Orchestrator,
+- mission orchestration,
 - Azure/OpenAI Supervisor capability,
 - egress review,
 - action gates,

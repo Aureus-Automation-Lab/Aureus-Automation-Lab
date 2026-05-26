@@ -1,18 +1,40 @@
-# Aureus OS / Controlled AI Operating System
+# Aureus OS
 
-**Aureus OS is the operating layer behind Aureus Automation Lab.**
+**Aureus OS is the working method behind Aureus Automation Lab.**
 
-It is a system for turning AI-assisted work into scoped, reviewed, validated, and handoff-ready execution.
+It is not a magic app and it is not a promise that AI can run a company alone. It is a practical operating model for turning AI-assisted work into scoped, reviewed, validated, and handoff-ready execution.
+
+## Plain-Language Explanation
+
+Aureus OS answers a simple business problem:
+
+```text
+How do we use AI and automation without losing control of decisions, quality, and responsibility?
+```
+
+Many teams already have AI chats, documents, automations, spreadsheets, inboxes, dashboards, and people making decisions. The problem is that the work becomes scattered.
+
+Aureus OS gives that work a repeatable path:
+
+```text
+clear task
+-> scope and rules
+-> AI prepares work
+-> person reviews sensitive parts
+-> system checks the output
+-> evidence is kept
+-> next step is clear
+```
 
 ## Why A Company Would Want Aureus OS
 
 AI tools can produce output quickly. That is not the same as running a company better.
 
-Aureus OS is for teams that want AI, workflows, Git, documentation, review, validation, and owner approval to work as one operating model.
+Aureus OS is for teams that want AI, workflows, GitHub, n8n, documentation, review, validation, and owner approval to work as one understandable operating model.
 
 | Without an operating system | With Aureus OS |
 | --- | --- |
-| AI creates drafts, but nobody owns final truth | Every task has scope, owner, review, and evidence |
+| AI creates drafts, but nobody owns the final decision | Every task has scope, owner, review, and evidence |
 | Work is spread across tools | Work moves through a defined operating path |
 | Automations are hard to trust | Outputs are validated and documented |
 | Public messaging is disconnected from delivery | Website, content, workflows, and proof share one source of truth |
@@ -48,18 +70,18 @@ flowchart TD
 
 | Layer | Purpose | Output |
 | --- | --- | --- |
-| **Mission contract** | define goal, constraints, risk, and acceptance criteria | task brief |
-| **Role lens** | decide how AI should behave for the job | architect, reviewer, builder, QA |
-| **Source-controlled delivery** | keep changes reviewable | branch, PR, commit, docs |
+| **Mission contract** | define the goal, rules, risks, and what "done" means | task brief |
+| **Role lens** | decide which expert view is needed | architect, reviewer, builder, QA |
+| **Source-controlled delivery** | keep important work reviewable | branch, PR, commit, docs |
 | **Workflow layer** | automate repeatable process states | n8n workflow / state map |
-| **Supervisor / validation** | check output before trust | tests, review checklist, evidence |
-| **Action gate** | prevent unsafe downstream action | approval boundary |
+| **Validation** | check output before trust | tests, checklist, evidence |
+| **Action gate** | stop sensitive actions until approval | approval boundary |
 | **Evidence ledger** | record what happened and why | proof notes, logs, run summary |
 | **Handoff** | make the system understandable after build | operating guide |
 
 ## What Aureus OS Controls
 
-Aureus OS is not a single app screen. It is a delivery and operating model that can support:
+Aureus OS is not one dashboard. It is a delivery and operating model that can support:
 
 - AI-assisted build work,
 - GitHub/Codex delivery,
@@ -90,6 +112,17 @@ Aureus OS is not a single app screen. It is a delivery and operating model that 
 
 6. **Handoff matters**  
    The system should remain understandable after the builder leaves.
+
+## What A Buyer Should Remember
+
+You do not buy "AI chaos". You buy a controlled way to use AI in real business work:
+
+- the task is clear,
+- AI helps inside boundaries,
+- important actions are approved,
+- outputs are checked,
+- evidence remains,
+- the system can be handed off.
 
 ## Aureus OS In One Sentence
 

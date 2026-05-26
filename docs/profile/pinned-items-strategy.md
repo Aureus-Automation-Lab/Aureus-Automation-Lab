@@ -11,7 +11,7 @@ Do not use pins as a dumping ground for old experiments. Use them as a small pub
 | 1 | `Aureus-Automation-Lab/Aureus-Automation-Lab` | profile repo | main public front door |
 | 2 | FinEcon / invoice automation public-safe surface | gist or repo based on `public-proof/finecon` | shows finance/document workflow boundaries |
 | 3 | n8n workflow review or build map | gist or repo based on sanitized workflow material | shows controlled workflow design with review and evidence |
-| 4 | AOP public architecture artifact | gist or repo based on `public-proof/aureus-os` | shows the internal operating engine behind AI-assisted delivery |
+| 4 | Aureus OS public architecture artifact | gist or repo based on `public-proof/aureus-os` | shows the internal operating engine behind AI-assisted delivery |
 | 5 | Public-safe demo/proof repo | repo, when ready | shows visual and product execution |
 | 6 | Small utility/template repo | repo, when polished | shows technical hygiene without private context |
 

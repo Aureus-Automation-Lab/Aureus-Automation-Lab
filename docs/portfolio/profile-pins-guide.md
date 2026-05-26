@@ -9,7 +9,7 @@ Pins should make the public profile understandable in under 10 seconds.
 | 1 | `Aureus-Automation-Lab/Aureus-Automation-Lab` | Public front door for Róbert Kolesár and Aureus Automation Lab |
 | 2 | FinEcon / invoice automation public-safe surface | Reviewed document and invoice workflow direction |
 | 3 | Sanitized n8n workflow demo or review map | Controlled workflow design with review and evidence boundaries |
-| 4 | AOP public architecture artifact | Internal operating engine for AI-assisted work, sanitized for public review |
+| 4 | Aureus OS public architecture artifact | Internal operating engine for AI-assisted work, sanitized for public review |
 | 5 | Public demo/proof repo | Small polished example that shows build quality without private context |
 | 6 | Template or utility repo | Simple technical hygiene signal if polished and safe |
 

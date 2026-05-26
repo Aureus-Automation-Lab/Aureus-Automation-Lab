@@ -6,19 +6,21 @@ Public-safe concept visual. Demonstrated capability direction only, not official
 
 | Page signal | What this page demonstrates |
 | --- | --- |
-| Architecture lens | business process -> AOP layers -> review boundaries -> validation -> handoff |
+| Architecture lens | business process -> Aureus OS layers -> review boundaries -> validation -> handoff |
 | Best proof | layer snapshot, decision matrix, failure modes, artifacts |
 | Safety boundary | architecture without credentials, private endpoints, POHODA internals, or live system details |
 
-## Aureus AOP Architecture Lens
+## Aureus OS Architecture Lens
 
-This profile now represents Róbert Kolesár / robertkolesar as Founder of Aureus Automation Lab, AI Systems Architect, and builder of controlled AI operating systems for business execution.
+Public name: **Aureus OS**. Use this name in public profile material because it is easier to understand and fits the profile message.
 
-Aureus AOP connects business process discovery, n8n workflow automation, GitHub / Codex delivery, Azure/OpenAI Supervisor capability, validation, egress review, evidence, Web Studio / Experience surfaces, and FinEcon / Invoice workflow direction.
+This profile now represents Róbert Kolesár / robertkolesar as Founder of Aureus Automation Lab, AI Automation Solution Architect, and builder of controlled AI automation systems for business execution.
+
+Aureus OS connects business process discovery, n8n workflow automation, GitHub / Codex delivery, Azure/OpenAI Supervisor capability, validation, egress review, evidence, Web Studio / Experience surfaces, and FinEcon / Invoice workflow direction.
 
 ```mermaid
 flowchart TD
-    A[Business process] --> B[AOP mission contract]
+    A[Business process] --> B[Aureus OS mission contract]
     B --> C[GitHub / Codex delivery]
     C --> D[n8n workflow source]
     C --> E[Web Studio surface]
@@ -29,7 +31,7 @@ flowchart TD
     G --> H[Public-safe handoff]
 ```
 
-## AOP Layer Snapshot
+## Aureus OS Layer Snapshot
 
 | Layer | Purpose | Public-safe artifact |
 | --- | --- | --- |

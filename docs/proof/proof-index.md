@@ -18,7 +18,7 @@ The `docs/proof` pages explain the proof philosophy. The `public-proof` packages
 
 | Signal | What to look for |
 | --- | --- |
-| **Clear positioning** | Aureus builds AI automation, FinEcon, and Aureus OS / AOP |
+| **Clear positioning** | Aureus builds AI automation, FinEcon, and Aureus OS |
 | **Architecture thinking** | business process -> workflow -> AI role -> review -> validation -> handoff |
 | **Safety discipline** | no blind external actions, no public secrets, no unsupported claims |
 | **Workflow maturity** | workflow-as-source, n8n governance, validation gates |
@@ -50,7 +50,7 @@ The `docs/proof` pages explain the proof philosophy. The `public-proof` packages
 | **Automation proof** | n8n workflow governance and Sales Machine direction |
 | **Financial workflow proof** | FinEcon, invoice/document review, POHODA/UBL boundary |
 | **FinEcon source-backed proof** | [FinEcon source-backed status](finecon-source-backed-status.md) without exposing private workflow exports or runtime details |
-| **Operating-system proof** | Aureus OS scope, review, validation, action gate, evidence, and handoff |
+| **Aureus OS proof** | scope, review, validation, approval gate, evidence, and handoff for AI-assisted work |
 | **Source-truth proof** | public claim register mapped to private Aureus Git artifact families |
 | **Delivery proof** | GitHub/Codex, validation, evidence, handoff notes |
 
@@ -62,4 +62,4 @@ Those claims require separate evidence and should not be implied from a public-s
 
 ## One-Line External Summary
 
-**Aureus Automation Lab builds controlled AI operating systems for automation, finance intelligence, and internal execution with review gates, validation, evidence, and public/private safety boundaries.**
+**Aureus Automation Lab builds controlled AI automation systems for operations, finance-adjacent document flows, and internal execution with review gates, validation, evidence, and public/private safety boundaries.**

@@ -1,6 +1,8 @@
 # Aureus OS Public Proof
 
-This package shows Aureus OS as an operating model for AI-assisted work.
+This package explains Aureus OS in a public-safe way.
+
+In plain language, **Aureus OS is the method Aureus uses to keep AI-assisted work controlled**. It gives tasks a scope, gives sensitive decisions a review point, checks outputs before trust, and keeps evidence so the next person can understand what happened.
 
 ![Aureus OS operating model](../../assets/aureus-os-model.gif)
 
@@ -23,14 +25,14 @@ Serious company work needs:
 ## Operating Model Summary
 
 ```text
-mission / task
--> scope and constraints
--> AI-assisted work
--> source-controlled delivery
--> validation
--> action gate
--> evidence
--> handoff
+business task
+-> scope and rules
+-> AI prepares the work
+-> person reviews sensitive parts
+-> validation checks the output
+-> approval gate stops risky actions
+-> evidence is kept
+-> handoff explains the next step
 ```
 
 Open the [operating model](operating-model.md) for the full public-safe map.
@@ -49,6 +51,8 @@ Aureus OS connects:
 - evidence,
 - handoff.
 
+The point is not to make the system sound complicated. The point is to make work easier to trust.
+
 ## What Action Gates Do
 
 Action gates stop sensitive work from moving forward without review.
@@ -65,6 +69,8 @@ Evidence means a record of:
 - what was approved,
 - what is still risky,
 - what the next step is.
+
+For a buyer, this means the system is not only faster. It is easier to explain, audit, improve, and hand off.
 
 ## What Stays Private
 

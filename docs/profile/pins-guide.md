@@ -17,7 +17,7 @@ For the final candidate list, use [PUBLIC_PIN_CANDIDATES.md](public-pin-candidat
 1. `Aureus-Automation-Lab/Aureus-Automation-Lab` - public front door for the portfolio.
 2. FinEcon / invoice automation public-safe surface - reviewed document and invoice workflow direction.
 3. Sanitized n8n workflow demo or review map - controlled workflow design with review and evidence boundaries.
-4. AOP public architecture artifact - internal operating engine, sanitized for public review.
+4. Aureus OS public architecture artifact - internal operating engine, sanitized for public review.
 5. Public demo/proof repo - small polished example that shows build quality without private context.
 6. Template or utility repo - simple technical hygiene signal if polished and safe.
 
@@ -40,7 +40,7 @@ GitHub profile pins are managed manually from the GitHub profile UI. Private rep
 | Profile repo | AI automation architecture portfolio: controlled workflows, review boundaries, evidence, and public-safe proof paths. |
 | FinEcon surface | Reviewed document and invoice workflow direction with human approval boundaries. |
 | n8n workflow demo | Workflow-as-system thinking: review, validation, failure handling, and handoff. |
-| AOP architecture | Internal operating engine for scoped AI-assisted work, action gates, evidence, and handoff. |
+| Aureus OS architecture | Internal operating engine for scoped AI-assisted work, action gates, evidence, and handoff. |
 | Demo/proof repo | Small public-safe proof of implementation quality and clarity. |
 | Template/utility | Focused technical hygiene without private context. |
 
@@ -49,14 +49,14 @@ GitHub profile pins are managed manually from the GitHub profile UI. Private rep
 1. Profile repo `Aureus-Automation-Lab/Aureus-Automation-Lab`.
 2. Public/review-safe FinEcon or invoice automation surface if available.
 3. Public demo or sanitized n8n workflow demo if available.
-4. AOP public architecture artifact only if sanitized.
+4. Aureus OS public architecture artifact only if sanitized.
 5. Template or small service repo if polished.
 6. Case-study gist if no repo is public-safe.
 
 ## Recommended Pin Order
 
 1. `Aureus-Automation-Lab/Aureus-Automation-Lab`.
-2. Sanitized Aureus AOP architecture gist or demo repo.
+2. Sanitized Aureus OS architecture gist or demo repo.
 3. Automation Audit public-safe process map gist/demo.
 4. Invoice / FinEcon public-safe workflow gist/demo.
 5. Web Studio / Figma-to-code public-safe demo if visually ready.

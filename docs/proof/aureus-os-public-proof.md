@@ -2,6 +2,10 @@
 
 This page explains Aureus OS as an operating model, not as a buzzword.
 
+Plain-language version:
+
+> Aureus OS is how Aureus keeps AI-assisted work scoped, reviewed, validated, evidenced, and ready for handoff.
+
 ## Problem
 
 AI output is not enough for serious company work.
@@ -22,12 +26,12 @@ Without that, AI creates more drafts, more files, more uncertainty, and more unf
 ## Operating Flow
 
 ```text
-mission / task
--> scope and constraints
--> AI-assisted work
--> source-controlled delivery
+business task
+-> scope and rules
+-> AI prepares work
+-> reviewable delivery
 -> validation
--> action gate
+-> approval gate
 -> evidence
 -> handoff
 ```
@@ -63,6 +67,8 @@ Aureus OS is the method behind that:
 This proves that Aureus is not just building random automations. It is building a repeatable method for AI-assisted company work.
 
 The public proof is the operating shape: scope, review, validation, evidence, and handoff.
+
+For a buyer, the value is simple: the system should make work clearer, not only faster.
 
 ## What Stays Private
 
