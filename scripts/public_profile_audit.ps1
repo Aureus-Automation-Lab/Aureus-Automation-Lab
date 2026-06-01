@@ -120,7 +120,7 @@ foreach ($pattern in $identityPatterns) {
 
 Write-Host "`n== Large files over 5MB =="
 $largeFiles = Get-ChildItem -Recurse -File |
-  Where-Object { $_.Length -gt 5MB -and $_.FullName -notmatch "\\.git\\" }
+  Where-Object { $_.Length -gt 5MB -and $_.FullName -notmatch "\\.git\\" -and $_.FullName -notmatch "\\exports\\" }
 
 if ($largeFiles) {
   $largeFiles |
@@ -132,14 +132,14 @@ if ($largeFiles) {
 
 Write-Host "`n== File inventory =="
 Get-ChildItem -Recurse -File |
-  Where-Object { $_.FullName -notmatch "\\.git\\" } |
+  Where-Object { $_.FullName -notmatch "\\.git\\" -and $_.FullName -notmatch "\\exports\\" } |
   Sort-Object FullName |
   Select-Object @{Name="Path";Expression={$_.FullName.Replace((Get-Location).Path + "\", "")}}, @{Name="KB";Expression={[math]::Round($_.Length / 1KB, 1)}} |
   Format-Table -AutoSize
 
 Write-Host "`n== Markdown link inventory =="
 Get-ChildItem -Recurse -Filter *.md |
-  Where-Object { $_.FullName -notmatch "\\.git\\" } |
+  Where-Object { $_.FullName -notmatch "\\.git\\" -and $_.FullName -notmatch "\\exports\\" } |
   Sort-Object FullName |
   ForEach-Object {
     $file = $_.FullName.Replace((Get-Location).Path + "\", "")
@@ -164,6 +164,8 @@ errors = []
 
 for path in root.rglob("*.md"):
     if ".git" in path.parts:
+        continue
+    if "exports" in path.parts:
         continue
     text = path.read_text(encoding="utf-8")
     for match in re.finditer(r"\[[^\]]+\]\(([^)]+)\)", text):

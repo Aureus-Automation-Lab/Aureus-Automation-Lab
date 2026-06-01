@@ -16,6 +16,18 @@ It is not customer proof, production proof, or a claim of promised results.
 | **FinEcon** | a reviewed invoice/document intelligence flow with finance boundaries | [FinEcon](finecon/README.md) |
 | **Aureus OS** | an operating model for controlled AI-assisted company work | [Aureus OS](aureus-os/README.md) |
 
+## Use Case Showcase Layer
+
+For client conversations, the proof packages are translated into a practical use-case system:
+
+- [Use Case Offer Sheet](../docs/use-cases/AUREUS_CLIENT_USE_CASE_OFFER_SHEET.md)
+- [Use Case Showcase Copy V5](../docs/use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5.md)
+- [Slovak Use Case Showcase Copy V5](../docs/use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5_SK.md)
+- [Use Case Showcase PDF Design Spec](../docs/use-cases/AUREUS_USE_CASE_SHOWCASE_DESIGN_SPEC_V6.md)
+- [Use Case Instagram Carousel](../docs/use-cases/AUREUS_USE_CASE_INSTAGRAM_CAROUSEL_V7.md)
+- [Use Case Git Proof Map](../docs/use-cases/AUREUS_USE_CASE_GIT_PROOF_MAP.md)
+- [FinEcon Pocket / Bridge One-Pager](../docs/use-cases/FINECON_POCKET_BRIDGE_USE_CASE_ONE_PAGER.md)
+
 ## What This Proves
 
 These proof packages show that Aureus can describe systems clearly:

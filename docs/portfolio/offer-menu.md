@@ -2,6 +2,8 @@
 
 This menu explains what a client can buy first. It is intentionally practical: each offer starts with a business process, not with a tool.
 
+For a client-ready one-page version, use the [Aureus Client Use Case Offer Sheet](../use-cases/AUREUS_CLIENT_USE_CASE_OFFER_SHEET.md). For the full sales/showcase copy, use [AUREUS_USE_CASE_SHOWCASE_COPY_V5.md](../use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5.md). For the preferred client-language PDF layout, use the [PDF design spec](../use-cases/AUREUS_USE_CASE_SHOWCASE_DESIGN_SPEC_V6.md).
+
 ## Recommended First Purchase
 
 **Recommended first purchase: Automation Audit.**

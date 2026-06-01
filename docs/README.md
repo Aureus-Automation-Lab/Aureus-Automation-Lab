@@ -7,6 +7,13 @@ The root `README.md` is the main profile. This folder keeps the supporting mater
 | Page | What it answers |
 | --- | --- |
 | [Offer menu](portfolio/offer-menu.md) | The six clear commercial offers a client can buy first |
+| [Use Case Offer Sheet](use-cases/AUREUS_CLIENT_USE_CASE_OFFER_SHEET.md) | One-page client follow-up for the six use cases |
+| [Use Case Showcase EN](use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5.md) | 12-page English showcase copy for client conversations |
+| [Use Case Showcase SK](use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5_SK.md) | 12-page Slovak showcase copy for local clients and accountants |
+| [Use Case Showcase PDF Design](use-cases/AUREUS_USE_CASE_SHOWCASE_DESIGN_SPEC_V6.md) | Pro-tier grid, client-language V7 copy rules, proof chips, and export rules |
+| [Use Case Instagram Carousel](use-cases/AUREUS_USE_CASE_INSTAGRAM_CAROUSEL_V7.md) | 1080x1350 Instagram carousel export instructions and caption |
+| [Top-tier reference notes](use-cases/AUREUS_USE_CASE_SHOWCASE_TOP_TIER_REFERENCE_NOTES.md) | External pattern notes used to improve the use-case deck |
+| [FinEcon Pocket / Bridge one-pager](use-cases/FINECON_POCKET_BRIDGE_USE_CASE_ONE_PAGER.md) | Source-backed FinEcon explanation with accountant validation boundary |
 | [Public demo flow](portfolio/public-demo-flow.md) | A simple example of manual work becoming a reviewed workflow |
 | [Synthetic demo case](portfolio/synthetic-demo-case.md) | A fictional invoice review example for quick understanding |
 | [Start here](overview/start-here.md) | The simplest explanation of Aureus for a first-time visitor |
@@ -50,6 +57,7 @@ The root `README.md` is the main profile. This folder keeps the supporting mater
 | [Sales Machine public proof](proof/sales-machine-public-proof.md) | Safe sales automation direction without private lead or inbox data |
 | [FinEcon public proof](proof/finecon-public-proof.md) | Finance and document workflow boundary |
 | [FinEcon source-backed status](proof/finecon-source-backed-status.md) | Public-safe summary of the source-backed Pocket, bridge, proof, and accounting-review status |
+| [Use Case Git Proof Map](use-cases/AUREUS_USE_CASE_GIT_PROOF_MAP.md) | How each use case maps to public-safe Git evidence |
 | [Aureus OS public proof](proof/aureus-os-public-proof.md) | Controlled AI-assisted delivery model |
 | [Pro-tier case studies](portfolio/case-studies.md) | Public-safe case studies across the main Aureus offers and project lines |
 | [Source truth map](proof/source-truth-map.md) | Which public claims are backed by the Aureus Git source-of-truth |
