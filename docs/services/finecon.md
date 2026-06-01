@@ -6,6 +6,8 @@ It is designed for businesses that need clearer visibility into invoices, docume
 
 Public-safe source status: FinEcon is backed by a private Aureus source-of-truth workflow family. The public version describes the system shape without exposing workflow exports, exact internal routes, POHODA access details, runtime logs, or real documents.
 
+Current public posture: **controlled paid-pilot direction with accountant review required**.
+
 ## Why Choose FinEcon
 
 Financial and document work is sensitive. It cannot be treated like a simple AI demo.

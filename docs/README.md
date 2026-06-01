@@ -50,6 +50,7 @@ The root `README.md` is the main profile. This folder keeps the supporting mater
 | Page | What it answers |
 | --- | --- |
 | [Proof index](proof/proof-index.md) | What the public portfolio is meant to prove |
+| [Aureus OS final public status](proof/aureus-os-final-public-status.md) | Current public-safe status after Aureus OS consolidation |
 | [Public proof showroom](../public-proof/README.md) | Concrete public-safe proof objects that can later become pinned artifacts |
 | [Sales Machine proof package](../public-proof/sales-machine/README.md) | Public workflow map, state model, and fictional buyer example |
 | [FinEcon proof package](../public-proof/finecon/README.md) | Pocket/document review flow, bridge handoff boundary, and fictional buyer example |
@@ -59,6 +60,7 @@ The root `README.md` is the main profile. This folder keeps the supporting mater
 | [FinEcon source-backed status](proof/finecon-source-backed-status.md) | Public-safe summary of the source-backed Pocket, bridge, proof, and accounting-review status |
 | [Use Case Git Proof Map](use-cases/AUREUS_USE_CASE_GIT_PROOF_MAP.md) | How each use case maps to public-safe Git evidence |
 | [Aureus OS public proof](proof/aureus-os-public-proof.md) | Controlled AI-assisted delivery model |
+| [Aureus OS final public status](proof/aureus-os-final-public-status.md) | Current owner-testing, production-gate, and FinEcon boundary status |
 | [Pro-tier case studies](portfolio/case-studies.md) | Public-safe case studies across the main Aureus offers and project lines |
 | [Source truth map](proof/source-truth-map.md) | Which public claims are backed by the Aureus Git source-of-truth |
 | [Public boundary](proof/public-boundary.md) | What is intentionally not exposed |

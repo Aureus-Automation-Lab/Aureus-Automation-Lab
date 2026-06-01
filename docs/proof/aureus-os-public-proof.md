@@ -6,6 +6,8 @@ Plain-language version:
 
 > Aureus OS is how Aureus keeps AI-assisted work scoped, reviewed, validated, evidenced, and ready for handoff.
 
+Current status note: [Aureus OS final public status](aureus-os-final-public-status.md) explains the June 2026 public-safe posture after the Aureus OS consolidation work.
+
 ## Problem
 
 AI output is not enough for serious company work.
@@ -44,6 +46,7 @@ business task
 | GitHub / Codex | keep work reviewable and source-controlled |
 | n8n | automate repeatable workflow states |
 | AI assistant | draft, classify, reason, summarize, and propose |
+| Product/software proof work | package app, web, API, workflow, integration, and documentation proofs |
 | Validation | check output before trust |
 | Action gate | stop unsafe downstream actions |
 | Evidence | show what happened and what remains uncertain |

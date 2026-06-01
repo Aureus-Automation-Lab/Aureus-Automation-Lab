@@ -13,6 +13,7 @@ The `docs/proof` pages explain the proof philosophy. The `public-proof` packages
 | [Sales Machine proof package](../../public-proof/sales-machine/README.md) | workflow map, safe lead state model, fictional buyer example |
 | [FinEcon proof package](../../public-proof/finecon/README.md) | Pocket/document review flow, bridge handoff boundary, review boundary, fictional buyer example |
 | [Aureus OS proof package](../../public-proof/aureus-os/README.md) | operating model, action gates, fictional buyer example |
+| [Aureus OS final public status](aureus-os-final-public-status.md) | current public-safe status after Aureus OS consolidation |
 | [Use Case Showcase system](../use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5.md) | client-ready use-case copy, Slovak variant, offer sheet, proof map, client-language PDF design spec, LinkedIn carousel, and Instagram carousel |
 
 ## What This Repository Is Meant To Prove
@@ -54,6 +55,7 @@ The `docs/proof` pages explain the proof philosophy. The `public-proof` packages
 | **Financial workflow proof** | FinEcon, invoice/document review, POHODA/UBL boundary |
 | **FinEcon source-backed proof** | [FinEcon source-backed status](finecon-source-backed-status.md) without exposing private workflow exports or runtime details |
 | **Aureus OS proof** | scope, review, validation, approval gate, evidence, and handoff for AI-assisted work |
+| **Aureus OS final status** | current owner-testing posture, production approval boundary, and FinEcon pilot boundary |
 | **Source-truth proof** | public claim register mapped to private Aureus Git artifact families |
 | **Delivery proof** | GitHub/Codex, validation, evidence, handoff notes |
 

@@ -24,6 +24,8 @@ The current public story should not be "FinEcon replaces accounting software." T
 FinEcon makes finance/document work easier to collect, review, explain, hand off, and verify.
 ```
 
+Current public posture: `CONTROLLED_PILOT_READY_WITH_ACCOUNTANT_REVIEW_REQUIRED`.
+
 ## What The Source Supports
 
 | Area | Public-safe status |
