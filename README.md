@@ -23,6 +23,22 @@ The system keeps evidence.
 
 The method behind this is **Aureus OS**. In plain language: it is a way of organizing AI, automation, GitHub, n8n, validation, approvals, and handoff so work does not become a pile of disconnected chat outputs and fragile workflows.
 
+## Current Public Status - June 2026
+
+The private Aureus source-of-truth has been consolidated into **Aureus OS**: a single operating layer for mission intake, product/software proof work, n8n workflow governance, validation, evidence, preview boundaries, and approval-gated production promotion.
+
+This public profile is the safe external version of that story. It shows what can be reviewed without exposing private workflows, credentials, endpoints, runtime logs, POHODA internals, client data, or production settings.
+
+| Area | Public-safe status | What this means |
+| --- | --- | --- |
+| **Aureus OS** | Ready for owner testing and technical review | One operating method connects goals, acceptance criteria, build work, validation, evidence, and handoff. |
+| **Product & Software Factory** | Ready for safe proof missions | Public-safe app, web, backend/API, workflow, integration, and documentation proof packages can be scoped and validated. |
+| **n8n automation** | Workflow-as-source discipline | n8n work is treated as reviewable automation with credentials, activation, and external actions behind approval boundaries. |
+| **FinEcon** | Controlled paid-pilot direction | Source-backed Pocket/document/bridge/proof direction exists; accounting correctness and POHODA production use still require accountant and owner approval. |
+| **Production autonomy** | Approval-gated | Production deploys, live n8n activation, POHODA live import, outreach, and external messages are not public-profile claims and are not automatic. |
+
+For the current public-safe status note, open [Aureus OS final public status](docs/proof/aureus-os-final-public-status.md).
+
 ## CV / Recruiter Snapshot
 
 | Signal | Detail |
@@ -129,6 +145,7 @@ The root is intentionally clean. Supporting material lives in [docs/portfolio](d
 | [Use Case Showcase SK](docs/use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5_SK.md) | 12-page Slovak showcase copy |
 | [Use Case Showcase PDF Design](docs/use-cases/AUREUS_USE_CASE_SHOWCASE_DESIGN_SPEC_V6.md) | pro-tier layout, client-language V7 export rules, and safety constraints |
 | [Use Case Instagram Carousel](docs/use-cases/AUREUS_USE_CASE_INSTAGRAM_CAROUSEL_V7.md) | 1080x1350 mobile carousel export for Instagram |
+| [Aureus OS final public status](docs/proof/aureus-os-final-public-status.md) | current public-safe status after Aureus OS consolidation |
 | [FinEcon Pocket / Bridge one-pager](docs/use-cases/FINECON_POCKET_BRIDGE_USE_CASE_ONE_PAGER.md) | source-backed FinEcon client explanation |
 | [FinEcon source-backed status](docs/proof/finecon-source-backed-status.md) | public-safe summary of FinEcon Pocket, bridge, proof, and accounting boundaries |
 | [Solution architecture](docs/portfolio/solution-architecture.md) | technical architecture snapshot |

@@ -8,6 +8,8 @@ In plain language, **Aureus OS is the method Aureus uses to keep AI-assisted wor
 
 It is designed for companies that want AI to help without turning work into scattered drafts, unclear decisions, and hidden risk.
 
+Current status note: the public profile now treats Aureus OS as ready for owner testing and technical review, with production actions still approval-gated. See [Aureus OS final public status](../../docs/proof/aureus-os-final-public-status.md).
+
 ## Problem Statement
 
 AI output alone is not enough.
@@ -46,6 +48,7 @@ Aureus OS connects:
 - AI assistance,
 - Git / source-controlled work,
 - workflow automation,
+- product/software proof packages,
 - validation,
 - owner approval,
 - evidence,
