@@ -1,19 +1,88 @@
-<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Kimi Aoki profile banner</title>
-  <desc id="desc">Automation, AI-assisted operations, internal tools, and product prototypes.</desc>
-  <rect width="1200" height="360" fill="#111827"/>
-  <path d="M0 258C150 204 294 224 432 258C574 293 720 340 862 286C1001 233 1114 100 1200 76V360H0V258Z" fill="#0F766E" opacity="0.75"/>
-  <path d="M0 286C188 238 347 261 522 298C687 333 843 342 1007 245C1086 198 1150 145 1200 123V360H0V286Z" fill="#F59E0B" opacity="0.82"/>
-  <rect x="64" y="58" width="1072" height="244" rx="28" fill="#111827" fill-opacity="0.72" stroke="#F9FAFB" stroke-opacity="0.14"/>
-  <text x="104" y="128" fill="#F9FAFB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="52" font-weight="800" letter-spacing="0">Kimi Aoki</text>
-  <text x="104" y="178" fill="#D1D5DB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="500" letter-spacing="0">Automation systems, AI-assisted operations, internal tools</text>
-  <text x="104" y="228" fill="#F9FAFB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="0">From manual process to controlled workflow.</text>
-  <g transform="translate(914 84)">
-    <rect x="0" y="0" width="168" height="168" rx="24" fill="#F9FAFB" fill-opacity="0.08" stroke="#F9FAFB" stroke-opacity="0.18"/>
-    <path d="M45 62H123" stroke="#F9FAFB" stroke-width="10" stroke-linecap="round"/>
-    <path d="M45 84H102" stroke="#F59E0B" stroke-width="10" stroke-linecap="round"/>
-    <path d="M45 106H84" stroke="#14B8A6" stroke-width="10" stroke-linecap="round"/>
-    <circle cx="124" cy="106" r="13" fill="#F59E0B"/>
-    <circle cx="124" cy="62" r="13" fill="#14B8A6"/>
+<svg width="1400" height="560" viewBox="0 0 1400 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Kimi Aoki operational profile banner</title>
+  <desc id="desc">A dark animated operational profile banner for automation systems, AI-assisted operations, and internal tools.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080B10"/>
+      <stop offset="0.55" stop-color="#101720"/>
+      <stop offset="1" stop-color="#06241F"/>
+    </linearGradient>
+    <linearGradient id="rail" x1="134" y1="420" x2="1270" y2="102" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#63E6BE" stop-opacity="0.08"/>
+      <stop offset="0.45" stop-color="#63E6BE" stop-opacity="0.85"/>
+      <stop offset="0.72" stop-color="#7CC7FF" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#F6C453" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#1A2230" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#0A0D12" stop-opacity="0.98"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="14" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.39 0 0 0 0 0.9 0 0 0 0 0.75 0 0 0 0.45 0"/>
+      <feBlend in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="560" rx="34" fill="url(#bg)"/>
+  <g opacity="0.2">
+    <path d="M0 120H1400M0 220H1400M0 320H1400M0 420H1400" stroke="#F7F8FA" stroke-opacity="0.16"/>
+    <path d="M150 0V560M300 0V560M450 0V560M600 0V560M750 0V560M900 0V560M1050 0V560M1200 0V560" stroke="#F7F8FA" stroke-opacity="0.1"/>
   </g>
+  <path d="M92 448C240 372 374 395 520 318C688 230 828 116 1038 144C1164 160 1255 102 1330 62" stroke="url(#rail)" stroke-width="4" stroke-linecap="round" stroke-dasharray="12 18">
+    <animate attributeName="stroke-dashoffset" values="0;-120" dur="12s" repeatCount="indefinite"/>
+  </path>
+  <path d="M90 492C258 418 404 430 578 350C746 273 888 290 1026 338C1168 388 1262 302 1334 226" stroke="#7CC7FF" stroke-opacity="0.18" stroke-width="2" stroke-linecap="round"/>
+  <g transform="translate(74 74)">
+    <rect width="706" height="354" rx="28" fill="url(#panel)" stroke="#F7F8FA" stroke-opacity="0.14"/>
+    <text x="40" y="80" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="60" font-weight="800">Kimi Aoki</text>
+    <text x="42" y="126" fill="#AAB5C4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Automation systems - AI-assisted operations - Internal tools</text>
+    <text x="42" y="188" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="31" font-weight="800">From manual process</text>
+    <text x="42" y="228" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="31" font-weight="800">to controlled workflow.</text>
+    <g transform="translate(42 274)">
+      <rect width="158" height="46" rx="23" fill="#63E6BE" fill-opacity="0.14" stroke="#63E6BE" stroke-opacity="0.7"/>
+      <text x="79" y="29" text-anchor="middle" fill="#B8F7D4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">public-safe</text>
+      <rect x="180" width="198" height="46" rx="23" fill="#7CC7FF" fill-opacity="0.13" stroke="#7CC7FF" stroke-opacity="0.58"/>
+      <text x="279" y="29" text-anchor="middle" fill="#D9EEFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">reviewable builds</text>
+      <rect x="400" width="174" height="46" rx="23" fill="#F6C453" fill-opacity="0.13" stroke="#F6C453" stroke-opacity="0.58"/>
+      <text x="487" y="29" text-anchor="middle" fill="#FFF0BF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">owner control</text>
+    </g>
+  </g>
+  <g transform="translate(830 82)">
+    <rect width="488" height="362" rx="28" fill="#111820" fill-opacity="0.82" stroke="#F7F8FA" stroke-opacity="0.16"/>
+    <text x="34" y="54" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800">operating map</text>
+    <text x="34" y="84" fill="#9AA4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">messy input / reviewed system / useful handoff</text>
+    <g transform="translate(28 126)">
+      <rect width="96" height="60" rx="15" fill="#0B0E13" stroke="#FF6B6B" stroke-opacity="0.46"/>
+      <text x="48" y="36" text-anchor="middle" fill="#FFD7D7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">manual</text>
+      <path d="M114 30H150" stroke="#7CC7FF" stroke-width="4" stroke-linecap="round"/>
+      <path d="M140 19L153 30L140 41" stroke="#7CC7FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="168" width="112" height="60" rx="15" fill="#0B0E13" stroke="#63E6BE" stroke-opacity="0.58"/>
+      <text x="224" y="36" text-anchor="middle" fill="#B8F7D4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">workflow</text>
+      <path d="M300 30H334" stroke="#7CC7FF" stroke-width="4" stroke-linecap="round"/>
+      <path d="M324 19L337 30L324 41" stroke="#7CC7FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="352" width="98" height="60" rx="15" fill="#0B0E13" stroke="#F6C453" stroke-opacity="0.6"/>
+      <text x="401" y="36" text-anchor="middle" fill="#FFF0BF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">handoff</text>
+    </g>
+    <g transform="translate(42 230)">
+      <rect width="404" height="30" rx="15" fill="#0B0E13" stroke="#F7F8FA" stroke-opacity="0.12"/>
+      <rect width="286" height="30" rx="15" fill="#63E6BE" fill-opacity="0.38">
+        <animate attributeName="width" values="260;306;286" dur="6s" repeatCount="indefinite"/>
+      </rect>
+      <text x="20" y="20" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">scope clarity</text>
+      <rect y="50" width="404" height="30" rx="15" fill="#0B0E13" stroke="#F7F8FA" stroke-opacity="0.12"/>
+      <rect y="50" width="328" height="30" rx="15" fill="#7CC7FF" fill-opacity="0.34">
+        <animate attributeName="width" values="300;342;328" dur="7s" repeatCount="indefinite"/>
+      </rect>
+      <text x="20" y="70" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">review path</text>
+      <rect y="100" width="404" height="30" rx="15" fill="#0B0E13" stroke="#F7F8FA" stroke-opacity="0.12"/>
+      <rect y="100" width="248" height="30" rx="15" fill="#F6C453" fill-opacity="0.35">
+        <animate attributeName="width" values="224;274;248" dur="8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="20" y="120" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">first useful slice</text>
+    </g>
+  </g>
+  <circle cx="1156" cy="126" r="33" fill="#63E6BE" fill-opacity="0.12" stroke="#63E6BE" stroke-opacity="0.56" filter="url(#glow)">
+    <animate attributeName="r" values="28;36;28" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.55;1;0.55" dur="5s" repeatCount="indefinite"/>
+  </circle>
 </svg>

@@ -8,6 +8,10 @@ Most real work in this space touches private processes, documents, tools, and bu
 
 > From manual process to controlled workflow. From vague idea to useful product slice.
 
+## Public Profile
+
+This profile is designed for collaboration screening. It shows the kind of work I can help with, how I approach delivery, and where privacy boundaries sit. Real project code, source exports, client material, and production details stay private.
+
 ## Snapshot
 
 | Focus | What that means in practice |
@@ -17,6 +21,8 @@ Most real work in this space touches private processes, documents, tools, and bu
 | Internal tools | Dashboards, admin panels, control surfaces, lightweight apps |
 | Product prototyping | SaaS-style interfaces, demos, landing pages, proof-of-concepts |
 | Delivery quality | Scope, QA, documentation, privacy boundaries, handoff |
+
+![Capability system map](assets/capability-system.svg)
 
 ## Why Teams Bring Me In
 
@@ -38,6 +44,7 @@ Most real work in this space touches private processes, documents, tools, and bu
 | Delivery systems | Scope, QA, documentation, release handoff, operational guardrails |
 
 Read the full capability map: [CAPABILITIES.md](CAPABILITIES.md)
+See practical collaboration formats: [BUILD_MENU.md](BUILD_MENU.md)
 
 ## The Work Style
 
@@ -46,6 +53,8 @@ Read the full capability map: [CAPABILITIES.md](CAPABILITIES.md)
 - Keep important decisions human-reviewed.
 - Treat documentation, QA, and handoff as part of the product.
 - Avoid black-box automation where the owner cannot understand what happened.
+
+![Collaboration flow](assets/collaboration-flow.svg)
 
 ## Quality Bar
 
@@ -56,6 +65,8 @@ The goal is not just to make something run once. A good system should be:
 - clear about what is automated and what still needs review,
 - testable with realistic examples,
 - safe enough to improve without guessing.
+
+![Quality loop](assets/quality-loop.svg)
 
 ## Useful Project Types
 
@@ -103,5 +114,6 @@ The easiest way to start a conversation is to share:
 ## Repo Contents
 
 - [CAPABILITIES.md](CAPABILITIES.md) - public-safe service and project map.
+- [BUILD_MENU.md](BUILD_MENU.md) - practical collaboration formats.
 - [COLLABORATION.md](COLLABORATION.md) - how a collaboration usually starts and moves.
-- [assets/profile-banner.svg](assets/profile-banner.svg) - static profile banner.
+- [assets/](assets/) - static visuals for the profile.
