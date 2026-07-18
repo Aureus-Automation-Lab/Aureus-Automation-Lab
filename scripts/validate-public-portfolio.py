@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from pathlib import Path
 
 
@@ -12,6 +13,16 @@ def marker(*parts: str) -> str:
 
 REQUIRED_FILES = [
     "README.md",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "SECURITY.md",
+    "SUPPORT.md",
+    ".github/CODEOWNERS",
+    ".github/dependabot.yml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/public-profile-feedback.yml",
+    ".github/pull_request_template.md",
+    ".github/workflows/public-profile-validation.yml",
     "docs/portfolio/public-demo-flow.md",
     "docs/portfolio/synthetic-demo-case.md",
     "docs/portfolio/cv-usage.md",
@@ -45,6 +56,22 @@ README_REQUIRED = [
 ]
 
 FILE_REQUIRED = {
+    "CODE_OF_CONDUCT.md": ["Our Standard", "Reporting And Enforcement"],
+    "CONTRIBUTING.md": ["PR-first workflow", "validate-public-portfolio.py", "Review Boundary"],
+    "SECURITY.md": ["Reporting A Vulnerability", "Do not open a public issue", "Sensitive Material"],
+    "SUPPORT.md": ["public-profile feedback", "not a production support channel"],
+    ".github/CODEOWNERS": ["@Aureus-Automation-Lab"],
+    ".github/dependabot.yml": ["package-ecosystem: github-actions"],
+    ".github/ISSUE_TEMPLATE/config.yml": ["blank_issues_enabled: false"],
+    ".github/ISSUE_TEMPLATE/public-profile-feedback.yml": ["Public profile feedback", "Safety confirmation"],
+    ".github/pull_request_template.md": ["Claim, Security, And Privacy Review", "Release And Rollback"],
+    ".github/workflows/public-profile-validation.yml": [
+        "permissions:",
+        "contents: read",
+        "Validate public profile",
+        "validate-public-portfolio.py",
+        "validate-aureus-use-case-showcase.py",
+    ],
     "docs/portfolio/capabilities.md": ["Best-Fit Roles"],
     "docs/portfolio/case-studies.md": [
         "Pro-Tier Public Case Studies",
@@ -136,6 +163,19 @@ def main() -> int:
         for required in required_values:
             if required not in content:
                 errors.append(f"{rel} missing required text: {required}")
+
+    for path in ROOT.rglob("*.md"):
+        if ".git" in path.parts or "exports" in path.parts:
+            continue
+        content = read_text(path)
+        for match in re.finditer(r"\[[^\]]+\]\(([^)]+)\)", content):
+            target = match.group(1).strip()
+            if target.startswith(("http://", "https://", "mailto:", "#")):
+                continue
+            clean = target.split("#", 1)[0].split("?", 1)[0]
+            if clean and not (path.parent / clean).resolve().exists():
+                rel = path.relative_to(ROOT).as_posix()
+                errors.append(f"Broken Markdown link in {rel}: {target}")
 
     for path in iter_text_files():
         rel = path.relative_to(ROOT).as_posix()

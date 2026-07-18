@@ -1,0 +1,43 @@
+name: Public profile feedback
+description: Report a public-safe documentation, link, accessibility, or portfolio issue.
+title: "[Profile]: "
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Documentation or broken link
+        - Accessibility or readability
+        - Public claim or proof clarity
+        - Visual or layout issue
+        - Other public-safe improvement
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: Page or file
+      description: Link to the public page or name the repository path.
+      placeholder: README.md or a public GitHub URL
+    validations:
+      required: true
+  - type: textarea
+    id: observation
+    attributes:
+      label: What did you observe?
+      description: Describe the issue and the expected public-safe result.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Public evidence
+      description: Add public screenshots or links only. Do not include private data.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety confirmation
+      options:
+        - label: I have not included credentials, private customer data, production logs, or access details.
+          required: true

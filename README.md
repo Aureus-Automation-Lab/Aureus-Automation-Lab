@@ -161,6 +161,13 @@ This profile does not claim customer results, production deployments, accounting
 
 It is a public portfolio for controlled AI automation design, review boundaries, proof-safe delivery, and business process clarity.
 
+## Repository Governance
+
+Public contributions use a PR-first path with [contribution rules](CONTRIBUTING.md),
+[security reporting](SECURITY.md), [support boundaries](SUPPORT.md), and the
+[code of conduct](CODE_OF_CONDUCT.md). Repository automation validates the
+public portfolio on pull requests and on changes to `main`.
+
 ## Validate This Profile
 
 ```powershell
