@@ -28,7 +28,7 @@ AI pripraví. Ľudia schvália. Dôkaz zostáva.
 | n8n Workflow Review + Build | upratať existujúce alebo nové workflowy tak, aby sa dali bezpečne prevádzkovať |
 | FinEcon Pocket / Bridge | kontrolovaný tok dokladov s Pocket vstupom, review a POHODA odovzdaním |
 | Approval-Safe Sales Machine | AI-asistovaný predaj bez slepého odosielania správ |
-| Aureus OS / AOP | riadenie AI práce cez scope, validáciu, schvaľovanie, dôkaz a handoff |
+| Aureus OS | riadenie AI práce cez scope, validáciu, schvaľovanie, dôkaz a handoff |
 | Public Proof Website + Automation | prepojenie verejnej ponuky, intake a follow-up procesu |
 
 ## Strana 2 - Ako vyberáme správny AI use case
@@ -259,7 +259,7 @@ lead source -> discovery -> qualification -> draft outreach -> manuálne schvál
 
 Začnite jedným lead source a jednou schválenou offer message.
 
-## Strana 7 - Aureus OS / AOP
+## Strana 7 - Aureus OS
 
 **Prísľub v jednej vete:** Riadiť AI-asistovanú prácu cez scope, validáciu, schválenia, dôkaz a handoff.
 
@@ -297,7 +297,7 @@ misia -> scope a obmedzenia -> AI-asistovaná práca -> validácia -> action gat
 
 **Hranice**
 
-Aureus OS je interná operating vrstva a AOP je interný control engine. Väčšinou sa nepredáva ako prvý abstraktný produkt. Klient typicky začína auditom, workflow buildom alebo pilotom a AI Operating System Setup dáva zmysel až pri potrebe riadiť viac tímov alebo procesov.
+Aureus OS je operačná aj riadiaca vrstva. Väčšinou sa nepredáva ako prvý abstraktný produkt. Klient typicky začína auditom, workflow buildom alebo pilotom a Aureus OS Setup dáva zmysel až pri potrebe riadiť viac tímov alebo procesov.
 
 **Najlepší prvý krok**
 
@@ -357,7 +357,7 @@ Tento scorecard slúži na výber prvého pilotu.
 | n8n Workflow Review + Build | Vysoká | Stredné | Stredná | Vysoká | Vysoká | existujúci workflow |
 | FinEcon Pocket / Bridge | Vysoká | Stredné | Vysoká | Stredná | Vysoká | tok dokladov |
 | Approval-Safe Sales Machine | Stredná | Stredné | Vysoká | Vysoká | Stredná | lead follow-up |
-| Aureus OS / AOP | Vysoká | Vysoké | Vysoká | Vysoká | Stredná | team control model |
+| Aureus OS | Vysoká | Vysoké | Vysoká | Vysoká | Stredná | team control model |
 | Public Proof Website + Automation | Stredná | Stredné | Stredná | Vysoká | Vysoká | offer clarity |
 
 **Odporúčanie**

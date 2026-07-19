@@ -6,7 +6,7 @@ Plain-language version:
 
 > Aureus OS is how Aureus keeps AI-assisted work scoped, reviewed, validated, evidenced, and ready for handoff.
 
-Current status note: [Aureus OS final public status](aureus-os-final-public-status.md) explains the June 2026 public-safe posture after the Aureus OS consolidation work.
+Current status note: [Aureus OS final public status](aureus-os-final-public-status.md) explains the July 2026 public-safe posture after the Aureus OS consolidation work.
 
 ## Problem
 

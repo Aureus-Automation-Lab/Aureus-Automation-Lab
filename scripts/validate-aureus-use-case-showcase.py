@@ -34,7 +34,7 @@ USE_CASES = [
     "n8n Workflow Review + Build",
     "FinEcon Pocket / Bridge",
     "Approval-Safe Sales Machine",
-    "Aureus OS / AOP",
+    "Aureus OS",
     "Public Proof Website + Automation",
 ]
 

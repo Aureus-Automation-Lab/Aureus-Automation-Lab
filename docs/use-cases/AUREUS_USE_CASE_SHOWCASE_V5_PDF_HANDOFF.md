@@ -44,7 +44,7 @@ Use:
 4. n8n Workflow Review + Build
 5. FinEcon Pocket / Bridge
 6. Approval-Safe Sales Machine
-7. Aureus OS / AOP
+7. Aureus OS
 8. Public Proof Website + Automation
 9. Client Use-Case Scorecard
 10. 30-Day Client Pilot Path

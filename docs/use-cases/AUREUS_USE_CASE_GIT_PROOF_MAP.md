@@ -53,7 +53,7 @@ Public-safe status values:
 | `public-proof/sales-machine/safe-state-model.md` | Shows no blind-send state model. | Does not prove live outreach. | Public |
 | `public-proof/sales-machine/buyer-example.md` | Gives a fictional buyer example. | Does not claim real customer proof. | Public |
 
-## Aureus OS / AOP
+## Aureus OS
 
 | Source | What it proves | What it does not prove | Public-safe status |
 | --- | --- | --- | --- |

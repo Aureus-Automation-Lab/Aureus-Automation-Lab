@@ -48,13 +48,13 @@ People approve claims, messages, and sends.
 
 No blind outreach. No unsupported claims. Do-not-contact stays respected.
 
-## Slide 7 - Aureus OS / AOP
+## Slide 7 - Aureus OS
 
 AI work needs an operating layer.
 
 Mission, scope, validation, action gate, evidence, handoff.
 
-AOP is the internal control engine behind controlled AI execution.
+Aureus OS provides the control engine behind controlled AI execution.
 
 ## Slide 8 - Public Proof Website + Automation
 

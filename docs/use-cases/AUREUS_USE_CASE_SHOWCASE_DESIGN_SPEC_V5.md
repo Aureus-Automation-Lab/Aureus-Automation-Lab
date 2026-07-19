@@ -56,7 +56,7 @@ Use these labels:
 | 4. n8n Review + Build | Show trigger, validation, approval, evidence, handoff. Avoid raw n8n screenshots. |
 | 5. FinEcon Pocket / Bridge | Make Pocket, review, Bridge, POHODA handoff, proof pack, and accountant boundary visible as separate steps. |
 | 6. Sales Machine | Show no-blind-send approval gate and do-not-contact boundary. |
-| 7. Aureus OS / AOP | Show mission, validation, action gate, evidence, handoff. AOP is internal engine/control plane. |
+| 7. Aureus OS | Show mission, validation, action gate, evidence, and handoff as one Aureus OS control plane. |
 | 8. Public Proof Website + Automation | Show public page, intake, review, follow-up, handoff. |
 | 9. Scorecard | Keep table spacious. Add recommendation strip at bottom. |
 | 10. 30-Day Pilot | Use four week cards with client outputs. |

@@ -28,7 +28,7 @@ AI prepares. People approve. Evidence remains.
 | n8n Workflow Review + Build | making existing or new workflows safer and easier to operate |
 | FinEcon Pocket / Bridge | reviewed document and finance workflow with Pocket intake and POHODA handoff direction |
 | Approval-Safe Sales Machine | AI-assisted sales follow-up without blind outreach |
-| Aureus OS / AOP | controlling AI-assisted company work with scope, validation, approvals, and evidence |
+| Aureus OS | controlling AI-assisted company work with scope, validation, approvals, and evidence |
 | Public Proof Website + Automation | turning a public offer into an intake and handoff flow |
 
 ## Page 2 - How We Choose The Right AI Use Case
@@ -275,7 +275,7 @@ Start with one lead source and one approved offer message.
 
 Mapped to the public Sales Machine proof package, safe state model, workflow map, and buyer example.
 
-## Page 7 - Aureus OS / AOP
+## Page 7 - Aureus OS
 
 **One-line promise:** Control AI-assisted work with scope, validation, approvals, evidence, and handoff.
 
@@ -313,7 +313,7 @@ mission -> scope and constraints -> AI-assisted work -> validation -> action gat
 
 **Boundaries**
 
-Aureus OS is the internal operating layer and AOP is the internal control engine. It is not sold first as an abstract operating system. A client usually starts with an audit, workflow build, or pilot, then adds AI Operating System Setup when cross-team control is needed.
+Aureus OS is the operating and control layer. It is not sold first as an abstract operating system. A client usually starts with an audit, workflow build, or pilot, then adds Aureus OS Setup when cross-team control is needed.
 
 **Best first step**
 
@@ -381,7 +381,7 @@ Use this scorecard to choose the first pilot.
 | n8n Workflow Review + Build | High | Medium | Medium | High | High | existing workflow |
 | FinEcon Pocket / Bridge | High | Medium | High | Medium | High | document flow |
 | Approval-Safe Sales Machine | Medium | Medium | High | High | Medium | lead follow-up |
-| Aureus OS / AOP | High | High | High | High | Medium | team control model |
+| Aureus OS | High | High | High | High | Medium | team control model |
 | Public Proof Website + Automation | Medium | Medium | Medium | High | High | offer clarity |
 
 **Recommendation**

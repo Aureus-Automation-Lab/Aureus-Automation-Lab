@@ -31,7 +31,7 @@ The main V5 improvements are:
 | 4. n8n Workflow Review + Build | 8 | 9 | 9 | 9 | 8 | 8 | 8 | Explain fragility, ownership, failure paths, credentials, live actions, validation, and handoff. |
 | 5. FinEcon Pocket / Bridge | 7 | 8 | 9 | 8 | 8 | 7 | 7 | Add Pocket workflows, Bridge workflows, Proof Pack Publisher, internal E2E status, and accountant boundary. |
 | 6. Approval-Safe Sales Machine | 8 | 9 | 9 | 8 | 8 | 7 | 8 | Make "no blind outreach" explicit and show claim/message approval. |
-| 7. Aureus OS / AOP | 7 | 9 | 9 | 7 | 8 | 7 | 8 | Explain AOP as the internal control engine, not the first abstract product sold. |
+| 7. Aureus OS | 7 | 9 | 9 | 7 | 8 | 7 | 8 | Explain Aureus OS as the control layer, not the first abstract product sold. |
 | 8. Public Proof Website + Automation | 8 | 9 | 9 | 8 | 8 | 8 | 8 | Make the website-to-operation link clearer: offer, intake, proof-safe claims, owner approval, handoff. |
 | 9. Client Use-Case Scorecard | 8 | 9 | 9 | 9 | 8 | 8 | 8 | Add first-pilot fit and clear recommendations by buyer situation. |
 | 10. 30-Day Client Pilot Path | 9 | 9 | 9 | 9 | 8 | 8 | 8 | Make each week outcome-based and list what the client has by day 30. |

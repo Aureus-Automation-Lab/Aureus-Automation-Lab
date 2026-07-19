@@ -23,7 +23,7 @@ The system keeps evidence.
 
 The method behind this is **Aureus OS**. In plain language: it is a way of organizing AI, automation, GitHub, n8n, validation, approvals, and handoff so work does not become a pile of disconnected chat outputs and fragile workflows.
 
-## Current Public Status - June 2026
+## Current Public Status - July 2026
 
 The private Aureus source-of-truth has been consolidated into **Aureus OS**: a single operating layer for mission intake, product/software proof work, n8n workflow governance, validation, evidence, preview boundaries, and approval-gated production promotion.
 
@@ -96,7 +96,7 @@ Open the showroom: [public-proof/README.md](public-proof/README.md)
 
 ## Use Case Showcase
 
-The client-ready use-case system translates the portfolio into six sales and pilot conversations: Automation Audit, n8n Review + Build, FinEcon Pocket / Bridge, Sales Machine, Aureus OS / AOP, and Public Proof Website + Automation.
+The client-ready use-case system translates the portfolio into six sales and pilot conversations: Automation Audit, n8n Review + Build, FinEcon Pocket / Bridge, Sales Machine, Aureus OS, and Public Proof Website + Automation.
 
 Start with the [Use Case Offer Sheet](docs/use-cases/AUREUS_CLIENT_USE_CASE_OFFER_SHEET.md), then open the [English showcase copy](docs/use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5.md), [Slovak showcase copy](docs/use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5_SK.md), [client-language PDF design spec](docs/use-cases/AUREUS_USE_CASE_SHOWCASE_DESIGN_SPEC_V6.md), [Instagram carousel export](docs/use-cases/AUREUS_USE_CASE_INSTAGRAM_CAROUSEL_V7.md), or [Git proof map](docs/use-cases/AUREUS_USE_CASE_GIT_PROOF_MAP.md).
 

@@ -16,7 +16,7 @@ AI prepares. People approve. Evidence remains.
 | n8n Workflow Review + Build | A workflow runs, but it is fragile or hard to explain. | Workflow review, failure map, validation checklist, repair/build direction, handoff notes. | Share a sanitized workflow description. |
 | FinEcon Pocket / Bridge | Documents enter through messy channels and handoff is hard to inspect. | Intake path, review queue direction, POHODA handoff model, proof pack, exception list, accountant checklist. | Choose one document flow. |
 | Approval-Safe Sales Machine | Leads and follow-ups depend on memory and inconsistent messaging. | Lead state model, approved-message workflow, reply handling direction, reporting. | Start with one lead source and one approved offer. |
-| Aureus OS / AOP | AI work is scattered across chats, docs, tools, and workflows. | Operating model, approval gates, validation, evidence format, handoff model. | Pick one area where AI should help but not decide alone. |
+| Aureus OS | AI work is scattered across chats, docs, tools, and workflows. | Operating model, approval gates, validation, evidence format, handoff model. | Pick one area where AI should help but not decide alone. |
 | Public Proof Website + Automation | The public offer is unclear and disconnected from operations. | Offer structure, website copy direction, intake path, follow-up workflow, public-claim checklist. | Send offer, buyer, and key client question. |
 
 ## What We Do Not Claim
