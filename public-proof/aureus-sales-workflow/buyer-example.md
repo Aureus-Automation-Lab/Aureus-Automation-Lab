@@ -1,4 +1,4 @@
-# Sales Machine Buyer Example
+# Aureus Sales Workflow Buyer Example
 
 This is a fictional example. It does not describe a real company, real people, real leads, or real results.
 

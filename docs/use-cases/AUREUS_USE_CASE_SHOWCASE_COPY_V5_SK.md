@@ -26,8 +26,8 @@ AI pripraví. Ľudia schvália. Dôkaz zostáva.
 | --- | --- |
 | Automation Audit | nájsť prvú užitočnú automatizáciu skôr, než sa začne stavať |
 | n8n Workflow Review + Build | upratať existujúce alebo nové workflowy tak, aby sa dali bezpečne prevádzkovať |
-| FinEcon Pocket / Bridge | kontrolovaný tok dokladov s Pocket vstupom, review a POHODA odovzdaním |
-| Approval-Safe Sales Machine | AI-asistovaný predaj bez slepého odosielania správ |
+| Aureus FinEcon — Pocket / Bridge modules | kontrolovaný tok dokladov s Pocket vstupom, review a POHODA odovzdaním |
+| Aureus Sales Workflow | AI-asistovaný predaj bez slepého odosielania správ |
 | Aureus OS | riadenie AI práce cez scope, validáciu, schvaľovanie, dôkaz a handoff |
 | Public Proof Website + Automation | prepojenie verejnej ponuky, intake a follow-up procesu |
 
@@ -139,7 +139,7 @@ Bez explicitného schválenia sa nerobí live aktivácia, zmena credentialov, ex
 
 Pošlite sanitizovaný opis workflowu a zlyhanie, ktorého sa najviac obávate.
 
-## Strana 5 - FinEcon Pocket / Bridge
+## Strana 5 - Aureus FinEcon — Pocket / Bridge modules
 
 **Prísľub v jednej vete:** Presunúť doklady od vstupu po kontrolované odovzdanie s dôkazom, pričom účtovnícke potvrdenie zostáva zachované.
 
@@ -215,7 +215,7 @@ FinEcon nie je účtovná autorita. Nenahrádza účtovníka, neposkytuje daňov
 
 Vyberte jeden tok dokladov a určite, čo musí človek alebo účtovník schváliť pred downstream použitím.
 
-## Strana 6 - Approval-Safe Sales Machine
+## Strana 6 - Aureus Sales Workflow
 
 **Prísľub v jednej vete:** Použiť AI na prípravu predajnej práce bez slepého odosielania outreach správ.
 
@@ -355,8 +355,8 @@ Tento scorecard slúži na výber prvého pilotu.
 | --- | --- | --- | --- | --- | --- | --- |
 | Automation Audit | Vysoká | Nízke | Nízka | Vysoká | Vysoká | prvý nákup |
 | n8n Workflow Review + Build | Vysoká | Stredné | Stredná | Vysoká | Vysoká | existujúci workflow |
-| FinEcon Pocket / Bridge | Vysoká | Stredné | Vysoká | Stredná | Vysoká | tok dokladov |
-| Approval-Safe Sales Machine | Stredná | Stredné | Vysoká | Vysoká | Stredná | lead follow-up |
+| Aureus FinEcon — Pocket / Bridge modules | Vysoká | Stredné | Vysoká | Stredná | Vysoká | tok dokladov |
+| Aureus Sales Workflow | Stredná | Stredné | Vysoká | Vysoká | Stredná | lead follow-up |
 | Aureus OS | Vysoká | Vysoké | Vysoká | Vysoká | Stredná | team control model |
 | Public Proof Website + Automation | Stredná | Stredné | Stredná | Vysoká | Vysoká | offer clarity |
 
@@ -420,7 +420,7 @@ Potom vyberieme ďalšiu cestu:
 | --- | --- |
 | faktúrami, dokladmi, financiami alebo POHODA realitou | FinEcon Pilot |
 | existujúcou automatizáciou alebo workflow riskom | n8n Workflow Review + Build |
-| lead follow-up alebo sales operations | Approval-Safe Sales Machine |
+| lead follow-up alebo sales operations | Aureus Sales Workflow |
 | AI prácou roztrúsenou naprieč tímom | Aureus OS Setup |
 | nejasnou verejnou ponukou alebo slabým webom | Public Proof Website + Automation |
 

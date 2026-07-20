@@ -29,11 +29,8 @@ exports/instagram_carousel_v7/Aureus_Use_Case_Instagram_Carousel_V7_SK.zip
 exports/instagram_carousel_v7/Aureus_Use_Case_Instagram_Carousel_V7_EN.zip
 ```
 
-When a desktop folder is available, it also copies the same folders and ZIP files to:
-
-```text
-C:\Users\Bitangcrew\OneDrive\Počítač
-```
+The generator writes only to the repository-owned `exports/instagram_carousel_v7/`
+directory. Copying or publishing artifacts is a separate, explicit owner action.
 
 ## Slide Structure
 
@@ -41,8 +38,8 @@ C:\Users\Bitangcrew\OneDrive\Počítač
 2. How Aureus chooses the right use case
 3. Automation Audit
 4. n8n Workflow Review + Build
-5. FinEcon Pocket / Bridge
-6. Approval-Safe Sales Machine
+5. Aureus FinEcon — Pocket / Bridge modules
+6. Aureus Sales Workflow
 7. Aureus OS
 8. Public Proof Website + Automation
 9. Use-case scorecard
@@ -80,7 +77,7 @@ AI pripraví podklady.
 Záznam ostane.
 
 Tento carousel ukazuje 6 praktických use casov:
-Automation Audit, n8n Review + Build, FinEcon Pocket / Bridge, Sales Machine, Aureus OS a Public Proof Website.
+Automation Audit, n8n Review + Build, Aureus FinEcon — Pocket / Bridge modules, Aureus Sales Workflow, Aureus OS a Public Proof Website.
 
 Najlepší prvý krok je Automation Audit:
 zmapovať jeden proces, nájsť najlepší pilot a nastaviť schvaľovaciu hranicu ešte pred tým, než sa začne stavať.

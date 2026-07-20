@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import shutil
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -197,16 +196,8 @@ def fitz_crop_to_png(src_pdf: Path, page_no: int, clip: tuple[float, float, floa
 
 
 def find_v4_pdf() -> Path | None:
-    candidates = [
-        ROOT / "_input" / "Aureus_World_Class_Use_Case_Showcase_v4_final.pdf",
-        Path.home() / "OneDrive" / "Počítač" / "Aureus_World_Class_Use_Case_Showcase_v4_final.pdf",
-    ]
-    for candidate in candidates:
-        if candidate.exists():
-            return candidate
-    for candidate in Path.home().rglob("Aureus_World_Class_Use_Case_Showcase_v4_final.pdf"):
-        return candidate
-    return None
+    candidate = ROOT / "_input" / "Aureus_World_Class_Use_Case_Showcase_v4_final.pdf"
+    return candidate if candidate.exists() else None
 
 
 def make_visual_crops() -> dict[int, Path]:
@@ -230,18 +221,6 @@ def make_visual_crops() -> dict[int, Path]:
         fitz_crop_to_png(src, page, clip, out)
         crops[page] = out
     return crops
-
-
-def desktop_dir() -> Path | None:
-    candidates = [
-        Path.home() / "OneDrive" / "Počítač",
-        Path.home() / "OneDrive" / "Desktop",
-        Path.home() / "Desktop",
-    ]
-    for candidate in candidates:
-        if candidate.exists():
-            return candidate
-    return None
 
 
 @dataclass(frozen=True)
@@ -294,8 +273,8 @@ def en_pack() -> dict:
             ["Automation Audit", "You know work is manual, but not where to start.", "High", "Safe first step", "Map one process"],
             ["n8n Review + Build", "An automation exists, but nobody fully trusts it.", "High", "Setup-gated", "Review one workflow"],
             ["FinEcon Pilot", "Documents arrive from many places and need review.", "High", "Internal E2E / accountant pending", "Pick one document flow"],
-            ["Sales Machine", "Follow-up depends on memory and risky drafts.", "Medium", "Approval-gated", "One lead source"],
-            ["Aureus OS / AOP", "AI work is scattered across people and tools.", "Medium", "Operating model", "One team area"],
+            ["Aureus Sales Workflow", "Follow-up depends on memory and risky drafts.", "Medium", "Approval-gated", "One lead source"],
+            ["Aureus OS", "AI work is scattered across people and tools.", "Medium", "Operating model", "One team area"],
             ["Public Proof Site", "The offer is hard to understand and not connected to intake.", "High", "Public-safe", "One offer page"],
         ],
         "pilot_title": "30-Day Client Pilot Path",
@@ -371,8 +350,8 @@ def sk_pack() -> dict:
             ["Automation Audit", "Viete, že práca je manuálna, ale neviete kde začať.", "Vysoký", "Bezpečný prvý krok", "Zmapovať jeden proces"],
             ["n8n Review + Build", "Automatizácia existuje, ale tím jej úplne neverí.", "Vysoký", "Setup-gated", "Skontrolovať jeden workflow"],
             ["FinEcon Pilot", "Doklady chodia z rôznych miest a potrebujú review.", "Vysoký", "Interné E2E / čaká účtovník", "Vybrať jeden tok dokladov"],
-            ["Sales Machine", "Follow-up stojí na pamäti a rizikových draftoch.", "Stredný", "Approval-gated", "Jeden zdroj leadov"],
-            ["Aureus OS / AOP", "AI práca je rozhádzaná cez ľudí a nástroje.", "Stredný", "Operating model", "Jedna tímová oblasť"],
+            ["Aureus Sales Workflow", "Follow-up stojí na pamäti a rizikových draftoch.", "Stredný", "Approval-gated", "Jeden zdroj leadov"],
+            ["Aureus OS", "AI práca je rozhádzaná cez ľudí a nástroje.", "Stredný", "Operating model", "Jedna tímová oblasť"],
             ["Public Proof Site", "Ponuka je ťažko pochopiteľná a nenadväzuje na intake.", "Vysoký", "Public-safe", "Jedna stránka ponuky"],
         ],
         "pilot_title": "30-dňový klientsky pilot",
@@ -456,7 +435,7 @@ def en_cases() -> list[UseCase]:
         ),
         UseCase(
             "CASE 03",
-            "FinEcon Pocket / Bridge",
+            "Aureus FinEcon — Pocket / Bridge modules",
             "Turn messy document intake into reviewed handoff with proof.",
             "Invoices, receipts, and documents arrive in email, folders, or mobile upload. Context gets lost before accounting review.",
             "It prepares document fields, flags missing information, shows status, and prepares the Bridge handoff path.",
@@ -472,7 +451,7 @@ def en_cases() -> list[UseCase]:
         ),
         UseCase(
             "CASE 04",
-            "Approval-Safe Sales Machine",
+            "Aureus Sales Workflow",
             "Prepare follow-up and outreach without sending blindly.",
             "Leads are forgotten, follow-ups are late, and messages become inconsistent or risky because there is no review step.",
             "It researches public context, classifies fit, drafts outreach, prepares follow-up, and summarizes replies.",
@@ -488,7 +467,7 @@ def en_cases() -> list[UseCase]:
         ),
         UseCase(
             "CASE 05",
-            "Aureus OS / AOP",
+            "Aureus OS",
             "Make AI work organized, reviewed, and easier to hand off.",
             "AI work is spread across chats, documents, tasks, automations, and Git. Nobody has one clear mission trail.",
             "It prepares plans, research, drafts, checks, summaries, validation notes, and handoff material.",
@@ -497,7 +476,7 @@ def en_cases() -> list[UseCase]:
             ["Mission", "Scope", "AI work", "Validation", "Approval gate", "Handoff"],
             ["operating model", "review gates", "evidence format", "handoff discipline"],
             ["Setup-gated", "Pilot-ready"],
-            "AOP is the internal control engine. It is introduced when a team needs cross-tool control, not as an abstract first purchase.",
+            "Aureus OS is the internal control engine. It is introduced when a team needs cross-tool control, not as an abstract first purchase.",
             "Name one area where AI should help but should not make the final decision.",
             PURPLE,
             7,
@@ -557,7 +536,7 @@ def sk_cases() -> list[UseCase]:
         ),
         UseCase(
             "CASE 03",
-            "FinEcon Pocket / Bridge",
+            "Aureus FinEcon — Pocket / Bridge modules",
             "Zmeniť chaotický príjem dokladov na reviewované odovzdanie s dôkazom.",
             "Faktúry, bločky a dokumenty chodia cez e-mail, priečinky alebo mobil. Kontext sa stratí skôr, než príde účtovná kontrola.",
             "Systém pripraví polia dokladu, označí chýbajúce údaje, ukáže stav a pripraví cestu pre Bridge odovzdanie.",
@@ -573,7 +552,7 @@ def sk_cases() -> list[UseCase]:
         ),
         UseCase(
             "CASE 04",
-            "Approval-Safe Sales Machine",
+            "Aureus Sales Workflow",
             "Pripraviť follow-up a outreach bez slepého odosielania.",
             "Leady sa zabúdajú, follow-up mešká a správy sú nekonzistentné alebo rizikové, lebo chýba review krok.",
             "Systém urobí research verejného kontextu, posúdi fit, pripraví outreach, follow-up a zhrnutie odpovedí.",
@@ -589,7 +568,7 @@ def sk_cases() -> list[UseCase]:
         ),
         UseCase(
             "CASE 05",
-            "Aureus OS / AOP",
+            "Aureus OS",
             "Urobiť AI prácu organizovanú, reviewovanú a ľahšie odovzdateľnú.",
             "AI práca je rozhádzaná v chatoch, dokumentoch, taskoch, automatizáciách a Gite. Chýba jedna jasná stopa misie.",
             "Systém pripraví plán, research, drafty, kontroly, zhrnutia, validačné poznámky a handoff materiál.",
@@ -598,7 +577,7 @@ def sk_cases() -> list[UseCase]:
             ["Misia", "Scope", "AI práca", "Validácia", "Approval gate", "Handoff"],
             ["operating model", "review gates", "formát dôkazu", "handoff disciplína"],
             ["Setup-gated", "Pilot-ready"],
-            "AOP je interný control engine. Dáva zmysel vtedy, keď tím potrebuje kontrolu naprieč nástrojmi.",
+            "Aureus OS je interný control engine. Dáva zmysel vtedy, keď tím potrebuje kontrolu naprieč nástrojmi.",
             "Pomenujte jednu oblasť, kde má AI pomáhať, ale nemá robiť finálne rozhodnutie.",
             PURPLE,
             7,
@@ -645,7 +624,7 @@ def draw_cover(c: canvas.Canvas, data: dict, cases: list[UseCase], crops: dict[i
         ("Automation Audit", GOLD),
         ("FinEcon", TEAL),
         ("n8n Build", BLUE),
-        ("Sales Machine", GREEN),
+        ("Aureus Sales Workflow", GREEN),
         ("Aureus OS", PURPLE),
         ("Public Proof", RED),
     ]:
@@ -765,9 +744,9 @@ def draw_scorecard(c: canvas.Canvas, data: dict):
         y -= 68
     round_rect(c, MARGIN, 78, PAGE_W - MARGIN * 2, 74, BG, BG, 18, 1)
     txt(c, "Recommended start" if data["lang"] == "en" else "Odporúčaný štart", MARGIN + 28, 106, 24, GOLD, FONT_BOLD)
-    recommendation = "Automation Audit first. Then choose n8n Review, FinEcon Pilot, Sales Machine, Aureus OS, or Public Proof Site based on the scorecard."
+    recommendation = "Automation Audit first. Then choose n8n Review, FinEcon Pilot, Aureus Sales Workflow, Aureus OS, or Public Proof Site based on the scorecard."
     if data["lang"] == "sk":
-        recommendation = "Najprv Automation Audit. Potom podľa scorecardu vybrať n8n Review, FinEcon Pilot, Sales Machine, Aureus OS alebo Public Proof Site."
+        recommendation = "Najprv Automation Audit. Potom podľa scorecardu vybrať n8n Review, FinEcon Pilot, Aureus Sales Workflow, Aureus OS alebo Public Proof Site."
     wrapped(c, recommendation, MARGIN + 305, 110, 1390, 22, WHITE, FONT, 28, 2)
     footer(c, False)
 
@@ -824,7 +803,7 @@ def draw_cta(c: canvas.Canvas, data: dict, crops: dict[int, Path]):
     paths = [
         ("FinEcon Pilot", TEAL),
         ("n8n Review + Build", BLUE),
-        ("Sales Machine", GREEN),
+        ("Aureus Sales Workflow", GREEN),
         ("Aureus OS Setup", PURPLE),
         ("Public Proof Site", RED),
     ]
@@ -883,14 +862,8 @@ def main() -> int:
     generate(sk_path, sk_pack(), sk_cases(), crops)
     render_previews(en_path, "v7_en")
     render_previews(sk_path, "v7_sk")
-    desktop = desktop_dir()
-    if desktop:
-        shutil.copy2(en_path, desktop / en_path.name)
-        shutil.copy2(sk_path, desktop / sk_path.name)
     print(f"Generated: {en_path}")
     print(f"Generated: {sk_path}")
-    if desktop:
-        print(f"Copied to: {desktop}")
     return 0
 
 

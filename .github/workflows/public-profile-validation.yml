@@ -16,16 +16,25 @@ concurrency:
 jobs:
   validate:
     name: Validate public profile
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 10
     steps:
       - name: Check out repository
         uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
+        with:
+          persist-credentials: false
       - name: Set up Python
         uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: "3.12"
       - name: Validate public portfolio
         run: python scripts/validate-public-portfolio.py
+      - name: Validate governance policy against JSON Schema
+        run: >-
+          python scripts/validate-local-json-schema.py
+          --schema .github/governance/public-profile-policy.schema.json
+          --instance .github/governance/public-profile-policy.json
+      - name: Test read-only GitHub drift auditor
+        run: python scripts/test-audit-public-github-state.py
       - name: Validate use-case showcase
         run: python scripts/validate-aureus-use-case-showcase.py

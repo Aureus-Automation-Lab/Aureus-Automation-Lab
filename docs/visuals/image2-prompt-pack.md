@@ -32,7 +32,7 @@ Reject the image if it looks impressive but does not explain the exact section w
 | --- | --- | --- | --- |
 | `assets/aureus-profile-hero.gif` | Accepted | Premium profile hero | Manual process becomes architecture, validation, private boundary, and handoff |
 | `assets/aureus-offer-menu.gif` | Accepted | Offer menu visual | The six public offers are visible as concrete buying paths |
-| `assets/aureus-sales-machine.gif` | Accepted | Workflow governance visual | Workflow source moves through review gates, approval, credential separation, evidence, and handoff |
+| `assets/aureus-sales-workflow.gif` | Accepted | Workflow governance visual | Workflow source moves through review gates, approval, credential separation, evidence, and handoff |
 | `assets/aureus-finecon-flow.gif` | Accepted | FinEcon visual | Document/invoice intake moves through extraction, validation, exceptions, owner review, and finance handoff |
 | `assets/aureus-os-model.gif` | Accepted | Aureus OS visual | Task, constraints, AI draft, validation, approval, and evidence are shown as one operating model |
 | `assets/aureus-public-boundary.gif` | Accepted | Public/private boundary visual | Public-safe proof passes a review window while private implementation stays sealed |
@@ -105,7 +105,7 @@ A reviewer should understand: Robert builds controlled AI-assisted work systems 
 
 Target:
 
-`assets/aureus-sales-machine.gif`
+`assets/aureus-sales-workflow.gif`
 
 Use this prompt when generating the README workflow governance visual.
 

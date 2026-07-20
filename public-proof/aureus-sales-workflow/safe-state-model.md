@@ -1,4 +1,4 @@
-# Sales Machine Safe State Model
+# Aureus Sales Workflow Safe State Model
 
 This state model shows how lead handling can stay controlled.
 

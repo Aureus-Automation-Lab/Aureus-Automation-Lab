@@ -13,7 +13,6 @@ from reportlab.pdfgen import canvas
 ROOT = Path(__file__).resolve().parents[1]
 EXPORT_DIR = ROOT / "exports"
 PREVIEW_DIR = EXPORT_DIR / "preview"
-DESKTOP_DIR = Path.home() / "OneDrive" / "Počítač"
 
 PAGE_W = 960
 PAGE_H = 540
@@ -356,12 +355,12 @@ EN = {
     "cover": {
         "title": "Aureus Use Case Portfolio",
         "subtitle": "Six controlled AI automation examples for companies that need useful work, human approval, and evidence they can review.",
-        "chips": [("Automation Audit", GOLD), ("FinEcon", TEAL), ("n8n Build", BLUE), ("Sales Machine", GREEN), ("Aureus OS", PURPLE), ("Public Proof", RED)],
+        "chips": [("Automation Audit", GOLD), ("FinEcon", TEAL), ("n8n Build", BLUE), ("Aureus Sales Workflow", GREEN), ("Aureus OS", PURPLE), ("Public Proof", RED)],
         "rule_title": "Core operating rule",
         "rule": "AI prepares. People approve. Evidence remains.",
         "visual_title": "Controlled AI Automation System",
         "visual_steps": ["Signal", "Mission", "Workflow", "Review", "Evidence", "Output"],
-        "cases": ["Automation Audit", "n8n Workflow Review + Build", "FinEcon Pocket / Bridge", "Approval-Safe Sales Machine", "Aureus OS / AOP", "Public Proof Website + Automation"],
+        "cases": ["Automation Audit", "n8n Workflow Review + Build", "Aureus FinEcon — Pocket / Bridge modules", "Aureus Sales Workflow", "Aureus OS", "Public Proof Website + Automation"],
     },
     "model": {
         "kicker": "OpenAI-aligned discovery model",
@@ -388,8 +387,8 @@ EN = {
             ["Automation Audit", "High", "Low", "Low", "High", "First purchase"],
             ["n8n Review + Build", "High", "Medium", "Medium", "High", "Existing workflow"],
             ["FinEcon Pilot", "High", "Medium", "High", "Medium", "Document flow"],
-            ["Sales Machine", "Medium", "Medium", "High", "High", "Lead follow-up"],
-            ["Aureus OS / AOP", "High", "High", "High", "High", "Team control"],
+            ["Aureus Sales Workflow", "Medium", "Medium", "High", "High", "Lead follow-up"],
+            ["Aureus OS", "High", "High", "High", "High", "Team control"],
             ["Public Proof Site", "Medium", "Medium", "Medium", "High", "Offer clarity"],
         ],
         "rule_label": "Recommendation",
@@ -429,7 +428,7 @@ EN = {
         "subtitle": "It is the safest first purchase because it finds the first useful workflow before building.",
         "first_label": "Why first?",
         "first_copy": "The audit maps the process, ranks candidates, defines review boundaries, and creates a pilot brief.",
-        "paths": ["FinEcon Pilot", "n8n Review + Build", "Sales Machine", "Aureus OS Setup", "Public Proof Site"],
+        "paths": ["FinEcon Pilot", "n8n Review + Build", "Aureus Sales Workflow", "Aureus OS Setup", "Public Proof Site"],
         "action_label": "Buyer action",
         "action": "Send one workflow, document flow, or repeated process you want reviewed. We will map what AI can prepare, what people approve, and what evidence remains.",
     },
@@ -439,12 +438,12 @@ SK = {
     "cover": {
         "title": "Aureus Use Case Portfólio",
         "subtitle": "Šesť príkladov kontrolovanej AI automatizácie pre firmy, ktoré potrebujú užitočnú prácu, ľudské schvaľovanie a dôkazový záznam.",
-        "chips": [("Automation Audit", GOLD), ("FinEcon", TEAL), ("n8n Build", BLUE), ("Sales Machine", GREEN), ("Aureus OS", PURPLE), ("Public Proof", RED)],
+        "chips": [("Automation Audit", GOLD), ("FinEcon", TEAL), ("n8n Build", BLUE), ("Aureus Sales Workflow", GREEN), ("Aureus OS", PURPLE), ("Public Proof", RED)],
         "rule_title": "Základné pravidlo",
         "rule": "AI pripraví. Ľudia schvália. Dôkaz zostáva.",
         "visual_title": "Kontrolovaný AI automatizačný systém",
         "visual_steps": ["Signál", "Misia", "Workflow", "Review", "Dôkaz", "Výstup"],
-        "cases": ["Automation Audit", "n8n Workflow Review + Build", "FinEcon Pocket / Bridge", "Approval-Safe Sales Machine", "Aureus OS / AOP", "Public Proof Website + Automation"],
+        "cases": ["Automation Audit", "n8n Workflow Review + Build", "Aureus FinEcon — Pocket / Bridge modules", "Aureus Sales Workflow", "Aureus OS", "Public Proof Website + Automation"],
     },
     "model": {
         "kicker": "Discovery model pre AI use cases",
@@ -471,8 +470,8 @@ SK = {
             ["Automation Audit", "Vysoká", "Nízke", "Nízke", "Vysoká", "Prvý nákup"],
             ["n8n Review + Build", "Vysoká", "Stredné", "Stredné", "Vysoká", "Existujúci workflow"],
             ["FinEcon Pilot", "Vysoká", "Stredné", "Vysoká", "Stredná", "Tok dokladov"],
-            ["Sales Machine", "Stredná", "Stredné", "Vysoká", "Vysoká", "Lead follow-up"],
-            ["Aureus OS / AOP", "Vysoká", "Vysoké", "Vysoká", "Vysoká", "Team control"],
+            ["Aureus Sales Workflow", "Stredná", "Stredné", "Vysoká", "Vysoká", "Lead follow-up"],
+            ["Aureus OS", "Vysoká", "Vysoké", "Vysoká", "Vysoká", "Team control"],
             ["Public Proof Site", "Stredná", "Stredné", "Stredná", "Vysoká", "Offer clarity"],
         ],
         "rule_label": "Odporúčanie",
@@ -512,7 +511,7 @@ SK = {
         "subtitle": "Je to najbezpečnejší prvý nákup, pretože nájde prvý užitočný workflow predtým, než sa začne stavať.",
         "first_label": "Prečo prvý?",
         "first_copy": "Audit zmapuje proces, zoradí kandidátov, definuje schvaľovacie hranice a pripraví pilot brief.",
-        "paths": ["FinEcon Pilot", "n8n Review + Build", "Sales Machine", "Aureus OS Setup", "Public Proof Site"],
+        "paths": ["FinEcon Pilot", "n8n Review + Build", "Aureus Sales Workflow", "Aureus OS Setup", "Public Proof Site"],
         "action_label": "Akcia klienta",
         "action": "Pošlite jeden workflow, tok dokladov alebo opakovaný proces. Zmapujeme, čo AI pripraví, čo ľudia schvália a aký dôkaz zostane.",
     },
@@ -552,7 +551,7 @@ USE_CASES_EN = [
     },
     {
         "case": "CASE 03",
-        "title": "FinEcon Pocket / Bridge",
+        "title": "Aureus FinEcon — Pocket / Bridge modules",
         "promise": "Move documents from intake to reviewed handoff with proof.",
         "problem": "Invoices and receipts arrive through different channels. Context gets lost and POHODA handoff is hard to inspect.",
         "ai": "Extracts candidate fields, classifies document type, flags missing information, and prepares review notes.",
@@ -567,7 +566,7 @@ USE_CASES_EN = [
     },
     {
         "case": "CASE 04",
-        "title": "Approval-Safe Sales Machine",
+        "title": "Aureus Sales Workflow",
         "promise": "Prepare sales work without blind outreach.",
         "problem": "Leads and follow-ups depend on memory. Messages become inconsistent and claims can become risky.",
         "ai": "Researches public context, classifies fit, drafts outreach, drafts follow-up, and classifies replies.",
@@ -582,7 +581,7 @@ USE_CASES_EN = [
     },
     {
         "case": "CASE 05",
-        "title": "Aureus OS / AOP",
+        "title": "Aureus OS",
         "promise": "Control AI-assisted work with scope, validation, approvals, evidence, and handoff.",
         "problem": "AI work is scattered across chats, docs, tasks, automations, and Git without clear owner or evidence trail.",
         "ai": "Plans, researches, drafts, inspects, summarizes, validates, and prepares handoff artifacts.",
@@ -591,7 +590,7 @@ USE_CASES_EN = [
         "workflow": ["Mission", "Scope", "AI work", "Validate", "Gate", "Handoff"],
         "receives": ["operating model", "action gates", "evidence format"],
         "status": ["Setup-gated", "Pilot-ready"],
-        "boundary": "AOP is the internal control engine, not the first abstract product sold.",
+        "boundary": "Aureus OS is the internal control engine, not the first abstract product sold.",
         "accent": PURPLE,
         "visual_title": "AI operating control plane",
     },
@@ -645,7 +644,7 @@ USE_CASES_SK = [
     },
     {
         "case": "CASE 03",
-        "title": "FinEcon Pocket / Bridge",
+        "title": "Aureus FinEcon — Pocket / Bridge modules",
         "promise": "Presunúť doklady od vstupu po kontrolované odovzdanie s dôkazom.",
         "problem": "Faktúry a bločky prichádzajú rôznymi kanálmi. Kontext sa stráca a POHODA handoff sa ťažko kontroluje.",
         "ai": "Vytiahne kandidátske polia, klasifikuje doklad, označí chýbajúce údaje a pripraví review poznámky.",
@@ -660,7 +659,7 @@ USE_CASES_SK = [
     },
     {
         "case": "CASE 04",
-        "title": "Approval-Safe Sales Machine",
+        "title": "Aureus Sales Workflow",
         "promise": "Pripraviť predajnú prácu bez slepého outreachu.",
         "problem": "Leady a follow-up závisia od pamäte. Správy sú nekonzistentné a claimy môžu byť rizikové.",
         "ai": "Robí research, klasifikuje fit, pripraví outreach, follow-up a reply classification.",
@@ -675,7 +674,7 @@ USE_CASES_SK = [
     },
     {
         "case": "CASE 05",
-        "title": "Aureus OS / AOP",
+        "title": "Aureus OS",
         "promise": "Riadiť AI prácu cez scope, validáciu, approval, dôkaz a handoff.",
         "problem": "AI práca je roztrúsená v chatoch, dokumentoch, taskoch, automatizáciách a Gite bez vlastníka a dôkazu.",
         "ai": "Plánuje, robí research, draftuje, kontroluje, sumarizuje, validuje a pripravuje handoff.",
@@ -684,7 +683,7 @@ USE_CASES_SK = [
         "workflow": ["Misia", "Scope", "AI práca", "Validácia", "Gate", "Handoff"],
         "receives": ["operating model", "action gates", "dôkazový formát"],
         "status": ["Setup-gated", "Pilot-ready"],
-        "boundary": "AOP je interný control engine, nie prvý abstraktný produkt na predaj.",
+        "boundary": "Aureus OS je interný control engine, nie prvý abstraktný produkt na predaj.",
         "accent": PURPLE,
         "visual_title": "AI operating control plane",
     },
@@ -746,13 +745,8 @@ def main() -> int:
     generate_pdf(sk_path, SK, USE_CASES_SK, "sk")
     render_previews(en_path, "en")
     render_previews(sk_path, "sk")
-    if DESKTOP_DIR.exists():
-        for src in [en_path, sk_path]:
-            (DESKTOP_DIR / src.name).write_bytes(src.read_bytes())
     print(f"Generated: {en_path}")
     print(f"Generated: {sk_path}")
-    if DESKTOP_DIR.exists():
-        print(f"Copied to: {DESKTOP_DIR}")
     return 0
 
 

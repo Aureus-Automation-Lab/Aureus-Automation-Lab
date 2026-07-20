@@ -1,5 +1,7 @@
 # Public Proof Showroom
 
+The machine-readable [portfolio manifest](portfolio-manifest.json) records which packages remain embedded scenarios, which are standalone repository candidates, their maturity, and their publication state. Candidate names are targets only; they are not live-repository claims.
+
 This showroom is the evidence layer for Aureus Automation Lab. Each package answers four questions:
 
 1. What system was designed?
@@ -13,16 +15,16 @@ This showroom is the evidence layer for Aureus Automation Lab. Each package answ
 
 | Package | Strongest signal | Status | Start here |
 | --- | --- | --- | --- |
+| **Aureus CRM Operations** | Full-stack UI/API/SQLite product with roles, operational state, audit, and tests | Source-backed synthetic demo | [Review](aureus-crm-operations/README.md) |
 | **Aureus OS** | Mission control, agent/tool routing, action authority, validation, and evidence | Public architecture; private runtime | [Review](aureus-os/README.md) |
-| **Aureus CRM Operations** | Full-stack UI/API/SQLite product with roles, operational state, audit, and tests | Source-backed synthetic demo | [Review](crm-platform/README.md) |
-| **Aureus FinEcon** | Reviewed document intake, extraction, bridge handoff, and accountant boundary | Source-backed pilot direction | [Review](finecon/README.md) |
-| **Aureus Trading Infrastructure** | Deterministic rails, isolated execution, runtime state, observability, and CI risk gates | Private paper-run architecture | [Review](trading-infrastructure/README.md) |
+| **Aureus FinEcon** | Reviewed document intake, extraction, bridge handoff, and accountant boundary | Source-backed pilot direction | [Review](aureus-finecon/README.md) |
+| **Aureus Trading Infrastructure** | Deterministic rails, isolated execution, runtime state, observability, and CI risk gates | Private paper-run architecture | [Review](aureus-trading-infrastructure/README.md) |
 
 ## Supporting Proof
 
 | Package | What it adds |
 | --- | --- |
-| [Aureus Sales Workflow](sales-machine/README.md) | Subordinate demonstration scenario for stateful qualification and approval-gated follow-up |
+| [Aureus Sales Workflow](aureus-sales-workflow/README.md) | Subordinate demonstration scenario for stateful qualification and approval-gated follow-up |
 | [Credentials](../docs/portfolio/credentials.md) | Verified education record separated from product and customer evidence |
 | [Case Studies](../docs/portfolio/case-studies.md) | Buyer problem, architecture, review boundary, evidence, and offer path |
 | [Source Truth Map](../docs/proof/source-truth-map.md) | Public claim-to-private-source register and publication boundary |

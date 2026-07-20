@@ -148,7 +148,7 @@ Use this shared visual system:
 | --- | --- | --- |
 | `assets/aureus-profile-hero.gif` | Accepted | It now reads as a five-zone architecture map with manual inputs, process mapping, Aureus OS core, validation, evidence/handoff, and private boundary |
 | `assets/aureus-offer-menu.gif` | Accepted | It shows the six concrete commercial starting points without turning the README into a sales document |
-| `assets/aureus-sales-machine.gif` | Accepted | It shows lead handling, qualification, manual approval, reply classification, next step, report, and evidence |
+| `assets/aureus-sales-workflow.gif` | Accepted | It shows lead handling, qualification, manual approval, reply classification, next step, report, and evidence |
 | `assets/aureus-finecon-flow.gif` | Accepted | It shows document/invoice intake, extraction, validation, exceptions, owner review, and finance handoff |
 | `assets/aureus-os-model.gif` | Accepted | It shows task, limits, AI draft, validation, approval, and evidence as one operating model |
 | `assets/aureus-public-boundary.gif` | Accepted | It shows public proof separated from private implementation |

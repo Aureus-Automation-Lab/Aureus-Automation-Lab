@@ -13,7 +13,7 @@ The public profile should answer a buyer's question:
 The answer should be visible:
 
 - the offers are connected to documented packages,
-- the delivery method is connected to Aureus OS v12,
+- the delivery method is connected to Aureus OS,
 - the automation work is connected to n8n workflow standards,
 - FinEcon claims are bounded by accountant-review status,
 - LinkedIn and growth content are designed to come from Git truth,

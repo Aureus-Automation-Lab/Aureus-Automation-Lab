@@ -82,9 +82,9 @@ Look for:
 Start with:
 
 1. [Slovak Use Case Showcase](../use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5_SK.md)
-2. [FinEcon Pocket / Bridge one-pager](../use-cases/FINECON_POCKET_BRIDGE_USE_CASE_ONE_PAGER.md)
+2. [Aureus FinEcon — Pocket / Bridge modules one-pager](../use-cases/AUREUS_FINECON_USE_CASE_ONE_PAGER.md)
 3. [Use Case Showcase PDF Design](../use-cases/AUREUS_USE_CASE_SHOWCASE_DESIGN_SPEC_V6.md)
-4. [FinEcon proof package](../../public-proof/finecon/README.md)
+4. [Aureus FinEcon proof package](../../public-proof/aureus-finecon/README.md)
 
 Look for:
 

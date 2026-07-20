@@ -6,7 +6,7 @@
 
 I design and assemble end-to-end systems that connect business requirements, data, software, AI, automation, validation, and operational handoff. Aureus OS is the single operating layer behind that work.
 
-[Explore the proof](public-proof/README.md) · [Review capabilities](docs/portfolio/capabilities.md) · [See the project map](docs/portfolio/project-map.md) · [Understand the naming system](docs/portfolio/naming-system.md) · [Start with an offer](docs/portfolio/offer-menu.md)
+[See the strongest product proof](public-proof/aureus-crm-operations/README.md) · [Start with an offer](docs/portfolio/offer-menu.md) · [Explore the proof showroom](public-proof/README.md) · [Review capabilities](docs/portfolio/capabilities.md)
 
 ![Aureus controlled AI automation](assets/aureus-profile-hero.gif)
 
@@ -27,12 +27,14 @@ Controlled AI automation is useful only when the surrounding system is understan
 
 | Pillar | What it demonstrates | Public proof |
 | --- | --- | --- |
+| **Aureus CRM Operations** | Full-stack product delivery across a React route, backend API, SQLite state, roles, customers, inventory, quotes, tasks, attendance, calendar, administration, and audit | [Architecture and validation boundary](public-proof/aureus-crm-operations/README.md) |
 | **Aureus OS** | One operating layer for mission intake, planning, agent/tool routing, safe execution, validation, evidence, and approval-gated live actions | [Operating model and action gates](public-proof/aureus-os/README.md) |
-| **Aureus CRM Operations** | Full-stack product delivery across a React route, backend API, SQLite state, roles, customers, inventory, quotes, tasks, attendance, calendar, administration, and audit | [Architecture and validation boundary](public-proof/crm-platform/README.md) |
-| **Aureus FinEcon** | Reviewed document and finance workflow design from intake through extraction, human review, bridge handoff, and proof notes | [Aureus FinEcon proof package](public-proof/finecon/README.md) |
-| **Aureus Trading Infrastructure** | Risk-first, audit-first engineering with deterministic decision rails, an isolated execution boundary, runtime state, observability, CI gates, and paper-run constraints | [Paper-run architecture proof](public-proof/trading-infrastructure/README.md) |
+| **Aureus FinEcon** | Reviewed document and finance workflow design from intake through extraction, human review, bridge handoff, and proof notes | [Aureus FinEcon proof package](public-proof/aureus-finecon/README.md) |
+| **Aureus Trading Infrastructure** | Risk-first, audit-first engineering with deterministic decision rails, an isolated execution boundary, runtime state, observability, CI gates, and paper-run constraints | [Paper-run architecture proof](public-proof/aureus-trading-infrastructure/README.md) |
 
 The [project map](docs/portfolio/project-map.md) explains how these systems relate. The [naming system](docs/portfolio/naming-system.md) classifies historical labels as aliases, modules, offers, or scenarios instead of competing brands.
+
+The machine-readable [portfolio manifest](public-proof/portfolio-manifest.json) separates current public evidence, proposed standalone repositories, maturity, and publication state. A proposed repository is never presented as live before its own review and signed-out verification pass.
 
 ## Evidence Snapshot
 
@@ -49,6 +51,7 @@ See [Credentials](docs/portfolio/credentials.md), [Case Studies](docs/portfolio/
 
 | You are a… | Start here | What you will find |
 | --- | --- | --- |
+| **Buyer, partner, or recruiter seeking product evidence** | [Aureus CRM Operations](public-proof/aureus-crm-operations/README.md) | The strongest end-to-end proof across UI, API, SQLite, roles, workflows, audit, and tests |
 | **Buyer or partner** | [Offer menu](docs/portfolio/offer-menu.md) | Clear starting scopes, outputs, and review boundaries |
 | **Technical reviewer** | [Public Proof Showroom](public-proof/README.md) | Architecture, state, validation, and safety evidence |
 | **Recruiter or hiring manager** | [Capabilities](docs/portfolio/capabilities.md) | Solution architecture, full-stack delivery, automation, and AI systems signals |
@@ -73,9 +76,11 @@ This repository demonstrates architecture and delivery discipline. It does **not
 
 The public layer excludes credentials, private endpoints, raw workflow exports, client records, production settings, and private runtime evidence. See the [Public Boundary](docs/portfolio/public-boundary.md).
 
+Public visibility does not grant a license. The owner decision for code, documentation, assets, and trademarks remains `APPROVAL_REQUIRED_LICENSE_DECISION`.
+
 ## Repository Governance
 
-Changes use a PR-first path with [contribution rules](CONTRIBUTING.md), [security reporting](SECURITY.md), [support boundaries](SUPPORT.md), and automated public-profile validation.
+Changes use a PR-first path with [contribution rules](CONTRIBUTING.md), [security reporting](SECURITY.md), [support boundaries](SUPPORT.md), and automated public-profile validation. The [Public GitHub Portfolio Standard](docs/portfolio/github-portfolio-standard.md) defines the target account architecture, repository contract, branch controls, evidence states, and release gate.
 
 ```powershell
 python scripts/validate-public-portfolio.py

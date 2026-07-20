@@ -64,7 +64,7 @@ I build controlled AI automation systems for companies that need cleaner sales, 
 
 The simple rule behind Aureus Automation Lab is this: AI helps, people approve, and the system keeps evidence.
 
-For buyers and technical reviewers, I keep a public-safe GitHub profile that explains the operating model, FinEcon, Aureus OS, Sales Machine, safety boundaries, and proof artifacts without exposing private implementation.
+For buyers and technical reviewers, I keep a public-safe GitHub profile that starts with Aureus CRM Operations, then explains Aureus OS, Aureus FinEcon, risk-first trading infrastructure, safety boundaries, and supporting proof without exposing private implementation.
 ```
 
 ### Headline Options
@@ -108,10 +108,11 @@ Aureus Automation Lab now has a public-safe proof profile.
 
 It explains how we think about:
 
-- Sales workflow control
-- Finance and document intelligence
-- FinEcon
+- Aureus CRM Operations
 - Aureus OS
+- Aureus FinEcon
+- Risk-first trading infrastructure
+- Supporting sales workflow control
 - AI-assisted work with human review
 - Evidence, validation, and handoff
 
@@ -136,7 +137,7 @@ Verejný dôkaz
 
 Aureus má verejný GitHub profil pre technické aj manažérske overenie.
 
-Ukazuje, čo staviame, čo ostáva súkromné, ako uvažujeme o FinEcon, Aureus OS, Sales Machine, schvaľovaní, dôkazoch a bezpečných hraniciach automatizácie.
+Ukazuje, čo staviame, čo ostáva súkromné a ako pristupujeme k Aureus CRM Operations, Aureus OS, Aureus FinEcon, risk-first trading infraštruktúre, schvaľovaniu, dôkazom a bezpečným hraniciam automatizácie.
 
 Otvoriť public proof:
 https://github.com/Aureus-Automation-Lab
@@ -149,7 +150,7 @@ Public proof
 
 Aureus has a public GitHub profile for technical and business review.
 
-It shows what we build, what stays private, and how we think about FinEcon, Aureus OS, Sales Machine, approvals, evidence, and safe automation boundaries.
+It shows what we build, what stays private, and how we approach Aureus CRM Operations, Aureus OS, Aureus FinEcon, risk-first trading infrastructure, approvals, evidence, and safe automation boundaries.
 
 Open public proof:
 https://github.com/Aureus-Automation-Lab
@@ -165,7 +166,7 @@ AI Automation Solution Architect
 Controlled AI automation systems for sales, operations, finance, documents, reporting, and internal execution.
 
 Public proof: https://github.com/Aureus-Automation-Lab
-Web: https://aureus.it.com/automationlab
+Web/contact path: pending owner approval and signed-out verification
 ```
 
 ## Proposal Footer
@@ -174,7 +175,7 @@ Web: https://aureus.it.com/automationlab
 Public proof and safety boundary:
 https://github.com/Aureus-Automation-Lab
 
-This public profile explains Aureus Automation Lab, FinEcon, Aureus OS, workflow control, approval boundaries, and public-safe proof artifacts. Private implementation, credentials, endpoints, customer data, and production context are intentionally not exposed.
+This public profile starts with Aureus CRM Operations, then explains Aureus OS, Aureus FinEcon, risk-first trading infrastructure, approval boundaries, and public-safe proof artifacts. Private implementation, credentials, endpoints, customer data, and production context are intentionally not exposed.
 ```
 
 ## Direct Message Use
@@ -211,10 +212,28 @@ It shows the architecture direction, proof showroom, safety boundaries, public r
 
 ## Offer-Specific Snippets
 
+### Aureus CRM Operations
+
+```text
+Aureus CRM Operations is the strongest end-to-end product proof: a synthetic full-stack system spanning interface, API, SQLite state, roles, operational workflows, audit, and tests.
+
+Public CRM proof starts here:
+https://github.com/Aureus-Automation-Lab
+```
+
 ### Automation Audit
 
 ```text
 The best first step is an Automation Audit: map one important process, find the risky handoffs, decide what AI may prepare, what people must approve, and what evidence the system should keep.
+
+Public proof:
+https://github.com/Aureus-Automation-Lab
+```
+
+### Aureus OS
+
+```text
+Aureus OS is the operating model behind AI-assisted work: scope, constraints, source-controlled delivery, validation, approval gates, evidence, and handoff.
 
 Public proof:
 https://github.com/Aureus-Automation-Lab
@@ -229,30 +248,23 @@ Public FinEcon proof starts here:
 https://github.com/Aureus-Automation-Lab
 ```
 
-### Aureus OS
+### Aureus Trading Infrastructure
 
 ```text
-Aureus OS is the operating model behind AI-assisted work: scope, constraints, source-controlled delivery, validation, approval gates, evidence, and handoff.
+Aureus Trading Infrastructure demonstrates deterministic, observable, risk-first engineering within a paper-run boundary. It does not claim trading performance or financial advice.
 
-Public proof:
+Public architecture proof:
 https://github.com/Aureus-Automation-Lab
 ```
 
-### Sales Machine
-
-```text
-Sales Machine is a controlled sales workflow direction: lead intake, qualification, draft outreach, manual approval, follow-up drafts, reply classification, booking drafts, reporting, and audit log.
-
-No blind sending. No hidden lead lists. Public-safe proof only:
-https://github.com/Aureus-Automation-Lab
-```
+Aureus Sales Workflow remains a supporting scenario for approval-gated sales automation rather than a primary product pillar.
 
 ## Weekly Distribution Routine
 
 | Day | Action | Goal |
 | --- | --- | --- |
 | Monday | Share one clear problem post | Explain a buyer pain in plain language |
-| Tuesday | Share one proof artifact | Show Sales Machine, FinEcon, or Aureus OS |
+| Tuesday | Share one proof artifact | Lead with CRM, then Aureus OS, FinEcon, or trading infrastructure |
 | Wednesday | Comment on 10 relevant posts | Build market presence without spam |
 | Thursday | Publish one educational carousel or visual | Make the system understandable |
 | Friday | Send 5 warm follow-ups with proof link | Move conversations toward discovery |

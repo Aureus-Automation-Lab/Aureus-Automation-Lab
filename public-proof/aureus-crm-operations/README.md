@@ -4,6 +4,8 @@ This package is a public-safe proof of a full-stack synthetic CRM and operations
 
 It demonstrates product architecture across a frontend route, backend API, SQLite database, role-aware operations, tests, and deployment support. It does not expose the private source, synthetic records, internal screenshots, credentials, or runtime endpoints.
 
+`VISUAL_ASSET_BLOCKED_PENDING_SANITIZED_REVIEW`: visual evidence remains withheld until a privacy-safe, readable crop passes review. The full internal demo capture is not a public artifact, even though its records are synthetic.
+
 ## Source-Backed Snapshot
 
 | Evidence | Verified source fact |

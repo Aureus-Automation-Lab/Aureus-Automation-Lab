@@ -1,61 +1,50 @@
-# Aureus Use Case Showcase Audit
+# Aureus Use Case Showcase Evidence Audit
 
-This audit reviews the current 12-page showcase concept and defines what the V5 system must improve before it is used in client conversations, follow-up PDFs, LinkedIn carousels, or proposal appendices.
+This audit reviews the 12-page showcase against observable gates. It does not assign subjective quality scores or certify client readiness.
 
-Scoring scale: 1 = weak, 10 = excellent. Scores are practical estimates, not objective certification.
+## Status Model
 
-## Summary
+| Status | Meaning |
+| --- | --- |
+| `PASS` | The page already contains the required buyer, proof, and safety signal. |
+| `REPAIR_REQUIRED` | A concrete content or evidence gap remains. |
+| `VISUAL_QA_REQUIRED` | Copy may be usable, but rendered desktop and mobile proof is still required. |
+| `APPROVAL_REQUIRED` | Publishing or using the artifact externally needs the applicable live approval. |
 
-The showcase already has a strong central principle:
+The shared message remains:
 
 ```text
 AI prepares. People approve. Evidence remains.
 ```
 
-The main V5 improvements are:
+## Page-By-Page Gate Matrix
 
-- make every use case explain what the client receives,
-- ground FinEcon Pocket / Bridge in source-backed Git reality,
-- separate internal proof from public/customer proof,
-- make the first purchase and next action unmistakable,
-- keep visuals premium but avoid tiny unreadable text,
-- produce both English and Slovak client-ready copy.
+| Page | Current gate | Evidence or gap | Required next action |
+| --- | --- | --- | --- |
+| Portfolio overview | `REPAIR_REQUIRED` | The six examples are present, but the opening promise and visual density still need rendered review. | Tighten the promise and verify the first page at mobile and PDF sizes. |
+| Use-case discovery model | `REPAIR_REQUIRED` | The intended path exists but can still read as generic methodology. | Express the path as discover, assess, design, build, review, and scale. |
+| Automation Audit | `PASS` | It is identified as the recommended first purchase with a concrete buyer outcome. | Preserve the explicit client-receives block. |
+| n8n Workflow Review + Build | `PASS` | Failure paths, credentials, ownership, validation, and handoff are in scope. | Keep all live actions behind the stated approval boundary. |
+| Aureus FinEcon — Pocket / Bridge modules | `REPAIR_REQUIRED` | Source-backed components are described, while accountant validation remains pending. | Keep Pocket, Bridge, proof publishing, and the accountant boundary separate. |
+| Aureus Sales Workflow | `PASS` | Message and claim approval are explicit; blind outreach is excluded. | Preserve the fictional-data and no-live-outreach labels. |
+| Aureus OS | `REPAIR_REQUIRED` | The control-layer role is present but can be mistaken for the first product sold. | Keep Aureus OS as the operating layer and make the first commercial step concrete. |
+| Public Proof Website + Automation | `REPAIR_REQUIRED` | The offer-to-operation path exists but needs a clearer handoff and evidence map. | Connect offer, intake, owner review, proof-safe claim, and handoff. |
+| Client Use-Case Decision Matrix | `PASS` | Buyer situations map to a recommended first pilot. | Keep recommendations tied to observable buyer constraints. |
+| 30-Day Client Pilot Path | `REPAIR_REQUIRED` | Weekly stages exist; acceptance evidence by day 30 needs to remain explicit. | Define the artifact, validation, owner decision, and handoff for each week. |
+| How To Use This Showcase | `PASS` | Sales call, PDF, carousel, GitHub, and proposal contexts are identified. | Use only the channel-specific approved export. |
+| Best First Step | `PASS` | Automation Audit is the default call to action and the requested input is bounded. | Preserve one clear next action. |
 
-## Page-By-Page Audit
+## Cross-Artifact Gates
 
-| Page | Client clarity | Technical truthfulness | Public-safe boundary | Sales usefulness | Proof alignment | CTA strength | Visual / content hierarchy | V5 action |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| 1. Portfolio overview | 8 | 9 | 9 | 8 | 8 | 7 | 8 | Tighten the opening promise and show six concrete examples without crowding the first page. |
-| 2. Use-case discovery model | 8 | 8 | 9 | 8 | 8 | 7 | 8 | Replace vague language with a clear discovery path: discover, score, design, build, review, scale. |
-| 3. Automation Audit | 9 | 9 | 9 | 9 | 8 | 8 | 8 | Position as the recommended first purchase and add a concrete "Client receives" block. |
-| 4. n8n Workflow Review + Build | 8 | 9 | 9 | 9 | 8 | 8 | 8 | Explain fragility, ownership, failure paths, credentials, live actions, validation, and handoff. |
-| 5. FinEcon Pocket / Bridge | 7 | 8 | 9 | 8 | 8 | 7 | 7 | Add Pocket workflows, Bridge workflows, Proof Pack Publisher, internal E2E status, and accountant boundary. |
-| 6. Approval-Safe Sales Machine | 8 | 9 | 9 | 8 | 8 | 7 | 8 | Make "no blind outreach" explicit and show claim/message approval. |
-| 7. Aureus OS | 7 | 9 | 9 | 7 | 8 | 7 | 8 | Explain Aureus OS as the control layer, not the first abstract product sold. |
-| 8. Public Proof Website + Automation | 8 | 9 | 9 | 8 | 8 | 8 | 8 | Make the website-to-operation link clearer: offer, intake, proof-safe claims, owner approval, handoff. |
-| 9. Client Use-Case Scorecard | 8 | 9 | 9 | 9 | 8 | 8 | 8 | Add first-pilot fit and clear recommendations by buyer situation. |
-| 10. 30-Day Client Pilot Path | 9 | 9 | 9 | 9 | 8 | 8 | 8 | Make each week outcome-based and list what the client has by day 30. |
-| 11. How To Use This Showcase | 8 | 9 | 10 | 8 | 8 | 8 | 8 | Add practical channels: first call, follow-up PDF, LinkedIn carousel, GitHub profile, proposal appendix. |
-| 12. Best First Step | 8 | 9 | 9 | 9 | 8 | 9 | 8 | Make Automation Audit the default CTA and define what the buyer should send. |
-
-## Key Risks To Fix
-
-| Risk | Why it matters | V5 fix |
+| Gate | Current status | Acceptance evidence |
 | --- | --- | --- |
-| Generic AI language | Buyers may not understand what is delivered. | Each page uses buyer problem, workflow, client receives, proof status, boundary, and next step. |
-| FinEcon overclaiming | Finance/accounting claims require careful boundaries. | State internal controlled evidence while keeping accountant validation pending. |
-| Visual density | Small text inside images does not work on LinkedIn/mobile. | Use large text blocks and treat images as conceptual atmosphere, not the source of key information. |
-| Weak CTA | A good deck must tell the buyer what to do next. | Final page asks for one workflow, document flow, or repeated process to review. |
-| Private proof leakage | Git-backed does not mean public implementation details. | Public-safe proof map lists what sources prove and what remains private. |
+| Buyer clarity | `REPAIR_REQUIRED` | Every page names the buyer problem, delivered artifact, and next decision. |
+| Claim safety | `PASS` | No guaranteed outcome, customer, certification, or production claim is required to understand the offer. |
+| Public/private boundary | `PASS` | Private implementation, credentials, endpoints, payloads, and production evidence remain excluded. |
+| Source alignment | `REPAIR_REQUIRED` | Every source-backed statement maps to the public proof index or an explicit limitation. |
+| Accessibility and legibility | `VISUAL_QA_REQUIRED` | Rendered desktop, PDF, and mobile screenshots show readable text, hierarchy, contrast, and safe cropping. |
+| External use | `APPROVAL_REQUIRED` | The exact export, channel, claim review, and approval receipt are recorded before publication or sending. |
 
-## V5 Readiness Bar
+## Promotion Rule
 
-The final system is ready when it can be used in these five situations without additional explanation:
-
-- a first sales call,
-- a follow-up PDF,
-- a LinkedIn carousel,
-- a GitHub portfolio link,
-- a pilot proposal appendix.
-
-It must be clear to a non-technical buyer and still credible to a technical reviewer.
+The showcase is eligible for an external channel only when all `REPAIR_REQUIRED` and `VISUAL_QA_REQUIRED` gates for that exact export are closed, the public/private boundary remains clean, and the channel has its required approval receipt. A Markdown file, generated PDF, or internal review alone is not evidence that the visual artifact is client-ready.

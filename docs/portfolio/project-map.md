@@ -45,8 +45,8 @@ The systems remain independently reviewable. A claim about one pillar does not a
 ## Review Links
 
 - [Aureus OS](../../public-proof/aureus-os/README.md)
-- [Aureus CRM Operations](../../public-proof/crm-platform/README.md)
-- [Aureus FinEcon](../../public-proof/finecon/README.md)
-- [Aureus Trading Infrastructure](../../public-proof/trading-infrastructure/README.md)
+- [Aureus CRM Operations](../../public-proof/aureus-crm-operations/README.md)
+- [Aureus FinEcon](../../public-proof/aureus-finecon/README.md)
+- [Aureus Trading Infrastructure](../../public-proof/aureus-trading-infrastructure/README.md)
 - [Canonical public naming system](naming-system.md)
 - [Claim-to-source map](../proof/source-truth-map.md)

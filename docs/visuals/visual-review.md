@@ -39,7 +39,7 @@ manual work -> reviewed workflow -> evidence-backed output
 | --- | --- |
 | `assets/aureus-profile-hero.gif` | Main public architecture flow |
 | `assets/aureus-offer-menu.gif` | Commercial offer menu |
-| `assets/aureus-sales-machine.gif` | Sales Machine workflow |
+| `assets/aureus-sales-workflow.gif` | Aureus Sales Workflow workflow |
 | `assets/aureus-finecon-flow.gif` | FinEcon invoice/document review |
 | `assets/aureus-os-model.gif` | Aureus OS operating model |
 | `assets/aureus-public-boundary.gif` | Public/private boundary |

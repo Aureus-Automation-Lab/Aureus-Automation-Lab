@@ -32,7 +32,7 @@ We review failure paths, ownership, validation, approvals, and handoff before li
 
 Client receives: review notes, risk map, validation checklist, build/repair direction.
 
-## Slide 5 - FinEcon Pocket / Bridge
+## Slide 5 - Aureus FinEcon — Pocket / Bridge modules
 
 Documents enter through Pocket or prepared folders, move through review, reach bridge readiness, and leave proof.
 
@@ -40,7 +40,7 @@ Internal controlled evidence supports Pocket -> n8n -> Bridge -> POHODA handoff 
 
 Accounting correctness still needs accountant validation.
 
-## Slide 6 - Approval-Safe Sales Machine
+## Slide 6 - Aureus Sales Workflow
 
 AI can research, classify, and draft.
 

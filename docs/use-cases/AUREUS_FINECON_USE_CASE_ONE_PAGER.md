@@ -1,4 +1,4 @@
-# FinEcon Pocket / Bridge Use Case One-Pager
+# Aureus FinEcon — Pocket / Bridge modules Use Case One-Pager
 
 FinEcon is a reviewed finance/document workflow direction. It helps move documents from intake to structured review, controlled handoff, proof notes, and accountant validation boundaries.
 

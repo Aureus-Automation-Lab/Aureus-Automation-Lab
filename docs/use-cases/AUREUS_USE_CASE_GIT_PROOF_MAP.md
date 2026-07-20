@@ -23,35 +23,35 @@ Public-safe status values:
 | --- | --- | --- | --- |
 | `docs/portfolio/offer-menu.md` | n8n review and build are defined as client offers. | Does not expose raw workflow exports. | Public |
 | `docs/portfolio/solution-architecture.md` | Shows review, validation, evidence, and handoff model. | Does not prove live activation. | Public |
-| `AureusAutomationLab/n8n-workflows:scripts/aureus-n8n-finecon-excellence.py` | Internal source has workflow excellence tooling. | Does not expose private workflow data publicly. | Internal source |
-| `AureusAutomationLab/n8n-workflows:scripts/check-finecon-ops-signals.ps1` | Internal source has operational signal checks. | Does not prove customer production operation. | Internal source |
+| `Internal Aureus source: workflow excellence validator` | Internal source has workflow excellence tooling. | Does not expose private workflow data publicly. | Internal source |
+| `Internal Aureus source: operational signal checks` | Internal source has operational signal checks. | Does not prove customer production operation. | Internal source |
 
-## FinEcon Pocket / Bridge
+## Aureus FinEcon — Pocket / Bridge modules
 
 | Source | What it proves | What it does not prove | Public-safe status |
 | --- | --- | --- | --- |
-| `public-proof/finecon/README.md` | Public-safe FinEcon proof story exists. | Does not expose private routes, payloads, IDs, credentials, or real documents. | Public |
-| `public-proof/finecon/invoice-review-flow.md` | Shows reviewed document flow. | Does not claim accounting correctness. | Public |
-| `public-proof/finecon/review-boundary.md` | Shows accountant/professional review boundary. | Does not replace professional review. | Public |
+| `public-proof/aureus-finecon/README.md` | Public-safe Aureus FinEcon proof story exists. | Does not expose private routes, payloads, IDs, credentials, or real documents. | Public |
+| `public-proof/aureus-finecon/invoice-review-flow.md` | Shows reviewed document flow. | Does not claim accounting correctness. | Public |
+| `public-proof/aureus-finecon/review-boundary.md` | Shows accountant/professional review boundary. | Does not replace professional review. | Public |
 | `docs/proof/finecon-source-backed-status.md` | Summarizes source-backed FinEcon status safely. | Does not expose internal workflow exports. | Public |
-| `AureusAutomationLab/n8n-workflows:workflows/finecon/*.json` | 19 FinEcon source-of-truth workflow exports exist, including Pocket, Bridge, and Proof Pack Publisher workflows. | Does not make the JSON public or expose private runtime details. | Internal source |
-| `AureusAutomationLab/n8n-workflows:docs/finecon_bridge/FINECON_PRODUCT_STATUS.md` | Core E2E, Pocket to POHODA, live import, proof storage, and accountant boundary status are tracked. | Does not close accountant validation. | Internal source |
-| `AureusAutomationLab/n8n-workflows:docs/finecon_bridge/FINECON_WORKFLOW_SOURCE_OF_TRUTH.md` | The FinEcon workflow family is documented as source of truth. | Does not allow copying private IDs or route details to public docs. | Internal source |
-| `AureusAutomationLab/n8n-workflows:docs/finecon_bridge/ACCOUNTANT_VALIDATION_CHECKLIST.md` | Accountant validation boundary is explicit. | Does not validate accounting correctness by itself. | Internal source |
-| `AureusAutomationLab/n8n-workflows:docs/finecon_bridge/POHODA_LIVE_IMPORT_VALIDATION_REPORT.md` | Controlled live-import evidence exists internally. | Does not become public customer proof. | Internal source |
-| `AureusAutomationLab/n8n-workflows:docs/finecon_bridge/POHODA_MAPPING_DIFF_REPORT.md` | Mapping gaps and accountant validation needs are documented. | Does not claim final mapping correctness. | Internal source |
-| `AureusAutomationLab/n8n-workflows:scripts/finecon-e2e-preflight.ps1` | E2E preflight coverage exists internally. | Does not run live workflows from this public profile. | Internal source |
-| `AureusAutomationLab/FinEcon:finecon-pocket.html` | FinEcon Pocket is represented in the site layer. | Does not expose app internals. | Internal source |
-| `AureusAutomationLab/FinEcon:efakturacia-2027.html` | Public-facing FinEcon site copy explains Pocket, folders, UBL, and POHODA output direction with boundaries. | Does not provide legal/accounting advice. | Internal source |
+| `Internal Aureus source: FinEcon workflow family` | 19 FinEcon source-of-truth workflow exports exist, including Pocket, Bridge, and Proof Pack Publisher workflows. | Does not make the JSON public or expose private runtime details. | Internal source |
+| `Internal Aureus source: FinEcon product-status evidence` | Core E2E, Pocket to POHODA, live import, proof storage, and accountant boundary status are tracked. | Does not close accountant validation. | Internal source |
+| `Internal Aureus source: FinEcon source-of-truth contract` | The FinEcon workflow family is documented as source of truth. | Does not allow copying private IDs or route details to public docs. | Internal source |
+| `Internal Aureus source: accountant validation checklist` | Accountant validation boundary is explicit. | Does not validate accounting correctness by itself. | Internal source |
+| `Internal Aureus source: controlled import evidence` | Controlled live-import evidence exists internally. | Does not become public customer proof. | Internal source |
+| `Internal Aureus source: mapping-diff evidence` | Mapping gaps and accountant validation needs are documented. | Does not claim final mapping correctness. | Internal source |
+| `Internal Aureus source: FinEcon end-to-end preflight` | E2E preflight coverage exists internally. | Does not run live workflows from this public profile. | Internal source |
+| `Internal Aureus web source: Aureus FinEcon intake page` | FinEcon Pocket is represented in the site layer. | Does not expose app internals. | Internal source |
+| `Internal Aureus web source: Aureus FinEcon e-invoicing page` | Public-facing FinEcon site copy explains Pocket, folders, UBL, and POHODA output direction with boundaries. | Does not provide legal/accounting advice. | Internal source |
 
-## Approval-Safe Sales Machine
+## Aureus Sales Workflow
 
 | Source | What it proves | What it does not prove | Public-safe status |
 | --- | --- | --- | --- |
-| `public-proof/sales-machine/README.md` | Public-safe sales automation proof package exists. | Does not claim sent campaigns or customer results. | Public |
-| `public-proof/sales-machine/workflow-map.md` | Shows lead source to reporting flow. | Does not expose private lead lists or inbox data. | Public |
-| `public-proof/sales-machine/safe-state-model.md` | Shows no blind-send state model. | Does not prove live outreach. | Public |
-| `public-proof/sales-machine/buyer-example.md` | Gives a fictional buyer example. | Does not claim real customer proof. | Public |
+| `public-proof/aureus-sales-workflow/README.md` | Public-safe sales automation proof package exists. | Does not claim sent campaigns or customer results. | Public |
+| `public-proof/aureus-sales-workflow/workflow-map.md` | Shows lead source to reporting flow. | Does not expose private lead lists or inbox data. | Public |
+| `public-proof/aureus-sales-workflow/safe-state-model.md` | Shows no blind-send state model. | Does not prove live outreach. | Public |
+| `public-proof/aureus-sales-workflow/buyer-example.md` | Gives a fictional buyer example. | Does not claim real customer proof. | Public |
 
 ## Aureus OS
 
@@ -71,7 +71,7 @@ Public-safe status values:
 | `public-proof/README.md` | Public proof showroom exists. | Does not expose private implementation. | Public |
 | `docs/portfolio/public-boundary.md` | Public/private boundary is explicit. | Does not certify compliance. | Public |
 | `docs/portfolio/review-guide.md` | Different audiences have review paths. | Does not replace a live sales process. | Public |
-| `AureusAutomationLab/FinEcon:*.html` | FinEcon site has product/story pages and SEO surfaces. | Does not prove production customer adoption. | Internal source |
+| `Internal Aureus web source: Aureus FinEcon pages` | FinEcon site has product/story pages and SEO surfaces. | Does not prove production customer adoption. | Internal source |
 
 ## Rule
 

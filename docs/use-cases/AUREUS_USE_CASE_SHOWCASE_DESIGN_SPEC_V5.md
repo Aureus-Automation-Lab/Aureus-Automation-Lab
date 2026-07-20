@@ -54,8 +54,8 @@ Use these labels:
 | 2. Discovery model | Use a clean decision model: repeated work, skill bottleneck, ownership/review, evidence readiness, bounded pilot. |
 | 3. Automation Audit | Show impact/effort map and pilot brief. Client receives block must be visible. |
 | 4. n8n Review + Build | Show trigger, validation, approval, evidence, handoff. Avoid raw n8n screenshots. |
-| 5. FinEcon Pocket / Bridge | Make Pocket, review, Bridge, POHODA handoff, proof pack, and accountant boundary visible as separate steps. |
-| 6. Sales Machine | Show no-blind-send approval gate and do-not-contact boundary. |
+| 5. Aureus FinEcon — Pocket / Bridge modules | Make Pocket, review, Bridge, POHODA handoff, proof pack, and accountant boundary visible as separate steps. |
+| 6. Aureus Sales Workflow | Show no-blind-send approval gate and do-not-contact boundary. |
 | 7. Aureus OS | Show mission, validation, action gate, evidence, and handoff as one Aureus OS control plane. |
 | 8. Public Proof Website + Automation | Show public page, intake, review, follow-up, handoff. |
 | 9. Scorecard | Keep table spacious. Add recommendation strip at bottom. |

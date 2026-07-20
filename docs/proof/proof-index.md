@@ -7,10 +7,10 @@ Use this page to evaluate the Aureus portfolio by evidence type rather than by m
 | Proof package | Review focus |
 | --- | --- |
 | [Aureus OS](../../public-proof/aureus-os/README.md) | operating model, action gates, validation, evidence, and live-action boundary |
-| [Aureus CRM Operations](../../public-proof/crm-platform/README.md) | full-stack architecture, domain/state model, audit behavior, and executed validation |
-| [Aureus FinEcon](../../public-proof/finecon/README.md) | document flow, bridge handoff, proof notes, and accountant-review boundary |
-| [Aureus Trading Infrastructure](../../public-proof/trading-infrastructure/README.md) | paper-run architecture, risk isolation, observability, CI, and promotion boundary |
-| [Aureus Sales Workflow](../../public-proof/sales-machine/README.md) | subordinate demonstration scenario with workflow states, human approval, reply handling, and evidence |
+| [Aureus CRM Operations](../../public-proof/aureus-crm-operations/README.md) | full-stack architecture, domain/state model, audit behavior, and executed validation |
+| [Aureus FinEcon](../../public-proof/aureus-finecon/README.md) | document flow, bridge handoff, proof notes, and accountant-review boundary |
+| [Aureus Trading Infrastructure](../../public-proof/aureus-trading-infrastructure/README.md) | paper-run architecture, risk isolation, observability, CI, and promotion boundary |
+| [Aureus Sales Workflow](../../public-proof/aureus-sales-workflow/README.md) | subordinate demonstration scenario with workflow states, human approval, reply handling, and evidence |
 | [Credentials](../portfolio/credentials.md) | verified education claim and its limits |
 
 ## Recommended Reading Order

@@ -83,4 +83,4 @@ This creates:
 - `exports/Aureus_Use_Case_Showcase_Client_Language_V7_EN.pdf`
 - `exports/Aureus_Use_Case_Showcase_Client_Language_V7_SK.pdf`
 
-The files are also copied to the OneDrive desktop folder when available.
+The generator writes only to the repository-owned `exports/` directory. Copying or publishing an export outside the repository is an explicit owner action.

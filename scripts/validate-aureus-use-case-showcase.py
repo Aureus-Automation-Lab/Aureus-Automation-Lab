@@ -16,7 +16,7 @@ REQUIRED_FILES = [
     "docs/use-cases/AUREUS_USE_CASE_CONTENT_MODEL.md",
     "docs/use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5.md",
     "docs/use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5_SK.md",
-    "docs/use-cases/FINECON_POCKET_BRIDGE_USE_CASE_ONE_PAGER.md",
+    "docs/use-cases/AUREUS_FINECON_USE_CASE_ONE_PAGER.md",
     "docs/use-cases/AUREUS_CLIENT_USE_CASE_OFFER_SHEET.md",
     "docs/use-cases/AUREUS_USE_CASE_GIT_PROOF_MAP.md",
     "docs/use-cases/AUREUS_USE_CASE_SHOWCASE_DESIGN_SPEC_V5.md",
@@ -32,8 +32,8 @@ REQUIRED_FILES = [
 USE_CASES = [
     "Automation Audit",
     "n8n Workflow Review + Build",
-    "FinEcon Pocket / Bridge",
-    "Approval-Safe Sales Machine",
+    "Aureus FinEcon — Pocket / Bridge modules",
+    "Aureus Sales Workflow",
     "Aureus OS",
     "Public Proof Website + Automation",
 ]
@@ -90,10 +90,14 @@ def iter_text_files():
             continue
         if ".git" in path.parts:
             continue
+        if "__pycache__" in path.parts or path.suffix.lower() == ".pyc":
+            continue
         if path.parts[-1] == "exports" or "exports" in path.parts:
             continue
         if path.name in {
+            "audit-public-github-state.py",
             "public_profile_audit.ps1",
+            "test-audit-public-github-state.py",
             "validate-aureus-use-case-showcase.py",
             "validate-public-portfolio.py",
         }:
@@ -114,7 +118,7 @@ def main() -> int:
     copy = read_text(copy_path) if copy_path.exists() else ""
     sk_path = ROOT / "docs/use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5_SK.md"
     sk_copy = read_text(sk_path) if sk_path.exists() else ""
-    one_pager_path = ROOT / "docs/use-cases/FINECON_POCKET_BRIDGE_USE_CASE_ONE_PAGER.md"
+    one_pager_path = ROOT / "docs/use-cases/AUREUS_FINECON_USE_CASE_ONE_PAGER.md"
     one_pager = read_text(one_pager_path) if one_pager_path.exists() else ""
 
     for use_case in USE_CASES:

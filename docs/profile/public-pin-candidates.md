@@ -1,18 +1,15 @@
 # Public Pin Candidates
 
-| Priority | Candidate | Current state | Publication requirement |
+| Priority | Candidate | Current state | Required next gate |
 | --- | --- | --- | --- |
-| 1 | `Aureus-Automation-Lab/Aureus-Automation-Lab` | Public profile PR open | Merge after independent review, then pin |
-| 2 | Aureus CRM Operations | Sanitized package prepared inside profile repo | Create a standalone public artifact only after screenshot/source safety review |
-| 3 | Aureus OS Architecture | Sanitized package exists | Extract only stable public architecture and validation concepts |
-| 4 | Aureus FinEcon | Sanitized package exists | Keep accountant, POHODA, and real-document boundaries explicit |
-| 5 | Aureus Trading Infrastructure | Sanitized paper-run package prepared | Exclude strategy, credentials, runtime data, and performance claims |
-| 6 | Validator / Template | Candidate not selected | Publish only a small, maintained, reusable artifact |
+| 1 | `AureusAutomationLab/aureus-crm-operations` | Sanitized package in the profile repository | Extract lineage, choose license, add standalone CI/governance, review screenshots and claims, publish with approval |
+| 2 | `AureusAutomationLab/aureus-os-reference` | Sanitized architecture package | Confirm public reference scope, remove private implementation dependencies, add standalone validation and limitations |
+| 3 | `AureusAutomationLab/aureus-finecon-reference` | Sanitized workflow package | Preserve accountant, POHODA, real-document, and production boundaries; add standalone validation |
+| 4 | `AureusAutomationLab/aureus-trading-infrastructure-reference` | Sanitized paper-run package | Exclude strategy, credentials, runtime data, and performance claims; add standalone validation |
+| 5 | Reusable validator or maintained template | Not selected | Demonstrate real reuse, versioning, ownership, CI, and support before publication |
 
-## Naming Rule
+`Aureus Sales Workflow` remains an embedded scenario. It is not a separate top-level product or pin candidate unless future source and buyer evidence justify promotion through the naming and governance gate.
 
-Every standalone artifact must follow the [Aureus Public Naming System](../portfolio/naming-system.md). Historical internal project names may remain in private source for traceability, but do not become competing public brands.
+Creating repositories, changing visibility, publishing code or documentation, and pinning items are separate live GitHub mutations. Perform them only through the [approval packet](github-governance-approval-packet.md) with a signed-out verification receipt.
 
-## Safety Rule
-
-Creating repositories, gists, changing visibility, and pinning items are public GitHub mutations. Perform them only through the publication checklist with a signed-out verification receipt.
+The machine-readable source for this list is [portfolio-manifest.json](../../public-proof/portfolio-manifest.json).

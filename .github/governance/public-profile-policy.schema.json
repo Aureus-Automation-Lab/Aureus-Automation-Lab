@@ -1,0 +1,696 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Aureus-Automation-Lab/Aureus-Automation-Lab/blob/main/.github/governance/public-profile-policy.schema.json",
+  "title": "Aureus public GitHub governance policy",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "schema_version",
+    "policy_id",
+    "rollout_phase",
+    "repository",
+    "repository_features",
+    "merge_policy",
+    "review_governance",
+    "ruleset",
+    "legacy_branch_protection",
+    "security_and_analysis",
+    "community",
+    "founder_profile",
+    "company_profile",
+    "organization_governance",
+    "change_control",
+    "license_boundary",
+    "promotion_readiness"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "public-profile-policy.schema.json"
+    },
+    "schema_version": {
+      "const": "1.4"
+    },
+    "policy_id": {
+      "const": "aureus-public-profile-governance"
+    },
+    "rollout_phase": {
+      "enum": [
+        "pre-reviewer-bootstrap",
+        "profile-hardening",
+        "proof-publication",
+        "target-operating-state"
+      ]
+    },
+    "repository": {
+      "$ref": "#/$defs/repository"
+    },
+    "repository_features": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "has_issues",
+        "has_projects",
+        "has_wiki"
+      ],
+      "properties": {
+        "has_issues": {
+          "type": "boolean"
+        },
+        "has_projects": {
+          "type": "boolean"
+        },
+        "has_wiki": {
+          "type": "boolean"
+        }
+      }
+    },
+    "merge_policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "allow_squash_merge",
+        "allow_merge_commit",
+        "allow_rebase_merge",
+        "delete_branch_on_merge"
+      ],
+      "properties": {
+        "allow_squash_merge": {
+          "const": true
+        },
+        "allow_merge_commit": {
+          "const": false
+        },
+        "allow_rebase_merge": {
+          "const": false
+        },
+        "delete_branch_on_merge": {
+          "const": true
+        }
+      }
+    },
+    "review_governance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "minimum_distinct_human_reviewers",
+        "codeowners_must_include_independent_reviewer",
+        "reviewer_access_mode",
+        "required_repository_permission",
+        "organization_membership_for_review_forbidden",
+        "require_effective_access_diff_before_after",
+        "independent_reviewer_login",
+        "current_status"
+      ],
+      "properties": {
+        "minimum_distinct_human_reviewers": {
+          "const": 1
+        },
+        "codeowners_must_include_independent_reviewer": {
+          "const": true
+        },
+        "reviewer_access_mode": {
+          "const": "repository_scoped_direct_collaborator"
+        },
+        "required_repository_permission": {
+          "const": "push"
+        },
+        "organization_membership_for_review_forbidden": {
+          "const": true
+        },
+        "require_effective_access_diff_before_after": {
+          "const": true
+        },
+        "independent_reviewer_login": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "current_status": {
+          "enum": [
+            "APPROVAL_REQUIRED",
+            "VERIFIED"
+          ]
+        }
+      }
+    },
+    "ruleset": {
+      "$ref": "#/$defs/ruleset"
+    },
+    "legacy_branch_protection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "required_in_rollout_phases",
+        "forbidden_in_rollout_phases",
+        "minimum_controls"
+      ],
+      "properties": {
+        "required_in_rollout_phases": {
+          "type": "array",
+          "const": [
+            "pre-reviewer-bootstrap",
+            "profile-hardening"
+          ]
+        },
+        "forbidden_in_rollout_phases": {
+          "type": "array",
+          "const": [
+            "proof-publication",
+            "target-operating-state"
+          ]
+        },
+        "minimum_controls": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "required_approving_review_count",
+            "required_conversation_resolution",
+            "allow_force_pushes",
+            "allow_deletions"
+          ],
+          "properties": {
+            "required_approving_review_count": {
+              "const": 1
+            },
+            "required_conversation_resolution": {
+              "const": true
+            },
+            "allow_force_pushes": {
+              "const": false
+            },
+            "allow_deletions": {
+              "const": false
+            }
+          }
+        }
+      }
+    },
+    "security_and_analysis": {
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 7,
+      "required": [
+        "vulnerability_alerts",
+        "dependabot_security_updates",
+        "private_vulnerability_reporting",
+        "secret_scanning",
+        "secret_scanning_push_protection",
+        "secret_scanning_validity_checks",
+        "secret_scanning_non_provider_patterns"
+      ],
+      "properties": {
+        "vulnerability_alerts": {
+          "const": "enabled"
+        },
+        "dependabot_security_updates": {
+          "const": "enabled"
+        },
+        "private_vulnerability_reporting": {
+          "const": "enabled"
+        },
+        "secret_scanning": {
+          "const": "enabled"
+        },
+        "secret_scanning_push_protection": {
+          "const": "enabled"
+        },
+        "secret_scanning_validity_checks": {
+          "const": "enabled"
+        },
+        "secret_scanning_non_provider_patterns": {
+          "const": "enabled"
+        }
+      }
+    },
+    "community": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "minimum_health_percentage"
+      ],
+      "properties": {
+        "minimum_health_percentage": {
+          "type": "integer",
+          "minimum": 80,
+          "maximum": 100
+        }
+      }
+    },
+    "founder_profile": {
+      "$ref": "#/$defs/founderProfile"
+    },
+    "company_profile": {
+      "$ref": "#/$defs/companyProfile"
+    },
+    "organization_governance": {
+      "$ref": "#/$defs/organizationGovernance"
+    },
+    "change_control": {
+      "$ref": "#/$defs/changeControl"
+    },
+    "license_boundary": {
+      "$ref": "#/$defs/licenseBoundary"
+    },
+    "promotion_readiness": {
+      "$ref": "#/$defs/promotionReadiness"
+    }
+  },
+  "$defs": {
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1
+    },
+    "uniqueStringArray": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/nonEmptyString"
+      }
+    },
+    "repository": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name_with_owner",
+        "visibility",
+        "default_branch",
+        "archived",
+        "required_topics"
+      ],
+      "properties": {
+        "name_with_owner": {
+          "const": "Aureus-Automation-Lab/Aureus-Automation-Lab"
+        },
+        "visibility": {
+          "const": "public"
+        },
+        "default_branch": {
+          "const": "main"
+        },
+        "archived": {
+          "const": false
+        },
+        "required_topics": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/uniqueStringArray"
+            },
+            {
+              "minItems": 6,
+              "maxItems": 20
+            }
+          ]
+        }
+      }
+    },
+    "ruleset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "preferred_enforcement",
+        "name",
+        "target",
+        "enforcement",
+        "include_refs",
+        "exclude_refs",
+        "maximum_bypass_actors",
+        "required_rule_types",
+        "pull_request",
+        "required_status_checks"
+      ],
+      "properties": {
+        "preferred_enforcement": {
+          "const": "repository-ruleset"
+        },
+        "name": {
+          "const": "aureus-main-governance"
+        },
+        "target": {
+          "const": "branch"
+        },
+        "enforcement": {
+          "const": "active"
+        },
+        "include_refs": {
+          "type": "array",
+          "const": [
+            "refs/heads/main"
+          ]
+        },
+        "exclude_refs": {
+          "type": "array",
+          "const": []
+        },
+        "maximum_bypass_actors": {
+          "const": 0
+        },
+        "required_rule_types": {
+          "type": "array",
+          "uniqueItems": true,
+          "allOf": [
+            {
+              "contains": {
+                "const": "deletion"
+              }
+            },
+            {
+              "contains": {
+                "const": "non_fast_forward"
+              }
+            },
+            {
+              "contains": {
+                "const": "pull_request"
+              }
+            },
+            {
+              "contains": {
+                "const": "required_linear_history"
+              }
+            },
+            {
+              "contains": {
+                "const": "required_signatures"
+              }
+            },
+            {
+              "contains": {
+                "const": "required_status_checks"
+              }
+            }
+          ],
+          "items": {
+            "enum": [
+              "deletion",
+              "non_fast_forward",
+              "pull_request",
+              "required_linear_history",
+              "required_signatures",
+              "required_status_checks"
+            ]
+          }
+        },
+        "pull_request": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "allowed_merge_methods",
+            "required_approving_review_count",
+            "dismiss_stale_reviews_on_push",
+            "require_code_owner_review",
+            "require_last_push_approval",
+            "required_review_thread_resolution"
+          ],
+          "properties": {
+            "allowed_merge_methods": {
+              "type": "array",
+              "const": [
+                "squash"
+              ]
+            },
+            "required_approving_review_count": {
+              "const": 1
+            },
+            "dismiss_stale_reviews_on_push": {
+              "const": true
+            },
+            "require_code_owner_review": {
+              "const": true
+            },
+            "require_last_push_approval": {
+              "const": true
+            },
+            "required_review_thread_resolution": {
+              "const": true
+            }
+          }
+        },
+        "required_status_checks": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "strict_required_status_checks_policy",
+            "contexts"
+          ],
+          "properties": {
+            "strict_required_status_checks_policy": {
+              "const": true
+            },
+            "contexts": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 1,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "context",
+                  "integration_id"
+                ],
+                "properties": {
+                  "context": {
+                    "const": "Validate public profile"
+                  },
+                  "integration_id": {
+                    "const": 15368
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "founderProfile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "account",
+        "required_non_empty_fields",
+        "minimum_pinned_repositories_current_phase",
+        "minimum_pinned_repositories_target_phase",
+        "maximum_pinned_repositories"
+      ],
+      "properties": {
+        "account": {
+          "const": "Aureus-Automation-Lab"
+        },
+        "required_non_empty_fields": {
+          "$ref": "#/$defs/uniqueStringArray"
+        },
+        "minimum_pinned_repositories_current_phase": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 6
+        },
+        "minimum_pinned_repositories_target_phase": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
+        },
+        "maximum_pinned_repositories": {
+          "const": 6
+        }
+      }
+    },
+    "companyProfile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "organization",
+        "public_profile_repository",
+        "default_branch",
+        "initial_commit_contract",
+        "required_non_empty_fields"
+      ],
+      "properties": {
+        "organization": {
+          "const": "AureusAutomationLab"
+        },
+        "public_profile_repository": {
+          "const": "AureusAutomationLab/.github"
+        },
+        "default_branch": {
+          "const": "main"
+        },
+        "initial_commit_contract": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "branch",
+            "parent_sha",
+            "exact_tree",
+            "required_paths"
+          ],
+          "properties": {
+            "branch": {
+              "const": "main"
+            },
+            "parent_sha": {
+              "type": "null"
+            },
+            "exact_tree": {
+              "const": true
+            },
+            "required_paths": {
+              "const": [
+                "profile/README.md",
+                ".github/CODEOWNERS",
+                "SECURITY.md",
+                ".github/workflows/public-profile-validation.yml"
+              ]
+            }
+          }
+        },
+        "required_non_empty_fields": {
+          "const": [
+            "name",
+            "description",
+            "location",
+            "blog"
+          ]
+        }
+      }
+    },
+    "organizationGovernance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "default_repository_permission",
+        "two_factor_requirement_enabled",
+        "members_can_create_repositories",
+        "members_can_create_public_repositories",
+        "members_can_create_private_repositories",
+        "members_can_create_internal_repositories",
+        "members_can_delete_repositories",
+        "members_can_change_repo_visibility",
+        "web_commit_signoff_required",
+        "require_removal_impact_preflight",
+        "require_effective_access_diff_before_after",
+        "require_audit_log_evidence"
+      ],
+      "properties": {
+        "default_repository_permission": {
+          "const": "none"
+        },
+        "two_factor_requirement_enabled": {
+          "const": true
+        },
+        "members_can_create_repositories": {
+          "const": false
+        },
+        "members_can_create_public_repositories": {
+          "const": false
+        },
+        "members_can_create_private_repositories": {
+          "const": false
+        },
+        "members_can_create_internal_repositories": {
+          "const": false
+        },
+        "members_can_delete_repositories": {
+          "const": false
+        },
+        "members_can_change_repo_visibility": {
+          "const": false
+        },
+        "web_commit_signoff_required": {
+          "const": true
+        },
+        "require_removal_impact_preflight": {
+          "const": true
+        },
+        "require_effective_access_diff_before_after": {
+          "const": true
+        },
+        "require_audit_log_evidence": {
+          "const": true
+        }
+      }
+    },
+    "changeControl": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mode",
+        "least_privilege",
+        "fail_closed",
+        "rollback_evidence_required",
+        "post_change_attestation_required",
+        "sensitive_execution_contract"
+      ],
+      "properties": {
+        "mode": {
+          "const": "review_required"
+        },
+        "least_privilege": {
+          "const": true
+        },
+        "fail_closed": {
+          "const": true
+        },
+        "rollback_evidence_required": {
+          "const": true
+        },
+        "post_change_attestation_required": {
+          "const": true
+        },
+        "sensitive_execution_contract": {
+          "const": "private"
+        }
+      }
+    },
+    "licenseBoundary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "no_license_grant",
+        "decision_scope"
+      ],
+      "properties": {
+        "status": {
+          "const": "APPROVAL_REQUIRED_LICENSE_DECISION"
+        },
+        "no_license_grant": {
+          "const": true
+        },
+        "decision_scope": {
+          "const": [
+            "code",
+            "documentation",
+            "assets",
+            "trademarks"
+          ]
+        }
+      }
+    },
+    "promotionReadiness": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "approved_contact_url",
+        "contact_path_requires_owner_approval",
+        "contact_path_requires_verification"
+      ],
+      "properties": {
+        "status": {
+          "const": "BLOCKED_PENDING_CONTACT_PATH"
+        },
+        "approved_contact_url": {
+          "type": "null"
+        },
+        "contact_path_requires_owner_approval": {
+          "const": true
+        },
+        "contact_path_requires_verification": {
+          "const": true
+        }
+      }
+    }
+  }
+}

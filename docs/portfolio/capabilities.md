@@ -8,16 +8,16 @@ I translate business operations into system architecture, data and state models,
 
 ## Capability Matrix
 
-| Capability | Public signal |
-| --- | --- |
-| Business and solution architecture | Converts requirements, actors, states, risks, and success criteria into a coherent system |
-| Full-stack product delivery | CRM proof spans frontend, backend API, SQLite, roles, business workflows, tests, and deployment guidance |
-| AI agent and automation design | Defines tools, context, evaluation, retry, escalation, and human approval boundaries |
-| n8n workflow engineering | Treats workflows as source-controlled systems with failure paths, credentials boundaries, validation, and handoff |
-| Database and state modeling | Designs persistent entities, relations, transitions, audit events, reservations, and operational queries |
-| Reliability and observability | Uses validation, smoke tests, runtime state, alerts, evidence, runbooks, and rollback controls |
-| Security and claim boundaries | Separates public/private evidence, protects secrets, and keeps sensitive or live actions explicitly gated |
-| Product communication | Explains technical systems to buyers, reviewers, and operators without hiding limitations |
+| Capability | Public signal | Evidence |
+| --- | --- | --- |
+| Business and solution architecture | Converts requirements, actors, states, risks, and success criteria into a coherent system | [Project map](project-map.md) |
+| Full-stack product delivery | CRM proof spans frontend, backend API, SQLite, roles, business workflows, tests, and deployment guidance | [CRM proof](../../public-proof/aureus-crm-operations/README.md) |
+| AI agent and automation design | Defines tools, context, evaluation, retry, escalation, and human approval boundaries | [Aureus OS proof](../../public-proof/aureus-os/README.md) |
+| n8n workflow engineering | Treats workflows as source-controlled systems with failure paths, credentials boundaries, validation, and handoff | [Sales workflow proof](../../public-proof/aureus-sales-workflow/README.md) |
+| Database and state modeling | Designs persistent entities, relations, transitions, audit events, reservations, and operational queries | [CRM state model](../../public-proof/aureus-crm-operations/state-and-audit-model.md) |
+| Reliability and observability | Uses validation, smoke tests, runtime state, alerts, evidence, runbooks, and rollback controls | [Trading infrastructure proof](../../public-proof/aureus-trading-infrastructure/README.md) |
+| Security and claim boundaries | Separates public/private evidence, protects secrets, and keeps sensitive or live actions explicitly gated | [Public boundary](public-boundary.md) |
+| Product communication | Explains technical systems to buyers, reviewers, and operators without hiding limitations | [Engineering proof scenarios](case-studies.md) |
 
 ## Demonstrated System Range
 

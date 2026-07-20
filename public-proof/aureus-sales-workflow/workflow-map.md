@@ -1,4 +1,4 @@
-# Sales Machine Workflow Map
+# Aureus Sales Workflow Workflow Map
 
 This is a public-safe workflow map. It does not include real leads, inbox data, workflow IDs, Gmail details, n8n JSON, endpoints, or credentials.
 

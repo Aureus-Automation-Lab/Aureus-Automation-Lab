@@ -27,7 +27,7 @@ It should feel like a premium founder/engineering portfolio asset, not a generic
 | Duration | 4 seconds first pass |
 | Audio | off or subtle only; not required for GitHub review |
 | First frame | should work as a standalone thumbnail |
-| Output location | `assets/video/profile-aop-showroom.mp4` only after QA |
+| Output location | `assets/video/profile-aureus-os-showroom.mp4` only after QA |
 
 ## 4-Second Storyboard
 

@@ -26,8 +26,8 @@ AI prepares. People approve. Evidence remains.
 | --- | --- |
 | Automation Audit | finding the first useful automation before building |
 | n8n Workflow Review + Build | making existing or new workflows safer and easier to operate |
-| FinEcon Pocket / Bridge | reviewed document and finance workflow with Pocket intake and POHODA handoff direction |
-| Approval-Safe Sales Machine | AI-assisted sales follow-up without blind outreach |
+| Aureus FinEcon — Pocket / Bridge modules | reviewed document and finance workflow with Pocket intake and POHODA handoff direction |
+| Aureus Sales Workflow | AI-assisted sales follow-up without blind outreach |
 | Aureus OS | controlling AI-assisted company work with scope, validation, approvals, and evidence |
 | Public Proof Website + Automation | turning a public offer into an intake and handoff flow |
 
@@ -147,7 +147,7 @@ Share a sanitized workflow description and the failure you are most worried abou
 
 Mapped to the public portfolio offer menu, n8n governance approach, validation scripts, and workflow proof-pack discipline.
 
-## Page 5 - FinEcon Pocket / Bridge
+## Page 5 - Aureus FinEcon — Pocket / Bridge modules
 
 **One-line promise:** Move documents from intake to reviewed handoff with proof, while keeping accountant validation in place.
 
@@ -227,7 +227,7 @@ Choose one document flow and define what a person or accountant must approve bef
 
 Mapped to FinEcon public proof pages, FinEcon source-backed status, private workflow source-of-truth exports, bridge status, preflight checks, POHODA validation reports, and accountant validation checklist. Public docs summarize the evidence without exposing routes, IDs, credentials, private payloads, or real documents.
 
-## Page 6 - Approval-Safe Sales Machine
+## Page 6 - Aureus Sales Workflow
 
 **One-line promise:** Use AI to prepare sales work without letting it send blind outreach.
 
@@ -273,7 +273,7 @@ Start with one lead source and one approved offer message.
 
 **Git-backed truth notes**
 
-Mapped to the public Sales Machine proof package, safe state model, workflow map, and buyer example.
+Mapped to the public Aureus Sales Workflow proof package, safe state model, workflow map, and buyer example.
 
 ## Page 7 - Aureus OS
 
@@ -379,8 +379,8 @@ Use this scorecard to choose the first pilot.
 | --- | --- | --- | --- | --- | --- | --- |
 | Automation Audit | High | Low | Low | High | High | first purchase |
 | n8n Workflow Review + Build | High | Medium | Medium | High | High | existing workflow |
-| FinEcon Pocket / Bridge | High | Medium | High | Medium | High | document flow |
-| Approval-Safe Sales Machine | Medium | Medium | High | High | Medium | lead follow-up |
+| Aureus FinEcon — Pocket / Bridge modules | High | Medium | High | Medium | High | document flow |
+| Aureus Sales Workflow | Medium | Medium | High | High | Medium | lead follow-up |
 | Aureus OS | High | High | High | High | Medium | team control model |
 | Public Proof Website + Automation | Medium | Medium | Medium | High | High | offer clarity |
 
@@ -444,7 +444,7 @@ Then choose the next path:
 | --- | --- |
 | invoice, document, finance, or POHODA-related | FinEcon Pilot |
 | existing automation or workflow risk | n8n Workflow Review + Build |
-| lead follow-up or sales operations | Approval-Safe Sales Machine |
+| lead follow-up or sales operations | Aureus Sales Workflow |
 | AI work scattered across a team | Aureus OS Setup |
 | public offer unclear or disconnected from operations | Public Proof Website + Automation |
 

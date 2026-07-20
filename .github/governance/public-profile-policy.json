@@ -1,0 +1,182 @@
+{
+  "$schema": "public-profile-policy.schema.json",
+  "schema_version": "1.4",
+  "policy_id": "aureus-public-profile-governance",
+  "rollout_phase": "pre-reviewer-bootstrap",
+  "repository": {
+    "name_with_owner": "Aureus-Automation-Lab/Aureus-Automation-Lab",
+    "visibility": "public",
+    "default_branch": "main",
+    "archived": false,
+    "required_topics": [
+      "aureus-os",
+      "applied-ai",
+      "ai-automation",
+      "solution-architecture",
+      "full-stack",
+      "n8n",
+      "public-proof",
+      "evidence-first"
+    ]
+  },
+  "repository_features": {
+    "has_issues": true,
+    "has_projects": false,
+    "has_wiki": false
+  },
+  "merge_policy": {
+    "allow_squash_merge": true,
+    "allow_merge_commit": false,
+    "allow_rebase_merge": false,
+    "delete_branch_on_merge": true
+  },
+  "review_governance": {
+    "minimum_distinct_human_reviewers": 1,
+    "codeowners_must_include_independent_reviewer": true,
+    "reviewer_access_mode": "repository_scoped_direct_collaborator",
+    "required_repository_permission": "push",
+    "organization_membership_for_review_forbidden": true,
+    "require_effective_access_diff_before_after": true,
+    "independent_reviewer_login": null,
+    "current_status": "APPROVAL_REQUIRED"
+  },
+  "ruleset": {
+    "preferred_enforcement": "repository-ruleset",
+    "name": "aureus-main-governance",
+    "target": "branch",
+    "enforcement": "active",
+    "include_refs": [
+      "refs/heads/main"
+    ],
+    "exclude_refs": [],
+    "maximum_bypass_actors": 0,
+    "required_rule_types": [
+      "deletion",
+      "non_fast_forward",
+      "pull_request",
+      "required_linear_history",
+      "required_signatures",
+      "required_status_checks"
+    ],
+    "pull_request": {
+      "allowed_merge_methods": [
+        "squash"
+      ],
+      "required_approving_review_count": 1,
+      "dismiss_stale_reviews_on_push": true,
+      "require_code_owner_review": true,
+      "require_last_push_approval": true,
+      "required_review_thread_resolution": true
+    },
+    "required_status_checks": {
+      "strict_required_status_checks_policy": true,
+      "contexts": [
+        {
+          "context": "Validate public profile",
+          "integration_id": 15368
+        }
+      ]
+    }
+  },
+  "legacy_branch_protection": {
+    "required_in_rollout_phases": [
+      "pre-reviewer-bootstrap",
+      "profile-hardening"
+    ],
+    "forbidden_in_rollout_phases": [
+      "proof-publication",
+      "target-operating-state"
+    ],
+    "minimum_controls": {
+      "required_approving_review_count": 1,
+      "required_conversation_resolution": true,
+      "allow_force_pushes": false,
+      "allow_deletions": false
+    }
+  },
+  "security_and_analysis": {
+    "vulnerability_alerts": "enabled",
+    "dependabot_security_updates": "enabled",
+    "private_vulnerability_reporting": "enabled",
+    "secret_scanning": "enabled",
+    "secret_scanning_push_protection": "enabled",
+    "secret_scanning_validity_checks": "enabled",
+    "secret_scanning_non_provider_patterns": "enabled"
+  },
+  "community": {
+    "minimum_health_percentage": 80
+  },
+  "founder_profile": {
+    "account": "Aureus-Automation-Lab",
+    "required_non_empty_fields": [
+      "name",
+      "bio",
+      "company",
+      "location",
+      "blog"
+    ],
+    "minimum_pinned_repositories_current_phase": 0,
+    "minimum_pinned_repositories_target_phase": 1,
+    "maximum_pinned_repositories": 6
+  },
+  "company_profile": {
+    "organization": "AureusAutomationLab",
+    "public_profile_repository": "AureusAutomationLab/.github",
+    "default_branch": "main",
+    "initial_commit_contract": {
+      "branch": "main",
+      "parent_sha": null,
+      "exact_tree": true,
+      "required_paths": [
+        "profile/README.md",
+        ".github/CODEOWNERS",
+        "SECURITY.md",
+        ".github/workflows/public-profile-validation.yml"
+      ]
+    },
+    "required_non_empty_fields": [
+      "name",
+      "description",
+      "location",
+      "blog"
+    ]
+  },
+  "organization_governance": {
+    "default_repository_permission": "none",
+    "two_factor_requirement_enabled": true,
+    "members_can_create_repositories": false,
+    "members_can_create_public_repositories": false,
+    "members_can_create_private_repositories": false,
+    "members_can_create_internal_repositories": false,
+    "members_can_delete_repositories": false,
+    "members_can_change_repo_visibility": false,
+    "web_commit_signoff_required": true,
+    "require_removal_impact_preflight": true,
+    "require_effective_access_diff_before_after": true,
+    "require_audit_log_evidence": true
+  },
+  "change_control": {
+    "mode": "review_required",
+    "least_privilege": true,
+    "fail_closed": true,
+    "rollback_evidence_required": true,
+    "post_change_attestation_required": true,
+    "sensitive_execution_contract": "private"
+  },
+  "license_boundary": {
+    "status": "APPROVAL_REQUIRED_LICENSE_DECISION",
+    "no_license_grant": true,
+    "decision_scope": [
+      "code",
+      "documentation",
+      "assets",
+      "trademarks"
+    ]
+  },
+  "promotion_readiness": {
+    "status": "BLOCKED_PENDING_CONTACT_PATH",
+    "approved_contact_url": null,
+    "contact_path_requires_owner_approval": true,
+    "contact_path_requires_verification": true
+  }
+}

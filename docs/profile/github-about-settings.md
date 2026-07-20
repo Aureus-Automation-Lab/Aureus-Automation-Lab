@@ -1,47 +1,52 @@
-# GitHub About Settings
+# GitHub Identity And About Settings
 
-These values keep the public GitHub identity aligned with the evidence architecture in this repository.
+These values align founder, company, and repository metadata without presenting candidates as live.
 
-## Repository
+## Founder Profile Target
+
+| Field | Recommended value |
+| --- | --- |
+| Display name | `Róbert Kolesár` |
+| Bio | `Founder of Aureus Automation Lab · Applied AI systems, automation, and full-stack product delivery` |
+| Company | `@AureusAutomationLab` after the organization profile is public and verified |
+| Website | Pending owner approval and signed-out URL verification |
+| Location | Use the truthful owner-approved location; do not infer it |
+
+## Company Organization Target
+
+| Field | Recommended value |
+| --- | --- |
+| Display name | `Aureus Automation Lab` |
+| Description | `Applied AI systems, business automation, and evidence-first product delivery.` |
+| Website | Pending owner approval and signed-out URL verification |
+| Location | Use the truthful owner-approved company location; do not infer it |
+| Public profile repository | `AureusAutomationLab/.github` |
+
+## Current Profile Repository
 
 ```text
 Aureus-Automation-Lab/Aureus-Automation-Lab
 ```
 
-## Recommended Description
+Recommended description:
 
 ```text
-Aureus OS, CRM operations, finance workflows, AI automation, and evidence-first product delivery.
+Public profile and evidence map for Aureus Automation Lab: Aureus OS, CRM operations, FinEcon, and risk-first infrastructure.
 ```
 
-## Website
-
-```text
-https://aureus.it.com/automationlab
-```
-
-## Recommended Topics
+Recommended topics:
 
 - `aureus-os`
 - `applied-ai`
-- `ai-agents`
 - `ai-automation`
 - `solution-architecture`
 - `full-stack`
 - `n8n`
 - `public-proof`
+- `evidence-first`
 
-## Social Preview
+Keep Issues because the repository contains a constrained feedback form. Disable unused Projects and Wiki. Use a 1280 × 640 social preview with readable company identity and no customer logos, credential IDs, private screenshots, performance claims, or unsupported badges.
 
-Use a 1280 × 640 image under 1 MB with:
+## Mutation Boundary
 
-- Aureus Automation Lab,
-- Applied AI Systems,
-- Aureus OS · Aureus CRM · Aureus FinEcon,
-- high-contrast text that remains readable in a small link card.
-
-The preview must not contain customer logos, credential IDs, private screenshots, performance claims, or unsupported badges.
-
-## Settings Boundary
-
-Description, topics, homepage, social preview, repository visibility, branch protection, and pinned items are GitHub settings mutations. Apply them only through the approved publication checklist and record the resulting URLs/screenshots. Public labels must follow the [canonical naming system](../portfolio/naming-system.md).
+Profile, organization, repository About, topics, social preview, visibility, rules, security controls, merge methods, feature toggles, and pins are live GitHub mutations. Apply only an exact approved stage from the [GitHub governance approval packet](github-governance-approval-packet.md), then capture API and signed-out evidence.

@@ -1,48 +1,26 @@
-# Final Public Switch Checklist
+# Live GitHub Rollout Checklist
 
-This file records the exact repository naming state required before the profile can be made public.
+The profile repository is already public. This checklist governs reviewed changes to live public state without exposing the private execution contract.
 
-## Detected State
+## Before Every Live Change
 
-Current username:
+- refresh the exact authenticated identity, repository, default branch, checks, and review state;
+- require repository/profile/phase bindings to match the public policy;
+- capture rollback evidence and confirm the approved scope;
+- run local validation, secret/claim checks, and signed-out preview;
+- stop if identity, reviewer, evidence, or target state changed.
 
-```text
-Aureus-Automation-Lab
-```
+## Ordered Gates
 
-Current repository:
+1. Obtain review from a distinct human who is not the founder or a bot.
+2. Merge the reviewed change through protected `main` after green checks.
+3. Run a fresh read-only audit and post-change attestation.
+4. Publish standalone proof only after its own public-safety and promotion gate.
+5. Make no license grant before `APPROVAL_REQUIRED_LICENSE_DECISION` is resolved.
+6. Do not claim `PROMOTION_READY` before the owner-approved contact URL is verified.
 
-```text
-Aureus-Automation-Lab/Aureus-Automation-Lab
-```
+## Post-Change Verification
 
-Required profile repository:
+Verify public rendering signed out, policy controls read only, exact identity, review independence, links, images, and maturity labels. Store evidence in the canonical mission output and report `PASS`, `REPAIR_REQUIRED`, `APPROVAL_REQUIRED`, or `BLOCKED`.
 
-```text
-Aureus-Automation-Lab/Aureus-Automation-Lab
-```
-
-## Naming Gate
-
-Status: **ready**.
-
-The repository name now equals the current GitHub username, so this repository can render as the GitHub profile README after it is made public.
-
-## Profile README Rule
-
-GitHub profile README appears only when the repository name equals the current GitHub username.
-
-- Current username: `Aureus-Automation-Lab`
-- Current repository name: `Aureus-Automation-Lab`
-- Final path: `Aureus-Automation-Lab/Aureus-Automation-Lab`
-
-If the username later becomes `robertkolesar`, then the required final path becomes `robertkolesar/robertkolesar`.
-
-## Final Gate Before Public
-
-1. Run `scripts/public_profile_audit.ps1`.
-2. Confirm README first screen.
-3. Confirm public-proof links.
-4. Confirm no private data.
-5. Switch visibility to public.
-6. Open `https://github.com/Aureus-Automation-Lab` signed-out or incognito.
+Use the [GitHub governance review packet](github-governance-approval-packet.md) for the public boundary.

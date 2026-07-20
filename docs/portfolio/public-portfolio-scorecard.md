@@ -1,90 +1,35 @@
-# Public Portfolio Scorecard
+# Public Portfolio Readiness Matrix
 
-This scorecard evaluates the profile against the criteria in the 10/10 public portfolio brief. It does not claim objective perfection. It states how the repo is positioned for review.
+This matrix separates locally validated public artifacts from live GitHub readiness.
 
-## Score Direction
+## Status Definitions
 
-| Item | Score |
-| --- | --- |
-| Before score estimate | 7.2/10 |
-| Target score | 10/10 |
-| Current positioning | Positioned as 9.2/10+ GitHub public portfolio, with live landing page and verified case results remaining as future upgrades |
+| Status | Meaning |
+|---|---|
+| `PASS` | Verified by current evidence |
+| `REPAIR_REQUIRED` | A known safe-local gap remains |
+| `APPROVAL_REQUIRED` | A reviewed owner or independent-review decision is required |
+| `BLOCKED` | A required external prerequisite is unavailable or unverified |
 
-## What Changed
+## Readiness Gates
 
-- README now opens with Aureus Automation Lab, Róbert Kolesár, clear positioning, and client-readable proof paths.
-- The first screen explains the value in plain business language.
-- A specific public-safe animated visual system now shows the offer menu, Sales Machine, FinEcon, Aureus OS, proof boundary, capabilities, collaboration, readiness, and solution architecture.
-- Offers are concrete and commercially understandable.
-- Public demo flow explains one useful buyer scenario.
-- Aureus OS is framed as the operating method behind delivery, not as a complicated platform buyers must understand first.
-- Review paths are split for recruiters, technical reviewers, and clients.
-- Safety boundaries remain explicit.
+| Gate | Status | Required evidence |
+|---|---|---|
+| Canonical public identity | `PASS` locally | Exact repository, subject, manifest, policy, and phase binding |
+| Portfolio information architecture | `PASS` locally | One company, one OS, clearly classified products and proofs |
+| Public governance change | `APPROVAL_REQUIRED` | Green validation, distinct human review, protected merge, post-change audit |
+| Standalone proof publication | `APPROVAL_REQUIRED` | Sanitized package, claim review, repository-specific promotion gate |
+| CRM visual proof | `VISUAL_ASSET_BLOCKED_PENDING_SANITIZED_REVIEW` | A readable privacy-safe crop that passes visual and claim-safety review |
+| Licensing | `APPROVAL_REQUIRED_LICENSE_DECISION` | Owner-selected boundaries for code, documentation, assets, and trademarks |
+| Contact path and promotion | `BLOCKED_PENDING_CONTACT_PATH` | Owner-approved URL verified before `PROMOTION_READY` |
+| Live attestation | `REPAIR_REQUIRED` until refreshed | Read-only audit with no identity, review, security, or evidence blockers |
 
-## Final Polish Pass
+## Promotion Decision
 
-- Standardized the main role title as **Founder & AI Automation Solution Architect**.
-- Added a CV / Recruiter Snapshot to the README.
-- Added a concrete fictional invoice review demo case.
-- Added CV-safe wording for resumes, LinkedIn, and recruiter messages.
-- Clarified the recommended first purchase: Automation Audit.
-- Updated FinEcon from concept-level wording to source-backed Pocket, bridge, proof, and accountant-boundary wording.
-- Reduced repeated private-data lists by pointing readers to the public boundary.
-- Strengthened validation checks for role consistency, CV readiness, and link coverage.
+The public materials can be reviewed, but the system must not claim `PROMOTION_READY` while licensing, contact, independent-review, or live-attestation gates remain open. Public changes stay `APPROVAL_REQUIRED` and fail closed.
 
-## Remaining Limits
+## Evidence Boundary
 
-- This is a public-safe portfolio, not a private implementation repository.
-- It does not expose raw workflow exports, private endpoints, credentials, or production data.
-- It does not claim verified customer outcomes or production deployment evidence.
-- Future pinned repos or gists should be added only when they are sanitized, polished, and public-safe.
+Public proof demonstrates architecture, workflow state, validation discipline, and limitations. It does not disclose private repositories, internal authorization topology, credentials, customer data, production logs, or sensitive operating state. No unsupported customer outcome, revenue, ROI, certification, accounting, trading, security, or production claim is permitted.
 
-## Public Safety Check
-
-The repo is designed to avoid:
-
-- secrets and credentials,
-- workflow exports,
-- endpoints and webhook URLs,
-- real invoices or lead data,
-- production logs,
-- private prompts,
-- unsupported performance claims,
-- fake testimonials.
-
-## Recruiter Readability Check
-
-A recruiter should understand in under 30 seconds:
-
-- Robert is an AI Automation Solution Architect.
-- The work sits between automation, internal systems, solution architecture, and AI-assisted business execution.
-- The strongest role fit is AI automation, internal tooling, n8n workflow systems, solution architecture, or technical product operations.
-
-## CV Readiness Statement
-
-Safe to include in CV/resume as a public portfolio link, provided it is described as a public-safe architecture and automation portfolio rather than verified production/customer proof.
-
-## Client Readability Check
-
-A client should understand:
-
-- what problem is solved,
-- what can be bought first,
-- why review boundaries matter,
-- why the work is safer than blind automation,
-- how to start with an audit, review, build, pilot, or monthly partner model.
-
-## Technical Credibility Check
-
-A technical reviewer should find:
-
-- architecture docs,
-- public-safe case study directions,
-- boundaries between AI preparation and human approval,
-- validation and evidence thinking,
-- no exposure of private implementation,
-- a local validation script.
-
-## Ship Note
-
-The profile is ready for public review against the defined criteria if validation passes and the owner confirms the final public wording.
+See the [Public GitHub Portfolio Standard](github-portfolio-standard.md), [portfolio manifest](../../public-proof/portfolio-manifest.json), and [governance review packet](../profile/github-governance-approval-packet.md).

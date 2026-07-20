@@ -24,7 +24,7 @@ Fallback diagram generator:
 python scripts\generate-aureus-use-case-pdfs.py
 ```
 
-The scripts create polished 16:9 PDF exports under `exports/` and copy the latest files to the desktop/OneDrive desktop folder when available. This handoff defines the source copy, layout rules, and safety checks that the PDF generator must preserve.
+The scripts create polished 16:9 PDF exports only under the repository-owned `exports/` directory. Copying or publishing an export outside the repository is an explicit owner action. This handoff defines the source copy, layout rules, and safety checks that the PDF generator must preserve.
 
 ## Source Copy
 
@@ -42,8 +42,8 @@ Use:
 2. How We Choose The Right AI Use Case
 3. Automation Audit
 4. n8n Workflow Review + Build
-5. FinEcon Pocket / Bridge
-6. Approval-Safe Sales Machine
+5. Aureus FinEcon — Pocket / Bridge modules
+6. Aureus Sales Workflow
 7. Aureus OS
 8. Public Proof Website + Automation
 9. Client Use-Case Scorecard

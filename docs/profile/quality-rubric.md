@@ -1,77 +1,39 @@
-# Public Profile 10/10 Quality Rubric
+# Public GitHub Trust Standard
 
-Use this rubric before sharing the GitHub profile with clients, partners, collaborators, or public reviewers.
+Use this gate before promoting the profile, an organization page, or a standalone proof repository to clients, partners, collaborators, or public reviewers.
 
-## Scorecard
+## Review Gates
 
-| Category | What 10/10 Means |
+| Gate | Pass condition |
 | --- | --- |
-| First-screen clarity | A visitor immediately sees Aureus Automation Lab, the one-line value proposition, the founder identity, and a credible hero image. |
-| Non-technical understanding | A business reader understands in 30 seconds what Aureus does, why it matters, and what first step to take. |
-| Business credibility | The profile explains real buyer problems: sales follow-up, operations handoffs, invoices, documents, reporting, and internal execution. |
-| Technical credibility | Technical reviewers can find workflow boundaries, validation, evidence, handoff, source-truth discipline, and public-safe architecture notes. |
-| Public-safe proof | Sales Machine, FinEcon, and Aureus OS each have clear proof pages that show direction without exposing private systems. |
-| Claim safety | The repo avoids ROI promises, certifications, production client results, accounting correctness, tax/legal advice, trading performance, and fake testimonials. |
-| Navigation | README is the front door; docs are a supporting proof library; key links are visible without turning the page into a document dump. |
-| Visual polish | Images are public-safe, relevant, and professional; no broken image links; no low-effort or misleading screenshots. |
-| Buyer conversion path | A company can see practical first projects: Automation Audit, n8n Workflow Governance, FinEcon Pilot, Aureus OS Setup, Premium AI Website + Automation, or Monthly Automation Partner. |
-| External share readiness | The repo can be opened in a signed-out browser, understood without private repos, and reviewed without exposing secrets or unsupported claims. |
+| First-screen clarity | A visitor sees the accountable person or company, the work category, and one useful next path without decoding internal terminology. |
+| Identity separation | Founder and company surfaces have distinct roles, consistent names, and no competing account identities. |
+| Business understanding | A non-technical reviewer can identify the buyer problem, artifact type, maturity, and next conversation quickly. |
+| Technical review | Architecture, state boundaries, validation commands, security controls, and limitations are easy to find. |
+| Public-safe proof | Every claim maps to a public artifact or an explicitly described private-source boundary. |
+| Claim safety | No unsupported customer, revenue, certification, accounting, security, trading, ROI, or production claim appears. |
+| Repository hygiene | The repository has a focused README, owned navigation, no stale launch instructions, no broken links, and no confusing duplicates. |
+| CI and review | Proven validation is required on protected `main`, with independent review and no force-push shortcut. |
+| Security | Least-privilege workflows, immutable Action references, dependency alerts, secret scanning, push protection, and a private disclosure path are active where supported. |
+| External review | A signed-out visitor can render the profile, open every primary link, understand the maturity, and find no private dependency. |
 
-## Identity Polish
+## Required Public Proof Contract
 
-A 10/10 public profile requires:
-
-- public name is human and professional: `Róbert Kolesár`,
-- current GitHub username and profile repository match: `Aureus-Automation-Lab/Aureus-Automation-Lab`,
-- founder handle remains clear inside the profile: `robertkolesar`,
-- README, docs, proof pages, About settings, and pins use the same public identity,
-- old nickname-first positioning is not presented as the main public brand.
-
-## Required Public Proof Artifacts
-
-A 10/10 profile includes:
-
-- a clear root `README.md`,
-- public proof pages under `docs/proof`,
-- concrete proof packages under `public-proof`,
-- a public safety audit checklist,
-- a report-only audit script,
-- a future pinned-items strategy.
-
-The proof packages must show real system thinking without exposing private implementation.
-
-## 10/10 Standard
-
-The profile is ready when it feels like a serious public company/studio front door, not a private archive.
-
-It should be:
-
-- clear,
-- honest,
-- useful,
-- commercially credible,
-- technically reviewable,
-- safe to make public.
+- clear canonical name and repository class;
+- explicit maturity and status;
+- problem, user, scope, architecture, validation, limitations, and next review path;
+- public-safe visual when it improves comprehension;
+- reproducible CI and security/claim checks;
+- contribution, support, conduct, security, ownership, and release boundaries;
+- a deliberate license decision;
+- signed-out verification evidence.
 
 ## Automatic No-Go
 
-Do not make the repo public if it contains:
+Do not promote or pin an artifact that contains secrets, private endpoints, raw private workflow exports, real client-like data, private screenshots, unsupported claims, broken rendering, unknown ownership, an empty placeholder repository, or a maturity label stronger than its evidence.
 
-- secrets or credentials,
-- private endpoints,
-- raw workflow exports,
-- real invoices or client-like data,
-- private screenshots,
-- unsupported client/customer claims,
-- accounting correctness claims,
-- fake proof,
-- broken first-screen rendering,
-- confusing navigation.
+## Result
 
-## Final Owner Question
+Record exactly one result per gate: `PASS`, `REPAIR_REQUIRED`, `APPROVAL_REQUIRED`, or `BLOCKED`. Numeric self-ratings are not accepted as readiness evidence.
 
-Before making the repository public, ask:
-
-> Would a serious buyer understand what Aureus does, trust the boundaries, and know what first conversation to start?
-
-If yes, the profile is ready for final owner review.
+The complete implementation contract is the [Public GitHub Portfolio Standard](../portfolio/github-portfolio-standard.md).

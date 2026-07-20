@@ -1,4 +1,4 @@
-# Pro-Tier Public Case Studies
+# Engineering Proof Scenarios
 
 These are public-safe case studies for the main Aureus Automation Lab project lines.
 
@@ -20,7 +20,11 @@ Buyer problem
 -> Offer path
 ```
 
-## Case Study Index
+## Start With The Strongest Product Proof
+
+[Aureus CRM Operations](../../public-proof/aureus-crm-operations/README.md) is the clearest first review path: it demonstrates a complete synthetic product across interface, API, state, roles, business workflows, audit, tests, and deployment guidance.
+
+## Full Scenario Library
 
 | Case | Project / offer | What it proves publicly |
 | --- | --- | --- |
@@ -176,7 +180,7 @@ Private exports, secrets, real payloads, endpoints, workflow IDs, and production
 
 ## 04. Aureus Sales Workflow
 
-This is a demonstration scenario. The historical public label `Sales Machine` is retained only in stable file paths and older proof references.
+This is a subordinate demonstration scenario under the canonical Aureus Sales Workflow name.
 
 ### Buyer Problem
 
@@ -207,7 +211,7 @@ No blind sending. Outreach and client-facing messages stay approved by a person.
 
 ### Evidence / Proof
 
-Public proof lives in the [Aureus Sales Workflow proof package](../../public-proof/sales-machine/README.md): workflow map, safe state model, and fictional buyer example.
+Public proof lives in the [Aureus Sales Workflow proof package](../../public-proof/aureus-sales-workflow/README.md): workflow map, safe state model, and fictional buyer example.
 
 ### Business Output
 
@@ -255,7 +259,7 @@ Accounting-sensitive conclusions, downstream import decisions, cleanup decisions
 
 ### Evidence / Proof
 
-Public proof lives in the [FinEcon proof package](../../public-proof/finecon/README.md) and [FinEcon source-backed status](../proof/finecon-source-backed-status.md).
+Public proof lives in the [Aureus FinEcon proof package](../../public-proof/aureus-finecon/README.md) and [FinEcon source-backed status](../proof/finecon-source-backed-status.md).
 
 Publicly, the right claim is:
 

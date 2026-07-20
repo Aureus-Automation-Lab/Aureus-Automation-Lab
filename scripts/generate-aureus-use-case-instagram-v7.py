@@ -475,32 +475,7 @@ def make_zip(paths: list[Path], zip_path: Path) -> None:
             archive.write(path, path.name)
 
 
-def desktop_dir() -> Path | None:
-    for candidate in [
-        Path.home() / "OneDrive" / "Počítač",
-        Path.home() / "OneDrive" / "Desktop",
-        Path.home() / "Desktop",
-    ]:
-        if candidate.exists():
-            return candidate
-    return None
-
-
-def copy_to_desktop(pngs: list[Path], folder_name: str, zip_path: Path) -> Path | None:
-    desktop = desktop_dir()
-    if not desktop:
-        return None
-    dest = desktop / folder_name
-    if dest.exists():
-        shutil.rmtree(dest)
-    dest.mkdir(parents=True, exist_ok=True)
-    for path in pngs:
-        shutil.copy2(path, dest / path.name)
-    shutil.copy2(zip_path, desktop / zip_path.name)
-    return dest
-
-
-def generate_pack(lang: str, data: dict, cases: list, crops: dict[int, Path]) -> tuple[Path, Path, Path, Path | None]:
+def generate_pack(lang: str, data: dict, cases: list, crops: dict[int, Path]) -> tuple[Path, Path, Path]:
     folder_name = f"Aureus_Use_Case_Instagram_Carousel_V7_{lang}"
     pdf_path = OUT_ROOT / f"{folder_name}.pdf"
     png_dir = OUT_ROOT / folder_name
@@ -508,8 +483,7 @@ def generate_pack(lang: str, data: dict, cases: list, crops: dict[int, Path]) ->
     generate_pdf(pdf_path, data, cases, crops)
     pngs = render_pdf_to_pngs(pdf_path, png_dir)
     make_zip(pngs, zip_path)
-    desktop = copy_to_desktop(pngs, folder_name, zip_path)
-    return pdf_path, png_dir, zip_path, desktop
+    return pdf_path, png_dir, zip_path
 
 
 def main() -> int:
@@ -523,12 +497,10 @@ def main() -> int:
     ]
 
     for lang, data, cases in packs:
-        pdf_path, png_dir, zip_path, desktop = generate_pack(lang, data, cases, crops)
+        pdf_path, png_dir, zip_path = generate_pack(lang, data, cases, crops)
         print(f"{lang} PDF: {pdf_path}")
         print(f"{lang} PNG folder: {png_dir}")
         print(f"{lang} ZIP: {zip_path}")
-        if desktop:
-            print(f"{lang} copied to: {desktop}")
     return 0
 
 

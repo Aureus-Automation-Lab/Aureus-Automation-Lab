@@ -39,7 +39,7 @@ Aureus designs for the boring Tuesday morning when the workflow has to run, fail
 - safer AI use,
 - workflows that a team can understand and operate.
 
-## Example: Sales Machine Direction
+## Example: Aureus Sales Workflow Direction
 
 A public-safe sales system can be shaped like this:
 

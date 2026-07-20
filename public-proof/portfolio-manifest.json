@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "last_verified_date": "2026-07-20",
+  "canonical_identity": {
+    "company": "Aureus Automation Lab",
+    "company_organization": "AureusAutomationLab",
+    "current_profile_account": "Aureus-Automation-Lab",
+    "current_profile_repository": "Aureus-Automation-Lab/Aureus-Automation-Lab",
+    "identity_state": "canonical-public-identity"
+  },
+  "governance_state": {
+    "rollout_phase": "pre-reviewer-bootstrap",
+    "status": "APPROVAL_REQUIRED"
+  },
+  "company_profile": {
+    "target_repository": "AureusAutomationLab/.github",
+    "publication_status": "approval-required",
+    "purpose": "Company-level public profile with one portfolio map, trust boundary, and contact path"
+  },
+  "portfolio_items": [
+    {
+      "id": "aureus-os-reference",
+      "canonical_name": "Aureus OS",
+      "kind": "public-reference",
+      "target_repository": "AureusAutomationLab/aureus-os-reference",
+      "proof_package": "public-proof/aureus-os",
+      "maturity": "source-backed-architecture",
+      "publication_status": "sanitized-candidate",
+      "source_lineage": {
+        "evidence_id": "pending-aureus-os-public-extraction-receipt",
+        "source_tree_hash": null,
+        "publication_gate": "APPROVAL_REQUIRED"
+      },
+      "target_state": {
+        "exists": false,
+        "visibility": null
+      },
+      "gate_status": "APPROVAL_REQUIRED",
+      "founder_pin_order": 2,
+      "organization_pin_order": 2
+    },
+    {
+      "id": "aureus-crm-operations",
+      "canonical_name": "Aureus CRM Operations",
+      "kind": "public-product-proof",
+      "target_repository": "AureusAutomationLab/aureus-crm-operations",
+      "proof_package": "public-proof/aureus-crm-operations",
+      "maturity": "source-backed-synthetic-demo",
+      "publication_status": "sanitized-candidate",
+      "source_lineage": {
+        "evidence_id": "pending-crm-public-extraction-receipt",
+        "source_tree_hash": null,
+        "publication_gate": "APPROVAL_REQUIRED"
+      },
+      "target_state": {
+        "exists": false,
+        "visibility": null
+      },
+      "gate_status": "APPROVAL_REQUIRED",
+      "founder_pin_order": 1,
+      "organization_pin_order": 1
+    },
+    {
+      "id": "aureus-finecon-reference",
+      "canonical_name": "Aureus FinEcon",
+      "kind": "public-reference",
+      "target_repository": "AureusAutomationLab/aureus-finecon-reference",
+      "proof_package": "public-proof/aureus-finecon",
+      "maturity": "source-backed-workflow-reference",
+      "publication_status": "sanitized-candidate",
+      "source_lineage": {
+        "evidence_id": "pending-finecon-public-extraction-receipt",
+        "source_tree_hash": null,
+        "publication_gate": "APPROVAL_REQUIRED"
+      },
+      "target_state": {
+        "exists": false,
+        "visibility": null
+      },
+      "gate_status": "APPROVAL_REQUIRED",
+      "founder_pin_order": 3,
+      "organization_pin_order": 3
+    },
+    {
+      "id": "aureus-trading-infrastructure-reference",
+      "canonical_name": "Aureus Trading Infrastructure",
+      "kind": "public-reference",
+      "target_repository": "AureusAutomationLab/aureus-trading-infrastructure-reference",
+      "proof_package": "public-proof/aureus-trading-infrastructure",
+      "maturity": "paper-run-architecture",
+      "publication_status": "sanitized-candidate",
+      "source_lineage": {
+        "evidence_id": "pending-trading-public-extraction-receipt",
+        "source_tree_hash": null,
+        "publication_gate": "APPROVAL_REQUIRED"
+      },
+      "target_state": {
+        "exists": false,
+        "visibility": null
+      },
+      "gate_status": "APPROVAL_REQUIRED",
+      "founder_pin_order": 4,
+      "organization_pin_order": 4
+    },
+    {
+      "id": "aureus-sales-workflow",
+      "canonical_name": "Aureus Sales Workflow",
+      "kind": "embedded-scenario",
+      "target_repository": null,
+      "proof_package": "public-proof/aureus-sales-workflow",
+      "maturity": "synthetic-workflow-scenario",
+      "publication_status": "embedded-only",
+      "source_lineage": {
+        "evidence_id": "embedded-sales-workflow-scenario",
+        "source_tree_hash": null,
+        "publication_gate": "PASS"
+      },
+      "target_state": {
+        "exists": false,
+        "visibility": null
+      },
+      "gate_status": "PASS",
+      "founder_pin_order": null,
+      "organization_pin_order": null
+    }
+  ]
+}

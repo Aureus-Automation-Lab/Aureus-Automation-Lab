@@ -33,10 +33,10 @@ Service offers such as **Automation Audit**, **n8n Workflow Review / Build**, **
 | Sales Machine, Approval-Safe Sales Machine | **Aureus Sales Workflow**; demonstration scenario, not a top-level product |
 | Aureus Tick Infra, Aureus Trading | **Aureus Trading Infrastructure** |
 | Aureus AI OS v8.x, Aureus v12, Supreme Protocol, Supervisor Max | Internal versions or capabilities of **Aureus OS**, not separate public operating systems |
-| `n8n-workflows` and other implementation repository names | Private source locations, not public brands |
+| Historical implementation repository labels | Private source aliases, not public brands |
 
 ## Change Control
 
-Canonical names are enforced on the public front door, project map, proof showroom, capability summary, case-study index, profile settings packet, and pin strategy. Stable file paths may retain older slugs to avoid broken links; the page title and public copy must use the canonical name.
+Canonical names are enforced on the public front door, project map, proof showroom, capability summary, case-study index, profile settings packet, pin strategy, and current file paths. Public proof directories use the canonical slugs `aureus-os`, `aureus-crm-operations`, `aureus-finecon`, `aureus-trading-infrastructure`, and `aureus-sales-workflow`. An older slug may survive only as a minimal redirect or stub when verified inbound-link evidence makes removal harmful; it must never remain the discoverable home of the current artifact.
 
 Any future rename should update this register first, then the primary public surfaces and validator in the same pull request.

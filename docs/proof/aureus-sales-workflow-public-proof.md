@@ -1,6 +1,6 @@
-# Sales Machine Public Proof
+# Aureus Sales Workflow Public Proof
 
-This page shows the public-safe direction of Aureus Sales Machine.
+This page shows the public-safe direction of Aureus Sales Workflow.
 
 It does not expose private workflow exports, credentials, endpoints, lead lists, inbox data, workflow IDs, draft IDs, or private prompts.
 

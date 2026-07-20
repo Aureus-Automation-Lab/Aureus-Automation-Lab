@@ -15,7 +15,7 @@ Problem
 
 For the premium root version, see [pro-tier public case studies](../portfolio/case-studies.md).
 
-The portfolio version now covers Automation Audit, n8n Review, n8n Build, Sales Machine, FinEcon, Aureus OS, Premium AI Website + Automation, Git-backed LinkedIn content, and Monthly Automation Partner.
+The portfolio version now covers Automation Audit, n8n Review, n8n Build, Aureus Sales Workflow, FinEcon, Aureus OS, Premium AI Website + Automation, Git-backed LinkedIn content, and Monthly Automation Partner.
 
 ## 1. Manual Invoice / Document Work
 
@@ -63,8 +63,8 @@ The portfolio version now covers Automation Audit, n8n Review, n8n Build, Sales 
 
 ## Public Proof Packages
 
-- [Sales Machine proof package](../../public-proof/sales-machine/README.md)
-- [FinEcon proof package](../../public-proof/finecon/README.md)
+- [Aureus Sales Workflow proof package](../../public-proof/aureus-sales-workflow/README.md)
+- [Aureus FinEcon proof package](../../public-proof/aureus-finecon/README.md)
 - [Aureus OS proof package](../../public-proof/aureus-os/README.md)
 
 ## Boundary

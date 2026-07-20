@@ -1,22 +1,15 @@
-# Final Owner Public Checklist
+# Owner GitHub Rollout Checklist
 
-Use this immediately before switching the repository to public.
+Use this checklist to review one public change at a time.
 
-1. Confirm current GitHub username.
-2. Confirm repository name equals username.
-3. Confirm README first screen is clear.
-4. Confirm About description is public-safe.
-5. Run:
+1. Confirm the exact public repository and profile subject.
+2. Review current branch, checks, reviewer identity, and affected controls.
+3. Confirm local validation, public-safety review, and rollback evidence.
+4. Require a distinct human reviewer; the founder and bots are never independent reviewers.
+5. Merge only through protected `main` after all gates pass.
+6. Verify the result through a read-only audit and signed-out browser evidence.
+7. Stop on identity, phase, evidence, or live-state drift.
+8. Keep licensing at `APPROVAL_REQUIRED_LICENSE_DECISION` until the owner chooses terms.
+9. Keep promotion blocked until the owner approves a concrete contact URL and it is verified.
 
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File scripts\public_profile_audit.ps1
-```
-
-6. Confirm no private data, private implementation, unsupported claim, or old identity appears.
-7. Switch repository visibility to public.
-8. Open the profile signed-out or incognito.
-9. Confirm README appears on the profile page.
-10. Confirm images render.
-11. Confirm public-proof links open.
-12. Set pinned items.
-13. Use the [distribution kit](distribution-kit.md) to place the public proof link on LinkedIn, the website, email signature, proposals, and buyer follow-ups.
+Status: `APPROVAL_REQUIRED`. See the [full review packet](github-governance-approval-packet.md).

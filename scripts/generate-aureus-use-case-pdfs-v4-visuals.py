@@ -14,7 +14,6 @@ BASE = runpy.run_path(str(ROOT / "scripts" / "generate-aureus-use-case-pdfs.py")
 EXPORT_DIR = ROOT / "exports"
 PREVIEW_DIR = EXPORT_DIR / "preview_v4_visuals"
 V4_PAGES = EXPORT_DIR / "v4_pages"
-DESKTOP_DIR = Path.home() / "OneDrive" / "Počítač"
 
 PAGE_W = BASE["PAGE_W"]
 PAGE_H = BASE["PAGE_H"]
@@ -56,9 +55,9 @@ def find_v4_pdf() -> Path:
     local = ROOT / "_input" / "Aureus_World_Class_Use_Case_Showcase_v4_final.pdf"
     if local.exists():
         return local
-    for candidate in Path.home().rglob("Aureus_World_Class_Use_Case_Showcase_v4_final.pdf"):
-        return candidate
-    raise FileNotFoundError("Aureus_World_Class_Use_Case_Showcase_v4_final.pdf not found")
+    raise FileNotFoundError(
+        "Repository input _input/Aureus_World_Class_Use_Case_Showcase_v4_final.pdf not found"
+    )
 
 
 def render_v4_pages() -> None:
@@ -293,7 +292,7 @@ def draw_cta_v4(c, data, lang):
 def generate_pdf(path: Path, data, use_cases, lang: str):
     path.parent.mkdir(parents=True, exist_ok=True)
     c = canvas.Canvas(str(path), pagesize=(PAGE_W, PAGE_H))
-    c.setTitle(f"Aureus World Class Use Case Showcase V5 {lang.upper()}")
+    c.setTitle(f"Aureus Use Case Showcase V5 {lang.upper()}")
     draw_cover_v4(c, data["cover"], lang)
     c.showPage()
     draw_model_v4(c, data["model"])
@@ -328,13 +327,8 @@ def main() -> int:
     generate_pdf(sk_path, SK, USE_CASES_SK, "sk")
     render_previews(en_path, "visual_en")
     render_previews(sk_path, "visual_sk")
-    if DESKTOP_DIR.exists():
-        for src in [en_path, sk_path]:
-            (DESKTOP_DIR / src.name).write_bytes(src.read_bytes())
     print(f"Generated: {en_path}")
     print(f"Generated: {sk_path}")
-    if DESKTOP_DIR.exists():
-        print(f"Copied to: {DESKTOP_DIR}")
     return 0
 
 
