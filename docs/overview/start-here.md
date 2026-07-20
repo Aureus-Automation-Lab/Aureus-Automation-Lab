@@ -45,16 +45,19 @@ People should still approve:
 - sensitive workflow changes,
 - anything that can affect a client, supplier, payment, record, or public claim.
 
-## What Are The Three Parts?
+## How Is Aureus Organized?
 
 | Part | Simple meaning |
 | --- | --- |
-| **Automation Lab** | AI and n8n workflow systems for sales, operations, documents, and reports |
-| **FinEcon** | reviewed finance/document intelligence for invoices, cashflow, costs, revenue, and reporting |
-| **Aureus OS** | the operating method that keeps AI work scoped, reviewed, validated, evidenced, and handed off |
+| **Aureus Automation Lab** | The company identity and accountable builder |
+| **Aureus OS** | The one operating system that keeps AI work scoped, reviewed, validated, evidenced, and handed off |
+| **Aureus product and proof lines** | Aureus CRM Operations, Aureus FinEcon, and Aureus Trading Infrastructure |
+| **Offers and scenarios** | Engagement paths and demonstrations inside the Aureus system, not separate brands |
 
 ## What Should I Open Next?
 
 Start with the [Build menu](../services/build-menu.md) if you want to see what a first project can look like.
 
 Open the [Proof index](../proof/proof-index.md) if you want to review public-safe proof paths.
+
+Open the [Public Naming System](../portfolio/naming-system.md) to see how historical names and internal repositories are classified.

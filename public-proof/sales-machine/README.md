@@ -1,8 +1,8 @@
-# Aureus Sales Machine Public Proof
+# Aureus Sales Workflow Public Proof
 
-This package shows a public-safe sales workflow direction.
+This package shows a public-safe sales workflow demonstration. `Sales Machine` is a historical alias retained in the stable path; it is not a separate product or operating system.
 
-![Aureus Sales Machine flow](../../assets/aureus-sales-machine.gif)
+![Aureus Sales Workflow](../../assets/aureus-sales-machine.gif)
 
 It is designed for a business owner who wants better follow-up without letting AI send messages blindly.
 

@@ -7,20 +7,21 @@ The root `README.md` is the main profile. This folder keeps the supporting mater
 | Page | What it answers |
 | --- | --- |
 | [Offer menu](portfolio/offer-menu.md) | The six clear commercial offers a client can buy first |
+| [Public naming system](portfolio/naming-system.md) | The one-brand hierarchy and legacy-alias register |
 | [Use Case Offer Sheet](use-cases/AUREUS_CLIENT_USE_CASE_OFFER_SHEET.md) | One-page client follow-up for the six use cases |
 | [Use Case Showcase EN](use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5.md) | 12-page English showcase copy for client conversations |
 | [Use Case Showcase SK](use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5_SK.md) | 12-page Slovak showcase copy for local clients and accountants |
 | [Use Case Showcase PDF Design](use-cases/AUREUS_USE_CASE_SHOWCASE_DESIGN_SPEC_V6.md) | Pro-tier grid, client-language V7 copy rules, proof chips, and export rules |
 | [Use Case Instagram Carousel](use-cases/AUREUS_USE_CASE_INSTAGRAM_CAROUSEL_V7.md) | 1080x1350 Instagram carousel export instructions and caption |
 | [Top-tier reference notes](use-cases/AUREUS_USE_CASE_SHOWCASE_TOP_TIER_REFERENCE_NOTES.md) | External pattern notes used to improve the use-case deck |
-| [FinEcon Pocket / Bridge one-pager](use-cases/FINECON_POCKET_BRIDGE_USE_CASE_ONE_PAGER.md) | Source-backed FinEcon explanation with accountant validation boundary |
+| [Aureus FinEcon Pocket / Bridge one-pager](use-cases/FINECON_POCKET_BRIDGE_USE_CASE_ONE_PAGER.md) | Source-backed Aureus FinEcon module explanation with accountant validation boundary |
 | [Public demo flow](portfolio/public-demo-flow.md) | A simple example of manual work becoming a reviewed workflow |
 | [Synthetic demo case](portfolio/synthetic-demo-case.md) | A fictional invoice review example for quick understanding |
 | [Start here](overview/start-here.md) | The simplest explanation of Aureus for a first-time visitor |
 | [One-page profile](overview/one-pager.md) | Who Aureus is and what we build |
 | [Build menu](services/build-menu.md) | Which first project makes sense |
 | [Automation Lab](services/automation-lab.md) | How n8n and AI workflows are approached |
-| [FinEcon](services/finecon.md) | How invoice, document, and finance workflows stay reviewable |
+| [Aureus FinEcon](services/finecon.md) | How invoice, document, and finance workflows stay reviewable |
 | [Aureus OS](system/aureus-os.md) | Why AI-assisted work needs an operating layer |
 | [Collaboration](services/collaboration.md) | How we start and hand off work |
 
@@ -30,7 +31,7 @@ The root `README.md` is the main profile. This folder keeps the supporting mater
 | --- | --- |
 | "We do too much manually, but we do not know where to start." | [Build menu](services/build-menu.md) |
 | "We need workflows that do not break silently." | [Automation Lab](services/automation-lab.md) |
-| "Invoices, documents, and reports are messy." | [FinEcon](services/finecon.md) |
+| "Invoices, documents, and reports are messy." | [Aureus FinEcon](services/finecon.md) |
 | "We want AI in the company, but with control." | [Aureus OS](system/aureus-os.md) |
 | "We need to explain our system professionally to buyers." | [Capabilities](services/capabilities.md) |
 
@@ -52,8 +53,8 @@ The root `README.md` is the main profile. This folder keeps the supporting mater
 | [Proof index](proof/proof-index.md) | What the public portfolio is meant to prove |
 | [Aureus OS final public status](proof/aureus-os-final-public-status.md) | Current public-safe status after Aureus OS consolidation |
 | [Public proof showroom](../public-proof/README.md) | Concrete public-safe proof objects that can later become pinned artifacts |
-| [Sales Machine proof package](../public-proof/sales-machine/README.md) | Public workflow map, state model, and fictional buyer example |
-| [FinEcon proof package](../public-proof/finecon/README.md) | Pocket/document review flow, bridge handoff boundary, and fictional buyer example |
+| [Aureus Sales Workflow proof package](../public-proof/sales-machine/README.md) | Public workflow map, state model, and fictional buyer example |
+| [Aureus FinEcon proof package](../public-proof/finecon/README.md) | Pocket/document review flow, bridge handoff boundary, and fictional buyer example |
 | [Aureus OS proof package](../public-proof/aureus-os/README.md) | Operating model, action gates, and fictional buyer example |
 | [Sales Machine public proof](proof/sales-machine-public-proof.md) | Safe sales automation direction without private lead or inbox data |
 | [FinEcon public proof](proof/finecon-public-proof.md) | Finance and document workflow boundary |

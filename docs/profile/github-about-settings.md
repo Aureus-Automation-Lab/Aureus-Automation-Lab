@@ -1,26 +1,20 @@
 # GitHub About Settings
 
-Use these repository About settings for the current brand/account profile.
+These values keep the public GitHub identity aligned with the evidence architecture in this repository.
 
-## Current Username
+## Repository
 
 ```text
-Aureus-Automation-Lab
+Aureus-Automation-Lab/Aureus-Automation-Lab
 ```
 
 ## Recommended Description
 
 ```text
-Public profile for Aureus Automation Lab — controlled AI automation systems for sales, operations, finance, documents, reporting, and internal execution.
+Aureus OS, CRM operations, finance workflows, AI automation, and evidence-first product delivery.
 ```
 
-If the account later becomes the personal username `robertkolesar`, use:
-
-```text
-Public founder profile for Róbert Kolesár and Aureus Automation Lab — controlled AI automation systems for sales, operations, finance, documents, reporting, and internal execution.
-```
-
-## Recommended Website
+## Website
 
 ```text
 https://aureus.it.com/automationlab
@@ -28,25 +22,26 @@ https://aureus.it.com/automationlab
 
 ## Recommended Topics
 
-- `aureus-automation-lab`
-- `ai-automation`
-- `workflow-automation`
-- `n8n`
-- `finecon`
 - `aureus-os`
-- `operations`
+- `applied-ai`
+- `ai-agents`
+- `ai-automation`
+- `solution-architecture`
+- `full-stack`
+- `n8n`
 - `public-proof`
 
-## Remove Old About Description
+## Social Preview
 
-Remove old About description:
+Use a 1280 × 640 image under 1 MB with:
 
-```text
-Private draft profile for automation, AI operations, internal tools, and product prototypes
-```
+- Aureus Automation Lab,
+- Applied AI Systems,
+- Aureus OS · Aureus CRM · Aureus FinEcon,
+- high-contrast text that remains readable in a small link card.
 
-The About section should now present a public Aureus Automation Lab profile, not an internal draft.
+The preview must not contain customer logos, credential IDs, private screenshots, performance claims, or unsupported badges.
 
-## Public-Safe Rule
+## Settings Boundary
 
-The About section should describe the public brand and buyer-facing problem space. It should not include private endpoints, workflow IDs, private repo names, client-like data, production claims, or unsupported results.
+Description, topics, homepage, social preview, repository visibility, branch protection, and pinned items are GitHub settings mutations. Apply them only through the approved publication checklist and record the resulting URLs/screenshots. Public labels must follow the [canonical naming system](../portfolio/naming-system.md).

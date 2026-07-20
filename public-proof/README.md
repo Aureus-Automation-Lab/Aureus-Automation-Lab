@@ -1,83 +1,47 @@
 # Public Proof Showroom
 
-This folder is the public proof showroom for Aureus Automation Lab.
+This showroom is the evidence layer for Aureus Automation Lab. Each package answers four questions:
+
+1. What system was designed?
+2. What source-backed behavior can be reviewed?
+3. What validation or operating controls exist?
+4. What is explicitly not being claimed?
 
 ![Aureus public proof boundary](../assets/aureus-public-boundary.gif)
 
-Public proof means architecture, workflow maps, state models, examples, and safety boundaries that can be reviewed without exposing private implementation.
+## Primary Proof Packages
 
-It is not customer proof, production proof, or a claim of promised results.
+| Package | Strongest signal | Status | Start here |
+| --- | --- | --- | --- |
+| **Aureus OS** | Mission control, agent/tool routing, action authority, validation, and evidence | Public architecture; private runtime | [Review](aureus-os/README.md) |
+| **Aureus CRM Operations** | Full-stack UI/API/SQLite product with roles, operational state, audit, and tests | Source-backed synthetic demo | [Review](crm-platform/README.md) |
+| **Aureus FinEcon** | Reviewed document intake, extraction, bridge handoff, and accountant boundary | Source-backed pilot direction | [Review](finecon/README.md) |
+| **Aureus Trading Infrastructure** | Deterministic rails, isolated execution, runtime state, observability, and CI risk gates | Private paper-run architecture | [Review](trading-infrastructure/README.md) |
 
-## Proof Packages
+## Supporting Proof
 
-| Package | What it shows | Start here |
-| --- | --- | --- |
-| **Sales Machine** | a safe sales workflow where AI drafts and humans approve | [Sales Machine](sales-machine/README.md) |
-| **FinEcon** | a reviewed invoice/document intelligence flow with finance boundaries | [FinEcon](finecon/README.md) |
-| **Aureus OS** | an operating model for controlled AI-assisted company work | [Aureus OS](aureus-os/README.md) |
+| Package | What it adds |
+| --- | --- |
+| [Aureus Sales Workflow](sales-machine/README.md) | Subordinate demonstration scenario for stateful qualification and approval-gated follow-up |
+| [Credentials](../docs/portfolio/credentials.md) | Verified education record separated from product and customer evidence |
+| [Case Studies](../docs/portfolio/case-studies.md) | Buyer problem, architecture, review boundary, evidence, and offer path |
+| [Source Truth Map](../docs/proof/source-truth-map.md) | Public claim-to-private-source register and publication boundary |
+| [Public Naming System](../docs/portfolio/naming-system.md) | Canonical hierarchy and legacy-alias register |
 
-## Use Case Showcase Layer
+## Evidence Classes
 
-For client conversations, the proof packages are translated into a practical use-case system:
-
-- [Use Case Offer Sheet](../docs/use-cases/AUREUS_CLIENT_USE_CASE_OFFER_SHEET.md)
-- [Use Case Showcase Copy V5](../docs/use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5.md)
-- [Slovak Use Case Showcase Copy V5](../docs/use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5_SK.md)
-- [Use Case Showcase PDF Design Spec](../docs/use-cases/AUREUS_USE_CASE_SHOWCASE_DESIGN_SPEC_V6.md)
-- [Use Case Instagram Carousel](../docs/use-cases/AUREUS_USE_CASE_INSTAGRAM_CAROUSEL_V7.md)
-- [Use Case Git Proof Map](../docs/use-cases/AUREUS_USE_CASE_GIT_PROOF_MAP.md)
-- [FinEcon Pocket / Bridge One-Pager](../docs/use-cases/FINECON_POCKET_BRIDGE_USE_CASE_ONE_PAGER.md)
-
-## What This Proves
-
-These proof packages show that Aureus can describe systems clearly:
-
-- what starts the work,
-- what AI may help with,
-- what humans approve,
-- what evidence is kept,
-- what stays private,
-- where the workflow can be reviewed before action.
-
-## What This Does Not Claim
-
-This folder does not claim:
-
-- ROI promises,
-- customer results,
-- production deployment,
-- official certification,
-- accounting correctness,
-- tax or legal advice,
-- trading performance,
-- enterprise compliance,
-- replacement of professional review.
+| Class | Meaning |
+| --- | --- |
+| **Source-backed** | A claim maps to tracked implementation or a merged source receipt |
+| **Validated** | Named checks were executed at the referenced source revision |
+| **Synthetic** | Data and scenarios are fictional and safe for demonstration |
+| **Architecture proof** | The system shape is evidenced; live operation or outcomes are not implied |
+| **External outcome proof** | Requires separate customer, production, or independently verifiable evidence; not claimed here |
 
 ## What Stays Private
 
-Private implementation stays private:
+Credentials, private endpoints, raw workflow exports, strategy logic, client records, real invoices or leads, production settings, private logs, runtime screenshots, and sensitive proof receipts remain outside this repository.
 
-- secrets,
-- credentials,
-- webhook URLs,
-- private endpoints,
-- raw n8n workflow exports,
-- private workflow IDs,
-- private prompts,
-- real invoices,
-- real leads,
-- inbox data,
-- POHODA access details,
-- production logs,
-- private screenshots,
-- client-like records.
+## Review Rule
 
-## How To Review
-
-Start with the package that matches your question:
-
-- sales and follow-up: [Sales Machine](sales-machine/README.md),
-- invoices and finance/document review: [FinEcon](finecon/README.md),
-- AI-assisted work control: [Aureus OS](aureus-os/README.md).
-
-Each package includes a workflow or operating map, a boundary model, and a fictional buyer example.
+A stronger claim must have stronger evidence. If a statement cannot be mapped to source, validation, or independently reviewable evidence, it remains a capability or direction—not an outcome claim.

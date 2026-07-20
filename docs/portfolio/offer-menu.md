@@ -2,6 +2,8 @@
 
 This menu explains what a client can buy first. It is intentionally practical: each offer starts with a business process, not with a tool.
 
+These are service offers from **Aureus Automation Lab**, not separate brands or operating systems. Product references follow the [Aureus Public Naming System](naming-system.md).
+
 For a client-ready one-page version, use the [Aureus Client Use Case Offer Sheet](../use-cases/AUREUS_CLIENT_USE_CASE_OFFER_SHEET.md). For the full sales/showcase copy, use [AUREUS_USE_CASE_SHOWCASE_COPY_V5.md](../use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5.md). For the preferred client-language PDF layout, use the [PDF design spec](../use-cases/AUREUS_USE_CASE_SHOWCASE_DESIGN_SPEC_V6.md).
 
 ## Recommended First Purchase
@@ -49,14 +51,14 @@ Automation Audit
 | What is not claimed | No blind sending, hidden external actions, or unmanaged production changes. |
 | Best next step | Start with one repeated workflow and define the desired business output. |
 
-## 4. FinEcon Paid Pilot
+## 4. Aureus FinEcon Paid Pilot
 
 | Field | Detail |
 | --- | --- |
 | Who it is for | Teams handling invoices, documents, finance inputs, reporting, or accounting-adjacent review. |
 | Problem it solves | Documents arrive in messy formats and move through unclear review, bridge, or handoff paths. |
 | What is delivered | Source-backed document-flow direction with Pocket-style intake, status/review states, exception handling, bridge-readiness notes, proof notes, client demo direction, and next-step handoff design. |
-| What is not claimed | FinEcon does not replace accounting review, tax/legal advice, professional responsibility, or accountant validation. |
+| What is not claimed | Aureus FinEcon does not replace accounting review, tax/legal advice, professional responsibility, or accountant validation. |
 | Best next step | Pick one document flow and define what a person must approve before downstream use. |
 
 ## 5. Aureus OS Setup

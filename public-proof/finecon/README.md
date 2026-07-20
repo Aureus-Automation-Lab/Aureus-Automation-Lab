@@ -1,6 +1,6 @@
-# FinEcon Public Proof
+# Aureus FinEcon Public Proof
 
-This package shows FinEcon as a source-backed reviewed finance/document workflow layer.
+This package shows **Aureus FinEcon** as a source-backed reviewed finance/document workflow layer. `FinEcon Pocket` and `Bridge` are module and workflow-stage names inside this line, not separate public brands.
 
 ![FinEcon reviewed invoice and document flow](../../assets/aureus-finecon-flow.gif)
 

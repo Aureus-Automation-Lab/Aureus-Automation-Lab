@@ -1,174 +1,81 @@
 # Aureus Automation Lab
 
-**Controlled AI automation for companies that need work to be clearer, safer, and easier to run.**
+**Applied AI systems, business automation, and evidence-first delivery.**
 
-Led by **Róbert Kolesár**<br>
-**Founder & AI Automation Solution Architect**
+**Róbert Kolesár** — Founder & AI Automation Solution Architect
 
-I build controlled AI automation systems that turn manual business work into reviewed, evidence-backed workflows.
+I design and assemble end-to-end systems that connect business requirements, data, software, AI, automation, validation, and operational handoff. Aureus OS is the single operating layer behind that work.
 
-![Aureus controlled AI automation hero](assets/aureus-profile-hero.gif)
+[Explore the proof](public-proof/README.md) · [Review capabilities](docs/portfolio/capabilities.md) · [See the project map](docs/portfolio/project-map.md) · [Understand the naming system](docs/portfolio/naming-system.md) · [Start with an offer](docs/portfolio/offer-menu.md)
 
-## What Aureus Does
+![Aureus controlled AI automation](assets/aureus-profile-hero.gif)
 
-Aureus helps companies turn scattered manual work into controlled workflows.
-
-That means a real business process is mapped, repeated steps are automated, uncertain steps are routed to a person, and the system keeps a clear record of what happened.
+## What I Build
 
 ```text
-AI prepares.
-People approve.
-The system keeps evidence.
+business problem
+→ system and data model
+→ software + AI + automation
+→ review and safety boundary
+→ validation and evidence
+→ maintainable handoff
 ```
 
-The method behind this is **Aureus OS**. In plain language: it is a way of organizing AI, automation, GitHub, n8n, validation, approvals, and handoff so work does not become a pile of disconnected chat outputs and fragile workflows.
+Controlled AI automation is useful only when the surrounding system is understandable. The goal is not “AI does everything.” The goal is the highest safe level of autonomy, with explicit ownership for the actions that still require a person.
 
-## Current Public Status - July 2026
+## Four Engineering Pillars
 
-The private Aureus source-of-truth has been consolidated into **Aureus OS**: a single operating layer for mission intake, product/software proof work, n8n workflow governance, validation, evidence, preview boundaries, and approval-gated production promotion.
-
-This public profile is the safe external version of that story. It shows what can be reviewed without exposing private workflows, credentials, endpoints, runtime logs, POHODA internals, client data, or production settings.
-
-| Area | Public-safe status | What this means |
+| Pillar | What it demonstrates | Public proof |
 | --- | --- | --- |
-| **Aureus OS** | Ready for owner testing and technical review | One operating method connects goals, acceptance criteria, build work, validation, evidence, and handoff. |
-| **Product & Software Factory** | Ready for safe proof missions | Public-safe app, web, backend/API, workflow, integration, and documentation proof packages can be scoped and validated. |
-| **n8n automation** | Workflow-as-source discipline | n8n work is treated as reviewable automation with credentials, activation, and external actions behind approval boundaries. |
-| **FinEcon** | Controlled paid-pilot direction | Source-backed Pocket/document/bridge/proof direction exists; accounting correctness and POHODA production use still require accountant and owner approval. |
-| **Production autonomy** | Approval-gated | Production deploys, live n8n activation, POHODA live import, outreach, and external messages are not public-profile claims and are not automatic. |
+| **Aureus OS** | One operating layer for mission intake, planning, agent/tool routing, safe execution, validation, evidence, and approval-gated live actions | [Operating model and action gates](public-proof/aureus-os/README.md) |
+| **Aureus CRM Operations** | Full-stack product delivery across a React route, backend API, SQLite state, roles, customers, inventory, quotes, tasks, attendance, calendar, administration, and audit | [Architecture and validation boundary](public-proof/crm-platform/README.md) |
+| **Aureus FinEcon** | Reviewed document and finance workflow design from intake through extraction, human review, bridge handoff, and proof notes | [Aureus FinEcon proof package](public-proof/finecon/README.md) |
+| **Aureus Trading Infrastructure** | Risk-first, audit-first engineering with deterministic decision rails, an isolated execution boundary, runtime state, observability, CI gates, and paper-run constraints | [Paper-run architecture proof](public-proof/trading-infrastructure/README.md) |
 
-For the current public-safe status note, open [Aureus OS final public status](docs/proof/aureus-os-final-public-status.md).
+The [project map](docs/portfolio/project-map.md) explains how these systems relate. The [naming system](docs/portfolio/naming-system.md) classifies historical labels as aliases, modules, offers, or scenarios instead of competing brands.
 
-## CV / Recruiter Snapshot
+## Evidence Snapshot
 
-| Signal | Detail |
-| --- | --- |
-| Role fit | AI Automation Solution Architect |
-| Core skills | AI workflow architecture, n8n workflow systems, internal tools, review boundaries, evidence/proof packs, solution architecture |
-| Best-fit roles | AI Automation Solution Architect, AI Automation Engineer, Solutions Engineer, Workflow Automation Specialist, Technical Product Operations, Internal Tools / Automation Engineer |
-| Review first | [Offer menu](docs/portfolio/offer-menu.md), [public demo flow](docs/portfolio/public-demo-flow.md), [synthetic demo case](docs/portfolio/synthetic-demo-case.md), [solution architecture](docs/portfolio/solution-architecture.md), [public proof showroom](public-proof/README.md) |
-
-Safe CV wording is available in [docs/portfolio/cv-usage.md](docs/portfolio/cv-usage.md).
-
-## What You Can Start With
-
-![Aureus offer menu](assets/aureus-offer-menu.gif)
-
-| Offer | Best when | What you get |
+| Signal | Source-backed evidence | Boundary |
 | --- | --- | --- |
-| **Automation Audit** | You know work is too manual, but not what to automate first. | A process map, risk points, automation candidates, and first useful scope. |
-| **n8n Workflow Review** | Existing workflows feel fragile or unclear. | Review notes, failure points, safety boundaries, and an improvement plan. |
-| **n8n Workflow Automation Build** | A repeated process needs a reliable automation. | Workflow design, validation notes, approval boundaries, and handoff direction. |
-| **FinEcon Paid Pilot** | Invoice, document, finance, or reporting work needs structure. | A source-backed document workflow direction with Pocket intake, review, bridge handoff, proof notes, and accountant-review boundaries. |
-| **Aureus OS Setup** | Your team wants to use AI across real work without losing control. | A practical operating model for scope, ownership, review, validation, evidence, approvals, and handoff. |
-| **Monthly Automation Partner** | You need ongoing improvement and maintenance. | A practical monthly partnership for automation operations and delivery support. |
+| **End-to-end product build** | The merged CRM source package changed 49 files and added 21,472 lines across UI, API, SQLite seed/state, tests, deployment helpers, and documentation | Synthetic demo only; no client data, production writes, or live integrations |
+| **Stateful backend design** | SQLite foreign keys and WAL mode, audit events, role-aware flows, inventory reservations, and automatic reservation release are present in the tracked implementation | Architecture and validation evidence, not a production-customer claim |
+| **AI engineering education** | IBM AI Engineering Professional Certificate completed in October 2025, covering a 13-course curriculum across ML, deep learning, transformers, fine-tuning, RAG, and agents | Professional, non-credit certificate; not a degree or client result |
+| **Operating discipline** | Public proof packages expose architecture, state models, decision boundaries, validation, and claim limits while private implementation and secrets remain private | Live and external actions remain policy-gated |
 
-Open the full menu: [docs/portfolio/offer-menu.md](docs/portfolio/offer-menu.md)
-
-## Public Demo Flow
-
-Example: a company has manual invoice or process work spread across email, spreadsheets, folders, and memory.
-
-```text
-manual business chaos
--> process map
--> controlled AI workflow
--> human review boundary
--> proof notes
--> next-step proposal
-```
-
-Open the demo: [docs/portfolio/public-demo-flow.md](docs/portfolio/public-demo-flow.md)
-
-For one concrete fictional example, open [docs/portfolio/synthetic-demo-case.md](docs/portfolio/synthetic-demo-case.md).
-
-## Public Proof Showroom
-
-Each proof path has its own visual because each system explains a different business problem.
-
-| Proof path | Visual | What it shows |
-| --- | --- | --- |
-| [Sales Machine](public-proof/sales-machine/README.md) | <img src="assets/aureus-sales-machine.gif" width="220" alt="Sales Machine flow"> | sales follow-up with qualification, approval, reply handling, and reporting |
-| [FinEcon](public-proof/finecon/README.md) | <img src="assets/aureus-finecon-flow.gif" width="220" alt="FinEcon review flow"> | Pocket intake, document review, bridge handoff, proof notes, and accountant validation boundary |
-| [Aureus OS](public-proof/aureus-os/README.md) | <img src="assets/aureus-os-model.gif" width="220" alt="Aureus OS operating model"> | how AI-assisted work becomes scoped, reviewed, validated, evidenced, and easy to hand off |
-
-Open the showroom: [public-proof/README.md](public-proof/README.md)
-
-## Use Case Showcase
-
-The client-ready use-case system translates the portfolio into six sales and pilot conversations: Automation Audit, n8n Review + Build, FinEcon Pocket / Bridge, Sales Machine, Aureus OS, and Public Proof Website + Automation.
-
-Start with the [Use Case Offer Sheet](docs/use-cases/AUREUS_CLIENT_USE_CASE_OFFER_SHEET.md), then open the [English showcase copy](docs/use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5.md), [Slovak showcase copy](docs/use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5_SK.md), [client-language PDF design spec](docs/use-cases/AUREUS_USE_CASE_SHOWCASE_DESIGN_SPEC_V6.md), [Instagram carousel export](docs/use-cases/AUREUS_USE_CASE_INSTAGRAM_CAROUSEL_V7.md), or [Git proof map](docs/use-cases/AUREUS_USE_CASE_GIT_PROOF_MAP.md).
-
-## Why This Is Different
-
-Most automation projects stop at "the workflow runs."
-
-Aureus cares about the part companies actually depend on:
-
-- who owns the next step,
-- what AI may prepare,
-- what a person must approve,
-- what happens when something fails,
-- what evidence remains,
-- and whether the team can understand the system after handoff.
-
-That is the difference between a clever demo and a system a business can actually understand, review, and improve.
-
-## Proof Without Exposure
-
-![Aureus public/private boundary](assets/aureus-public-boundary.gif)
-
-This profile shows architecture thinking, demo flows, proof-pack structure, case-study directions, offer boundaries, and review models.
-
-It does **not** expose private implementation, real customer data, credentials, production context, or unsupported result claims. The full boundary is documented in [docs/portfolio/public-boundary.md](docs/portfolio/public-boundary.md).
+See [Credentials](docs/portfolio/credentials.md), [Case Studies](docs/portfolio/case-studies.md), and the [Source Truth Map](docs/proof/source-truth-map.md) for the supporting detail.
 
 ## Choose Your Review Path
 
-| If you are a... | Start here | What to look for |
+| You are a… | Start here | What you will find |
 | --- | --- | --- |
-| **Client / partner** | [docs/portfolio/offer-menu.md](docs/portfolio/offer-menu.md) and [docs/portfolio/public-demo-flow.md](docs/portfolio/public-demo-flow.md) | what you can buy first and how the work becomes safer |
-| **Technical reviewer** | [docs/portfolio/solution-architecture.md](docs/portfolio/solution-architecture.md) | system boundaries, validation, review gates, evidence, and handoff |
-| **Recruiter / hiring manager** | [docs/portfolio/capabilities.md](docs/portfolio/capabilities.md) | AI systems architecture, automation design, internal tools, and delivery discipline |
+| **Buyer or partner** | [Offer menu](docs/portfolio/offer-menu.md) | Clear starting scopes, outputs, and review boundaries |
+| **Technical reviewer** | [Public Proof Showroom](public-proof/README.md) | Architecture, state, validation, and safety evidence |
+| **Recruiter or hiring manager** | [Capabilities](docs/portfolio/capabilities.md) | Solution architecture, full-stack delivery, automation, and AI systems signals |
+| **Due-diligence reviewer** | [Source Truth Map](docs/proof/source-truth-map.md) | Which claims are source-backed and what remains private |
 
-## Portfolio Library
+For a lightweight walkthrough, use the [public demo flow](docs/portfolio/public-demo-flow.md). For a fictional, privacy-safe example, use the [synthetic demo case](docs/portfolio/synthetic-demo-case.md). Safe CV wording is available in [CV Usage](docs/portfolio/cv-usage.md).
 
-The root is intentionally clean. Supporting material lives in [docs/portfolio](docs/portfolio/) and deeper proof packages live in [public-proof](public-proof/README.md).
+## Commercial Starting Points
 
-| Page | Purpose |
-| --- | --- |
-| [Offer menu](docs/portfolio/offer-menu.md) | clear commercial starting points |
-| [Public demo flow](docs/portfolio/public-demo-flow.md) | one simple public-safe demo |
-| [Synthetic demo case](docs/portfolio/synthetic-demo-case.md) | fictional invoice review example |
-| [Use Case Offer Sheet](docs/use-cases/AUREUS_CLIENT_USE_CASE_OFFER_SHEET.md) | client-ready first conversation and pilot menu |
-| [Use Case Showcase EN](docs/use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5.md) | 12-page English showcase copy |
-| [Use Case Showcase SK](docs/use-cases/AUREUS_USE_CASE_SHOWCASE_COPY_V5_SK.md) | 12-page Slovak showcase copy |
-| [Use Case Showcase PDF Design](docs/use-cases/AUREUS_USE_CASE_SHOWCASE_DESIGN_SPEC_V6.md) | pro-tier layout, client-language V7 export rules, and safety constraints |
-| [Use Case Instagram Carousel](docs/use-cases/AUREUS_USE_CASE_INSTAGRAM_CAROUSEL_V7.md) | 1080x1350 mobile carousel export for Instagram |
-| [Aureus OS final public status](docs/proof/aureus-os-final-public-status.md) | current public-safe status after Aureus OS consolidation |
-| [FinEcon Pocket / Bridge one-pager](docs/use-cases/FINECON_POCKET_BRIDGE_USE_CASE_ONE_PAGER.md) | source-backed FinEcon client explanation |
-| [FinEcon source-backed status](docs/proof/finecon-source-backed-status.md) | public-safe summary of FinEcon Pocket, bridge, proof, and accounting boundaries |
-| [Solution architecture](docs/portfolio/solution-architecture.md) | technical architecture snapshot |
-| [Capabilities](docs/portfolio/capabilities.md) | role and capability overview |
-| [Pro-tier case studies](docs/portfolio/case-studies.md) | public-safe case studies across Aureus offers and project lines |
-| [Public boundary](docs/portfolio/public-boundary.md) | what stays private |
-| [Review guide](docs/portfolio/review-guide.md) | review path by audience |
-| [CV usage](docs/portfolio/cv-usage.md) | safe wording for CV, LinkedIn, and recruiter messages |
+| Start | Best when | Output |
+| --- | --- | --- |
+| **Automation Audit** | A process is manual or unclear | Process map, risks, automation candidates, and a first useful scope |
+| **n8n Workflow Review / Build** | Existing automation is fragile or a repeatable process needs implementation | Reviewable workflow logic, failure paths, validation, and handoff |
+| **AI Operations System** | A team wants more autonomous AI-assisted execution without losing control | Scoped operating model, agent/tool routing, quality gates, evidence, and approval boundaries |
+| **Product or Internal Tool Build** | A business workflow needs a usable application, API, data model, and operational logic | An end-to-end implementation plan and validated product slice |
 
-## Current Public Boundary
+Full scope: [Offer Menu](docs/portfolio/offer-menu.md)
 
-This profile does not claim customer results, production deployments, accounting correctness, tax or legal advice, trading performance, official security certification, public access to private systems, or promised revenue / ROI.
+## Public Boundary
 
-It is a public portfolio for controlled AI automation design, review boundaries, proof-safe delivery, and business process clarity.
+This repository demonstrates architecture and delivery discipline. It does **not** claim paying-customer results, production trading performance, accounting correctness, promised ROI, official security certification, or unattended authority over sensitive actions.
+
+The public layer excludes credentials, private endpoints, raw workflow exports, client records, production settings, and private runtime evidence. See the [Public Boundary](docs/portfolio/public-boundary.md).
 
 ## Repository Governance
 
-Public contributions use a PR-first path with [contribution rules](CONTRIBUTING.md),
-[security reporting](SECURITY.md), [support boundaries](SUPPORT.md), and the
-[code of conduct](CODE_OF_CONDUCT.md). Repository automation validates the
-public portfolio on pull requests and on changes to `main`.
-
-## Validate This Profile
+Changes use a PR-first path with [contribution rules](CONTRIBUTING.md), [security reporting](SECURITY.md), [support boundaries](SUPPORT.md), and automated public-profile validation.
 
 ```powershell
 python scripts/validate-public-portfolio.py
@@ -176,4 +83,4 @@ python scripts/validate-public-portfolio.py
 
 ## One Sentence
 
-Aureus Automation Lab turns manual business work into controlled AI-assisted systems with review, evidence, and clear next steps.
+**Aureus Automation Lab turns complex business work into controlled AI-assisted systems that can be understood, validated, and improved.**

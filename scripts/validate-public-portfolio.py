@@ -29,9 +29,20 @@ REQUIRED_FILES = [
     "docs/portfolio/offer-menu.md",
     "docs/portfolio/capabilities.md",
     "docs/portfolio/case-studies.md",
+    "docs/portfolio/project-map.md",
+    "docs/portfolio/naming-system.md",
+    "docs/portfolio/credentials.md",
     "docs/portfolio/review-guide.md",
     "docs/portfolio/public-portfolio-scorecard.md",
     "docs/proof/finecon-source-backed-status.md",
+    "public-proof/crm-platform/README.md",
+    "public-proof/crm-platform/architecture.md",
+    "public-proof/crm-platform/state-and-audit-model.md",
+    "public-proof/crm-platform/validation-boundary.md",
+    "public-proof/finecon/README.md",
+    "public-proof/sales-machine/README.md",
+    "public-proof/trading-infrastructure/README.md",
+    "public-proof/trading-infrastructure/risk-boundary.md",
     "assets/aureus-profile-hero.gif",
     "assets/aureus-offer-menu.gif",
     "assets/aureus-sales-machine.gif",
@@ -53,6 +64,11 @@ README_REQUIRED = [
     "docs/portfolio/synthetic-demo-case.md",
     "docs/portfolio/offer-menu.md",
     "docs/portfolio/cv-usage.md",
+    "docs/portfolio/project-map.md",
+    "docs/portfolio/naming-system.md",
+    "docs/portfolio/credentials.md",
+    "public-proof/crm-platform/README.md",
+    "public-proof/trading-infrastructure/README.md",
 ]
 
 FILE_REQUIRED = {
@@ -72,14 +88,41 @@ FILE_REQUIRED = {
         "validate-public-portfolio.py",
         "validate-aureus-use-case-showcase.py",
     ],
-    "docs/portfolio/capabilities.md": ["Best-Fit Roles"],
+    "docs/portfolio/capabilities.md": [
+        "Best-Fit Roles",
+        "Aureus CRM Operations",
+        "Aureus FinEcon",
+        "Aureus Sales Workflow",
+    ],
+    "docs/portfolio/project-map.md": [
+        "Aureus OS",
+        "Aureus CRM Operations",
+        "Aureus FinEcon",
+        "Aureus Trading Infrastructure",
+    ],
+    "docs/portfolio/naming-system.md": [
+        "Canonical Hierarchy",
+        "Only Aureus OS is an operating system",
+        "Legacy Alias Register",
+        "Aureus CRM Operations",
+        "Aureus FinEcon",
+        "Aureus Sales Workflow",
+        "Aureus Trading Infrastructure",
+    ],
+    "docs/portfolio/credentials.md": [
+        "IBM AI Engineering Professional Certificate",
+        "13 courses",
+        "Professional, non-credit certificate",
+    ],
     "docs/portfolio/case-studies.md": [
         "Pro-Tier Public Case Studies",
         "Automation Audit",
-        "Sales Machine",
-        "FinEcon Pocket / Bridge",
+        "Aureus Sales Workflow",
+        "Aureus FinEcon",
         "Git-Backed LinkedIn Content",
         "Monthly Automation Partner",
+        "Aureus CRM Operations",
+        "Aureus Trading Infrastructure",
     ],
     "docs/portfolio/review-guide.md": ["CV"],
     "docs/portfolio/offer-menu.md": ["Recommended first purchase"],
@@ -88,7 +131,44 @@ FILE_REQUIRED = {
         "accountant validation",
         "does not claim",
     ],
+    "public-proof/crm-platform/README.md": [
+        "Aureus CRM Operations",
+        "49 changed files",
+        "21,472 added lines",
+        "source-backed full-stack synthetic product proof",
+    ],
+    "public-proof/crm-platform/state-and-audit-model.md": [
+        "ReservationsReleased",
+        "Concrete Inventory Invariant",
+    ],
+    "public-proof/trading-infrastructure/README.md": [
+        "paper-run",
+        "isolated executor",
+        "not financial advice",
+    ],
+    "public-proof/finecon/README.md": [
+        "Aureus FinEcon Public Proof",
+        "accounting review",
+    ],
+    "public-proof/sales-machine/README.md": [
+        "Aureus Sales Workflow Public Proof",
+        "historical alias",
+    ],
 }
+
+PRIMARY_NAMING_SURFACES = [
+    "README.md",
+    "docs/portfolio/project-map.md",
+    "public-proof/README.md",
+    "docs/proof/proof-index.md",
+]
+
+CANONICAL_PUBLIC_NAMES = [
+    "Aureus OS",
+    "Aureus CRM Operations",
+    "Aureus FinEcon",
+    "Aureus Trading Infrastructure",
+]
 
 FORBIDDEN_PHRASES = [
     marker("guar", "anteed", " ROI"),
@@ -111,6 +191,12 @@ SECRET_MARKERS = [
     marker("127", ".0.0.1"),
 ]
 
+MOJIBAKE_MARKERS = [
+    "\u0102",
+    "\u00e2\u20ac",
+    "\ufffd",
+]
+
 
 def iter_text_files():
     for path in ROOT.rglob("*"):
@@ -118,9 +204,11 @@ def iter_text_files():
             continue
         if ".git" in path.parts:
             continue
+        if "__pycache__" in path.parts:
+            continue
         if "exports" in path.parts:
             continue
-        if path.suffix.lower() in {".png", ".jpg", ".jpeg", ".gif", ".webp", ".ico"}:
+        if path.suffix.lower() in {".png", ".jpg", ".jpeg", ".gif", ".webp", ".ico", ".pyc"}:
             continue
         yield path
 
@@ -148,6 +236,10 @@ def main() -> int:
     if "Founder & AI Systems Architect" in readme:
         errors.append("README.md still contains old main hero phrase: Founder & AI Systems Architect")
 
+    readme_lines = readme.splitlines()
+    if len(readme_lines) > 180:
+        errors.append(f"README.md is too long for a focused public front door: {len(readme_lines)} lines (max 180)")
+
     headings = [
         line.strip()
         for line in readme.splitlines()
@@ -163,6 +255,13 @@ def main() -> int:
         for required in required_values:
             if required not in content:
                 errors.append(f"{rel} missing required text: {required}")
+
+    for rel in PRIMARY_NAMING_SURFACES:
+        path = ROOT / rel
+        content = read_text(path) if path.exists() else ""
+        for canonical_name in CANONICAL_PUBLIC_NAMES:
+            if canonical_name not in content:
+                errors.append(f"{rel} missing canonical public name: {canonical_name}")
 
     for path in ROOT.rglob("*.md"):
         if ".git" in path.parts or "exports" in path.parts:
@@ -192,6 +291,10 @@ def main() -> int:
         for secret_marker in SECRET_MARKERS:
             if secret_marker in content:
                 errors.append(f"Obvious secret/local marker '{secret_marker}' found in {rel}")
+
+        for mojibake_marker in MOJIBAKE_MARKERS:
+            if mojibake_marker in content:
+                errors.append(f"Likely encoding corruption found in {rel}: {ascii(mojibake_marker)}")
 
     if errors:
         print("PUBLIC_PORTFOLIO_VALIDATION: FAIL")

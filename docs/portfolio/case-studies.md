@@ -27,12 +27,14 @@ Buyer problem
 | 01 | Automation Audit | How unclear manual work becomes a scoped automation roadmap |
 | 02 | n8n Workflow Review | How fragile workflows become reviewable systems |
 | 03 | n8n Workflow Automation Build | How repeated work becomes controlled workflow logic |
-| 04 | Sales Machine | How sales follow-up becomes approved, stateful, and reportable |
-| 05 | FinEcon Pocket / Bridge | How document work can move from Pocket intake to reviewed handoff |
+| 04 | Aureus Sales Workflow | How sales follow-up becomes approved, stateful, and reportable |
+| 05 | Aureus FinEcon | How document work can move from Pocket intake to reviewed handoff |
 | 06 | Aureus OS | How AI-assisted work becomes scoped, reviewed, validated, evidenced, and handed off |
 | 07 | Premium AI Website + Automation | How a public offer becomes clearer and connected to operations |
 | 08 | Git-Backed LinkedIn Content | How public content can come from source truth instead of generic posts |
 | 09 | Monthly Automation Partner | How automation becomes an ongoing operating rhythm |
+| 10 | Aureus CRM Operations | How a multi-domain business process becomes a full-stack, stateful product |
+| 11 | Aureus Trading Infrastructure | How risk-sensitive event processing becomes deterministic, observable, and reviewable |
 
 ## 01. Automation Audit
 
@@ -172,7 +174,9 @@ The team gets a workflow that is designed as a system, not a hidden script.
 
 Private exports, secrets, real payloads, endpoints, workflow IDs, and production logs stay private.
 
-## 04. Sales Machine
+## 04. Aureus Sales Workflow
+
+This is a demonstration scenario. The historical public label `Sales Machine` is retained only in stable file paths and older proof references.
 
 ### Buyer Problem
 
@@ -203,7 +207,7 @@ No blind sending. Outreach and client-facing messages stay approved by a person.
 
 ### Evidence / Proof
 
-Public proof lives in the [Sales Machine proof package](../../public-proof/sales-machine/README.md): workflow map, safe state model, and fictional buyer example.
+Public proof lives in the [Aureus Sales Workflow proof package](../../public-proof/sales-machine/README.md): workflow map, safe state model, and fictional buyer example.
 
 ### Business Output
 
@@ -217,7 +221,9 @@ The sales process becomes more consistent without turning into uncontrolled spam
 
 Lead lists, inbox data, message drafts, prompts, workflow IDs, contact data, and private execution logs stay private.
 
-## 05. FinEcon Pocket / Bridge
+## 05. Aureus FinEcon
+
+Pocket and Bridge are workflow modules inside Aureus FinEcon, not separate public brands.
 
 ### Buyer Problem
 
@@ -449,6 +455,97 @@ Automation becomes a managed operating system instead of a pile of one-off scrip
 ### What Stays Private
 
 Private tickets, production logs, client data, credentials, budget details, runtime records, and internal system access stay private.
+
+## 10. Aureus CRM Operations
+
+### Buyer Problem
+
+Business operations often span customers, inventory, quotes, tasks, attendance, calendars, approvals, and audit records without one coherent state model.
+
+### System Shape
+
+```text
+role-aware frontend
+-> backend API
+-> SQLite domain state
+-> business transitions
+-> audit events
+-> automated validation
+-> deployment guidance
+```
+
+### AI Role
+
+AI-assisted delivery helped coordinate requirements, architecture, implementation, review, tests, and documentation. The public proof does not claim that AI replaces the CRM's deterministic business rules.
+
+### Human Review Boundary
+
+Production authentication, real-data migration, live integration, security hardening, and customer acceptance require separate review and environment evidence.
+
+### Evidence / Proof
+
+- merged source package with 49 changed files and 21,472 additions,
+- frontend, API, tracked SQLite seed, and role-aware domains,
+- foreign keys, WAL mode, audit events, and reservation lifecycle logic,
+- backend tests, API smoke, frontend build, Playwright, SQL, and secret checks.
+
+### Business Output
+
+A coherent synthetic product proof that non-technical reviewers can understand and technical reviewers can evaluate by layer, state, and validation boundary.
+
+### Offer Path
+
+Product discovery -> domain and state model -> validated internal-tool or operations-platform slice.
+
+### What Stays Private
+
+Source implementation, synthetic records, screenshots not approved for publication, internal routes, runtime details, and all credentials.
+
+## 11. Aureus Trading Infrastructure
+
+### Buyer Problem
+
+Risk-sensitive event processing becomes dangerous when decision logic, execution authority, runtime state, deployment, and monitoring are mixed together.
+
+### System Shape
+
+```text
+events
+-> deterministic decision rails
+-> risk and policy gates
+-> isolated executor
+-> runtime state
+-> metrics and alerts
+-> CI-controlled change path
+```
+
+### AI Role
+
+AI may support engineering, analysis, review, and documentation. It is not presented as an autonomous authority for live financial risk.
+
+### Human Review Boundary
+
+Risk-path source, credentials, live promotion, capital limits, and any external financial action require explicit review and authorization.
+
+### Evidence / Proof
+
+- private paper-run source repository,
+- isolated credential boundary,
+- Redis runtime state,
+- Prometheus, Alertmanager, and Grafana observability,
+- deterministic smoke checks, PR/CI controls, rollback, and incident runbooks.
+
+### Business Output
+
+Architecture proof for deterministic, auditable, and fail-closed infrastructure patterns in a risk-sensitive domain.
+
+### Offer Path
+
+Architecture and reliability review -> controlled simulation -> explicit promotion decision if separate evidence and authority exist.
+
+### What Stays Private
+
+Strategies, parameters, credentials, hosts, runtime logs, dashboards, positions, orders, and all performance data.
 
 ## Public Claim Boundary
 

@@ -1,38 +1,16 @@
 # Profile Pins Guide
 
-Pins should make the public profile understandable in under 10 seconds.
+The public profile should tell one Aureus story, not expose a list of unrelated internal project names.
 
 ## Recommended Pin Order
 
-| Order | Pin | Caption |
-| --- | --- | --- |
-| 1 | `Aureus-Automation-Lab/Aureus-Automation-Lab` | Public front door for Róbert Kolesár and Aureus Automation Lab |
-| 2 | FinEcon / invoice automation public-safe surface | Reviewed document and invoice workflow direction |
-| 3 | Sanitized n8n workflow demo or review map | Controlled workflow design with review and evidence boundaries |
-| 4 | Aureus OS public architecture artifact | Internal operating engine for AI-assisted work, sanitized for public review |
-| 5 | Public demo/proof repo | Small polished example that shows build quality without private context |
-| 6 | Template or utility repo | Simple technical hygiene signal if polished and safe |
+1. Aureus Automation Lab profile and evidence hub
+2. Aureus CRM Operations
+3. Aureus OS architecture
+4. Aureus FinEcon
+5. Aureus Trading Infrastructure
+6. One polished reusable validator or template
 
-## Pin Rules
+Only the first item is currently ready as a public repository. Prepare the others from sanitized proof packages after separate publication review.
 
-- Pin fewer, stronger artifacts.
-- Do not pin private-context repos.
-- Do not pin raw workflow exports.
-- Do not pin anything with credentials, endpoints, logs, client-like data, or unsupported claims.
-- Each pin needs a clear README, visual, status, and public boundary.
-
-## Current Best First Pin
-
-The profile repo itself:
-
-```text
-Aureus-Automation-Lab/Aureus-Automation-Lab
-```
-
-Caption:
-
-```text
-AI automation architecture portfolio: controlled workflows, review boundaries, evidence, and public-safe proof paths.
-```
-
-For the longer pin strategy, see [pins guide detail](../profile/pins-guide.md).
+See [Pinned Items Strategy](../profile/pinned-items-strategy.md) for acceptance criteria, [Public Pin Candidates](../profile/public-pin-candidates.md) for current status, and the [Public Naming System](naming-system.md) for the canonical hierarchy.

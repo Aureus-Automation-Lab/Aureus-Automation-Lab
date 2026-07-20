@@ -1,2 +1,4 @@
 exports/
 _input/
+__pycache__/
+*.py[cod]
