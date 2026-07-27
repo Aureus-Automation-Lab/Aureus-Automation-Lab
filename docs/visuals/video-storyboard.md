@@ -8,7 +8,7 @@ Public-safe concept visual. Not a screenshot, not customer proof, not production
 
 Azure/Sora video configuration exists in the broader Aureus system, but the local profile worktree did not expose a ready safe video deployment check during this pass. No MP4 is committed here.
 
-This file is the production-ready storyboard and prompt package for a future owner-approved video generation run. It keeps video work aligned with the public GitHub profile and prevents generic AI motion.
+This file is an implementation-ready storyboard and prompt package for a future owner-approved video-generation run. It keeps video work aligned with the public GitHub profile and prevents generic AI motion.
 
 ## Video Goal
 

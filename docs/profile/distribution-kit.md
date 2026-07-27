@@ -266,7 +266,7 @@ Do not use the public profile to claim:
 - production client results,
 - accounting correctness,
 - tax or legal advice,
-- trading performance,
+- investment returns,
 - enterprise compliance,
 - fake testimonials,
 - private implementation access.

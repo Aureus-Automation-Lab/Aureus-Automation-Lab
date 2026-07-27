@@ -12,6 +12,14 @@ def marker(*parts: str) -> str:
 
 REQUIRED_FILES = [
     "README.md",
+    "CHANGELOG.md",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "SECURITY.md",
+    "docs/PUBLIC_SAFE_ARCHITECTURE_OVERVIEW.md",
+    ".github/ISSUE_TEMPLATE/bug_report.yml",
+    ".github/PULL_REQUEST_TEMPLATE.md",
     "docs/portfolio/public-demo-flow.md",
     "docs/portfolio/synthetic-demo-case.md",
     "docs/portfolio/cv-usage.md",
@@ -42,6 +50,7 @@ README_REQUIRED = [
     "docs/portfolio/synthetic-demo-case.md",
     "docs/portfolio/offer-menu.md",
     "docs/portfolio/cv-usage.md",
+    "docs/PUBLIC_SAFE_ARCHITECTURE_OVERVIEW.md",
 ]
 
 FILE_REQUIRED = {

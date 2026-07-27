@@ -161,6 +161,19 @@ This profile does not claim customer results, production deployments, accounting
 
 It is a public portfolio for controlled AI automation design, review boundaries, proof-safe delivery, and business process clarity.
 
+## Public Governance
+
+This repository is a public portfolio and reference layer. It accepts improvements that preserve that boundary and keep the material useful for clients, partners, and technical reviewers.
+
+| Resource | Purpose |
+| --- | --- |
+| [Public-safe architecture overview](docs/PUBLIC_SAFE_ARCHITECTURE_OVERVIEW.md) | system model, trust boundaries, and intentionally omitted implementation detail |
+| [Contributing guide](CONTRIBUTING.md) | contribution path and public-safety rules |
+| [Security policy](SECURITY.md) | responsible reporting path without publishing sensitive detail |
+| [Code of conduct](CODE_OF_CONDUCT.md) | collaboration expectations and enforcement approach |
+| [Changelog](CHANGELOG.md) | notable public-repository changes |
+| [Apache-2.0 license](LICENSE) | permissions, conditions, and limitations |
+
 ## Validate This Profile
 
 ```powershell

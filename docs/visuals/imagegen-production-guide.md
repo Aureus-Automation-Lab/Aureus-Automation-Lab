@@ -139,7 +139,7 @@ Use this shared visual system:
 - Fake metrics, charts, customer proof, revenue, badges, certificates, or dashboards.
 - Humanoid robots, office stock scenes, handshake imagery, trophies, coins, or provider logos.
 - Tiny illegible UI labels.
-- Real-looking code snippets, URLs, endpoints, webhook paths, credentials, workflow IDs, POHODA internals, private payloads, or private screenshots.
+- Real-looking code snippets, URLs, endpoints, webhook paths, credentials, workflow IDs, accounting-system internals, sensitive system details, or private screenshots.
 - Images that look impressive but do not explain the exact Markdown section.
 
 ## Current Asset Decisions

@@ -49,7 +49,7 @@ This folder does not claim:
 - official certification,
 - accounting correctness,
 - tax or legal advice,
-- trading performance,
+- investment returns,
 - enterprise compliance,
 - replacement of professional review.
 

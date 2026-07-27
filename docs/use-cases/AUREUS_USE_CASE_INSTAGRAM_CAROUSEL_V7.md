@@ -29,11 +29,7 @@ exports/instagram_carousel_v7/Aureus_Use_Case_Instagram_Carousel_V7_SK.zip
 exports/instagram_carousel_v7/Aureus_Use_Case_Instagram_Carousel_V7_EN.zip
 ```
 
-When a desktop folder is available, it also copies the same folders and ZIP files to:
-
-```text
-C:\Users\Bitangcrew\OneDrive\Počítač
-```
+For public distribution, use only the repository exports or an owner-approved release location. Do not copy outputs to personal desktop or cloud-synced folders.
 
 ## Slide Structure
 
