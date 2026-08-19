@@ -2,28 +2,40 @@
 
 This package shows FinEcon as a reviewed finance/document intelligence layer.
 
-FinEcon helps prepare, structure, review, and understand data. It does not replace accounting review.
+FinEcon helps collect, prepare, structure, review, and understand business document data. It does not replace accounting review.
 
 ## Problem statement
 
-Finance and document work often gets messy when invoices, documents, approvals, and reports live across email, shared folders, spreadsheets, accounting tools, and memory.
+Finance and document work often gets messy when receipts, supplier invoices, issued invoices, approvals, and reports live across email, shared folders, spreadsheets, accounting tools, and memory.
 
-The risk is not only slow work. The risk is unclear review.
+The risk is not only slow work. The risk is unclear review and unclear handoff.
 
 ## Who it helps
 
 FinEcon is relevant for owners, operators, finance/admin teams, agencies, and SMEs that need better visibility around documents, invoices, costs, cashflow, revenue, and reporting.
 
+## Document types
+
+A public-safe FinEcon workflow can support:
+
+- receipts and small expense documents,
+- supplier invoices,
+- issued invoices,
+- income and cost documents,
+- supporting accounting records,
+- documents prepared for simple accounting review,
+- documents prepared for double-entry accounting review.
+
 ## Invoice / document workflow summary
 
 ```text
 document / invoice intake
--> extraction
--> validation checks
+-> candidate field extraction
+-> validation and missing-data checks
 -> exception queue
--> owner review
+-> owner or operator review
 -> finance summary
--> reviewed downstream handoff
+-> reviewed handoff to accounting application or accountant
 ```
 
 Open the [invoice review flow](invoice-review-flow.md) for the public-safe workflow.
