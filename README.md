@@ -21,11 +21,17 @@ The system keeps evidence.
 
 ## Products and systems
 
-| System | What it helps with | Start here |
+| System | What it helps with | Typical output |
 | --- | --- | --- |
-| **Aureus Automation Lab** | Sales follow-up, operations workflows, document flows, n8n systems, reporting, and review queues | [Automation Lab](docs/products/automation-lab.md) |
-| **FinEcon** | Invoice/document intake, finance visibility, cashflow, costs, revenue, reporting, and reviewed handoff | [FinEcon](docs/products/finecon.md) |
-| **Aureus OS** | Scope, validation, action gates, evidence, and handoff for AI-assisted work | [Aureus OS](docs/products/aureus-os.md) |
+| **Aureus Automation Lab** | Sales follow-up, operations workflows, document routing, reporting, n8n automations, and review queues | workflow map, automation build, approval flow, daily summary, handoff notes |
+| **FinEcon** | Receipts, supplier invoices, issued invoices, income/cost documents, finance visibility, and accounting-application handoff | reviewed document queue, extracted candidate fields, missing-data notes, finance summary |
+| **Aureus OS** | Scope, validation, action gates, evidence, and handoff for AI-assisted work | operating model, approval gates, evidence notes, repeatable delivery path |
+
+Open the product pages:
+
+- [Automation Lab](docs/products/automation-lab.md)
+- [FinEcon](docs/products/finecon.md)
+- [Aureus OS](docs/products/aureus-os.md)
 
 ## What you can start with
 
@@ -34,7 +40,7 @@ The system keeps evidence.
 | **Automation Audit** | You know work is too manual, but not what to automate first. | Process map, risk points, automation candidates, and first useful scope. |
 | **n8n Workflow Review** | Existing workflows feel fragile or unclear. | Review notes, failure points, safety boundaries, and improvement plan. |
 | **n8n Workflow Automation Build** | A repeated process needs reliable automation. | Workflow design, validation notes, approval boundaries, and handoff direction. |
-| **FinEcon Pilot** | Invoice, document, finance, or reporting work needs structure. | Reviewed finance/document workflow direction with clear professional boundaries. |
+| **FinEcon Pilot** | Receipts, invoices, finance, documents, or reporting work needs structure. | Reviewed finance/document workflow direction with clear professional boundaries. |
 | **Aureus OS Setup** | A team wants to use AI across real work without losing control. | Operating model for scope, ownership, review, validation, evidence, approvals, and handoff. |
 | **Monthly Automation Partner** | You need ongoing improvement and maintenance. | Practical monthly support for automation operations and delivery improvement. |
 
@@ -47,7 +53,7 @@ These are public-safe proof packages. They show architecture and workflow thinki
 | Proof path | Visual | What it shows |
 | --- | --- | --- |
 | [Sales Machine](public-proof/sales-machine/README.md) | <img src="assets/aureus-sales-machine.gif" width="220" alt="Sales Machine flow"> | Sales follow-up with qualification, approval, reply handling, and reporting. |
-| [FinEcon](public-proof/finecon/README.md) | <img src="assets/aureus-finecon-flow.gif" width="220" alt="FinEcon review flow"> | Invoice/document review with finance boundaries and human approval. |
+| [FinEcon](public-proof/finecon/README.md) | <img src="assets/aureus-finecon-flow.gif" width="220" alt="FinEcon review flow"> | Receipt/invoice/document review with finance boundaries and human approval. |
 | [Aureus OS](public-proof/aureus-os/README.md) | <img src="assets/aureus-os-model.gif" width="220" alt="Aureus OS operating model"> | How AI-assisted work becomes scoped, reviewed, validated, evidenced, and handed off. |
 
 Open the showroom: [public-proof/README.md](public-proof/README.md)
