@@ -2,9 +2,6 @@
 
 **Controlled AI automation for companies that need work to be clearer, safer, and easier to run.**
 
-Led by **Róbert Kolesár**  
-Founder of Aureus Automation Lab
-
 ![Aureus controlled AI automation hero](assets/aureus-profile-hero.gif)
 
 ## What Aureus does
