@@ -8,8 +8,8 @@ It is intentionally limited to product, workflow, and public-proof material. It 
 
 | Page | What it explains |
 | --- | --- |
-| [Automation Lab](products/automation-lab.md) | Controlled AI and n8n workflow systems for sales, operations, documents, and reporting. |
-| [FinEcon](products/finecon.md) | Reviewed finance/document intelligence for invoices, cashflow, costs, revenue, and reports. |
+| [Automation Lab](products/automation-lab.md) | Controlled AI and n8n workflow systems for sales, operations, documents, reporting, review queues, and handoff. |
+| [FinEcon](products/finecon.md) | Reviewed finance/document intelligence for receipts, supplier invoices, issued invoices, cashflow, costs, revenue, reports, and accounting-application handoff. |
 | [Aureus OS](products/aureus-os.md) | Operating model for scoped, reviewed, validated, evidence-backed AI-assisted work. |
 | [Offers](products/offers.md) | Public offer menu and practical first projects. |
 | [Public boundary](products/public-boundary.md) | What this repository shows and what stays private. |
@@ -20,7 +20,7 @@ It is intentionally limited to product, workflow, and public-proof material. It 
 | --- | --- |
 | [Public proof showroom](../public-proof/README.md) | Overview of public-safe proof packages. |
 | [Sales Machine](../public-proof/sales-machine/README.md) | Safe sales workflow map and state model. |
-| [FinEcon](../public-proof/finecon/README.md) | Invoice/document review flow and finance boundary. |
+| [FinEcon](../public-proof/finecon/README.md) | Invoice/document review flow, review boundary, and fictional buyer example. |
 | [Aureus OS](../public-proof/aureus-os/README.md) | Operating model and action gates for AI-assisted work. |
 
 ## Review order
