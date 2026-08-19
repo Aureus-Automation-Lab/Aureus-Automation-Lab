@@ -6,7 +6,11 @@ The focus is not automation for its own sake. The focus is to make repeated busi
 
 ## What it helps with
 
+Aureus Automation Lab can support workflows around:
+
 - sales and lead follow-up,
+- contact and inquiry intake,
+- CRM or spreadsheet updates,
 - operations workflows,
 - document and invoice routing,
 - reporting and daily summaries,
@@ -14,6 +18,20 @@ The focus is not automation for its own sake. The focus is to make repeated busi
 - n8n workflow design,
 - AI-assisted drafts and classification,
 - handoff and evidence.
+
+## Example workflow areas
+
+### Sales and follow-up
+
+A lead or inquiry can be captured, structured, classified, drafted for response, reviewed by a person, and then tracked for next action.
+
+### Operations
+
+Repeated internal tasks can be routed through clear states: new item, review needed, approved, blocked, completed, and reported.
+
+### Documents and reporting
+
+Documents can be collected, checked for missing details, summarized, routed for review, and included in a daily or weekly business summary.
 
 ## How the work is designed
 
@@ -34,6 +52,10 @@ AI may prepare drafts, classify records, summarize activity, extract candidate i
 ## What humans approve
 
 People approve external messages, sensitive decisions, client-facing content, financial handoff, workflow activation, and any action where uncertainty matters.
+
+## Typical outputs
+
+A project may produce a process map, n8n workflow design, review queue, automation build, approval rule, daily summary, operating notes, and handoff checklist.
 
 ## Public proof
 
