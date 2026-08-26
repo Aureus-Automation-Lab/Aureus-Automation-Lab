@@ -2,6 +2,8 @@
 
 **Controlled AI automation for companies that need work to be clearer, safer, and easier to run.**
 
+Made by Róbert Kolesár and Patrik Trnavský
+
 ![Aureus controlled AI automation hero](assets/aureus-profile-hero.gif)
 
 ## What Aureus does
