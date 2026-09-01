@@ -1,63 +1,79 @@
-# FinEcon Public Proof
+# FinEcon Public Proof Showroom
 
-This package shows FinEcon as a reviewed finance/document intelligence layer.
+This proof package demonstrates the architectural, functional, and governance model of the **FinEcon Ecosystem** (FinEcon Core, FinEcon Pocket, and ePoštár Gateway).
 
-FinEcon helps collect, prepare, structure, review, and understand business document data. It does not replace accounting review.
+It serves as a public-safe reference of how controlled financial automation operates without exposing proprietary secrets, real client financial records, private network endpoints, or unredacted credentials.
 
-## Problem statement
+---
 
-Finance and document work often gets messy when receipts, supplier invoices, issued invoices, approvals, and reports live across email, shared folders, spreadsheets, accounting tools, and memory.
+## The End-to-End System Workflow
 
-The risk is not only slow work. The risk is unclear review and unclear handoff.
+```mermaid
+flowchart TD
+    subgraph Capture["1. Capture & Intake"]
+        A1[FinEcon Pocket Mobile App] -->|Multipart Upload + Meta| B[Discovery & Intake Pipeline]
+        A2[Scanned PDF / Invoices] -->|Drive / Ingress Webhook| B
+    end
 
-## Who it helps
+    subgraph Processing["2. AI Processing & Accounting Engine"]
+        B --> C[AI Extraction & Field Normalization]
+        C --> D[Slovak Tax & Accounting Rules Engine<br/>518, 501, 602, 604, Reverse-Charge, CAR 50:50]
+        D --> E[Validation & Discrepancy Gate]
+    end
 
-FinEcon is relevant for owners, operators, finance/admin teams, agencies, and SMEs that need better visibility around documents, invoices, costs, cashflow, revenue, and reporting.
+    subgraph Governance["3. Human-in-the-Loop Governance"]
+        E --> F{Confidence & Thresholds}
+        F -->|Requires Review| G[Accountant / Manager Review UI<br/>Approve / Needs Fix / Reject]
+        F -->|Pre-Validated| G
+    end
 
-## Document types
-
-A public-safe FinEcon workflow can support:
-
-- receipts and small expense documents,
-- supplier invoices,
-- issued invoices,
-- income and cost documents,
-- supporting accounting records,
-- documents prepared for simple accounting review,
-- documents prepared for double-entry accounting review.
-
-## Invoice / document workflow summary
-
-```text
-document / invoice intake
--> candidate field extraction
--> validation and missing-data checks
--> exception queue
--> owner or operator review
--> finance summary
--> reviewed handoff to accounting application or accountant
+    subgraph Delivery["4. ERP & Electronic Invoicing Delivery"]
+        G -->|Approved| H[POHODA mServer Bridge<br/>XML Packets: PriFaktury / VydFaktury / Pokladna]
+        G -->|Approved| I[ePoštár & Peppol Gateway<br/>e-Faktúra UBL 2.1 XML]
+        H --> J[Proof Ledger & Audit Trail<br/>SHA-256 Hashes & Proof Packs]
+        I --> J
+    end
 ```
 
-Open the [invoice review flow](invoice-review-flow.md) for the public-safe workflow.
+---
 
-## What AI may do
+## Architectural Highlights
 
-AI may extract candidate fields, classify document type, detect missing information, summarize document context, prepare finance summaries, and draft review notes.
+### 1. FinEcon Core & POHODA Bridge
+* **Schema-Compliant XML Engine:** Generates native POHODA XML structures with explicit document numbers, accounting dates, VAT classifications, and KV DPH codes.
+* **Deterministic Accounting Rules:**
+  * Transport and services mapped to `518`.
+  * Material and consumable goods mapped to `501`.
+  * Self-charge / reverse-charge handling with paired internal documents (`aInt`/`bInt`) and appropriate VAT classifications (`DDsluz`/`PDsluz`, `DDnadEU`/`PDnadEU`).
+  * Fuel and automotive splits applying standard statutory apportionment (`501`/`501999` and `518`/`518999`).
+* **Dry-Run & Guardrails:** All mutations require explicit runtime permissions, preflight health verification, and connection validation before ledger commitment.
 
-## What humans review
+### 2. FinEcon Pocket (Mobile Client)
+* **Built with Flutter:** High-performance, cross-platform mobile experience with a dark aesthetic and instant responsiveness.
+* **Resilient Sync Architecture:** Offline-first transaction queue with deterministic retry backoff and local draft perzistence.
+* **Direct Review in Hand:** Real-time visibility into invoice status, extracted data validation, and one-tap approvals from anywhere.
 
-Humans review final interpretation, uncertain fields, exceptions, accounting-sensitive decisions, downstream handoff, and any payment or record-affecting action.
+### 3. ePoštár / e-Faktúra Gateway
+* **Peppol BIS Billing 3.0 & EN 16931:** Native generation of compliant European standard e-invoices.
+* **HMAC-SHA256 Signed Ingress:** Secure webhook receiver protecting incoming invoice events with cryptographic timestamp verification and replay protection.
+* **Non-Repudiation Ledger:** Downloads provider-stored UBL artifacts, verifies byte integrity, and calculates SHA-256 signatures for permanent legal archiving.
 
-## What FinEcon does not claim
+---
 
-FinEcon does not claim accounting correctness, tax/legal advice, replacement of professional review, unattended production accounting operation, or promised financial results.
+## Public-Safe Boundaries & Privacy Guarantee
 
-## What stays private
+This public showroom strictly adheres to the **Aureus Zero-Leakage Policy**:
 
-Real invoices, accounting context, company financial records, credentials, private workflow details, production logs, screenshots, and client-like records stay private.
+* ❌ **No Private Data:** Zero real company names, real identification numbers (IČO/DIČ), banking details, or invoice sums.
+* ❌ **No Credential Exposure:** All API keys, webhook signing secrets, and OAuth tokens are strictly excluded and managed via isolated secret managers.
+* ❌ **No Internal Infrastructure Exposure:** Production IP addresses, internal DNS records, and private drive IDs are fully redacted.
+* ✅ **Focus on Architecture:** Demonstrates system maturity, reliability, data contracts, and error resilience.
 
-## Package files
+---
 
-- [Invoice review flow](invoice-review-flow.md)
-- [Review boundary](review-boundary.md)
-- [Buyer example](buyer-example.md)
+## Related Documentation
+
+* [FinEcon Product Overview](../../docs/products/finecon.md)
+* [Invoice Review & State Model](invoice-review-flow.md)
+* [Review & Authorization Boundaries](review-boundary.md)
+* [Buyer & Enterprise Persona Guide](buyer-example.md)
