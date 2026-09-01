@@ -1,98 +1,99 @@
 # Aureus Automation Lab
 
-**Controlled AI automation and financial workflow operating systems for companies that need work to be clearer, safer, and faster.**
+[![Ecosystem](https://img.shields.io/badge/Aureus-Enterprise%20Automation%20Suite-blueviolet?style=for-the-badge&logo=shield)](https://github.com/Aureus-Automation-Lab)
+[![Architecture](https://img.shields.io/badge/Architecture-Tier--1%20Autonomous%20Systems-00C853?style=for-the-badge)](https://github.com/AureusAutomationLab)
+[![Compliance](https://img.shields.io/badge/Standards-FAANG%20%2F%20Zero--Leakage-blue?style=for-the-badge)](docs/products/public-boundary.md)
 
-Made by Róbert Kolesár and Patrik Trnavský
+**Controlled AI automation, financial workflow operating systems, and high-throughput enterprise infrastructure.**
+
+Founded & Engineered by **Róbert Kolesár** and **Patrik Trnavský**
 
 ![Aureus controlled AI automation hero](assets/aureus-profile-hero.gif)
 
-## What Aureus does
+---
 
-Aureus helps companies turn scattered manual work into controlled AI-assisted workflows.
+## The Master Ecosystem Architecture
 
-A real business process is mapped, repeated steps are automated, uncertain steps are routed to a human reviewer, and the system maintains a complete, verifiable audit trail.
+Aureus Automation Lab is not a disconnected collection of scripts; it is a **coherent, 4-tier enterprise automation and operating platform**:
 
-```text
-AI prepares.
-People approve.
-The system keeps evidence.
+```mermaid
+flowchart TD
+    subgraph Tier1["Tier 1: Financial OS & Document Automation (FinEcon)"]
+        FE_P[FinEcon Pocket<br/>Flutter / iOS & Android] --> FE_Core[FinEcon Core Orchestrator<br/>20 n8n Workflows & AI Engine]
+        FE_W[FinEcon Web & Portal<br/>React 18 / TypeScript] --> FE_Core
+        FE_Core --> ERP[POHODA ERP Bridge<br/>mServer XML Integration]
+        FE_Core --> EPOST[ePoštár Gateway<br/>e-Faktúra 2026/2027 Peppol BIS 3.0]
+    end
+
+    subgraph Tier2["Tier 2: Operational Health & Telemetry (OpsPulse)"]
+        OP_API[OpsPulse Telemetry Engine<br/>FastAPI / Python 3.12]
+        OP_M[OpsPulse Mobile Dashboard<br/>React Native / Expo]
+        FE_Core -.->|Heartbeat & Metrics| OP_API
+        OP_API --> OP_M
+    end
+
+    subgraph Tier3["Tier 3: Quantitative & High-Throughput (Aureus Trading)"]
+        TR_INFRA[Aureus Tick Infra<br/>Event-Driven L0/L1/L2 Pipeline]
+        TR_EXEC[Risk-Gated Binance Futures Executor<br/>Redis State & Prometheus Observability]
+        TR_INFRA --> TR_EXEC
+        TR_EXEC -.->|Health & Telemetry| OP_API
+    end
+
+    subgraph Tier4["Tier 4: Multimodal Edge & Speech (Captions TV)"]
+        CAP_TV[Aureus Captions TV<br/>Streaming WebSocket ASR & Neural MT]
+    end
 ```
 
-## Products and Systems
+---
 
-| System | What it helps with | Architecture & Typical Output |
-| :--- | :--- | :--- |
-| **FinEcon Ecosystem**<br>*(Core, Pocket & ePoštár)* | End-to-end finance workflow: mobile expense capture, AI extraction, pre-accounting classification, POHODA ERP mServer bridge, and e-Faktúra 2026/2027 ePoštár/Peppol gateway. | • **FinEcon Pocket:** Flutter iOS/Android client<br>• **FinEcon Core:** n8n orchestration & accounting logic<br>• **POHODA Bridge:** Native XML (`PriFaktury`, `VydFaktury`, `Pokladna`)<br>• **ePoštár Gateway:** Peppol BIS Billing 3.0 & UBL 2.1 XML |
-| **Aureus Automation Lab** | Sales follow-up, operations workflows, document routing, reporting, n8n automations, and review queues. | Workflow map, automated routing, approval flow, daily operations summary, and handoff notes. |
-| **Aureus OS** | Scope, validation, action gates, evidence, and handoff governance for enterprise AI work. | Operating model, safety approval gates, evidence ledgers, and repeatable delivery pipelines. |
+## Products & Platform Suites
 
-Open the dedicated product pages:
+| Suite / System | Repository | Primary Purpose | Tech Stack & Output |
+| :--- | :--- | :--- | :--- |
+| **FinEcon Ecosystem** | [AureusAutomationLab/FinEcon](https://github.com/AureusAutomationLab/FinEcon)<br>[AureusAutomationLab/n8n-workflows](https://github.com/AureusAutomationLab/n8n-workflows) | End-to-end finance operating system: field receipt capture, AI parsing, pre-accounting, POHODA XML bridge, and e-Faktúra 2026/2027 ePoštár gateway. | • **Pocket App:** Flutter (iOS/Android)<br>• **Web:** React 18 / TypeScript / Vite<br>• **Core:** n8n (20 Workflows) / Azure OpenAI<br>• **Gateways:** POHODA mServer & Peppol BIS 3.0 |
+| **OpsPulse** | [AureusAutomationLab/opspulse](https://github.com/AureusAutomationLab/opspulse) | Centralized microservice health monitoring, operational telemetry, and anomaly alerting. | • **Backend:** FastAPI / Python 3.12<br>• **Mobile:** React Native / Expo<br>• **Alerts:** Telegram Dispatcher & Webhooks |
+| **Aureus Trading Infra** | [AureusAutomationLab/aureus-trading](https://github.com/AureusAutomationLab/aureus-trading) | Event-driven quantitative tick infrastructure, order book analytics, and risk-gated execution. | • **Engine:** Python 3.11 / Redis<br>• **Observability:** Prometheus & Grafana<br>• **Security:** Hardware-isolated exchange executor |
+| **Aureus Captions TV** | [Aureus-Automation-Lab/aureus-captions-tv](https://github.com/Aureus-Automation-Lab/aureus-captions-tv) | Low-latency streaming audio ingestion, real-time speech recognition (ASR), and multilingual subtitle broadcast for Android TV. | • **Server:** Python / WebSockets / Docker<br>• **Target:** Android TV Leanback & Connected Displays |
 
-- [FinEcon Ecosystem (Core, Pocket, ePoštár)](docs/products/finecon.md)
-- [Automation Lab](docs/products/automation-lab.md)
-- [Aureus OS](docs/products/aureus-os.md)
+---
 
-## What you can start with
+## Microservice Blueprints & Templates
 
-| Offer | Best when | What you get |
-| :--- | :--- | :--- |
-| **FinEcon Pilot** | Receipts, invoices, finance documents, or accounting handoff needs complete structure and automation. | Production-grade finance workflow connecting Pocket intake, AI pre-accounting, and POHODA/ePoštár integration. |
-| **Automation Audit** | You know work is too manual, but not what to automate first. | Process map, risk points, automation candidates, and first high-ROI scope. |
-| **n8n Workflow Review** | Existing workflows feel fragile, unmonitored, or unclear. | Review notes, failure points, retry/safety boundaries, and improvement plan. |
-| **n8n Workflow Automation Build** | A repeated business process needs reliable, production-grade automation. | Workflow design, validation notes, approval boundaries, and handoff direction. |
-| **Aureus OS Setup** | A team wants to deploy AI across real operations without losing governance. | Operating model for scope, ownership, review, validation, evidence, approvals, and handoff. |
-| **Monthly Automation Partner** | You need ongoing improvement, monitoring, and infrastructure maintenance. | Practical monthly support for automation operations, new pipelines, and delivery maintenance. |
+Standardized starter templates for repeatable, compliant service delivery:
 
-Open the full offer menu: [docs/products/offers.md](docs/products/offers.md)
+* **[aal-worker-template](https://github.com/AureusAutomationLab/aal-worker-template):** Python 3.12 background worker with CLI, JSON logging, and health checks.
+* **[aal-web-saas-template](https://github.com/AureusAutomationLab/aal-web-saas-template):** Next.js, TypeScript, and Tailwind CSS web SaaS starter with local auth.
+* **[aal-python-service-template](https://github.com/AureusAutomationLab/aal-python-service-template):** FastAPI microservice blueprint with Pydantic contracts and automated pytest suite.
 
-## Public Proof Showroom
+---
 
-These are public-safe proof packages. They demonstrate architecture, data flow, and workflow governance without exposing private implementation or client data.
+## Operating Governance & Delivery Standard
 
-| Proof path | Visual | What it shows |
-| :--- | :--- | :--- |
-| [FinEcon Ecosystem](public-proof/finecon/README.md) | <img src="assets/aureus-finecon-flow.gif" width="220" alt="FinEcon review flow"> | Mobile capture (Pocket), AI parsing, accounting classification, POHODA mServer XML, and ePoštár Peppol gateway. |
-| [Sales Machine](public-proof/sales-machine/README.md) | <img src="assets/aureus-sales-machine.gif" width="220" alt="Sales Machine flow"> | Sales follow-up with qualification, approval, reply handling, and reporting. |
-| [Aureus OS](public-proof/aureus-os/README.md) | <img src="assets/aureus-os-model.gif" width="220" alt="Aureus OS operating model"> | How AI-assisted work becomes scoped, reviewed, validated, evidenced, and handed off. |
+Aureus operates on the **Silicon Valley Tier-1 Autonomous Protocol**:
 
-Open the showroom: [public-proof/README.md](public-proof/README.md)
+1. **Human-in-the-Loop Governance:** High-risk actions (accounting ledgers, payments, regulatory filings) require explicit review and authorization gates.
+2. **Deterministic State Management:** Zero loose or undocumented scripts; all business pipelines run on versioned, test-verified workflows.
+3. **Defense in Depth & Zero Secrets:** Zero credentials or real customer financial records in source repositories; all secrets are managed via hardware/OS-level secret stores.
+4. **Verifiable Proof Packs:** Cryptographic SHA-256 signatures generated for every batch of processed financial documents.
 
-## Why this is different
+---
 
-Most automation projects stop at “the workflow runs once.”
+## Public Documentation & Deep Dives
 
-Aureus focuses on what a company actually needs in real daily operations:
+* 📖 **[FinEcon Product Guide](docs/products/finecon.md)** – Detailed three-pillar architecture and workflow breakdown.
+* 🏛️ **[Public Proof Showroom](public-proof/README.md)** – Public-safe architectural evidence, data contracts, and review models.
+* 🛡️ **[Public Security Boundary](docs/products/public-boundary.md)** – Strict boundaries protecting proprietary IP and client privacy.
+* 💼 **[Engagement & Offer Menu](docs/products/offers.md)** – Pilot programs, automation audits, and monthly partnership retainers.
 
-- **Strict Human-in-the-Loop:** High-consequence decisions (accounting ledgers, payments) stop for explicit review.
-- **Deep Accounting Intelligence:** Native understanding of Slovak/CEE accounting standards (predkontácie `518`/`501`/`602`/`604`, reverse-charge, CAR 50:50 / 80:20 fuel splits).
-- **Future-Proof E-Invoicing:** Ready for the mandatory European and Slovak e-Faktúra 2026/2027 rollout via Peppol BIS 3.0 and ePoštár.
-- **Tamper-Evident Evidence:** Cryptographic SHA-256 proof packs and state transition ledgers for every processed document.
-- **Zero Unintended Side Effects:** Dry-run modes, preflight connection checks, and clean error recovery.
+---
 
-## Proof Without Exposure
+## Public Web Surfaces
 
-![Aureus public/private boundary](assets/aureus-public-boundary.gif)
+* **Main Portal:** [https://aureus.it.com/automationlab](https://aureus.it.com/automationlab)
+* **FinEcon Hub:** [https://aureus.it.com/finecon](https://aureus.it.com/finecon)
 
-This profile showcases products, workflow architectures, proof packages, safety boundaries, and review models.
+---
 
-It does **not** expose private implementation secrets, real customer data, credentials, production tokens, local computer paths, or unsupported claims.
+## Summary
 
-Read the public boundary: [docs/products/public-boundary.md](docs/products/public-boundary.md)
-
-## Review Path
-
-| If you are a... | Start here |
-| :--- | :--- |
-| **Finance / Accounting Reviewer** | [FinEcon Ecosystem](docs/products/finecon.md) and [FinEcon Proof Showroom](public-proof/finecon/README.md) |
-| **Client / Partner** | [Offer Menu](docs/products/offers.md) |
-| **Operations Reviewer** | [Automation Lab](docs/products/automation-lab.md) |
-| **Technical Reviewer** | [Aureus OS](docs/products/aureus-os.md) and [Public Proof Showroom](public-proof/README.md) |
-
-## Public Pages
-
-- [Automation Lab](https://aureus.it.com/automationlab)
-- [FinEcon Finance Direction](https://aureus.it.com/finecon)
-
-## One Sentence
-
-Aureus Automation Lab builds controlled, enterprise-grade AI automation and finance operating systems connecting mobile capture, intelligent workflows, ERPs, and electronic invoicing.
+Aureus Automation Lab provides unified, production-grade AI automation and finance operating systems connecting mobile capture, intelligent workflows, ERPs, telemetry, and electronic invoicing.
