@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760" role="img" aria-labelledby="title desc">
+  <title id="title">Send Ready Walkthrough</title>
+  <desc id="desc">Visual map for the link order and walkthrough path when sending the Aureus GitHub showroom to external reviewers.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#03070d"/><stop offset="1" stop-color="#071a25"/></linearGradient>
+    <linearGradient id="gold" x1="0" x2="1"><stop offset="0" stop-color="#ffe4a3"/><stop offset="1" stop-color="#d8922b"/></linearGradient>
+    <linearGradient id="cyan" x1="0" x2="1"><stop offset="0" stop-color="#8beeff"/><stop offset="1" stop-color="#62f0c8"/></linearGradient>
+  </defs>
+  <rect width="1600" height="760" rx="44" fill="url(#bg)"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="96" y="104" fill="#f8fbff" font-size="52" font-weight="900">Send-Ready GitHub Packet</text>
+    <text x="100" y="146" fill="#9fb0c2" font-size="23" font-weight="700">The recipient should know where to click in under 10 seconds.</text>
+  </g>
+  <g fill="none" stroke-linecap="round">
+    <path d="M230 394H506" stroke="url(#gold)" stroke-width="6"/>
+    <path d="M630 394H906" stroke="url(#cyan)" stroke-width="6"/>
+    <path d="M1030 394H1306" stroke="url(#gold)" stroke-width="6"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" font-weight="850" text-anchor="middle">
+    <g transform="translate(190 394)"><circle r="106" fill="#10170d" stroke="#ffe4a3" stroke-opacity=".34"/><text y="-15" fill="#ffe4a3" font-size="26">1</text><text y="24" fill="#f8fbff" font-size="20">Profile</text></g>
+    <g transform="translate(590 394)"><circle r="106" fill="#071b27" stroke="#8beeff" stroke-opacity=".32"/><text y="-15" fill="#8beeff" font-size="26">2</text><text y="24" fill="#f8fbff" font-size="20">Presentation Room</text></g>
+    <g transform="translate(990 394)"><circle r="106" fill="#081917" stroke="#62f0c8" stroke-opacity=".32"/><text y="-15" fill="#62f0c8" font-size="26">3</text><text y="24" fill="#f8fbff" font-size="20">Data Room Lite</text></g>
+    <g transform="translate(1390 394)"><circle r="106" fill="#171109" stroke="#ffe4a3" stroke-opacity=".34"/><text y="-15" fill="#ffe4a3" font-size="26">4</text><text y="24" fill="#f8fbff" font-size="20">Walkthrough</text></g>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" font-weight="850">
+    <rect x="260" y="592" width="1080" height="72" rx="24" fill="#fff" opacity=".06"/>
+    <text x="292" y="637" fill="#f8fbff" font-size="21">Rule: send visual overview first, then technical depth. Do not send private repos, raw exports, credentials, or unreviewed active work.</text>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" role="img" aria-labelledby="title desc">
+  <title id="title">n8n workflow delivery flow</title>
+  <desc id="desc">A public-safe n8n workflow delivery flow showing spec, workflow source, secret review, validation, pull request, approval, and activation boundary.</desc>
+  <rect width="1280" height="520" rx="32" fill="#071014"/>
+  <text x="72" y="72" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">n8n Workflow-As-Source</text>
+  <text x="72" y="108" fill="#9FB0C3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Workflow JSON is reviewable source; credentials and live activation stay owner-controlled.</text>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="800" font-size="16">
+    <rect x="88" y="200" width="150" height="88" rx="18" fill="#101A27" stroke="#4CE0B5"/><text x="163" y="236" text-anchor="middle" fill="#E5FFF0">workflow</text><text x="163" y="260" text-anchor="middle" fill="#E5FFF0">spec</text>
+    <rect x="278" y="200" width="150" height="88" rx="18" fill="#101A27" stroke="#71C7FF"/><text x="353" y="236" text-anchor="middle" fill="#E8F6FF">JSON</text><text x="353" y="260" text-anchor="middle" fill="#E8F6FF">source</text>
+    <rect x="468" y="200" width="150" height="88" rx="18" fill="#101A27" stroke="#FFC857"/><text x="543" y="236" text-anchor="middle" fill="#FFF4C7">secret</text><text x="543" y="260" text-anchor="middle" fill="#FFF4C7">review</text>
+    <rect x="658" y="200" width="150" height="88" rx="18" fill="#101A27" stroke="#A97CFF"/><text x="733" y="236" text-anchor="middle" fill="#F0E6FF">validation</text><text x="733" y="260" text-anchor="middle" fill="#F0E6FF">gate</text>
+    <rect x="848" y="200" width="150" height="88" rx="18" fill="#101A27" stroke="#5CE1E6"/><text x="923" y="236" text-anchor="middle" fill="#DDFEFF">PR</text><text x="923" y="260" text-anchor="middle" fill="#DDFEFF">review</text>
+    <rect x="1038" y="200" width="150" height="88" rx="18" fill="#101A27" stroke="#F76F8E"/><text x="1113" y="236" text-anchor="middle" fill="#FFE0E8">activation</text><text x="1113" y="260" text-anchor="middle" fill="#FFE0E8">approval</text>
+  </g>
+  <path d="M238 244H278M428 244H468M618 244H658M808 244H848M998 244H1038" stroke="#7ED6FF" stroke-width="5" stroke-linecap="round"/>
+  <text x="90" y="382" fill="#D9E7F7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">T4 live activation or production import requires exact owner approval.</text>
+</svg>

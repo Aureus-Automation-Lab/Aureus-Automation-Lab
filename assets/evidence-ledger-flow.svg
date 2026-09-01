@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" role="img" aria-labelledby="title desc">
+  <title id="title">Evidence ledger and ship-gate flow</title>
+  <desc id="desc">A public-safe evidence flow showing validation, risk scan, egress review, evidence ledger, scorecard, ship gate, and owner decision.</desc>
+  <rect width="1280" height="520" rx="32" fill="#081018"/>
+  <text x="72" y="72" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">Evidence And Ship-Gate Flow</text>
+  <text x="72" y="108" fill="#9FB0C3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Output is not done until validation, risk, egress, evidence, and owner boundary are clear.</text>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="800" font-size="15">
+    <rect x="112" y="196" width="150" height="76" rx="18" fill="#101A27" stroke="#4CE0B5"/><text x="187" y="240" text-anchor="middle" fill="#E5FFF0">output</text>
+    <rect x="322" y="196" width="150" height="76" rx="18" fill="#101A27" stroke="#71C7FF"/><text x="397" y="240" text-anchor="middle" fill="#E8F6FF">validation</text>
+    <rect x="532" y="196" width="150" height="76" rx="18" fill="#101A27" stroke="#FFC857"/><text x="607" y="240" text-anchor="middle" fill="#FFF4C7">risk scan</text>
+    <rect x="742" y="196" width="150" height="76" rx="18" fill="#101A27" stroke="#A97CFF"/><text x="817" y="240" text-anchor="middle" fill="#F0E6FF">egress</text>
+    <rect x="952" y="196" width="150" height="76" rx="18" fill="#101A27" stroke="#5CE1E6"/><text x="1027" y="240" text-anchor="middle" fill="#DDFEFF">evidence</text>
+    <rect x="532" y="340" width="220" height="76" rx="18" fill="#10211E" stroke="#4CE0B5"/><text x="642" y="384" text-anchor="middle" fill="#E5FFF0">ship gate / owner decision</text>
+  </g>
+  <path d="M262 234H322M472 234H532M682 234H742M892 234H952" stroke="#7ED6FF" stroke-width="5" stroke-linecap="round"/>
+  <path d="M1027 272C1027 376 808 378 752 378" fill="none" stroke="#4CE0B5" stroke-width="4" opacity=".65"/>
+</svg>

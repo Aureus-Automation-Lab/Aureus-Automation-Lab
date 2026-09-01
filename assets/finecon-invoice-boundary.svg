@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" role="img" aria-labelledby="title desc">
+  <title id="title">FineCon invoice workflow boundary</title>
+  <desc id="desc">A public-safe invoice workflow map showing intake, extraction direction, review queue, validation, POHODA boundary, owner approval, and evidence notes.</desc>
+  <rect width="1280" height="520" rx="32" fill="#081018"/>
+  <text x="72" y="72" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">FineCon / Invoice Boundary</text>
+  <text x="72" y="108" fill="#9FB0C3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Document workflow direction with validation and POHODA approval boundary; no accounting correctness claim.</text>
+  <rect x="86" y="168" width="1108" height="235" rx="28" fill="#101A27" stroke="#2A3748"/>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="800" font-size="15">
+    <rect x="122" y="242" width="140" height="70" rx="17" fill="#11231F" stroke="#4CE0B5"/><text x="192" y="283" text-anchor="middle" fill="#E5FFF0">intake</text>
+    <rect x="312" y="242" width="140" height="70" rx="17" fill="#111B2A" stroke="#71C7FF"/><text x="382" y="283" text-anchor="middle" fill="#E8F6FF">extraction</text>
+    <rect x="502" y="242" width="140" height="70" rx="17" fill="#151424" stroke="#A97CFF"/><text x="572" y="283" text-anchor="middle" fill="#F0E6FF">review queue</text>
+    <rect x="692" y="242" width="140" height="70" rx="17" fill="#241B0F" stroke="#FFC857"/><text x="762" y="283" text-anchor="middle" fill="#FFF4C7">validation</text>
+    <rect x="882" y="242" width="140" height="70" rx="17" fill="#2A1115" stroke="#F76F8E"/><text x="952" y="273" text-anchor="middle" fill="#FFE0E8">POHODA</text><text x="952" y="294" text-anchor="middle" fill="#FFE0E8">boundary</text>
+  </g>
+  <path d="M262 277H312M452 277H502M642 277H692M832 277H882" stroke="#7ED6FF" stroke-width="5" stroke-linecap="round"/>
+  <text x="1062" y="273" fill="#E5FFF0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">owner / accountant</text>
+  <text x="1062" y="297" fill="#E5FFF0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">approval</text>
+  <text x="98" y="448" fill="#D9E7F7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Private documents, credentials, company data, accounting internals, and live imports stay private.</text>
+</svg>

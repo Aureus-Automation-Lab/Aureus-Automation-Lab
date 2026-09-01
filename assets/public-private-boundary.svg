@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760" role="img" aria-labelledby="title desc">
+  <title id="title">Public Private Boundary</title>
+  <desc id="desc">Visual boundary showing what Aureus can show publicly and what remains private for controlled walkthroughs only.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1"><stop offset="0" stop-color="#03070d"/><stop offset="1" stop-color="#071923"/></linearGradient>
+    <linearGradient id="safe" x1="0" x2="1"><stop offset="0" stop-color="#62f0c8"/><stop offset="1" stop-color="#8beeff"/></linearGradient>
+    <linearGradient id="private" x1="0" x2="1"><stop offset="0" stop-color="#ffe4a3"/><stop offset="1" stop-color="#d8922b"/></linearGradient>
+  </defs>
+  <rect width="1600" height="760" rx="44" fill="url(#bg)"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="96" y="100" fill="#f8fbff" font-size="52" font-weight="900">Public-Safe Boundary</text>
+    <text x="100" y="142" fill="#9fb0c2" font-size="23" font-weight="700">Show architecture and evidence discipline. Keep private systems private.</text>
+  </g>
+  <g transform="translate(96 204)" font-family="Inter, Arial, sans-serif" font-weight="850">
+    <rect width="652" height="456" rx="36" fill="#061a17" stroke="#62f0c8" stroke-opacity=".32"/>
+    <text x="34" y="58" fill="#62f0c8" font-size="30">Public / Sendable</text>
+    <g fill="#f8fbff" font-size="20">
+      <text x="36" y="128">Architecture diagrams</text>
+      <text x="36" y="182">Capability maps</text>
+      <text x="36" y="236">Sanitized case studies</text>
+      <text x="36" y="290">Validation philosophy</text>
+      <text x="36" y="344">Walkthrough scripts</text>
+      <text x="36" y="398">Public-safe visual proof</text>
+    </g>
+  </g>
+  <g transform="translate(852 204)" font-family="Inter, Arial, sans-serif" font-weight="850">
+    <rect width="652" height="456" rx="36" fill="#171109" stroke="#ffe4a3" stroke-opacity=".32"/>
+    <text x="34" y="58" fill="#ffe4a3" font-size="30">Private / Controlled Only</text>
+    <g fill="#f8fbff" font-size="20">
+      <text x="36" y="128">Credentials and secrets</text>
+      <text x="36" y="182">Endpoints and webhook URLs</text>
+      <text x="36" y="236">Workflow IDs and raw exports</text>
+      <text x="36" y="290">POHODA internals and production settings</text>
+      <text x="36" y="344">Client-like records and payloads</text>
+      <text x="36" y="398">Private screenshots and logs</text>
+    </g>
+  </g>
+  <rect x="760" y="248" width="80" height="368" rx="40" fill="#fff" opacity=".06"/>
+  <path d="M800 294V570" stroke="url(#private)" stroke-width="4" stroke-linecap="round" stroke-dasharray="12 18"/>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="640" viewBox="0 0 1600 640" role="img" aria-labelledby="title desc">
+  <title id="title">Aureus GitHub Presentation Room</title>
+  <desc id="desc">Public-safe GitHub showroom map for Robert Kolesár, KimiAoki, Aureus Automation Lab, AOP, n8n workflows, Supervisor capability, evidence, and walkthroughs.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#03070d"/>
+      <stop offset=".55" stop-color="#071726"/>
+      <stop offset="1" stop-color="#06120f"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffe4a3"/>
+      <stop offset="1" stop-color="#d8922b"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" x2="1">
+      <stop offset="0" stop-color="#8beeff"/>
+      <stop offset="1" stop-color="#62f0c8"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0V80" fill="none" stroke="#ffffff" stroke-opacity=".045"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="640" rx="42" fill="url(#bg)"/>
+  <rect width="1600" height="640" rx="42" fill="url(#grid)"/>
+  <circle cx="1350" cy="96" r="360" fill="#62f0c8" opacity=".10"/>
+  <circle cx="160" cy="560" r="360" fill="#d8922b" opacity=".12"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="92" y="118" fill="#f8fbff" font-size="58" font-weight="900">Aureus GitHub Presentation Room</text>
+    <text x="96" y="164" fill="#aebdd0" font-size="24" font-weight="700">Robert Kolesár / KimiAoki / Aureus Automation Lab</text>
+    <text x="96" y="210" fill="#ffe4a3" font-size="20" font-weight="850" letter-spacing=".12em">PUBLIC-SAFE AOP SHOWROOM</text>
+  </g>
+  <g fill="none" stroke-linecap="round" filter="url(#glow)">
+    <path d="M146 430C312 310 418 368 548 270S804 190 1016 238S1268 330 1450 220" stroke="url(#cyan)" stroke-width="8" stroke-dasharray="18 24"/>
+    <path d="M146 510C330 446 464 492 646 402S930 312 1128 392S1340 482 1460 404" stroke="url(#gold)" stroke-width="4" stroke-dasharray="12 20" opacity=".7"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" font-weight="850" text-anchor="middle">
+    <g transform="translate(210 388)">
+      <rect x="-92" y="-54" width="184" height="108" rx="26" fill="#0b1520" stroke="#fff" stroke-opacity=".15"/>
+      <text y="-10" fill="#f8fbff" font-size="20">Profile</text>
+      <text y="24" fill="#9fb0c2" font-size="14">front door</text>
+    </g>
+    <g transform="translate(470 314)">
+      <rect x="-104" y="-60" width="208" height="120" rx="30" fill="#10170d" stroke="#ffe4a3" stroke-opacity=".38"/>
+      <text y="-12" fill="#ffe4a3" font-size="21">AOP</text>
+      <text y="24" fill="#9fb0c2" font-size="14">platform map</text>
+    </g>
+    <g transform="translate(735 266)">
+      <rect x="-110" y="-62" width="220" height="124" rx="31" fill="#071b27" stroke="#8beeff" stroke-opacity=".34"/>
+      <text y="-14" fill="#8beeff" font-size="21">n8n</text>
+      <text y="23" fill="#9fb0c2" font-size="14">workflow source</text>
+    </g>
+    <g transform="translate(1016 306)">
+      <rect x="-120" y="-66" width="240" height="132" rx="34" fill="#081917" stroke="#62f0c8" stroke-opacity=".32"/>
+      <text y="-16" fill="#62f0c8" font-size="21">Supervisor</text>
+      <text y="22" fill="#9fb0c2" font-size="14">validation layer</text>
+    </g>
+    <g transform="translate(1286 386)">
+      <rect x="-112" y="-62" width="224" height="124" rx="31" fill="#16130b" stroke="#ffe4a3" stroke-opacity=".30"/>
+      <text y="-14" fill="#ffe4a3" font-size="21">Evidence</text>
+      <text y="23" fill="#9fb0c2" font-size="14">walkthrough ready</text>
+    </g>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" font-weight="850">
+    <rect x="96" y="532" width="420" height="54" rx="18" fill="#fff" opacity=".065"/>
+    <text x="122" y="566" fill="#62f0c8" font-size="16">No secrets / no raw exports / no fake proof</text>
+    <rect x="542" y="532" width="430" height="54" rx="18" fill="#fff" opacity=".065"/>
+    <text x="568" y="566" fill="#ffe4a3" font-size="16">Architecture, evidence, and review paths</text>
+  </g>
+</svg>

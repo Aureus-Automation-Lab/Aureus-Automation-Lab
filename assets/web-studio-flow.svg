@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" role="img" aria-labelledby="title desc">
+  <title id="title">Web Studio production flow</title>
+  <desc id="desc">A public-safe Web Studio map showing creative brief, design system, tool orchestration, implementation, browser QA, claims review, and evidence bundle.</desc>
+  <rect width="1280" height="520" rx="32" fill="#071014"/>
+  <text x="72" y="72" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">Web Studio / Experience Pipeline</text>
+  <text x="72" y="108" fill="#9FB0C3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Premium public surfaces require design system, browser evidence, claims review, and handoff.</text>
+  <path d="M115 330C260 150 425 382 587 245S905 124 1138 246" fill="none" stroke="#4CE0B5" stroke-width="4" opacity=".55"/>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="800" font-size="15">
+    <rect x="90" y="220" width="145" height="82" rx="18" fill="#101A27" stroke="#4CE0B5"/><text x="162" y="255" text-anchor="middle" fill="#E5FFF0">creative</text><text x="162" y="278" text-anchor="middle" fill="#E5FFF0">brief</text>
+    <rect x="275" y="220" width="145" height="82" rx="18" fill="#101A27" stroke="#71C7FF"/><text x="347" y="255" text-anchor="middle" fill="#E8F6FF">design</text><text x="347" y="278" text-anchor="middle" fill="#E8F6FF">system</text>
+    <rect x="460" y="220" width="145" height="82" rx="18" fill="#101A27" stroke="#A97CFF"/><text x="532" y="255" text-anchor="middle" fill="#F0E6FF">Figma / tool</text><text x="532" y="278" text-anchor="middle" fill="#F0E6FF">orchestration</text>
+    <rect x="645" y="220" width="145" height="82" rx="18" fill="#101A27" stroke="#FFC857"/><text x="717" y="255" text-anchor="middle" fill="#FFF4C7">implementation</text>
+    <rect x="830" y="220" width="145" height="82" rx="18" fill="#101A27" stroke="#5CE1E6"/><text x="902" y="255" text-anchor="middle" fill="#DDFEFF">browser</text><text x="902" y="278" text-anchor="middle" fill="#DDFEFF">QA</text>
+    <rect x="1015" y="220" width="145" height="82" rx="18" fill="#101A27" stroke="#F76F8E"/><text x="1087" y="255" text-anchor="middle" fill="#FFE0E8">claims</text><text x="1087" y="278" text-anchor="middle" fill="#FFE0E8">review</text>
+  </g>
+  <text x="90" y="400" fill="#D9E7F7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Current rule: use merged Aureus OS stack plus browser evidence before claiming final proof.</text>
+</svg>

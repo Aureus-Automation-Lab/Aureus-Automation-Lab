@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" role="img" aria-labelledby="title desc">
+  <title id="title">Antigravity Supervisor Bridge validation flow</title>
+  <desc id="desc">A public-safe map of Codex worker output reviewed through the Aureus Antigravity Supervisor Bridge, agy critique, validation contracts, prompt repair, scorecards, and evidence.</desc>
+  <rect width="1280" height="520" rx="32" fill="#081018"/>
+  <text x="72" y="72" fill="#F7F8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">Antigravity Supervisor Bridge Capability</text>
+  <text x="72" y="108" fill="#9FB0C3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Demonstrated bridge capability through agy, not official provider certification.</text>
+  <rect x="90" y="174" width="1100" height="226" rx="28" fill="#101A27" stroke="#2A3748"/>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="800" font-size="16">
+    <rect x="130" y="246" width="150" height="72" rx="18" fill="#11231F" stroke="#4CE0B5"/><text x="205" y="288" text-anchor="middle" fill="#E5FFF0">mission</text>
+    <rect x="330" y="246" width="150" height="72" rx="18" fill="#111B2A" stroke="#71C7FF"/><text x="405" y="288" text-anchor="middle" fill="#E8F6FF">Codex worker</text>
+    <rect x="530" y="246" width="150" height="72" rx="18" fill="#151424" stroke="#A97CFF"/><text x="605" y="288" text-anchor="middle" fill="#F0E6FF">local checks</text>
+    <rect x="730" y="246" width="150" height="72" rx="18" fill="#241B0F" stroke="#FFC857"/><text x="805" y="278" text-anchor="middle" fill="#FFF4C7">agy bridge</text><text x="805" y="300" text-anchor="middle" fill="#FFF4C7">critique</text>
+    <rect x="930" y="246" width="150" height="72" rx="18" fill="#171F24" stroke="#5CE1E6"/><text x="1005" y="278" text-anchor="middle" fill="#DDFEFF">evidence</text><text x="1005" y="300" text-anchor="middle" fill="#DDFEFF">scorecard</text>
+  </g>
+  <path d="M280 282H330M480 282H530M680 282H730M880 282H930" stroke="#7ED6FF" stroke-width="5" stroke-linecap="round"/>
+  <text x="120" y="442" fill="#D9E7F7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Public review sees architecture and validation evidence, not provider secrets, endpoints, or keys.</text>
+</svg>

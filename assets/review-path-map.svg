@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820" role="img" aria-labelledby="title desc">
+  <title id="title">Aureus Review Path Map</title>
+  <desc id="desc">Visual map showing recruiter, client, CTO, investor, and technical review paths through the Aureus GitHub presentation room.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#03070d"/><stop offset="1" stop-color="#081923"/></linearGradient>
+    <linearGradient id="a" x1="0" x2="1"><stop offset="0" stop-color="#f7d36e"/><stop offset="1" stop-color="#d8922b"/></linearGradient>
+    <linearGradient id="b" x1="0" x2="1"><stop offset="0" stop-color="#82e8ff"/><stop offset="1" stop-color="#62f0c8"/></linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1600" height="820" rx="44" fill="url(#bg)"/>
+  <circle cx="1320" cy="110" r="360" fill="#62f0c8" opacity=".10"/>
+  <circle cx="220" cy="700" r="360" fill="#d8922b" opacity=".11"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="96" y="98" fill="#f8fbff" font-size="52" font-weight="900">Review Path</text>
+    <text x="100" y="140" fill="#9fb0c2" font-size="23" font-weight="700">Choose the shortest route through the GitHub showroom.</text>
+  </g>
+  <g fill="none" stroke-linecap="round" filter="url(#glow)">
+    <path d="M315 410H610" stroke="url(#a)" stroke-width="6"/>
+    <path d="M315 410C470 270 620 240 810 238" stroke="url(#b)" stroke-width="5" stroke-dasharray="14 18"/>
+    <path d="M315 410C500 540 650 568 842 592" stroke="url(#b)" stroke-width="5" stroke-dasharray="14 18"/>
+    <path d="M1030 238C1168 270 1268 324 1378 408" stroke="url(#a)" stroke-width="5"/>
+    <path d="M1050 592C1190 552 1282 492 1378 408" stroke="url(#a)" stroke-width="5"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" font-weight="850">
+    <g transform="translate(122 310)">
+      <rect width="250" height="200" rx="32" fill="#0b1520" stroke="#fff" stroke-opacity=".14"/>
+      <text x="28" y="58" fill="#f8fbff" font-size="27">README</text>
+      <text x="28" y="95" fill="#9fb0c2" font-size="16">60-second overview</text>
+      <text x="28" y="140" fill="#ffe4a3" font-size="14">start here</text>
+    </g>
+    <g transform="translate(610 156)">
+      <rect width="420" height="164" rx="30" fill="#071b27" stroke="#82e8ff" stroke-opacity=".26"/>
+      <text x="28" y="54" fill="#82e8ff" font-size="24">Technical reviewer / CTO</text>
+      <text x="28" y="92" fill="#9fb0c2" font-size="16">AOP map, n8n governance, Antigravity bridge capability</text>
+      <text x="28" y="124" fill="#f8fbff" font-size="16">Architecture + boundaries + validation</text>
+    </g>
+    <g transform="translate(610 374)">
+      <rect width="420" height="164" rx="30" fill="#10170d" stroke="#ffe4a3" stroke-opacity=".30"/>
+      <text x="28" y="54" fill="#ffe4a3" font-size="24">Client / partner</text>
+      <text x="28" y="92" fill="#9fb0c2" font-size="16">Data room lite, value page, send packet</text>
+      <text x="28" y="124" fill="#f8fbff" font-size="16">What to review, what stays private</text>
+    </g>
+    <g transform="translate(610 592)">
+      <rect width="420" height="164" rx="30" fill="#10131b" stroke="#fff" stroke-opacity=".14"/>
+      <text x="28" y="54" fill="#f8fbff" font-size="24">Recruiter / investor</text>
+      <text x="28" y="92" fill="#9fb0c2" font-size="16">Executive story, profile, scorecard</text>
+      <text x="28" y="124" fill="#f8fbff" font-size="16">Positioning + proof discipline</text>
+    </g>
+    <g transform="translate(1270 308)">
+      <rect width="230" height="210" rx="36" fill="#081917" stroke="#62f0c8" stroke-opacity=".30"/>
+      <text x="30" y="62" fill="#62f0c8" font-size="26">Walkthrough</text>
+      <text x="30" y="100" fill="#9fb0c2" font-size="16">5 / 15 / 30 min</text>
+      <text x="30" y="146" fill="#f8fbff" font-size="16">public-safe only</text>
+    </g>
+  </g>
+</svg>
