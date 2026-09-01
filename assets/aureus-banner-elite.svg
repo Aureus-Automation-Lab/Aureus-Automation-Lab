@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08080E" />
+      <stop offset="50%" stop-color="#0F0C1B" />
+      <stop offset="100%" stop-color="#050508" />
+    </linearGradient>
+
+    <!-- Gold & Purple Glow Gradients -->
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFDF70" />
+      <stop offset="50%" stop-color="#E5A93C" />
+      <stop offset="100%" stop-color="#C68A24" />
+    </linearGradient>
+
+    <linearGradient id="cyber-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE" />
+      <stop offset="100%" stop-color="#4FACFE" />
+    </linearGradient>
+
+    <linearGradient id="purple-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8A2387" />
+      <stop offset="50%" stop-color="#E94057" />
+      <stop offset="100%" stop-color="#F27121" />
+    </linearGradient>
+
+    <!-- Glow Filters -->
+    <filter id="glow-gold" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="glow-cyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FFFFFF" stroke-opacity="0.04" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="320" rx="16" fill="url(#bg-gradient)" />
+  <rect width="1200" height="320" rx="16" fill="url(#grid)" />
+
+  <!-- Outer Glowing Border -->
+  <rect x="1" y="1" width="1198" height="318" rx="16" fill="none" stroke="url(#gold-grad)" stroke-opacity="0.35" stroke-width="2" />
+
+  <!-- Abstract Geometry Accents -->
+  <circle cx="1080" cy="80" r="140" fill="none" stroke="url(#purple-glow)" stroke-opacity="0.12" stroke-width="2" />
+  <circle cx="1080" cy="80" r="90" fill="none" stroke="url(#cyber-cyan)" stroke-opacity="0.18" stroke-width="1.5" stroke-dasharray="6,6" />
+  <circle cx="120" cy="240" r="110" fill="none" stroke="url(#gold-grad)" stroke-opacity="0.1" stroke-width="1.5" />
+
+  <!-- Brand Eyebrow -->
+  <g transform="translate(80, 68)">
+    <rect x="0" y="0" width="220" height="26" rx="13" fill="#1C1829" stroke="#382E54" stroke-width="1" />
+    <circle cx="14" cy="13" r="4" fill="#00E676" filter="url(#glow-cyan)" />
+    <text x="28" y="17" fill="#B3A2DF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5">ENTERPRISE SUITE v12.4</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="80" y="145" fill="url(#gold-grad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="46" font-weight="900" letter-spacing="2" filter="url(#glow-gold)">AUREUS AUTOMATION LAB</text>
+
+  <!-- Subtitle Line -->
+  <text x="80" y="185" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="500" letter-spacing="0.5">Autonomous AI Operating Systems • FinEcon Financial Engine • Tier-1 Infrastructure</text>
+
+  <!-- Feature Metric Pills -->
+  <g transform="translate(80, 225)">
+    <!-- Pill 1 -->
+    <rect x="0" y="0" width="220" height="42" rx="8" fill="#12101F" stroke="#2D2248" stroke-width="1" />
+    <text x="18" y="26" fill="#00F2FE" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">⚡ FinEcon &amp; e-Faktúra</text>
+    <text x="170" y="26" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600">2027</text>
+
+    <!-- Pill 2 -->
+    <rect x="235" y="0" width="230" height="42" rx="8" fill="#12101F" stroke="#2D2248" stroke-width="1" />
+    <text x="253" y="26" fill="#FFDF70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">🦅 Identity Intel</text>
+    <text x="375" y="26" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600">512-D OSINT</text>
+
+    <!-- Pill 3 -->
+    <rect x="480" y="0" width="210" height="42" rx="8" fill="#12101F" stroke="#2D2248" stroke-width="1" />
+    <text x="498" y="26" fill="#A78BFA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">🏢 POHODA Bridge</text>
+    <text x="640" y="26" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600">XML</text>
+
+    <!-- Pill 4 -->
+    <rect x="705" y="0" width="220" height="42" rx="8" fill="#12101F" stroke="#2D2248" stroke-width="1" />
+    <text x="723" y="26" fill="#34D399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">🛡️ Zero-Leakage</text>
+    <text x="860" y="26" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600">Audited</text>
+  </g>
+</svg>

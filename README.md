@@ -1,70 +1,74 @@
 <div align="center">
 
-# 🏛️ AUREUS AUTOMATION LAB
-### **Enterprise AI Automation, Financial Operating Systems & High-Throughput Infrastructure**
+<img src="assets/aureus-banner-elite.svg" alt="Aureus Automation Lab Elite Banner" width="100%" />
 
-```
-   █████╗ ██╗   ██╗██████╗ ███████╗██╗   ██╗███████╗   ██╗      █████╗ ██████╗ 
-  ██╔══██╗██║   ██║██╔══██╗██╔════╝██║   ██║██╔════╝   ██║     ██╔══██╗██╔══██╗
-  ███████║██║   ██║██████╔╝█████╗  ██║   ██║███████╗   ██║     ███████║██████╔╝
-  ██╔══██║██║   ██║██╔══██╗██╔══╝  ██║   ██║╚════██║   ██║     ██╔══██║██╔══██╗
-  ██║  ██║╚██████╔╝██║  ██║███████╗╚██████╔╝███████║██╗███████╗██║  ██║██████╔╝
-  ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚══════╝╚═╝╚══════╝╚═╝  ╚═╝╚═════╝ 
-```
+<br/>
 
 <p align="center">
   <a href="https://github.com/Aureus-Automation-Lab"><img src="https://img.shields.io/badge/Aureus-Enterprise%20Suite-7C3AED?style=for-the-badge&logo=shield&logoColor=white" alt="Aureus Suite" /></a>
   <a href="https://github.com/AureusAutomationLab"><img src="https://img.shields.io/badge/Architecture-Tier--1%20Autonomous%20Systems-00C853?style=for-the-badge&logo=codeforces&logoColor=white" alt="Tier-1 Autonomous" /></a>
   <a href="docs/products/public-boundary.md"><img src="https://img.shields.io/badge/Security-Zero--Leakage%20Guarantee-0070F3?style=for-the-badge&logo=lock&logoColor=white" alt="Zero-Leakage" /></a>
-  <a href="https://aureus.it.com/automationlab"><img src="https://img.shields.io/badge/Web-aureus.it.com-FF0080?style=for-the-badge&logo=vercel&logoColor=white" alt="Web Portal" /></a>
+  <a href="https://aureus.it.com/automationlab"><img src="https://img.shields.io/badge/Production%20Web-aureus.it.com-FF0080?style=for-the-badge&logo=vercel&logoColor=white" alt="Web Portal" /></a>
 </p>
 
 <p align="center">
-  <strong>Controlled AI automation for companies that require speed, mathematical accuracy, and human-in-the-loop governance.</strong>
+  <strong>The Autonomous Enterprise Operating System connecting physical field intake, AI extraction, POHODA ERP ledgers, and European e-Invoicing.</strong>
 </p>
 
 <p align="center">
-  Founded & Engineered by <strong>Róbert Kolesár</strong> and <strong>Patrik Trnavský</strong>
+  Architected & Engineered by <strong>Róbert Kolesár</strong> &amp; <strong>Patrik Trnavský</strong>
 </p>
 
 ---
 
-[ 📊 Architecture ](#-master-ecosystem-architecture) • 
-[ 💼 FinEcon Ecosystem ](#-1-finecon-ecosystem--financial-operating-system) • 
-[ 🦅 Identity Intel ](#-2-aureus-identity-intel--autonomous-osint--biometrics) • 
-[ 📡 OpsPulse ](#-3-opspulse--telemetry--observability) • 
-[ 📈 Trading Infra ](#-4-aureus-trading-infra--quantitative-engine) • 
+[ ⚡ Executive Summary ](#-executive-summary--the-5-second-verdict) • 
+[ 📊 Architecture ](#-master-5-tier-architecture) • 
+[ 🍱 Bento Grid Ecosystem ](#-the-aureus-bento-grid-suite) • 
+[ ⚖️ The Comparison Matrix ](#-why-aureus-beats-traditional-automation) • 
+[ 🔍 Deep-Dive Contracts ](#-interactive-architecture--data-contracts) • 
 [ 🛡️ Proof Showroom ](#-public-proof-showroom--tamper-evident-evidence) • 
-[ 🚀 Commercial Pilots ](#-commercial-pilots--engagement)
+[ 🚀 Commercial Engagement ](#-commercial-pilots--engagement)
 
 ---
-
-![Aureus controlled AI automation hero](assets/aureus-profile-hero.gif)
 
 </div>
 
+## ⚡ Executive Summary – The 5-Second Verdict
+
+Aureus Automation Lab solves the single most expensive bottleneck in modern operations: **the gap between messy real-world inputs and strict, legally compliant accounting & operational databases.**
+
+```text
+┌─────────────────────────┐       ┌─────────────────────────┐       ┌─────────────────────────┐
+│     1. AI PREPARES      │  ──►  │    2. HUMANS APPROVE    │  ──►  │    3. SYSTEMS PROVE     │
+│ OCR, Parse, Categorize  │       │ 1-Tap Review on Mobile  │       │ SHA-256 Ledger & POHODA │
+└─────────────────────────┘       └─────────────────────────┘       └─────────────────────────┘
+```
+
+* **Zero Retyping:** Eliminates 80%+ of manual document entry for accounting firms and enterprises.
+* **Deterministic Accounting:** Slovak & CEE tax intelligence (predkontácie `518`/`501`/`602`/`604`, EU reverse-charge `aInt`/`bInt`, and fuel `50:50`/`80:20` splits).
+* **e-Faktúra 2026/2027 Ready:** Turnkey Peppol BIS 3.0 / UBL 2.1 ePoštár gateway with HMAC-SHA256 authenticated webhook ingress.
+* **Zero-Leakage Guarantee:** Hardware-isolated credentials; zero private keys or client data in source control.
+
 ---
 
-## 🗺️ Master Ecosystem Architecture
-
-Aureus Automation Lab operates on a **5-tier unified architecture** designed to bridge physical field operations, machine intelligence, high-consequence enterprise ERPs, and low-latency infrastructure:
+## 🗺️ Master 5-Tier Architecture
 
 ```mermaid
 flowchart TD
-    subgraph Tier1["1. Financial Operating System (FinEcon)"]
+    subgraph Tier1["Tier 1: Financial Operating System (FinEcon)"]
         FE_P["📱 FinEcon Pocket<br/>Flutter / iOS & Android"] --> FE_Core["⚙️ FinEcon Core Orchestrator<br/>20 n8n Pipelines & AI Vision"]
         FE_W["💻 FinEcon Web Portal<br/>React 18 / TypeScript / Vite"] --> FE_Core
         FE_Core --> ERP["🏢 POHODA ERP Bridge<br/>mServer XML (PriFaktury, Pokladna, IntDoklady)"]
         FE_Core --> EPOST["🇪🇺 ePoštár Gateway<br/>e-Faktúra 2026/2027 Peppol BIS 3.0 / UBL 2.1"]
     end
 
-    subgraph Tier2["2. Autonomous Intelligence & OSINT (Identity Intel)"]
+    subgraph Tier2["Tier 2: Autonomous Intelligence & OSINT (Identity Intel)"]
         INT_SENS["🌐 Multi-Vector OSINT Network<br/>Web, Registries & Digital Footprints"] --> INT_ENG["🦅 Identity Intel Engine<br/>FastAPI / Python 3.12"]
         INT_ENG --> INT_BIO["👤 512-D Biometric Face Matcher<br/>Cosine Similarity Filter >= 0.68"]
         INT_ENG --> INT_RESOLV["🧠 Fellegi-Sunter Entity Resolution<br/>Probabilistic Graph Matching"]
     end
 
-    subgraph Tier3["3. Operational Health & Telemetry (OpsPulse)"]
+    subgraph Tier3["Tier 3: Operational Health & Telemetry (OpsPulse)"]
         OP_API["📡 OpsPulse Ingestion Core<br/>FastAPI / Python 3.12"]
         OP_M["📱 OpsPulse Mobile Dispatcher<br/>React Native / Expo"]
         FE_Core -.->|Heartbeat & Metrics| OP_API
@@ -72,124 +76,173 @@ flowchart TD
         OP_API --> OP_M
     end
 
-    subgraph Tier4["4. Quantitative Tick Infrastructure (Aureus Trading)"]
+    subgraph Tier4["Tier 4: Quantitative Tick Infrastructure (Aureus Trading)"]
         TR_INFRA["⚡ Aureus Tick Infra<br/>Event-Driven L0/L1/L2 Pipeline"]
         TR_EXEC["🔒 Risk-Gated Binance Futures Executor<br/>Redis State & Prometheus Observability"]
         TR_INFRA --> TR_EXEC
         TR_EXEC -.->|Health & Telemetry| OP_API
     end
 
-    subgraph Tier5["5. Multimodal Edge & Speech (Captions TV)"]
+    subgraph Tier5["Tier 5: Multimodal Edge & Speech (Captions TV)"]
         CAP_TV["📺 Aureus Captions TV<br/>Streaming WebSocket ASR & Neural MT"]
     end
 ```
 
 ---
 
-## 💎 Product Showcase & Platform Suites
+## 🍱 The Aureus Bento Grid Suite
 
-<div align="center">
-
-### 💼 1. FinEcon Ecosystem – Financial Operating System
-*The premier Slovak & European financial automation suite connecting mobile intake to ERP accounting ledgers.*
-
-</div>
-
-<table>
+<table width="100%">
   <tr>
-    <td width="55%">
-      <h4>🌟 Key Highlights:</h4>
+    <td width="50%" valign="top">
+      <h3>💼 FinEcon Ecosystem</h3>
+      <p><em>The flagship financial operating system connecting mobile field intake, Slovak tax intelligence, and ERP ledgers.</em></p>
       <ul>
-        <li><strong>FinEcon Pocket (Mobile):</strong> Cross-platform Flutter app for iOS & Android with offline-first capture, local draft restore, and 1-tap in-app approval.</li>
-        <li><strong>AI Pre-Accounting Engine:</strong> Automatic Slovak accounting classification (<code>518</code>, <code>501</code>, <code>602</code>, <code>604</code>, <code>511</code>), EU reverse-charge samozdanenie (<code>aInt</code>/<code>bInt</code>), and vehicle fuel statutory splits (CAR 50:50 / 80:20).</li>
-        <li><strong>POHODA ERP mServer Bridge:</strong> Schema-validated XML generation for <code>PriFaktury</code>, <code>VydFaktury</code>, <code>Pokladna</code>, and <code>IntDoklady</code> with gated dry-run preflight checks.</li>
-        <li><strong>e-Faktúra 2026/2027 & ePoštár Gateway:</strong> Turnkey Peppol BIS 3.0 / UBL 2.1 e-invoicing adapter with HMAC-SHA256 signed push webhook ingress.</li>
+        <li><strong>Pocket App:</strong> Offline-first Flutter client (iOS/Android) with 1-tap review and draft restore.</li>
+        <li><strong>Accounting Logic:</strong> Automated pre-accounting (<code>518</code>, <code>501</code>, <code>602</code>, <code>604</code>, reverse-charge <code>aInt</code>/<code>bInt</code>).</li>
+        <li><strong>POHODA Bridge:</strong> Native XML schemas (<code>PriFaktury</code>, <code>VydFaktury</code>, <code>Pokladna</code>).</li>
+        <li><strong>e-Faktúra 2026/2027:</strong> Peppol BIS 3.0 &amp; ePoštár gateway.</li>
       </ul>
       <p>
-        <a href="docs/products/finecon.md"><img src="https://img.shields.io/badge/Read-Product%20Deep%20Dive-7C3AED?style=flat-square" alt="Deep Dive"/></a>
-        <a href="https://github.com/AureusAutomationLab/FinEcon"><img src="https://img.shields.io/badge/Repo-FinEcon%20Web-blue?style=flat-square" alt="Web Repo"/></a>
-        <a href="https://github.com/AureusAutomationLab/n8n-workflows"><img src="https://img.shields.io/badge/Repo-n8n%20Workflows%20%26%20Pocket-00C853?style=flat-square" alt="Workflows Repo"/></a>
+        <a href="https://github.com/AureusAutomationLab/FinEcon"><img src="https://img.shields.io/badge/Web%20Portal-React%2018%20%2F%20Vite-blue?style=flat-square"/></a>
+        <a href="https://github.com/AureusAutomationLab/n8n-workflows"><img src="https://img.shields.io/badge/Core%20Engine-20%20n8n%20Workflows-00C853?style=flat-square"/></a>
       </p>
     </td>
-    <td width="45%">
-      <img src="assets/aureus-finecon-flow.gif" alt="FinEcon Review Flow" width="100%"/>
+    <td width="50%" valign="top">
+      <h3>🦅 Aureus Identity Intel</h3>
+      <p><em>Tier-1 Autonomous OSINT, Biometric Fusion &amp; Entity Resolution Intelligence Platform.</em></p>
+      <ul>
+        <li><strong>Multi-Vector Recon:</strong> Correlates web footprints, public registries, emails, and phone numbers.</li>
+        <li><strong>512-D Face Biometrics:</strong> Vector embeddings with Cosine similarity filtering ($\ge 0.68$).</li>
+        <li><strong>Fellegi-Sunter Model:</strong> Mathematical entity resolution eliminating homonyms.</li>
+        <li><strong>Graph Topology:</strong> NetworkX knowledge graph with Neo4j/Memgraph exports.</li>
+      </ul>
+      <p>
+        <a href="https://github.com/AureusAutomationLab/aureus-identity-intel"><img src="https://img.shields.io/badge/Core-FastAPI%20%2F%20Python%203.12-3776AB?style=flat-square&logo=python&logoColor=white"/></a>
+        <a href="https://github.com/AureusAutomationLab/aureus-identity-intel"><img src="https://img.shields.io/badge/Biometrics-512--D%20Embeddings-purple?style=flat-square"/></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📡 OpsPulse Telemetry</h3>
+      <p><em>Centralized microservice health aggregation, latency tracking, and proactive alerting.</em></p>
+      <ul>
+        <li><strong>High-Throughput Ingestion:</strong> FastAPI core collecting real-time heartbeats across all nodes.</li>
+        <li><strong>Mobile Monitor:</strong> React Native / Expo app for executive operations tracking.</li>
+        <li><strong>Instant Alerting:</strong> Multi-channel Telegram dispatcher for anomaly and error spikes.</li>
+      </ul>
+      <p>
+        <a href="https://github.com/AureusAutomationLab/opspulse"><img src="https://img.shields.io/badge/Stack-FastAPI%20%2B%20Expo-blueviolet?style=flat-square"/></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📈 Aureus Trading Infra</h3>
+      <p><em>Deterministic event-driven crypto scalping infrastructure with strict risk boundaries.</em></p>
+      <ul>
+        <li><strong>L0/L1/L2 Event Pipeline:</strong> Ultra-fast tick normalization and order book telemetry.</li>
+        <li><strong>Hardware-Isolated Executor:</strong> Dedicated daemon holding Binance API credentials.</li>
+        <li><strong>Observability:</strong> Prometheus exporter paired with Grafana production dashboards.</li>
+      </ul>
+      <p>
+        <a href="https://github.com/AureusAutomationLab/aureus-trading"><img src="https://img.shields.io/badge/Engine-Python%20%2F%20Redis-black?style=flat-square&logo=binance&logoColor=yellow"/></a>
+      </p>
     </td>
   </tr>
 </table>
 
 ---
 
-<div align="center">
+## ⚖️ Why Aureus Beats Traditional Automation
 
-### 🦅 2. Aureus Identity Intel – Autonomous OSINT & Biometrics
-*Tier-1 entity resolution, facial biometrics, and multi-vector intelligence platform.*
-
-</div>
-
-<table>
-  <tr>
-    <td width="45%">
-      <img src="assets/evidence-ledger-flow.svg" alt="Identity Intel Flow" width="100%"/>
-    </td>
-    <td width="55%">
-      <h4>⚡ Capabilities:</h4>
-      <ul>
-        <li><strong>Multi-Vector Triangulation:</strong> Correlates names, aliases, emails, phone numbers, registries, and digital footprints.</li>
-        <li><strong>512-D Biometric Matcher:</strong> High-precision vector face embeddings with cosine similarity filtering ($\ge 0.68$) to confirm identity across unlinked platforms.</li>
-        <li><strong>Fellegi-Sunter Probabilistic Resolution:</strong> Mathematical entity resolution separating homonyms and resolving multi-source profiles.</li>
-        <li><strong>NetworkX Knowledge Graph:</strong> In-memory topological graph with native exports for Neo4j, Memgraph, and STIX2.</li>
-      </ul>
-      <p>
-        <a href="https://github.com/AureusAutomationLab/aureus-identity-intel"><img src="https://img.shields.io/badge/Repo-aureus--identity--intel-3776AB?style=flat-square&logo=python&logoColor=white" alt="Identity Intel Repo"/></a>
-      </p>
-    </td>
-  </tr>
-</table>
+| Feature / Dimension | Legacy Manual Process | Generic Zapier / Make | 🏛️ Aureus Autonomous Stack |
+| :--- | :---: | :---: | :---: |
+| **Slovak Tax & Pre-Accounting** | ❌ Manual typing | ❌ Basic text only | 🟢 **Native (518, 501, reverse-charge, fuel splits)** |
+| **POHODA ERP Integration** | ❌ Tedious CSV/Hand-entry | ❌ None | 🟢 **Direct mServer XML (`PriFaktury`, `Pokladna`)** |
+| **e-Faktúra 2026/2027 Compliance**| ❌ Unknown risk | ❌ Not supported | 🟢 **Turnkey Peppol BIS 3.0 / ePoštár Gateway** |
+| **Field Mobile Intake** | ❌ Lost receipts in cars | ❌ Clunky web forms | 🟢 **FinEcon Pocket Flutter App (Offline + Drafts)** |
+| **Human-in-the-Loop Governance** | ❌ Subject to fatigue | ❌ "Blind" unattended run | 🟢 **Gated dry-run preflights + 1-Tap Review UI** |
+| **Audit Trail & Proof Packs** | ❌ Missing paper | ❌ Ephemeral logs | 🟢 **Cryptographic SHA-256 State Proof Packs** |
+| **Credential Security** | ❌ Shared passwords | ❌ Exposed in cloud steps | 🟢 **Isolated hardware/OS-level secret storage** |
 
 ---
 
-<div align="center">
+## 🔍 Interactive Architecture & Data Contracts
 
-### 📡 3. OpsPulse – Telemetry & Observability
-*Real-time microservice health aggregation, latency telemetry, and anomaly alerting.*
+<details>
+<summary><strong>🔍 Click to inspect FinEcon ➔ POHODA mServer XML Data Contract</strong></summary>
 
-</div>
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<dat:dataPack xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd"
+              xmlns:inv="http://www.stormware.cz/schema/version_2/invoice.xsd"
+              version="2.0" id="AUREUS_FINECON_PACK_2026" ico="12345678" application="FinEcon">
+  <dat:dataPackItem id="26110001" version="2.0">
+    <inv:invoice version="2.0">
+      <inv:invoiceHeader>
+        <inv:invoiceType>receivedInvoice</inv:invoiceType>
+        <inv:number><typ:numberRequested>26110001</typ:numberRequested></inv:number>
+        <inv:symVar>20260012</inv:symVar>
+        <inv:date>2026-05-29</inv:date>
+        <inv:dateTax>2026-05-29</inv:dateTax>
+        <inv:dateDue>2026-06-12</inv:dateDue>
+        <inv:text>IT Consulting & Cloud Infrastructure Services</inv:text>
+        <inv:accounting><typ:ids>518</typ:ids></inv:accounting>
+        <inv:classificationVAT><typ:ids>DDsluz</typ:ids></inv:classificationVAT>
+        <inv:partnerIdentity>
+          <typ:address><typ:company>Tech Services s.r.o.</typ:company><typ:ico>98765432</typ:ico></typ:address>
+        </inv:partnerIdentity>
+      </inv:invoiceHeader>
+    </inv:invoice>
+  </dat:dataPackItem>
+</dat:dataPack>
+```
+</details>
 
-<table>
-  <tr>
-    <td width="55%">
-      <h4>📊 Core Features:</h4>
-      <ul>
-        <li><strong>Centralized Ingestion Core:</strong> High-throughput FastAPI (Python 3.12) telemetry service collecting heartbeat signals across all distributed nodes.</li>
-        <li><strong>Mobile Monitoring Dashboard:</strong> React Native / Expo client giving executives and operations leads real-time system pulse on iOS & Android.</li>
-        <li><strong>Automated Telegram Incident Dispatcher:</strong> Instant multi-channel alert delivery when error thresholds or latency limits are breached.</li>
-      </ul>
-      <p>
-        <a href="https://github.com/AureusAutomationLab/opspulse"><img src="https://img.shields.io/badge/Repo-OpsPulse-blueviolet?style=flat-square" alt="OpsPulse Repo"/></a>
-      </p>
-    </td>
-    <td width="45%">
-      <img src="assets/github-command-center-flow.svg" alt="Command Center Flow" width="100%"/>
-    </td>
-  </tr>
-</table>
+<details>
+<summary><strong>🔍 Click to inspect ePoštár / Peppol BIS Billing 3.0 UBL 2.1 E-Invoicing Schema</strong></summary>
 
----
+```json
+{
+  "mode": "production_gated",
+  "source_workflow": "FinEcon_05_Accounting",
+  "document_type": "invoice",
+  "sender_participant_id": "0245:SK1234567890",
+  "receiver_participant_id": "0245:SK9876543210",
+  "metadata": {
+    "documentId": "DOC_2026_0901_AUREUS",
+    "documentTypeId": "urn:oasis:names:specification:ubl:schema:xsd:Invoice-2",
+    "processId": "urn:fdc:peppol.eu:2017:poacc:billing:01:1.0",
+    "creationDateTime": "2026-09-01T12:00:00Z"
+  },
+  "payloadFormat": "XML",
+  "payloadEncoding": "UTF-8",
+  "signature_gate": "VERIFIED_HMAC_SHA256"
+}
+```
+</details>
 
-<div align="center">
+<details>
+<summary><strong>🔍 Click to inspect Identity Intel Biometric Fusion & Graph Resolution</strong></summary>
 
-### 📈 4. Aureus Trading Infra – Quantitative Engine
-*Event-driven tick processing, order book telemetry, and risk-gated futures execution.*
+```python
+# 512-Dimensional Biometric Verification Matrix (Cosine Similarity Threshold >= 0.68)
+biometric_result = await face_matcher.verify(
+    probe_embedding=probe_vector_512d,
+    gallery_embedding=gallery_vector_512d,
+    threshold=0.68
+)
 
-</div>
-
-* **Deterministic 3-Stage Pipeline:** L0 (Tick Normalization) $\rightarrow$ L1 (Signal Synthesis) $\rightarrow$ L2 (Risk Gate & Execution).
-* **Isolated Exchange Key Boundary:** Only the hardened execution daemon holds API keys; zero raw credentials exposed to strategy layers.
-* **Observability Stack:** Redis runtime state store paired with native Prometheus exporters and Grafana operational dashboards.
-
-<p align="center">
-  <a href="https://github.com/AureusAutomationLab/aureus-trading"><img src="https://img.shields.io/badge/Repo-aureus--trading-black?style=flat-square&logo=binance&logoColor=yellow" alt="Trading Repo"/></a>
-</p>
+# Probabilistic Entity Resolution (Fellegi-Sunter Formulation)
+resolution_weight = (
+    weight_biometrics * biometric_result.similarity +
+    weight_geo_proximity * geo_distance_km(loc_a, loc_b) +
+    weight_semantics * tfidf_bio_match(bio_a, bio_b) +
+    weight_alias * jaro_winkler(alias_a, alias_b)
+)
+is_verified_match = resolution_weight >= DECISION_THRESHOLD_ALPHA
+```
+</details>
 
 ---
 
@@ -208,17 +261,6 @@ Aureus systems operate under strict **non-repudiation and cryptographic auditabi
 [👉 Explore the Complete Public Proof Showroom](public-proof/README.md)
 
 </div>
-
----
-
-## 🛡️ The 4 Golden Principles of Aureus
-
-```text
-1. AI Prepares    ──► Models extract, itemize, normalize, and draft candidate records.
-2. Humans Approve ──► Certified operators and managers retain 100% review authority.
-3. Systems Prove  ──► Every mutation generates an immutable, cryptographic audit pack.
-4. Zero Risk      ──► Gated execution, dry-run preflights, and zero unhandled fallbacks.
-```
 
 ---
 
